@@ -1,0 +1,62 @@
+<form class="{{cssClass}} {{actor.type}} flexcol" autocomplete="off">
+  {{!-- Sheet Header --}}
+  <header class="sheet-header">
+    <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100"/>
+    <div class="header-fields">
+      <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "THOSEWHOWANDER.label.name"}}"/></h1>
+      <div class="resistances grid grid-3col">
+	{{#each system.resistances as |res key|}}
+        <div class="resistance flex-group-center">
+          <div class="resistance-content flexrow flex-center flex-between">
+            <label for="system.resistances.{{key}}.dice" class="resistance-label rollable" data-roll="(@{{key}}.dice)d10cs>=6" data-label="{{res.label}}">{{res.label}}</label>
+            <input type="text" name="system.resistances.{{key}}.dice" value="{{res.dice}}" data-dtype="Number"/>
+          </div>
+        </div>
+	{{/each}}
+      </div>
+      <div class="pools grid grid-3col">
+	{{#each system.resistances as |res key|}}
+        <div class="pool flex-group-center">
+          <div class="pool-content flexrow flex-center flex-between">
+            <label for="system.resistances.{{key}}.pool" class="pool-label">{{res.pool_label}}</label>
+            <input type="text" name="system.resistances.{{key}}.pool" value="{{res.pool}}" data-dtype="Number"/>
+          </div>
+        </div>
+	{{/each}}
+      </div>
+    </div>
+  </header>
+
+  {{!-- Sheet Tab Navigation --}}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    {{!-- Default tab is specified in actor-sheet.mjs --}}
+    <a class="item" data-tab="main">{{localize "THOSEWHOWANDER.label.main"}}</a>
+    <a class="item" data-tab="magic">{{localize "THOSEWHOWANDER.label.magic"}}</a>
+    <a class="item" data-tab="gear">{{localize "THOSEWHOWANDER.label.gear"}}</a>
+    <a class="item" data-tab="other">{{localize "THOSEWHOWANDER.label.other"}}</a>
+  </nav>
+
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+
+    {{!-- Main Tab --}}
+    <div class="tab main" data-group="primary" data-tab="main">
+       {{> "systems/thosewhowander/templates/actor/parts/actor-main.html"}}
+    </div>
+
+    {{!-- Magic Tab --}}
+    <div class="tab magic" data-group="primary" data-tab="magic">
+       {{> "systems/thosewhowander/templates/actor/parts/actor-magic.html"}}
+    </div>
+
+    {{!-- Gear Tab --}}
+    <div class="tab gear" data-group="primary" data-tab="gear">
+       {{> "systems/thosewhowander/templates/actor/parts/actor-gear.html"}}
+    </div>
+
+    {{!-- Other Tab --}}
+    <div class="tab other" data-group="primary" data-tab="other">
+       {{> "systems/thosewhowander/templates/actor/parts/actor-other.html"}}
+    </div>
+  </section>
+</form>

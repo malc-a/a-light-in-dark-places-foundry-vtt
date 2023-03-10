@@ -1,0 +1,33 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <header class="sheet-header">
+    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
+    <div class="header-fields">
+      <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="{{localize "THOSEWHOWANDER.label.name"}}"/></h1>
+    </div>
+  </header>
+
+  {{!-- Sheet Tab Navigation --}}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="description">{{localize "THOSEWHOWANDER.label.description"}}</a>
+    <a class="item" data-tab="details">{{localize "THOSEWHOWANDER.label.details"}}</a>
+  </nav>
+
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+    {{!-- The description of the item --}}
+    <div class="tab description" data-group="primary" data-tab="description">
+      {{editor system.description target="system.description" rollData=rollData button=true owner=owner editable=editable}}
+    </div>
+    {{!-- The details of the item --}}
+    <div class="tab details" data-group="primary" data-tab="details">
+      <div class="cost flexrow flex-between">
+	<label for="system.cost" class="item-label">{{localize "THOSEWHOWANDER.label.cost"}}</label>
+	<input type="text" name="system.cost" value="{{system.cost}}" data-dtype="Number"/>
+      </div>
+      <div class="bonus flexrow flex-between">
+	<label for="system.bonus" class="item-label">{{localize "THOSEWHOWANDER.label.bonus"}}</label>
+	<input type="text" name="system.bonus" value="{{system.bonus}}" data-dtype="String"/>
+      </div>
+    </div>
+  </section>
+</form>

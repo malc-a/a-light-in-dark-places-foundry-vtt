@@ -1,0 +1,88 @@
+{
+  "Actor": {
+    "types": [
+      "character",
+      "npc"
+    ],
+    "templates": {
+      "social": {
+	"concept": "",
+	"passions": {}
+      },
+      "resistances": {
+	"resistances": {
+	  "body": { "dice": 2, "pool": 2 },
+          "mind": { "dice": 2, "pool": 2 },
+          "soul": { "dice": 2, "pool": 2 }
+	}
+      },
+      "abilities": {
+	"skills": {},
+	"schools": {},
+	"languages": {}
+      },
+      "talents": {
+	"talents": {},
+	"problems": {}
+      },
+      "development": {
+	"wealth": 0,
+	"treasure": 0,
+	"xp": 0
+      },
+      "treasure": {
+	"treasure": 0
+      },
+      "gear": {
+	"gear": {}
+      }
+    },
+    "character": { "templates": ["social", "resistances", "abilities", "talents", "development", "gear"]},
+    "npc": { "templates": ["resistances", "abilities", "talents", "treasure", "gear"]}
+  },
+  "Item": {
+    "types": [
+      "skill",
+      "school",
+      "spell",
+      "talent",
+      "problem",
+      "language",
+      "gear"
+    ],
+    "templates": {
+      "ability": {
+	"dice": 0,
+	"description": ""
+      },
+      "spell": {
+	"school": "",
+	"cost": 1,
+	"description": ""
+      },
+      "talent": {
+	"description": "",
+	"bonus": ""
+      },
+      "problem": {
+	"description": ""
+      },
+      "language": {
+	"fluent": false,
+	"description": ""
+      },
+      "gear": {
+	"cost": 0,
+	"bonus": "",
+	"description": ""
+      }
+    },
+    "skill": { "templates": ["ability"] },
+    "school": { "templates": ["ability"] },
+    "spell": { "templates": ["spell"] },
+    "talent": { "templates": ["talent"] },
+    "problem": { "templates": ["problem"] },
+    "language": { "templates": ["language"] },
+    "gear": { "templates": ["gear"] }
+  }
+}

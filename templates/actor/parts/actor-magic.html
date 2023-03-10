@@ -1,0 +1,44 @@
+<ol class="schools-list">
+  <li class="school flexrow items-header">
+    <div class="school-name">{{localize "THOSEWHOWANDER.label.schools"}}</div>
+    <div class="school-controls">
+      <a class="school-control school-create" title="{{localize "THOSEWHOWANDER.label.add_school"}}" data-type="feature"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_school"}}</a>
+    </div>
+  </li>
+  {{#each schools as |school id|}}
+    <li class="school flexrow" data-school-id="{{school._id}}">
+      <div class="school-name">
+        <div class="school-image">
+          <a class="rollable" data-roll-type="school"><img src="{{school.img}}" title="{{school.name}}" width="24" height="24"/></a>
+        </div>
+        <h4>{{school.name}}</h4>
+      </div>
+      <div class="school-controls">
+        <a class="school-control school-edit" title="{{localize "THOSEWHOWANDER.label.edit_school"}}"><i class="fas fa-edit"></i></a>
+        <a class="school-control school-delete" title="{{localize "THOSEWHOWANDER.label.delete_school"}}"><i class="fas fa-trash"></i></a>
+      </div>
+    </li>
+  {{/each}}
+</ol>
+<ol class="spells-list">
+  <li class="spell flexrow items-header">
+    <div class="spell-name">{{localize "THOSEWHOWANDER.label.spells"}}</div>
+    <div class="spell-controls">
+      <a class="spell-control spell-create" title="{{localize "THOSEWHOWANDER.label.add_spell"}}" data-type="feature"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_spell"}}</a>
+    </div>
+  </li>
+  {{#each spells as |spell id|}}
+    <li class="spell flexrow" data-spell-id="{{spell._id}}">
+      <div class="spell-name">
+        <div class="spell-image">
+          <a class="rollable" data-roll-type="spell"><img src="{{spell.img}}" title="{{spell.name}}" width="24" height="24"/></a>
+        </div>
+        <h4>{{spell.name}}</h4>
+      </div>
+      <div class="spell-controls">
+        <a class="spell-control spell-edit" title="{{localize "THOSEWHOWANDER.label.edit_spell"}}"><i class="fas fa-edit"></i></a>
+        <a class="spell-control spell-delete" title="{{localize "THOSEWHOWANDER.label.delete_spell"}}"><i class="fas fa-trash"></i></a>
+      </div>
+    </li>
+  {{/each}}
+</ol>

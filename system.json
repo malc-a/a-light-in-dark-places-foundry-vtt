@@ -1,0 +1,107 @@
+{
+  "id": "thosewhowander",
+  "title": "Those Who Wander",
+  "description": "A simple, rules-light fantasy game",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
+  "authors": [
+    {
+      "name": "Malc Arnold",
+      "url": "https://github.com/malc-a",
+      "discord": "malc#0040",
+      "flags": {}
+
+    }
+  ],
+  "bugs": "https://github.com/malc-a/thosewhowander/issues",
+
+  "esmodules": [
+    "module/thosewhowander.mjs"
+  ],
+  "styles": [
+    "styles/thosewhowander.css"
+  ],
+  "packs": [
+    {
+      "name": "thosewhowander-docs",
+      "label": "Those Who Wander Documents",
+      "path": "packs/thosewhowander-docs.db",
+      "type": "JournalEntry",
+      "system": "thosewhowander",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "thosewhowander-archetypes",
+      "label": "Those Who Wander Archetypes",
+      "path": "packs/thosewhowander-archetypes.db",
+      "type": "Actor",
+      "system": "thosewhowander",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "thosewhowander-gear",
+      "label": "Those Who Wander Gear",
+      "path": "packs/thosewhowander-gear.db",
+      "type": "Item",
+      "system": "thosewhowander",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "thosewhowander-languages",
+      "label": "Those Who Wander Languages",
+      "path": "packs/thosewhowander-languages.db",
+      "type": "Item",
+      "system": "thosewhowander",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "thosewhowander-problems",
+      "label": "Those Who Wander Problems",
+      "path": "packs/thosewhowander-problems.db",
+      "type": "Item",
+      "system": "thosewhowander",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "thosewhowander-skills",
+      "label": "Those Who Wander Skills",
+      "path": "packs/thosewhowander-skills.db",
+      "type": "Item",
+      "system": "thosewhowander",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "thosewhowander-talents",
+      "label": "Those Who Wander Talents",
+      "path": "packs/thosewhowander-talents.db",
+      "type": "Item",
+      "system": "thosewhowander",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "gridDistance": 1.5,
+  "gridUnits": "m",
+  "url": "https://github.com/malc-a/thosewhowander-foundryvtt",
+  "readme": "https://github.com/malc-a/thosewhowander-foundry-vtt//blob/main/README.md",
+  "license": "LICENSE",
+  "changelog": "https://github.com/malc-a/thosewhowander-foundry-vtt/releases",
+  "manifest": "https://github.com/malc-a/thosewhowander-foundry-vtt/releases/latest/download/system.json"
+}
