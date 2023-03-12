@@ -1,8 +1,8 @@
 {
-  "id": "thosewhowander",
+  "name": "thosewhowander",
   "title": "Those Who Wander",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -18,12 +18,8 @@
   ],
   "bugs": "https://github.com/malc-a/thosewhowander/issues",
 
-  "esmodules": [
-    "module/thosewhowander.mjs"
-  ],
-  "styles": [
-    "styles/thosewhowander.css"
-  ],
+  "esmodules": ["system/thosewhowander.mjs"],
+  "styles": ["css/thosewhowander.css"],
   "packs": [
     {
       "name": "thosewhowander-docs",
@@ -93,15 +89,14 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json",
-      "flags": {}
+      "path": "lang/en.json"
     }
   ],
   "gridDistance": 1.5,
   "gridUnits": "m",
   "url": "https://github.com/malc-a/thosewhowander-foundryvtt",
-  "readme": "https://github.com/malc-a/thosewhowander-foundry-vtt//blob/main/README.md",
-  "license": "LICENSE",
-  "changelog": "https://github.com/malc-a/thosewhowander-foundry-vtt/releases",
-  "manifest": "https://github.com/malc-a/thosewhowander-foundry-vtt/releases/latest/download/system.json"
+  "readme": "https://github.com/malc-a/thosewhowander-foundryvtt/blob/main/README.md",
+  "license": "LICENSE.txt",
+  "changelog": "https://github.com/malc-a/thosewhowander-foundry-vtt/RELEASES",
+  "manifest": "https://raw.githubusercontent.com/malc-a/thosewhowander-foundryvtt/main/system.json"
 }
