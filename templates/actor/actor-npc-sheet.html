@@ -8,7 +8,7 @@
 	{{#each system.resistances as |res key|}}
         <div class="resistance flex-group-center">
           <div class="resistance-content flexrow flex-center flex-between">
-            <label for="system.resistances.{{key}}.dice" class="resistance-label rollable" data-roll="(@{{key}}.dice)d10cs>=6" data-label="{{res.label}}">{{res.label}}</label>
+            <label for="system.resistances.{{key}}.dice" class="resistance-label rollable" data-roll-type="resistance" data-roll-dice="{{res.dice}}" data-label="{{res.label}}">{{res.label}}</label>
             <input type="text" name="system.resistances.{{key}}.dice" value="{{res.dice}}" data-dtype="Number"/>
           </div>
         </div>
@@ -41,22 +41,22 @@
 
     {{!-- Main Tab --}}
     <div class="tab main" data-group="primary" data-tab="main">
-       {{> "systems/thosewhowander/templates/actor/parts/actor-main.html"}}
+       {{> "systems/thosewhowander/templates/actor/tabs/actor-main.html"}}
     </div>
 
     {{!-- Magic Tab --}}
     <div class="tab magic" data-group="primary" data-tab="magic">
-       {{> "systems/thosewhowander/templates/actor/parts/actor-magic.html"}}
+       {{> "systems/thosewhowander/templates/actor/tabs/actor-magic.html"}}
     </div>
 
     {{!-- Gear Tab --}}
     <div class="tab gear" data-group="primary" data-tab="gear">
-       {{> "systems/thosewhowander/templates/actor/parts/actor-gear.html"}}
+       {{> "systems/thosewhowander/templates/actor/tabs/actor-gear.html"}}
     </div>
 
     {{!-- Other Tab --}}
     <div class="tab other" data-group="primary" data-tab="other">
-       {{> "systems/thosewhowander/templates/actor/parts/actor-other.html"}}
+       {{> "systems/thosewhowander/templates/actor/tabs/actor-other.html"}}
     </div>
   </section>
 </form>

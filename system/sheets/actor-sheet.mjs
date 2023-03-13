@@ -56,7 +56,7 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
   }
 
   /**
-   * Organize and classify Items for Character sheets.
+   * Initialise data for Character sheets.
    *
    * @param {Object} actorData The actor to prepare.
    *
@@ -134,6 +134,14 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     // Everything below here is only needed if the sheet is editable
     if (!this.isEditable) return;
 
+    // Handle equipping gear
+    html.find('.item-equip').click(ev => {
+      const li = $(ev.currentTarget).parents(".item");
+      const item = this.actor.items.get(li.data("itemId"));
+      const updateData = { 'system.equipped': !item.system.equipped };
+      return item.update(updateData);
+    });
+
     // Add Inventory Item
     html.find('.item-create').click(this._onItemCreate.bind(this));
 
@@ -197,27 +205,27 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
   _onRoll(event) {
     event.preventDefault();
     const element = event.currentTarget;
-    const dataset = element.dataset;
 
-    // Handle item rolls.
-    if (dataset.rollType) {
-      if (dataset.rollType == 'item') {
-        const itemId = element.closest('.item').dataset.itemId;
-        const item = this.actor.items.get(itemId);
-        if (item) return item.roll();
+    if (element.dataset.rollType) {
+      // Handle resistance rolls.
+      if (element.dataset.rollType == 'resistance') {
+        // Get the resistance dice and roll
+        const label = element.dataset.label ? `[resistance] ${element.dataset.label}` : '';
+	const formula = `${element.dataset.rollDice}d10cs>=6`;
+        let roll = new Roll(formula, {});
+        roll.toMessage({
+          speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+          flavor: label,
+          rollMode: game.settings.get('core', 'rollMode'),
+        });
+        return roll;
       }
-    }
-
-    // Handle rolls that supply the formula directly.
-    if (dataset.roll) {
-      let label = dataset.label ? `[ability] ${dataset.label}` : '';
-      let roll = new Roll(dataset.roll, this.actor.getRollData());
-      roll.toMessage({
-        speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-        flavor: label,
-        rollMode: game.settings.get('core', 'rollMode'),
-      });
-      return roll;
+      // Handle skill, talent or gear rolls
+        if (["skill","talent","gear"].includes(element.dataset.rollType)) {
+	  const itemId = element.closest('.item').dataset.itemId;
+	  const item = this.actor.items.get(itemId);
+	  if (item) return item.roll();
+        }
     }
   }
 }

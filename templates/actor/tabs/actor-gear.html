@@ -21,11 +21,12 @@
   </li>
   {{#each gear as |item id|}}
     <li class="item flexrow" data-item-id="{{item._id}}">
-      <div class="item-details grid grid-2col">
+      <div class="item-details grid grid-2col rollable" data-roll-type="gear" data-label="{{item.name}}">
 	<img src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
 	<h4>{{item.name}}</h4>
       </div>
       <div class="item-controls">
+        <a class="item-control item-equip" title="{{localize "THOSEWHOWANDER.label.equipped"}}">{{#if item.system.equipped}}<i class="fas fa-tshirt"></i>{{else}}<i class="fas fa-box"></i>{{/if}}</a>
         <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_item"}}"><i class="fas fa-edit"></i></a>
         <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_item"}}"><i class="fas fa-trash"></i></a>
       </div>

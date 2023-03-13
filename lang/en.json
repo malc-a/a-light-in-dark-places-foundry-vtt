@@ -23,9 +23,10 @@
   "THOSEWHOWANDER.label.dice": "Dice",
   "THOSEWHOWANDER.label.bonus": "Bonus",
   "THOSEWHOWANDER.label.cost": "Cost",
+  "THOSEWHOWANDER.label.xp": "Experience",
   "THOSEWHOWANDER.label.wealth": "Wealth",
   "THOSEWHOWANDER.label.treasure": "Treasure",
-  "THOSEWHOWANDER.label.xp": "Experience",
+  "THOSEWHOWANDER.label.equipped": "Equipped",
 
   "THOSEWHOWANDER.label.add_skill": "Add Skill",
   "THOSEWHOWANDER.label.edit_skill": "Edit Skill",

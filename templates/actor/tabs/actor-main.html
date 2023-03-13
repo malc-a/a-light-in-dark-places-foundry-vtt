@@ -8,7 +8,7 @@
     </li>
     {{#each skills as |item id|}}
     <li class="item flexrow" data-item-id="{{item._id}}">
-      <div class="item-details grid grid-3col rollable" data-roll="({{item.system.dice}}+{{item.system.bonus}})d10cs>=6" data-label="{{item.name}}">
+      <div class="item-details grid grid-3col rollable" data-roll-type="skill" data-label="{{item.name}}">
 	<img src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
 	<h4>{{item.name}}</h4>
         <h4>{{item.system.dice}}</h4>
@@ -29,7 +29,7 @@
     </li>
     {{#each talents as |item id|}}
     <li class="item flexrow" data-item-id="{{item._id}}">
-      <div class="item-details grid grid-2col">
+      <div class="item-details grid grid-3col rollable" data-roll-type="talent" data-label="{{item.name}}">
 	<img src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
 	<h4>{{item.name}}</h4>
       </div>

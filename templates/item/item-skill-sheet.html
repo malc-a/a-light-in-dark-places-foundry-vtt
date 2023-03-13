@@ -18,15 +18,11 @@
     <div class="tab description" data-group="primary" data-tab="description">
       {{editor system.description target="system.description" rollData=rollData button=true owner=owner editable=editable}}
     </div>
-    {{!-- The dice and bonus in the skill --}}
+    {{!-- The dice in the skill --}}
     <div class="tab dice" data-group="primary" data-tab="dice">
       <div class="dice flexrow flex-between">
 	<label for="system.dice" class="item-label">{{localize "THOSEWHOWANDER.label.dice"}}</label>
 	<input type="text" name="system.dice" value="{{system.dice}}" data-dtype="Number"/>
-      </div>
-      <div class="bonus flexrow flex-between">
-	<label for="system.bonus" class="item-label">{{localize "THOSEWHOWANDER.label.bonus"}}</label>
-	<input type="text" name="system.bonus" value="{{system.bonus}}" data-dtype="Number"/>
       </div>
     </div>
   </section>

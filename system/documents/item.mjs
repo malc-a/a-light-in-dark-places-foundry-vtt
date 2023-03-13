@@ -13,54 +13,65 @@ export class ThoseWhoWanderItem extends Item {
   }
 
   /**
-   * Prepare a data object which is passed to any Roll formulas which are created related to this Item
-   * @private
-   */
-   getRollData() {
-    // If present, return the actor's roll and system data.
-    if ( !this.actor ) return null;
-    const rollData = this.actor.getRollData();
-    rollData.item = foundry.utils.deepClone(this.system);
-    return rollData;
-  }
-
-  /**
    * Handle clickable rolls.
    * @param {Event} event   The originating click event
    * @private
    */
   async roll() {
-    const item = this;
-
     // Initialize chat data.
     const speaker = ChatMessage.getSpeaker({ actor: this.actor });
     const rollMode = game.settings.get('core', 'rollMode');
-    const label = `[${item.type}] ${item.name}`;
+    const label = `[${this.type}] ${this.name}`;
 
-    // If there's no roll data, send a chat message.
-    if (!this.system.formula) {
-      ChatMessage.create({
-        speaker: speaker,
-        rollMode: rollMode,
-        flavor: label,
-        content: item.system.description ?? ''
-      });
-    }
-    // Otherwise, create a roll and send a chat message from it.
-    else {
-      // Retrieve roll data.
-      const rollData = this.getRollData();
+    // Handle skill rolls
+    if (this.type == "skill") {
+      // Calculate the bonus from talents and gear
+      let bonus = 0;
+      for (let i of this.actor.items) {
+        if (i.type == "talent" || i.type == "gear" && i.system.equipped) {
+	  let bs = i.system.bonus;
+	  let re = new RegExp(`^\\s*${this.name}\\s+([+-]\\d+)d\\s*$`);
+          let m = bs.match(re);
+	  if (m && m[1] && m[1] != 0) {
+	    bonus += parseInt(m[1]);
+	  }
+	}
+      }
 
       // Invoke the roll and submit it to chat.
-      const roll = new Roll(rollData.item.formula, rollData);
-      // If you need to store the value first, uncomment the next line.
-      // let result = await roll.roll({async: true});
+      const formula = `${this.system.dice + bonus}d10cs>=6`;
+      const roll = new Roll(formula, {});
       roll.toMessage({
         speaker: speaker,
         rollMode: rollMode,
         flavor: label,
       });
       return roll;
+    } else if (this.type == "talent" || this.type == "gear") {
+      // Find the related skill and bonus
+      const m = this.system.bonus.match(/^\s*(\w+)\s+([+-]\d+)do?\s*$/);
+      if (m) {
+        for (let i of this.actor.items) {
+          if (i.type == "skill" && i.name == m[1]) {
+	    // Invoke the roll and submit it to chat
+	    const formula = `${i.system.dice + parseInt(m[2])}d10cs>=6`;
+            const roll = new Roll(formula, {});
+            roll.toMessage({
+	      speaker: speaker,
+	      rollMode: rollMode,
+	      flavor: label,
+	    });
+	    return roll;
+	  }
+	}
+      }
+      // The item doesn't have a valid roll
+      ChatMessage.create({
+        speaker: speaker,
+        rollMode: rollMode,
+        flavor: label,
+        content: `${this.name} does not have a rollable bonus`,
+      });
     }
   }
 }

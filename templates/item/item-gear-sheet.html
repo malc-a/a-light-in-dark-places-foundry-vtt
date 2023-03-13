@@ -28,6 +28,9 @@
 	<label for="system.bonus" class="item-label">{{localize "THOSEWHOWANDER.label.bonus"}}</label>
 	<input type="text" name="system.bonus" value="{{system.bonus}}" data-dtype="String"/>
       </div>
+      <div class="equipped flexrow flex-between">
+	<label for="system.equipped" class="item-label">{{localize "THOSEWHOWANDER.label.equipped"}}</label>
+	<input type="checkbox" title="{{localize "THOSEWHOWANDER.label.equipped"}}" name="system.equipped" {{checked system.equipped}} />
     </div>
   </section>
 </form>

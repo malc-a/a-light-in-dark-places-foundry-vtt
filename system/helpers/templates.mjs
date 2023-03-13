@@ -6,10 +6,10 @@
  export const preloadHandlebarsTemplates = async function() {
   return loadTemplates([
 
-    // Actor partials.
-    "systems/thosewhowander/templates/actor/parts/actor-main.html",
-    "systems/thosewhowander/templates/actor/parts/actor-magic.html",
-    "systems/thosewhowander/templates/actor/parts/actor-gear.html",
-    "systems/thosewhowander/templates/actor/parts/actor-other.html",
+    // Actor tabs
+    "systems/thosewhowander/templates/actor/tabs/actor-main.html",
+    "systems/thosewhowander/templates/actor/tabs/actor-magic.html",
+    "systems/thosewhowander/templates/actor/tabs/actor-gear.html",
+    "systems/thosewhowander/templates/actor/tabs/actor-other.html",
   ]);
 };

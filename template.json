@@ -52,13 +52,13 @@
     ],
     "templates": {
       "ability": {
-	"dice": 0,
-	"description": ""
+	"description": "",
+	"dice": 0
       },
       "spell": {
+	"description": "",
 	"school": "",
-	"cost": 1,
-	"description": ""
+	"cost": 1
       },
       "talent": {
 	"description": "",
@@ -68,13 +68,14 @@
 	"description": ""
       },
       "language": {
-	"fluent": false,
-	"description": ""
+	"description": "",
+	"fluent": false
       },
       "gear": {
+	"description": "",
 	"cost": 0,
 	"bonus": "",
-	"description": ""
+	"equipped": false
       }
     },
     "skill": { "templates": ["ability"] },

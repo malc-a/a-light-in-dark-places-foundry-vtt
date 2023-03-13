@@ -34,9 +34,10 @@ THOSEWHOWANDER.labels = {
   "dice": "THOSEWHOWANDER.label.dice",
   "bonus": "THOSEWHOWANDER.label.bonus",
   "cost": "THOSEWHOWANDER.label.cost",
+  "xp": "THOSEWHOWANDER.label.xp",
   "wealth": "THOSEWHOWANDER.label.wealth",
   "treasure": "THOSEWHOWANDER.label.treasure",
-  "xp": "THOSEWHOWANDER.label.xp",
+  "equipped": "THOSEWHOWANDER.label.equipped",
 
   "add_skill": "THOSEWHOWANDER.label.add_skill",
   "edit_skill": "THOSEWHOWANDER.label.edit_skill",
