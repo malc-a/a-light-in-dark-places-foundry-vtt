@@ -34,6 +34,7 @@
     <a class="item" data-tab="magic">{{localize "THOSEWHOWANDER.label.magic"}}</a>
     <a class="item" data-tab="gear">{{localize "THOSEWHOWANDER.label.gear"}}</a>
     <a class="item" data-tab="other">{{localize "THOSEWHOWANDER.label.other"}}</a>
+    <a class="item" data-tab="effects">{{localize "THOSEWHOWANDER.label.effects"}}</a>
   </nav>
 
   {{!-- Sheet Body --}}
@@ -57,6 +58,11 @@
     {{!-- Other Tab --}}
     <div class="tab other" data-group="primary" data-tab="other">
        {{> "systems/thosewhowander/templates/actor/tabs/actor-other.html"}}
+    </div>
+
+    {{!-- Effects Tab --}}
+    <div class="tab effects" data-group="primary" data-tab="effects">
+       {{> "systems/thosewhowander/templates/actor/tabs/actor-effects.html"}}
     </div>
   </section>
 </form>

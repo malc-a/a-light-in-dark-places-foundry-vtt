@@ -35,10 +35,14 @@
       },
       "gear": {
 	"gear": {}
+      },
+      "modifiers": {
+	"actions": 0,
+	"effects": 0
       }
     },
-    "character": { "templates": ["social", "resistances", "abilities", "talents", "development", "gear"]},
-    "npc": { "templates": ["resistances", "abilities", "talents", "treasure", "gear"]}
+    "character": { "templates": ["social", "resistances", "abilities", "talents", "development", "gear, modifiers"]},
+    "npc": { "templates": ["resistances", "abilities", "talents", "treasure", "gear", "modifiers"]}
   },
   "Item": {
     "types": [

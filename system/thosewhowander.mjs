@@ -30,6 +30,10 @@ Hooks.once('init', async function() {
   CONFIG.Actor.documentClass = ThoseWhoWanderActor;
   CONFIG.Item.documentClass = ThoseWhoWanderItem;
 
+  // Override the default status effects
+  console.log(CONFIG.statusEffects);
+  CONFIG.statusEffects = THOSEWHOWANDER.statusEffects;
+
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
   Actors.registerSheet("thosewhowander", ThoseWhoWanderActorSheet, { makeDefault: true });

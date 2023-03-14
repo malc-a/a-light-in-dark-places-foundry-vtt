@@ -11,5 +11,6 @@
     "systems/thosewhowander/templates/actor/tabs/actor-magic.html",
     "systems/thosewhowander/templates/actor/tabs/actor-gear.html",
     "systems/thosewhowander/templates/actor/tabs/actor-other.html",
+    "systems/thosewhowander/templates/actor/tabs/actor-effects.html",
   ]);
 };

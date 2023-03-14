@@ -1,3 +1,6 @@
+// Import some effects management functions from the effects helper
+import {onManageActiveEffect, prepareActiveEffectCategories} from "../helpers/effects.mjs";
+
 /**
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
@@ -51,6 +54,9 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
 
     // Add roll data for TinyMCE editors.
     context.rollData = context.actor.getRollData();
+
+    // Prepare active effects
+    context.effects = prepareActiveEffectCategories(this.actor.effects);
 
     return context;
   }

@@ -6,6 +6,14 @@
   "THOSEWHOWANDER.pool.focus": "Focus",
   "THOSEWHOWANDER.pool.will": "Will",
 
+  "THOSEWHOWANDER.status.dying": "Dying",
+  "THOSEWHOWANDER.status.one_action": "1 Action",
+  "THOSEWHOWANDER.status.two_actions": "2 Actions",
+  "THOSEWHOWANDER.status.three_actions": "3 Actions",
+  "THOSEWHOWANDER.status.four_actions": "4 Actions",
+  "THOSEWHOWANDER.status.five_actions": "5 Actions",
+  "THOSEWHOWANDER.status.six_actions": "6 Actions",
+
   "THOSEWHOWANDER.label.name": "Name",
   "THOSEWHOWANDER.label.skills": "Skills",
   "THOSEWHOWANDER.label.talents": "Talents",
@@ -18,6 +26,8 @@
   "THOSEWHOWANDER.label.magic": "Magic",
   "THOSEWHOWANDER.label.gear": "Gear",
   "THOSEWHOWANDER.label.other": "Other",
+  "THOSEWHOWANDER.label.effects": "Effects",
+
   "THOSEWHOWANDER.label.description": "Description",
   "THOSEWHOWANDER.label.details": "Details",
   "THOSEWHOWANDER.label.dice": "Dice",
@@ -48,5 +58,8 @@
   "THOSEWHOWANDER.label.delete_spell": "Delete Spell",
   "THOSEWHOWANDER.label.add_item": "Add Item",
   "THOSEWHOWANDER.label.edit_item": "Edit Item",
-  "THOSEWHOWANDER.label.delete_item": "Delete Item"
+  "THOSEWHOWANDER.label.delete_item": "Delete Item",
+  "THOSEWHOWANDER.label.add_effect": "Add Effect",
+  "THOSEWHOWANDER.label.toggle_effect": "Toggle Effect",
+  "THOSEWHOWANDER.label.delete_effect": "Delete Effect"
 }
