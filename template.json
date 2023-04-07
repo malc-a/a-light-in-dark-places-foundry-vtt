@@ -11,9 +11,9 @@
       },
       "resistances": {
 	"resistances": {
-	  "body": { "dice": 2, "pool": 2 },
-          "mind": { "dice": 2, "pool": 2 },
-          "soul": { "dice": 2, "pool": 2 }
+	  "body": { "dice": 2, "pool": 2, "injuries": 0 },
+          "mind": { "dice": 2, "pool": 2, "injuries": 0 },
+          "soul": { "dice": 2, "pool": 2, "injuries": 0 }
 	}
       },
       "abilities": {
@@ -50,6 +50,7 @@
       "school",
       "spell",
       "talent",
+      "passion",
       "problem",
       "language",
       "gear"
@@ -68,6 +69,9 @@
 	"description": "",
 	"bonus": ""
       },
+      "passion": {
+	"description": ""
+      },
       "problem": {
 	"description": ""
       },
@@ -85,6 +89,7 @@
     "skill": { "templates": ["ability"] },
     "school": { "templates": ["ability"] },
     "spell": { "templates": ["spell"] },
+    "passion": { "templates": ["passion"] },
     "talent": { "templates": ["talent"] },
     "problem": { "templates": ["problem"] },
     "language": { "templates": ["language"] },

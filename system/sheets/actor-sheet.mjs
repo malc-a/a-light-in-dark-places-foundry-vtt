@@ -69,7 +69,7 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
    * @return {undefined}
    */
   _prepareCharacterData(context) {
-    // Handle resistance and hit point labels
+    // Handle resistance and pool labels
     for (let [k, v] of Object.entries(context.system.resistances)) {
       v.label = game.i18n.localize(CONFIG.THOSEWHOWANDER.resistances[k]) ?? k;
       v.pool_label = game.i18n.localize(CONFIG.THOSEWHOWANDER.pools[k]) ?? k;
@@ -89,6 +89,7 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     const schools = [];
     const spells = [];
     const talents = [];
+    const passions = [];
     const problems = [];
     const languages = [];
     const gear = [];
@@ -104,7 +105,9 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
         spells.push(i);
       } else if (i.type === 'talent') { // Talent
         talents.push(i);
-      } else if (i.type === 'problem') { // Talent
+      } else if (i.type === 'passion') { // Passion
+        passions.push(i);
+      } else if (i.type === 'problem') { // Problem
         problems.push(i);
       } else if (i.type === 'language') { // Language
         languages.push(i);
@@ -118,6 +121,7 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     context.schools = schools;
     context.spells = spells;
     context.talents = talents;
+    context.passions = passions;
     context.problems = problems;
     context.languages = languages;
     context.gear = gear;

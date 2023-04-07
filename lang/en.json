@@ -15,12 +15,14 @@
   "THOSEWHOWANDER.status.six_actions": "6 Actions",
 
   "THOSEWHOWANDER.label.name": "Name",
+  "THOSEWHOWANDER.label.concept": "Concept",
   "THOSEWHOWANDER.label.skills": "Skills",
   "THOSEWHOWANDER.label.talents": "Talents",
   "THOSEWHOWANDER.label.problems": "Problems",
   "THOSEWHOWANDER.label.languages": "Languages",
   "THOSEWHOWANDER.label.schools": "Schools of Magic",
   "THOSEWHOWANDER.label.spells": "Spells",
+  "THOSEWHOWANDER.label.passions": "Passions",
 
   "THOSEWHOWANDER.label.main": "Main",
   "THOSEWHOWANDER.label.magic": "Magic",
@@ -59,6 +61,9 @@
   "THOSEWHOWANDER.label.add_item": "Add Item",
   "THOSEWHOWANDER.label.edit_item": "Edit Item",
   "THOSEWHOWANDER.label.delete_item": "Delete Item",
+  "THOSEWHOWANDER.label.add_passion": "Add Passion",
+  "THOSEWHOWANDER.label.edit_passion": "Edit Passion",
+  "THOSEWHOWANDER.label.delete_passion": "Delete Passion",
   "THOSEWHOWANDER.label.add_effect": "Add Effect",
   "THOSEWHOWANDER.label.toggle_effect": "Toggle Effect",
   "THOSEWHOWANDER.label.delete_effect": "Delete Effect"

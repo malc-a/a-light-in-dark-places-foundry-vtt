@@ -28,12 +28,14 @@ THOSEWHOWANDER.statuses = {
 // Other strings used within the system
 THOSEWHOWANDER.labels = {
   "name": "THOSEWHOWANDER.label.name",
+  "concept": "THOSEWHOWANDER.label.concept",
   "skills": "THOSEWHOWANDER.label.skills",
   "talents": "THOSEWHOWANDER.label.talents",
   "problems": "THOSEWHOWANDER.label.problems",
   "languages": "THOSEWHOWANDER.label.languages",
   "schools": "THOSEWHOWANDER.label.schools",
   "spells": "THOSEWHOWANDER.label.spells",
+  "passions": "THOSEWHOWANDER.label.passions",
 
   "main": "THOSEWHOWANDER.label.main",
   "magic": "THOSEWHOWANDER.label.magic",
@@ -72,6 +74,9 @@ THOSEWHOWANDER.labels = {
   "add_item": "THOSEWHOWANDER.label.add_item",
   "edit_item": "THOSEWHOWANDER.label.edit_item",
   "delete_item": "THOSEWHOWANDER.label.delete_item",
+  "add_passion": "THOSEWHOWANDER.label.add_passion",
+  "edit_passion": "THOSEWHOWANDER.label.edit_passion",
+  "delete_passion": "THOSEWHOWANDER.label.delete_passion",
   "add_effect": "THOSEWHOWANDER.label.add_effect",
   "toggle_effect": "THOSEWHOWANDER.label.toggle_effect",
   "delete_effect": "THOSEWHOWANDER.label.delete_effect",

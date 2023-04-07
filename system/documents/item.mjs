@@ -41,6 +41,11 @@ export class ThoseWhoWanderItem extends Item {
 	}
       }
 
+      // Calculate the penalty for Injuries
+      for (let [k,v] of Object.entries(this.actor.system.resistances)) {
+        dice -= v.injuries ?? 0;
+      }
+
       // If we have dice to roll, invoke the roll and submit it to chat
       if (dice > 0) {
         const formula = `${dice}d10cs>=6`;
@@ -59,6 +64,11 @@ export class ThoseWhoWanderItem extends Item {
         for (let i of this.actor.items) {
           if (i.type == "skill" && i.name == m[1]) {
 	    dice += (i.system.dice ?? 0) + (parseInt(m[2]) ?? 0);
+
+	    // Calculate the penalty for Injuries
+	    for (let [k,v] of Object.entries(this.actor.system.resistances)) {
+	      dice -= v.injuries ?? 0;
+	    }
 
 	    // If we have dice to roll, invoke the roll and submit it to chat
 	    if (dice > 0) {

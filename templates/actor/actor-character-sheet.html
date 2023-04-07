@@ -4,6 +4,7 @@
     <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100"/>
     <div class="header-fields">
       <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "THOSEWHOWANDER.label.name"}}"/></h1>
+      <h2 class="concept"><input name="system.concept" type="text" value="{{system.concept}}" placeholder="{{localize "THOSEWHOWANDER.label.concept"}}"/></h1>
       <div class="resistances grid grid-3col">
 	{{#each system.resistances as |res key|}}
         <div class="resistance flex-group-center">
@@ -20,6 +21,7 @@
           <div class="pool-content flexrow flex-center flex-between">
             <label for="system.resistances.{{key}}.pool" class="pool-label">{{res.pool_label}}</label>
             <input type="text" name="system.resistances.{{key}}.pool" value="{{res.pool}}" data-dtype="Number"/>
+            <input type="text" name="system.resistances.{{key}}.injuries" value="{{res.injuries}}" data-dtype="Number"/>
           </div>
         </div>
 	{{/each}}
