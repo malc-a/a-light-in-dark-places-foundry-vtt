@@ -86,7 +86,7 @@ export class ThoseWhoWanderRoll {
 
     // Get the number of dice and modifier
     if (form !== null) {
-	dice = (parseInt(form.dice.value) ?? 0) + (parseInt(form.modifier.value) ?? 0);
+        dice = (parseInt(form.dice.value) ?? 0) + (parseInt(form.modifier.value) ?? 0);
     }
 
     // If we have dice to roll, invoke the roll and submit it to chat
@@ -100,13 +100,8 @@ export class ThoseWhoWanderRoll {
       if (dice > 0) {
         const formula = `${dice}d10cs>=6`;
         const roll = new Roll(formula, {});
-
-	roll.toMessage({
-          speaker: speaker,
-          rollMode: rollMode,
-          flavor: flavor,
-        });
-	return roll;
+        roll.toMessage({ speaker: speaker, flavor: flavor }, { rollMode: rollMode });
+        return roll;
       }
     }
 
@@ -116,4 +111,3 @@ export class ThoseWhoWanderRoll {
     throw new Error(warning);
   }
 }
-
