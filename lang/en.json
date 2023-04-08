@@ -14,6 +14,14 @@
   "THOSEWHOWANDER.status.five_actions": "5 Actions",
   "THOSEWHOWANDER.status.six_actions": "6 Actions",
 
+  "THOSEWHOWANDER.roll.dice": "Dice",
+  "THOSEWHOWANDER.roll.modifier": "Modifier",
+  "THOSEWHOWANDER.roll.mode": "Roll Mode",
+  "THOSEWHOWANDER.roll.roll": "Roll",
+  "THOSEWHOWANDER.roll.cancel": "Cancel",
+  "THOSEWHOWANDER.roll.no_bonus": "This item is not rollable",
+  "THOSEWHOWANDER.roll.no_dice": "No dice available to roll",
+
   "THOSEWHOWANDER.label.name": "Name",
   "THOSEWHOWANDER.label.concept": "Concept",
   "THOSEWHOWANDER.label.skills": "Skills",

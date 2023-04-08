@@ -25,6 +25,17 @@ THOSEWHOWANDER.statuses = {
   "dying": "THOSEWHOWANDER.status.dying",
 }
 
+// Strings used by the dice roller dialog
+THOSEWHOWANDER.roll = {
+  "dice": "THOSEWHOWANDER.roll.dice",
+  "modifier": "THOSEWHOWANDER.roll.modifier",
+  "mode": "THOSEWHOWANDER.roll.mode",
+  "roll": "THOSEWHOWANDER.roll.roll",
+  "cancel": "THOSEWHOWANDER.roll.cancel",
+  "no_bonus": "THOSEWHOWANDER.roll.no_bonus",
+  "no_dice": "THOSEWHOWANDER.roll.no_dice",
+}
+
 // Other strings used within the system
 THOSEWHOWANDER.labels = {
   "name": "THOSEWHOWANDER.label.name",

@@ -1,3 +1,5 @@
+import { ThoseWhoWanderRoll } from "../helpers/roll.js";
+
 /**
  * Extend the basic Item with some very simple modifications.
  * @extends {Item}
@@ -46,17 +48,13 @@ export class ThoseWhoWanderItem extends Item {
         dice -= v.injuries ?? 0;
       }
 
-      // If we have dice to roll, invoke the roll and submit it to chat
-      if (dice > 0) {
-        const formula = `${dice}d10cs>=6`;
-        const roll = new Roll(formula, {});
-	roll.toMessage({
-          speaker: speaker,
-          rollMode: rollMode,
-          flavor: label,
-        });
-	return roll;
-      }
+      // Invoke the roll and submit it to chat
+      return ThoseWhoWanderRoll.Roll({
+        title: label,
+	speaker: speaker,
+	flavor: label,
+	dice: dice,
+      });
     } else if (this.type == "talent" || this.type == "gear") {
       // Find the related skill and bonus
       const m = this.system.bonus.match(/^\s*(\w+)\s+([+-]\d+)do?\s*$/);
@@ -70,37 +68,21 @@ export class ThoseWhoWanderItem extends Item {
 	      dice -= v.injuries ?? 0;
 	    }
 
-	    // If we have dice to roll, invoke the roll and submit it to chat
-	    if (dice > 0) {
-	      const formula = `${dice}d10cs>=6`;
-              const roll = new Roll(formula, {});
-              roll.toMessage({
-	        speaker: speaker,
-	        rollMode: rollMode,
-	        flavor: label,
-	      });
-	      return roll;
-	    }
+            // Invoke the roll and submit it to chat
+	    return ThoseWhoWanderRoll.Roll({
+	      title: label,
+              speaker: speaker,
+	      flavor: label,
+	      dice: dice,
+            });
 	  }
 	}
       }
 
-      // The item doesn't have a valid roll
-      ChatMessage.create({
-        speaker: speaker,
-        rollMode: rollMode,
-        flavor: label,
-        content: `${this.name} does not have a rollable bonus`,
-      });
-      return;
+      // The item doesn't have a valid rollable bonus
+      const warning = game.i18n.localize("THOSEWHOWANDER.roll.no_bonus");
+      ui.notifications.warn(warning);
+      throw new Error(warning);
     }
-
-    // We ended up with no dice to roll
-    ChatMessage.create({
-      speaker: speaker,
-      rollMode: rollMode,
-      flavor: label,
-      content: `${this.name} has no remaining dice to roll`,
-    });
   }
 }

@@ -12,5 +12,8 @@
     "systems/thosewhowander/templates/actor/tabs/actor-gear.html",
     "systems/thosewhowander/templates/actor/tabs/actor-other.html",
     "systems/thosewhowander/templates/actor/tabs/actor-effects.html",
+
+    // Chat and dialog templates
+    "systems/thosewhowander/templates/chat/roll-dialog.html",
   ]);
 };
