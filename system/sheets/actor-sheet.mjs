@@ -1,6 +1,9 @@
 // Import some effects management functions from the effects helper
 import {onManageActiveEffect, prepareActiveEffectCategories} from "../helpers/effects.mjs";
 
+// Import the dice roll dialogue from the roll helper
+import { ThoseWhoWanderRoll } from "../helpers/roll.js";
+
 /**
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
@@ -217,25 +220,23 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     const element = event.currentTarget;
 
     if (element.dataset.rollType) {
-      // Handle resistance rolls.
+      // Handle resistance rolls
       if (element.dataset.rollType == 'resistance') {
-        // Get the resistance dice and roll
+        // Get the resistance dice, invoke the roll and submit it to chat
         const label = element.dataset.label ? `[resistance] ${element.dataset.label}` : '';
-	const formula = `${element.dataset.rollDice}d10cs>=6`;
-        let roll = new Roll(formula, {});
-        roll.toMessage({
+        return ThoseWhoWanderRoll.Roll({
+          title: label,
           speaker: ChatMessage.getSpeaker({ actor: this.actor }),
           flavor: label,
-          rollMode: game.settings.get('core', 'rollMode'),
+	  dice: element.dataset.rollDice
         });
-        return roll;
       }
       // Handle skill, talent or gear rolls
-        if (["skill","talent","gear"].includes(element.dataset.rollType)) {
-	  const itemId = element.closest('.item').dataset.itemId;
-	  const item = this.actor.items.get(itemId);
-	  if (item) return item.roll();
-        }
+      if (["skill","talent","gear"].includes(element.dataset.rollType)) {
+        const itemId = element.closest('.item').dataset.itemId;
+	const item = this.actor.items.get(itemId);
+	if (item) return item.roll();
+      }
     }
   }
 }

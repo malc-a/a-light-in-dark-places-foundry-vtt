@@ -1,3 +1,4 @@
+// Import the dice roll dialogue from the roll helper
 import { ThoseWhoWanderRoll } from "../helpers/roll.js";
 
 /**
@@ -35,10 +36,10 @@ export class ThoseWhoWanderItem extends Item {
       for (let i of this.actor.items) {
         if (i.type == "talent" || i.type == "gear" && i.system.equipped) {
 	  let bs = i.system.bonus;
-	  let re = new RegExp(`^\\s*${this.name}\\s+([+-]\\d+)d\\s*$`);
+	  let re = new RegExp(`(^|,)\\s*${this.name}\\s+([+-]\\d+)d\\s*($|,)`);
           let m = bs.match(re);
-	  if (m && m[1] && m[1] != 0) {
-	    dice += parseInt(m[1]) ?? 0;
+	  if (m && m[2] && m[2] != 0) {
+	    dice += parseInt(m[2]) ?? 0;
 	  }
 	}
       }
@@ -56,12 +57,13 @@ export class ThoseWhoWanderItem extends Item {
 	dice: dice,
       });
     } else if (this.type == "talent" || this.type == "gear") {
-      // Find the related skill and bonus
-      const m = this.system.bonus.match(/^\s*(\w+)\s+([+-]\d+)do?\s*$/);
+      // Find the related skill and optional bonus
+      const m = this.system.bonus.match(/(^|,)\s*(\w+)\s+([+-]\d+)do?\s*(,|$)/);
       if (m) {
         for (let i of this.actor.items) {
-          if (i.type == "skill" && i.name == m[1]) {
-	    dice += (i.system.dice ?? 0) + (parseInt(m[2]) ?? 0);
+	  // Have we found the skill matching the optional bonus
+          if (i.type == "skill" && i.name == m[2]) {
+	    dice += (i.system.dice ?? 0) + (parseInt(m[3]) ?? 0);
 
 	    // Calculate the penalty for Injuries
 	    for (let [k,v] of Object.entries(this.actor.system.resistances)) {
