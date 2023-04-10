@@ -2,7 +2,7 @@
   "name": "thosewhowander",
   "title": "Those Who Wander",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -70,6 +70,24 @@
       "name": "thosewhowander-skills",
       "label": "Those Who Wander Skills",
       "path": "packs/thosewhowander-skills.db",
+      "type": "Item",
+      "system": "thosewhowander",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "thosewhowander-schools",
+      "label": "Those Who Wander Schools of Magic",
+      "path": "packs/thosewhowander-schools.db",
+      "type": "Item",
+      "system": "thosewhowander",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "thosewhowander-spells",
+      "label": "Those Who Wander Spells",
+      "path": "packs/thosewhowander-spells.db",
       "type": "Item",
       "system": "thosewhowander",
       "private": false,

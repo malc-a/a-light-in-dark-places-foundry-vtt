@@ -23,13 +23,12 @@ export class ThoseWhoWanderItem extends Item {
   async roll() {
     // Initialize chat data.
     const speaker = ChatMessage.getSpeaker({ actor: this.actor });
-    const rollMode = game.settings.get('core', 'rollMode');
     const label = `[${this.type}] ${this.name}`;
     let dice = (this.actor.system.actions ?? 0) + (this.actor.system.effects ?? 0);
 
-    // Handle skill rolls
-    if (this.type == "skill") {
-      // Start out with the dice from the skill
+    // Handle ability rolls
+    if (this.type == "skill" || this.type == "school") {
+      // Start out with the dice from the ability
       dice += this.system.dice ?? 0;
 
       // Calculate the bonus from talents and gear

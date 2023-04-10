@@ -231,8 +231,8 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
 	  dice: element.dataset.rollDice
         });
       }
-      // Handle skill, talent or gear rolls
-      if (["skill","talent","gear"].includes(element.dataset.rollType)) {
+      // Handle skill, school, talent or gear rolls
+      if (["skill","school","talent","gear"].includes(element.dataset.rollType)) {
         const itemId = element.closest('.item').dataset.itemId;
 	const item = this.actor.items.get(itemId);
 	if (item) return item.roll();

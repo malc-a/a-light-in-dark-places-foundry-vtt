@@ -1,0 +1,29 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <header class="sheet-header">
+    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
+    <div class="header-fields">
+      <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="{{localize "THOSEWHOWANDER.label.name"}}"/></h1>
+    </div>
+  </header>
+
+  {{!-- Sheet Tab Navigation --}}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="description">{{localize "THOSEWHOWANDER.label.description"}}</a>
+    <a class="item" data-tab="dice">{{localize "THOSEWHOWANDER.label.dice"}}</a>
+  </nav>
+
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+    {{!-- The description of the school of magic --}}
+    <div class="tab description" data-group="primary" data-tab="description">
+      {{editor system.description target="system.description" rollData=rollData button=true owner=owner editable=editable}}
+    </div>
+    {{!-- The dice in the school --}}
+    <div class="tab dice" data-group="primary" data-tab="dice">
+      <div class="dice flexrow flex-between">
+	<label for="system.dice" class="item-label">{{localize "THOSEWHOWANDER.label.dice"}}</label>
+	<input type="text" name="system.dice" value="{{system.dice}}" data-dtype="Number"/>
+      </div>
+    </div>
+  </section>
+</form>
