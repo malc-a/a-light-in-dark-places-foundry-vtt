@@ -8,6 +8,7 @@ import { ThoseWhoWanderItemSheet } from "./sheets/item-sheet.mjs";
 
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
+import { ThoseWhoWanderCombat, ThoseWhoWanderCombatTracker } from "./helpers/combat-tracker.mjs";
 import { THOSEWHOWANDER } from "./helpers/config.mjs";
 
 /* -------------------------------------------- */
@@ -15,7 +16,6 @@ import { THOSEWHOWANDER } from "./helpers/config.mjs";
 /* -------------------------------------------- */
 
 Hooks.once('init', async function() {
-
   // Add utility classes to the global game object so that they're more easily
   // accessible in global contexts.
   game.thosewhowander = {
@@ -31,8 +31,11 @@ Hooks.once('init', async function() {
   CONFIG.Item.documentClass = ThoseWhoWanderItem;
 
   // Override the default status effects
-  console.log(CONFIG.statusEffects);
   CONFIG.statusEffects = THOSEWHOWANDER.statusEffects;
+
+  // Override the default combat tracker
+  CONFIG.Combat.documentClass = ThoseWhoWanderCombat;
+  CONFIG.ui.combat = ThoseWhoWanderCombatTracker;
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
