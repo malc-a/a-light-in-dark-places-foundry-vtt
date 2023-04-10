@@ -12,18 +12,20 @@
     </div>
   </div>
 </div>
-<ol class="items-list">
-  <li class="item flexrow items-header">
-    <div class="item-name">{{localize "THOSEWHOWANDER.label.gear"}}</div>
-    <div class="item-controls">
-      <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_item"}}" data-type="gear"><i class="fas fa-plus"></i>{{localize "THOSEWHOWANDER.label.add_item"}}</a>
-    </div>
-  </li>
-  {{#each gear as |item id|}}
+<div class="gear">
+  <ol class="items-list grid grid-2col">
+    <li class="items-header grid-span-2 flexrow">
+      <div class="item-name">{{localize "THOSEWHOWANDER.label.gear"}}</div>
+      <div class="item-controls">
+        <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_item"}}" data-type="gear"><i class="fas fa-plus"></i>{{localize "THOSEWHOWANDER.label.add_item"}}</a>
+      </div>
+    </li>
+    {{#each gear as |item id|}}
     <li class="item flexrow" data-item-id="{{item._id}}">
-      <div class="item-details grid grid-2col rollable" data-roll-type="gear" data-label="{{item.name}}">
-	<img src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
-	<h4>{{item.name}}</h4>
+      <div class="item-details flexrow flex-between rollable" data-roll-type="gear" data-label="{{item.name}}">
+        <img class="flex0" src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
+        <span class="flex0">&#160;&#160</span>
+        <h4 class="flex3">{{item.name}}</h4>
       </div>
       <div class="item-controls">
         <a class="item-control item-equip" title="{{localize "THOSEWHOWANDER.label.equipped"}}">{{#if item.system.equipped}}<i class="fas fa-tshirt"></i>{{else}}<i class="fas fa-box"></i>{{/if}}</a>
@@ -31,5 +33,6 @@
         <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_item"}}"><i class="fas fa-trash"></i></a>
       </div>
     </li>
-  {{/each}}
-</ol>
+    {{/each}}
+  </ol>
+</div>

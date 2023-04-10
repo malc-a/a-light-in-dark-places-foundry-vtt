@@ -1,42 +1,46 @@
-<ol class="items-list">
-  <li class="items-header flexrow">
-    <div class="item-name">{{localize "THOSEWHOWANDER.label.schools"}}</div>
-    <div class="item-controls">
-      <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_school"}}" data-type="school"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_school"}}</a>
-    </div>
-  </li>
-  {{#each schools as |item id|}}
+<div class="magic">
+  <ol class="items-list grid grid-2col">
+    <li class="items-header grid-span-2 flexrow">
+      <div class="item-name">{{localize "THOSEWHOWANDER.label.schools"}}</div>
+      <div class="item-controls">
+        <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_school"}}" data-type="school"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_school"}}</a>
+      </div>
+    </li>
+    {{#each schools as |item id|}}
     <li class="item flexrow" data-item-id="{{item._id}}">
-      <div class="item-details grid grid-3col rollable" data-roll-type="school" data-label="{{item.name}}">
-	<img src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
-	<h4>{{item.name}}</h4>
-        <h4>{{item.system.dice}}</h4>
+      <div class="item-details flexrow flex-between rollable" data-roll-type="school" data-label="{{item.name}}">
+        <img class="flex0" src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
+        <span class="flex0">&#160;&#160</span>
+        <h4 class="flex3">{{item.name}}</h4>
+        <h4 class="flex0">{{item.system.dice}}</h4>
       </div>
       <div class="item-controls">
         <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_school"}}"><i class="fas fa-edit"></i></a>
         <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_school"}}"><i class="fas fa-trash"></i></a>
       </div>
     </li>
-  {{/each}}
-</ol>
-<ol class="items-list">
-  <li class="items-header flexrow">
-    <div class="item-name">{{localize "THOSEWHOWANDER.label.spells"}}</div>
-    <div class="item-controls">
-      <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_spell"}}" data-type="spell"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_spell"}}</a>
-    </div>
-  </li>
-  {{#each spells as |item id|}}
+    {{/each}}
+  </ol>
+  <ol class="items-list grid grid-2col">
+    <li class="items-header grid-span-2 flexrow">
+      <div class="item-name">{{localize "THOSEWHOWANDER.label.spells"}}</div>
+      <div class="item-controls">
+        <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_spell"}}" data-type="spell"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_spell"}}</a>
+      </div>
+    </li>
+    {{#each spells as |item id|}}
     <li class="item flexrow" data-item-id="{{item._id}}">
-      <div class="item-details grid grid-3col rollable" data-roll-type="spell" data-label="{{item.name}}">
-	<img src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
-	<h4>{{item.name}}</h4>
-        <h4>{{item.system.dice}}</h4>
+      <div class="item-details flexrow flex-between rollable" data-roll-type="spell" data-label="{{item.name}}">
+        <img class="flex0" src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
+        <span class="flex0">&#160;&#160</span>
+        <h4 class="flex3">{{item.name}}</h4>
+        <h4 class="flex0">{{item.system.dice}}</h4>
       </div>
       <div class="item-controls">
         <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_spell"}}"><i class="fas fa-edit"></i></a>
         <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_spell"}}"><i class="fas fa-trash"></i></a>
       </div>
     </li>
-  {{/each}}
-</ol>
+    {{/each}}
+  </ol>
+</div>

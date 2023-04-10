@@ -2,7 +2,7 @@
 import {onManageActiveEffect, prepareActiveEffectCategories} from "../helpers/effects.mjs";
 
 // Import the dice roll dialogue from the roll helper
-import { ThoseWhoWanderRoll } from "../helpers/roll.js";
+import { ThoseWhoWanderRoll } from "../helpers/roll.mjs";
 
 /**
  * Extend the basic ActorSheet with some very simple modifications

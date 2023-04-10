@@ -1,5 +1,5 @@
 // Import the dice roll dialogue from the roll helper
-import { ThoseWhoWanderRoll } from "../helpers/roll.js";
+import { ThoseWhoWanderRoll } from "../helpers/roll.mjs";
 
 /**
  * Extend the basic Item with some very simple modifications.

@@ -1,83 +1,91 @@
-<div class="main grid grid-2col">
-  <ol class="items-list">
-    <li class="items-header flexrow">
-      <div class="item-name">{{localize "THOSEWHOWANDER.label.skills"}}</div>
-      <div class="item-controls">
-	<a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_skill"}}" data-type="skill"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_skill"}}</a>
-      </div>
-    </li>
-    {{#each skills as |item id|}}
-    <li class="item flexrow" data-item-id="{{item._id}}">
-      <div class="item-details grid grid-3col rollable" data-roll-type="skill" data-label="{{item.name}}">
-	<img src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
-	<h4>{{item.name}}</h4>
-        <h4>{{item.system.dice}}</h4>
-      </div>
-      <div class="item-controls">
-        <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_skill"}}"><i class="fas fa-edit"></i></a>
-        <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_skill"}}"><i class="fas fa-trash"></i></a>
-      </div>
-    </li>
-    {{/each}}
-  </ol>
-  <ol class="items-list">
-    <li class="item flexrow items-header">
-      <div class="item-name">{{localize "THOSEWHOWANDER.label.talents"}}</div>
-      <div class="item-controls">
-	<a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_talent"}}" data-type="talent"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_talent"}}</a>
-      </div>
-    </li>
-    {{#each talents as |item id|}}
-    <li class="item flexrow" data-item-id="{{item._id}}">
-      <div class="item-details grid grid-3col rollable" data-roll-type="talent" data-label="{{item.name}}">
-	<img src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
-	<h4>{{item.name}}</h4>
-      </div>
-      <div class="item-controls">
-        <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_talent"}}"><i class="fas fa-edit"></i></a>
-        <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_talent"}}"><i class="fas fa-trash"></i></a>
-      </div>
-    </li>
-    {{/each}}
-  </ol>
-  <ol class="items-list">
-    <li class="items-header flexrow">
-      <div class="item-name">{{localize "THOSEWHOWANDER.label.problems"}}</div>
-      <div class="item-controls">
-	<a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_problem"}}" data-type="problem"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_problem"}}</a>
-      </div>
-    </li>
-    {{#each problems as |item id|}}
-    <li class="item flexrow" data-item-id="{{item._id}}">
-      <div class="item-details grid grid-2col">
-	<img src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
-	<h4>{{item.name}}</h4>
-      </div>
-      <div class="item-controls">
-        <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_problem"}}"><i class="fas fa-edit"></i></a>
-        <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_problem"}}"><i class="fas fa-trash"></i></a>
-      </div>
-    </li>
-    {{/each}}
-  </ol>
-  <ol class="items-list">
-    <li class="items-header flexrow">
-      <div class="item-name">{{localize "THOSEWHOWANDER.label.languages"}}</div>
-      <div class="item-controls">
-	<a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_language"}}" data-type="language"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_language"}}</a>
-      </div>
-    </li>
-    {{#each languages as |item id|}}
-    <li class="item flexrow" data-item-id="{{item._id}}">
-      <div class="item-details grid grid-2col">
-	<img src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
-	<h4>{{item.name}}</h4>
-      </div>
-      <div class="item-controls">
-        <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_language"}}"><i class="fas fa-edit"></i></a>
-        <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_language"}}"><i class="fas fa-trash"></i></a>
-      </div>
-    </li>
-    {{/each}}
-  </ol>
+<div class="main flexrow">
+  <div class="main column">
+    <ol class="items-list">
+     <li class="items-header flexrow">
+        <div class="item-name">{{localize "THOSEWHOWANDER.label.skills"}}</div>
+        <div class="item-controls">
+          <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_skill"}}" data-type="skill"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_skill"}}</a>
+        </div>
+      </li>
+      {{#each skills as |item id|}}
+      <li class="item flexrow" data-item-id="{{item._id}}">
+        <div class="item-details flexrow flex-between rollable" data-rol-type="skill" data-label="{{item.name}}">
+          <img class="flex0" src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
+          <span class="flex0">&#160;&#160</span>
+          <h4 class="flex3">{{item.name}}</h4>
+          <h4 class="flex0">{{item.system.dice}}</h4>
+        </div>
+        <div class="item-controls">
+          <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_skill"}}"><i class="fas fa-edit"></i></a>
+          <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_skill"}}"><i class="fas fa-trash"></i></a>
+        </div>
+      </li>
+      {{/each}}
+    </ol>
+  </div>
+  <div class="main column">
+    <ol class="items-list">
+      <li class="items-header flexrow">
+        <div class="item-name">{{localize "THOSEWHOWANDER.label.talents"}}</div>
+        <div class="item-controls">
+          <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_talent"}}" data-type="talent"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_talent"}}</a>
+        </div>
+      </li>
+      {{#each talents as |item id|}}
+      <li class="item flexrow" data-item-id="{{item._id}}">
+        <div class="item-details flexrow flex-between rollable" data-roll-type="talent" data-label="{{item.name}}">
+          <img class="flex0" src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
+          <span class="flex0">&#160;&#160</span>
+          <h4>{{item.name}}</h4>
+        </div>
+        <div class="item-controls">
+          <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_talent"}}"><i class="fas fa-edit"></i></a>
+          <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_talent"}}"><i class="fas fa-trash"></i></a>
+        </div>
+      </li>
+      {{/each}}
+    </ol>
+    <ol class="items-list">
+      <li class="items-header flexrow">
+        <div class="item-name">{{localize "THOSEWHOWANDER.label.problems"}}</div>
+        <div class="item-controls">
+          <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_problem"}}" data-type="problem"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_problem"}}</a>
+        </div>
+      </li>
+      {{#each problems as |item id|}}
+      <li class="item flexrow" data-item-id="{{item._id}}">
+        <div class="item-details flexrow flex-between">
+          <img class="flex0" src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
+          <span class="flex0">&#160;&#160</span>
+          <h4>{{item.name}}</h4>
+        </div>
+        <div class="item-controls">
+          <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_problem"}}"><i class="fas fa-edit"></i></a>
+          <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_problem"}}"><i class="fas fa-trash"></i></a>
+        </div>
+      </li>
+      {{/each}}
+    </ol>
+    <ol class="items-list">
+      <li class="items-header grid-span-2 flexrow">
+        <div class="item-name">{{localize "THOSEWHOWANDER.label.languages"}}</div>
+        <div class="item-controls">
+          <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_language"}}" data-type="language"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_language"}}</a>
+        </div>
+      </li>
+      {{#each languages as |item id|}}
+      <li class="item flexrow" data-item-id="{{item._id}}">
+        <div class="item-details flexrow flex-between">
+          <img class="flex0" src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
+          <span class="flex0">&#160;&#160</span>
+          <h4>{{item.name}}</h4>
+        </div>
+        <div class="item-controls">
+          <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_language"}}"><i class="fas fa-edit"></i></a>
+          <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_language"}}"><i class="fas fa-trash"></i></a>
+        </div>
+      </li>
+      {{/each}}
+    </ol>
+  </div>
 </div>
