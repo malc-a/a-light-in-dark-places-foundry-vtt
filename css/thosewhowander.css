@@ -119,6 +119,15 @@
   text-align: center;
 }
 
+/* Styles used in combat tracker entries */
+.combat-sidebar li.combatant .token-actions {
+  color: var(--color-text-light-2);
+  flex: 0 0 32px;
+  text-align: center;
+  border-right: 1px solid var(--color-border-dark-2);
+}
+
+
 /* Styles limited to thosewhowander sheets */
 .thosewhowander {
   /* ----------------------------------------- */

@@ -16,13 +16,15 @@ THOSEWHOWANDER.pools = {
 
 // Custom status effects used by the system
 THOSEWHOWANDER.statuses = {
-  "one_action": "THOSEWHOWANDER.status.one_action",
-  "two_actions": "THOSEWHOWANDER.status.two_actions",
-  "three_actions": "THOSEWHOWANDER.status.three_actions",
-  "four_actions": "THOSEWHOWANDER.status.four_actions",
-  "five_actions": "THOSEWHOWANDER.status.five_actions",
-  "six_actions": "THOSEWHOWANDER.status.six_actions",
   "dying": "THOSEWHOWANDER.status.dying",
+}
+
+// Strings used by the combat tracker
+THOSEWHOWANDER.combat = {
+  "add_declared_action": "THOSEWHOWANDER.roll.add_declared_action",
+  "remove_declared_action": "THOSEWHOWANDER.roll.remove_declared_action",
+  "add_action": "THOSEWHOWANDER.roll.add_action",
+  "remove_action": "THOSEWHOWANDER.roll.remove_action",
 }
 
 // Strings used by the dice roller dialog
@@ -95,91 +97,14 @@ THOSEWHOWANDER.labels = {
 
 // The status effects used by the system
 THOSEWHOWANDER.statusEffects = [
-  // Set the number of actions a character is taking
-  {
-    icon: 'systems/thosewhowander/assets/icons/status/2-actions.svg',
-    id: '2-actions',
-    label: 'THOSEWHOWANDER.status.two_actions',
-    duration: {
-      rounds: 1,
-    },
-    changes: [
-      {
-        key: 'system.actions',
-        value: '-2',
-        mode: 5,
-      },
-    ],
-  },
-  {
-    icon: 'systems/thosewhowander/assets/icons/status/3-actions.svg',
-    id: '3-actions',
-    label: 'THOSEWHOWANDER.status.three_actions',
-    duration: {
-      rounds: 1,
-    },
-    changes: [
-      {
-        key: 'system.actions',
-        value: '-4',
-        mode: 5,
-      },
-    ],
-  },
-  {
-    icon: 'systems/thosewhowander/assets/icons/status/4-actions.svg',
-    id: '4-actions',
-    label: 'THOSEWHOWANDER.status.four_actions',
-    duration: {
-      rounds: 1,
-    },
-    changes: [
-      {
-        key: 'system.actions',
-        value: '-6',
-        mode: 5,
-      },
-    ],
-  },
-  {
-    icon: 'systems/thosewhowander/assets/icons/status/5-actions.svg',
-    id: '5-actions',
-    label: 'THOSEWHOWANDER.status.five_actions',
-    duration: {
-      rounds: 1,
-    },
-    changes: [
-      {
-        key: 'system.actions',
-        value: '-8',
-        mode: 5,
-      },
-    ],
-  },
-  {
-    icon: 'systems/thosewhowander/assets/icons/status/6-actions.svg',
-    id: '6-actions',
-    label: 'THOSEWHOWANDER.status.six_actions',
-    duration: {
-      rounds: 1,
-    },
-    changes: [
-      {
-        key: 'system.actions',
-        value: '-10',
-        mode: 5,
-      },
-    ],
-  },
-
-  // Basic effects that don't have mechanical meaning			     
-  { id: 'sleep', label: 'EFFECT.StatusAsleep', icon: 'icons/svg/sleep.svg' },
+  // Basic effects that don't have mechanical meaning (yet)
+  { id: 'asleep', label: 'EFFECT.StatusAsleep', icon: 'icons/svg/sleep.svg' },
   { id: 'burning', label: 'EFFECT.StatusBurning', icon: 'icons/svg/fire.svg' },
-  { id: 'corrode', label: 'EFFECT.StatusCorrode', icon: 'icons/svg/acid.svg' },
+  { id: 'corroding', label: 'EFFECT.StatusCorrode', icon: 'icons/svg/acid.svg' },
   { id: 'dead', label: 'EFFECT.StatusDead', icon: 'icons/svg/skull.svg' },
   { id: 'dying', label: 'THOSEWHOWANDER.status.dying', icon: 'icons/svg/blood.svg' },
   { id: 'fear', label: 'EFFECT.StatusFear', icon: 'icons/svg/terror.svg' },
-  { id: 'poison', label: 'EFFECT.StatusPoison', icon: 'icons/svg/poison.svg' },
+  { id: 'poisoned', label: 'EFFECT.StatusPoison', icon: 'icons/svg/poison.svg' },
   { id: 'prone', label: 'EFFECT.StatusProne', icon: 'icons/svg/falling.svg' },
   { id: 'restrain', label: 'EFFECT.StatusRestrained', icon: 'icons/svg/net.svg' },
   { id: 'unconscious', label: 'EFFECT.StatusUnconscious', icon: 'icons/svg/unconscious.svg' },

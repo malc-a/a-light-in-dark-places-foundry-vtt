@@ -2,6 +2,54 @@ export class ThoseWhoWanderCombatTracker extends CombatTracker {
   get template() {
     return "systems/thosewhowander/templates/chat/combat-tracker.html";
   }
+
+  async getData(options) {
+    const data = await super.getData(options);
+    return {
+      ...data,
+      turns: data.turns.map((turn) => {
+        const c = this.viewed.combatants.get(turn.id);
+        turn.actions = c.actions;
+        turn.declared = c.declared;
+        return turn;
+      }),
+    };
+  }
+
+  async _onCombatantControl(event) {
+    super._onCombatantControl(event);
+    const btn = event.currentTarget;
+    const li = btn.closest(".combatant");
+    const combat = this.viewed;
+    const c = combat.combatants.get(li.dataset.combatantId);
+    switch (btn.dataset.control) {
+      case "addAction":
+        await c.setFlag("thosewhowander", "actions", c.actions + 1);
+        return c.actor.update({ "system.actions": c.actions });
+      case "removeAction":
+        if (c.getFlag("thosewhowander", "actions") > 0) {
+          await c.setFlag("thosewhowander", "actions", c.actions - 1);
+          return c.actor.update({ "system.actions": c.actions });
+        }
+    }
+  }
+}
+
+export class ThoseWhoWanderCombatant extends Combatant {
+  constructor(data, options) {
+    let c = super(data, options);
+    c.setFlag("thosewhowander", "actions", c.actor.system.actions);
+    c.setFlag("thosewhowander", "declared", c.actor.system.declared);
+    return c;
+  }
+
+  get actions() {
+    return this.getFlag("thosewhowander", "actions");
+  }
+
+  get declared() {
+    return this.getFlag("thosewhowander", "declared");
+  }
 }
 
 export class ThoseWhoWanderCombat extends Combat {
@@ -79,5 +127,19 @@ export class ThoseWhoWanderCombat extends Combat {
     // Create multiple chat messages
     await ChatMessage.implementation.create(messages);
     return this;
+  }
+
+  async beginCombat() {
+    this.turns.forEach((c) => c.setFlag("thosewhowander", "actions", 0));
+    this.turns.forEach((c) => c.setFlag("thosewhowander", "declared", c.actor.system.speed));
+    this.turns.forEach((c) => c.actor.update({ "system.actions": 0 }));
+    return super.beginCombat();
+  }
+
+  async nextRound() {
+    this.turns.forEach((c) => c.setFlag("thosewhowander", "actions", 0));
+    this.turns.forEach((c) => c.setFlag("thosewhowander", "declared", c.actor.system.speed));
+    this.turns.forEach((c) => c.actor.update({ "system.actions": 0 }));
+    return super.nextRound();
   }
 }

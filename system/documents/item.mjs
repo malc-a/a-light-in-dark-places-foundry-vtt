@@ -24,12 +24,17 @@ export class ThoseWhoWanderItem extends Item {
     // Initialize chat data.
     const speaker = ChatMessage.getSpeaker({ actor: this.actor });
     const label = `[${this.type}] ${this.name}`;
-    let dice = (this.actor.system.actions ?? 0) + (this.actor.system.effects ?? 0);
+
+    // Default the dice for each category
+    let skill_dice = 0;
+    let bonus_dice = 0;
+    let injury_penalty = 0;
+    let action_penalty = 0;
 
     // Handle ability rolls
     if (this.type == "skill" || this.type == "school") {
       // Start out with the dice from the ability
-      dice += this.system.dice ?? 0;
+      skill_dice = this.system.dice ?? 0;
 
       // Calculate the bonus from talents and gear
       for (let i of this.actor.items) {
@@ -38,52 +43,48 @@ export class ThoseWhoWanderItem extends Item {
 	  let re = new RegExp(`(^|,)\\s*${this.name}\\s+([+-]\\d+)d\\s*($|,)`);
           let m = bs.match(re);
 	  if (m && m[2] && m[2] != 0) {
-	    dice += parseInt(m[2]) ?? 0;
+	    bonus_dice += parseInt(m[2]) ?? 0;
 	  }
 	}
       }
-
-      // Calculate the penalty for Injuries
-      for (let [k,v] of Object.entries(this.actor.system.resistances)) {
-        dice -= v.injuries ?? 0;
-      }
-
-      // Invoke the roll and submit it to chat
-      return ThoseWhoWanderRoll.Roll({
-        title: label,
-	speaker: speaker,
-	flavor: label,
-	dice: dice,
-      });
     } else if (this.type == "talent" || this.type == "gear") {
       // Find the related skill and optional bonus
+      let valid = false;
       const m = this.system.bonus.match(/(^|,)\s*(\w+)\s+([+-]\d+)do?\s*(,|$)/);
       if (m) {
         for (let i of this.actor.items) {
 	  // Have we found the skill matching the optional bonus
           if (i.type == "skill" && i.name == m[2]) {
-	    dice += (i.system.dice ?? 0) + (parseInt(m[3]) ?? 0);
-
-	    // Calculate the penalty for Injuries
-	    for (let [k,v] of Object.entries(this.actor.system.resistances)) {
-	      dice -= v.injuries ?? 0;
-	    }
-
-            // Invoke the roll and submit it to chat
-	    return ThoseWhoWanderRoll.Roll({
-	      title: label,
-              speaker: speaker,
-	      flavor: label,
-	      dice: dice,
-            });
+	    skill_dice = i.system.dice ?? 0;
+	    bonus_dice = parseInt(m[3]) ?? 0;
+	    found = true;
 	  }
 	}
       }
 
-      // The item doesn't have a valid rollable bonus
-      const warning = game.i18n.localize("THOSEWHOWANDER.roll.no_bonus");
-      ui.notifications.warn(warning);
-      throw new Error(warning);
+      // Report an error if we didn't find a valid rollable bonus
+      if (!valid) {
+        const warning = game.i18n.localize("THOSEWHOWANDER.roll.no_bonus");
+        ui.notifications.warn(warning);
+	return;
+      }
     }
+
+    // Calculate the penalty for Injuries
+    for (let [k,v] of Object.entries(this.actor.system.resistances)) {
+      injury_penalty = Math.min(injury_penalty + (v.injuries ?? 0), 3);
+    }
+
+    // Calculate the penalty for multiple actions
+    let actions = Math.max((this.actor.system.actions ?? 0), (this.actor.system.declared ?? 1));
+    action_penalty = Math.max((actions - (this.actor.system.speed ?? 1)) * 2, 0);
+
+    // Invoke the roll and submit it to chat
+    return ThoseWhoWanderRoll.Roll({
+      title: label,
+      speaker: speaker,
+      flavor: label,
+      dice: skill_dice + bonus_dice - injury_penalty - action_penalty,
+    });
   }
 }

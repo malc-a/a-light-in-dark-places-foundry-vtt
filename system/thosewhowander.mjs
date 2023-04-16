@@ -8,7 +8,8 @@ import { ThoseWhoWanderItemSheet } from "./sheets/item-sheet.mjs";
 
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
-import { ThoseWhoWanderCombat, ThoseWhoWanderCombatTracker } from "./helpers/combat-tracker.mjs";
+import { ThoseWhoWanderCombat, ThoseWhoWanderCombatant,
+         ThoseWhoWanderCombatTracker } from "./helpers/combat-tracker.mjs";
 import { THOSEWHOWANDER } from "./helpers/config.mjs";
 
 /* -------------------------------------------- */
@@ -35,6 +36,7 @@ Hooks.once('init', async function() {
 
   // Override the default combat tracker
   CONFIG.Combat.documentClass = ThoseWhoWanderCombat;
+  CONFIG.Combatant.documentClass = ThoseWhoWanderCombatant;
   CONFIG.ui.combat = ThoseWhoWanderCombatTracker;
 
   // Register sheet application classes

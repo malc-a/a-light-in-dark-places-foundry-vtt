@@ -108,6 +108,5 @@ export class ThoseWhoWanderRoll {
     // We ended up with no dice to roll
     const warning = game.i18n.localize("THOSEWHOWANDER.roll.no_dice");
     ui.notifications.warn(warning);
-    throw new Error(warning);
   }
 }

@@ -7,12 +7,11 @@
   "THOSEWHOWANDER.pool.will": "Will",
 
   "THOSEWHOWANDER.status.dying": "Dying",
-  "THOSEWHOWANDER.status.one_action": "1 Action",
-  "THOSEWHOWANDER.status.two_actions": "2 Actions",
-  "THOSEWHOWANDER.status.three_actions": "3 Actions",
-  "THOSEWHOWANDER.status.four_actions": "4 Actions",
-  "THOSEWHOWANDER.status.five_actions": "5 Actions",
-  "THOSEWHOWANDER.status.six_actions": "6 Actions",
+
+  "THOSEWHOWANDER.combat.add_declared_action": "Add Declared Action",
+  "THOSEWHOWANDER.combat.remove_declared_action": "Remove Declared Action",
+  "THOSEWHOWANDER.combat.add_action": "Add Action",
+  "THOSEWHOWANDER.combat.remove_action": "Remove Action",
 
   "THOSEWHOWANDER.roll.dice": "Dice",
   "THOSEWHOWANDER.roll.modifier": "Modifier",
