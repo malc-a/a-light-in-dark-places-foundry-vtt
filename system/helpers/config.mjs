@@ -21,10 +21,9 @@ THOSEWHOWANDER.statuses = {
 
 // Strings used by the combat tracker
 THOSEWHOWANDER.combat = {
-  "add_declared_action": "THOSEWHOWANDER.roll.add_declared_action",
-  "remove_declared_action": "THOSEWHOWANDER.roll.remove_declared_action",
-  "add_action": "THOSEWHOWANDER.roll.add_action",
-  "remove_action": "THOSEWHOWANDER.roll.remove_action",
+  "reset_actions": "THOSEWHOWANDER.combat.reset_actions",
+  "add_action": "THOSEWHOWANDER.combat.add_action",
+  "remove_action": "THOSEWHOWANDER.combat.remove_action",
 }
 
 // Strings used by the dice roller dialog
@@ -42,6 +41,8 @@ THOSEWHOWANDER.roll = {
 THOSEWHOWANDER.labels = {
   "name": "THOSEWHOWANDER.label.name",
   "concept": "THOSEWHOWANDER.label.concept",
+  "speed": "THOSEWHOWANDER.label.speed",
+  "actions": "THOSEWHOWANDER.label.actions",
   "skills": "THOSEWHOWANDER.label.skills",
   "talents": "THOSEWHOWANDER.label.talents",
   "problems": "THOSEWHOWANDER.label.problems",

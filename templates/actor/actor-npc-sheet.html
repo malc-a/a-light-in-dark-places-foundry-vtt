@@ -2,13 +2,13 @@
   {{!-- Sheet Header --}}
   <header class="sheet-header">
     <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
-    <div class="header-fields">
+    <div class="header-fields flexcol">
       <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "THOSEWHOWANDER.label.name"}}"/></h1>
       <div class="resistances grid grid-3col">
 	{{#each system.resistances as |res key|}}
         <div class="resistance flex-group-center">
           <div class="resistance-content flexrow flex-center flex-between">
-            <label for="system.resistances.{{key}}.dice" class="resistance-label rollable" data-roll-type="resistance" data-roll-dice="{{res.dice}}" data-label="{{res.label}}">{{res.label}}</label>
+            <label for="system.resistances.{{key}}.dice" class="resource-label rollable" data-roll-type="resistance" data-roll-dice="{{res.dice}}" data-label="{{res.label}}">{{res.label}}</label>
             <input type="text" name="system.resistances.{{key}}.dice" value="{{res.dice}}" data-dtype="Number"/>
           </div>
         </div>
@@ -18,12 +18,24 @@
 	{{#each system.resistances as |res key|}}
         <div class="pool flex-group-center">
           <div class="pool-content flexrow flex-center flex-between">
-            <label for="system.resistances.{{key}}.pool" class="pool-label">{{res.pool_label}}</label>
+            <label for="system.resistances.{{key}}.pool" class="resource-label">{{res.pool_label}}</label>
             <input type="text" name="system.resistances.{{key}}.pool" value="{{res.pool}}" data-dtype="Number"/>
             <input type="text" name="system.resistances.{{key}}.injuries" value="{{res.injuries}}" data-dtype="Number"/>
           </div>
         </div>
 	{{/each}}
+      </div>
+      <div class="actions">
+	<div class="actions-content flexrow flex-center flex-between">
+          <label for="system.speed" class="resource-label">{{localize "THOSEWHOWANDER.label.speed"}}</label>
+	  <button class="decrease-speed"><i class="fas fa-backward"></i></button>
+          <input type="text" name="system.speed" value="{{system.speed}}" data-dtype="Number" disabled />
+	  <button class="increase-speed"><i class="fas fa-forward"></i></button>
+          <label for="system.actions" class="resource-label">{{localize "THOSEWHOWANDER.label.actions"}}</label>
+	  <button class="remove-action"><i class="fas fa-backward"></i></button>
+          <input type="text" name="system.actions" value="{{system.actions}}" data-dtype="Number" disabled />
+	  <button class="add-action"><i class="fas fa-forward"></i></button>
+	</div>
       </div>
     </div>
   </header>

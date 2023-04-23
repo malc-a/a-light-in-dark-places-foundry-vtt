@@ -8,8 +8,7 @@
 
   "THOSEWHOWANDER.status.dying": "Dying",
 
-  "THOSEWHOWANDER.combat.add_declared_action": "Add Declared Action",
-  "THOSEWHOWANDER.combat.remove_declared_action": "Remove Declared Action",
+  "THOSEWHOWANDER.combat.reset_actions": "Reset Actions",
   "THOSEWHOWANDER.combat.add_action": "Add Action",
   "THOSEWHOWANDER.combat.remove_action": "Remove Action",
 
@@ -23,6 +22,8 @@
 
   "THOSEWHOWANDER.label.name": "Name",
   "THOSEWHOWANDER.label.concept": "Concept",
+  "THOSEWHOWANDER.label.speed": "Speed",
+  "THOSEWHOWANDER.label.actions": "Actions",
   "THOSEWHOWANDER.label.skills": "Skills",
   "THOSEWHOWANDER.label.talents": "Talents",
   "THOSEWHOWANDER.label.problems": "Problems",

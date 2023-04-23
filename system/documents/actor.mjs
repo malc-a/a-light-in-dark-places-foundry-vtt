@@ -52,4 +52,22 @@ export class ThoseWhoWanderActor extends Actor {
       }
     }
   }
+
+  /**
+   * Update the actions for this actor.
+   */
+  updateActions(actions) {
+    // First sanity check the number of actions
+    actions = ((actions ?? 0) >= 0) ? (actions ?? 0) : 0;
+
+    // Now see if we have any combatants to render
+    game.combats.forEach((combat) => {
+      combat.combatants.filter((c) => c.actor === this).map((c) => {
+        c.update({ 'initiative': actions })
+      });
+    });
+
+    // Now update the actor itself
+    return this.update({ 'system.actions': actions });
+  }
 }

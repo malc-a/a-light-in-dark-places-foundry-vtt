@@ -76,8 +76,7 @@ export class ThoseWhoWanderItem extends Item {
     }
 
     // Calculate the penalty for multiple actions
-    let actions = Math.max((this.actor.system.actions ?? 0), (this.actor.system.declared ?? 1));
-    action_penalty = Math.max((actions - (this.actor.system.speed ?? 1)) * 2, 0);
+    action_penalty = Math.max(((this.actor.system.actions ?? 0) - (this.actor.system.speed ?? 1)) * 2, 0);
 
     // Invoke the roll and submit it to chat
     return ThoseWhoWanderRoll.Roll({

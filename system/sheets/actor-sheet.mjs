@@ -147,6 +147,24 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     // Everything below here is only needed if the sheet is editable
     if (!this.isEditable) return;
 
+    // Handle the buttons to increase and decrease speed
+    html.find('.increase-speed').click(ev => {
+      const update = { 'system.speed': (this.actor.system.speed ?? 0) + 1 };
+      return this.actor.update(update);
+    });
+    html.find('.decrease-speed').click(ev => {
+      const update = { 'system.speed': Math.max((this.actor.system.speed ?? 0) - 1, 1) };
+      return this.actor.update(update);
+    });
+
+    // Handle the buttons to increase and decrease actions
+    html.find('.add-action').click(ev => {
+      return this.actor.updateActions((this.actor.system.actions ?? 0) + 1);
+    });
+    html.find('.remove-action').click(ev => {
+      return this.actor.updateActions((this.actor.system.actions ?? 0) - 1);
+    });
+
     // Handle equipping gear
     html.find('.item-equip').click(ev => {
       const li = $(ev.currentTarget).parents(".item");

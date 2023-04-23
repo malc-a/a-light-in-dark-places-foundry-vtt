@@ -159,9 +159,9 @@
 }
 .thosewhowander .sheet-header .profile-img {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 100px;
-  flex: 0 0 100px;
-  height: 152px;
+  -ms-flex: 0 0 112px;
+  flex: 0 0 112px;
+  height: 170px;
   margin-right: 10px;
 }
 .thosewhowander .sheet-header .header-fields {
