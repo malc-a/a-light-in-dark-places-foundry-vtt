@@ -39,13 +39,13 @@ export class ThoseWhoWanderItem extends Item {
       // Calculate the bonus from talents and gear
       for (let i of this.actor.items) {
         if (i.type == "talent" || i.type == "gear" && i.system.equipped) {
-	  let bs = i.system.bonus;
-	  let re = new RegExp(`(^|,)\\s*${this.name}\\s+([+-]\\d+)d\\s*($|,)`);
+          let bs = i.system.bonus;
+          let re = new RegExp(`(^|,)\\s*${this.name}\\s+([+-]\\d+)d\\s*($|,)`);
           let m = bs.match(re);
-	  if (m && m[2] && m[2] != 0) {
-	    bonus_dice += parseInt(m[2]) ?? 0;
-	  }
-	}
+          if (m && m[2] && m[2] != 0) {
+            bonus_dice += parseInt(m[2]) ?? 0;
+          }
+        }
       }
     } else if (this.type == "talent" || this.type == "gear") {
       // Find the related skill and optional bonus
@@ -53,20 +53,20 @@ export class ThoseWhoWanderItem extends Item {
       const m = this.system.bonus.match(/(^|,)\s*(\w+)\s+([+-]\d+)do?\s*(,|$)/);
       if (m) {
         for (let i of this.actor.items) {
-	  // Have we found the skill matching the optional bonus
+          // Have we found the skill matching the optional bonus
           if (i.type == "skill" && i.name == m[2]) {
-	    skill_dice = i.system.dice ?? 0;
-	    bonus_dice = parseInt(m[3]) ?? 0;
-	    found = true;
-	  }
-	}
+            skill_dice = i.system.dice ?? 0;
+            bonus_dice = parseInt(m[3]) ?? 0;
+            found = true;
+          }
+        }
       }
 
       // Report an error if we didn't find a valid rollable bonus
       if (!valid) {
         const warning = game.i18n.localize("THOSEWHOWANDER.roll.no_bonus");
         ui.notifications.warn(warning);
-	return;
+        return;
       }
     }
 

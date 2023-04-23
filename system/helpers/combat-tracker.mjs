@@ -21,7 +21,7 @@ export class ThoseWhoWanderCombatTracker extends CombatTracker {
     const combat = this.viewed;
     switch (btn.dataset.control) {
       case "resetActions":
-	return combat.turns.forEach((c) => { c.actor.updateActions(0); });
+        return combat.turns.forEach((c) => { c.actor.updateActions(0); });
     }
   }
 
@@ -34,10 +34,10 @@ export class ThoseWhoWanderCombatTracker extends CombatTracker {
     switch (btn.dataset.control) {
       case "addAction":
         c.actor.updateActions(c.actor.system.actions + 1);
-	break;
+        break;
       case "removeAction":
         c.actor.updateActions(c.actor.system.actions - 1);
-	break;
+        break;
     }
   }
 }

@@ -6,43 +6,43 @@
     ],
     "templates": {
       "social": {
-	"concept": "",
-	"passions": {}
+        "concept": "",
+        "passions": {}
       },
       "resistances": {
-	"resistances": {
-	  "body": { "dice": 2, "pool": 2, "injuries": 0 },
+        "resistances": {
+          "body": { "dice": 2, "pool": 2, "injuries": 0 },
           "mind": { "dice": 2, "pool": 2, "injuries": 0 },
           "soul": { "dice": 2, "pool": 2, "injuries": 0 }
-	}
+        }
       },
       "abilities": {
-	"skills": {},
-	"schools": {},
-	"languages": {}
+        "skills": {},
+        "schools": {},
+        "languages": {}
       },
       "talents": {
-	"talents": {},
-	"problems": {}
+        "talents": {},
+        "problems": {}
       },
       "development": {
-	"wealth": 0,
-	"treasure": 0,
-	"xp": 0
+        "wealth": 0,
+        "treasure": 0,
+        "xp": 0
       },
       "treasure": {
-	"treasure": 0
+        "treasure": 0
       },
       "gear": {
-	"gear": {}
+        "gear": {}
       },
       "actions": {
-	"speed": 1,
-	"actions": 0
+        "speed": 1,
+        "actions": 0
       }
     },
     "character": { "templates": ["social", "resistances", "abilities", "talents",
-				 "development", "gear", "actions"]},
+                                 "development", "gear", "actions"]},
     "npc": { "templates": ["resistances", "abilities", "talents", "treasure", "gear", "status"]}
   },
   "Item": {
@@ -58,33 +58,33 @@
     ],
     "templates": {
       "ability": {
-	"description": "",
-	"dice": 0
+        "description": "",
+        "dice": 0
       },
       "spell": {
-	"description": "",
-	"school": "",
-	"cost": 1
+        "description": "",
+        "school": "",
+        "cost": 1
       },
       "talent": {
-	"description": "",
-	"bonus": ""
+        "description": "",
+        "bonus": ""
       },
       "passion": {
-	"description": ""
+        "description": ""
       },
       "problem": {
-	"description": ""
+        "description": ""
       },
       "language": {
-	"description": "",
-	"fluent": false
+        "description": "",
+        "fluent": false
       },
       "gear": {
-	"description": "",
-	"cost": 0,
-	"bonus": "",
-	"equipped": false
+        "description": "",
+        "cost": 0,
+        "bonus": "",
+        "equipped": false
       }
     },
     "skill": { "templates": ["ability"] },

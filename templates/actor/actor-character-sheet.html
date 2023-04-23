@@ -6,17 +6,17 @@
       <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "THOSEWHOWANDER.label.name"}}"/></h1>
       <h2 class="concept"><input name="system.concept" type="text" value="{{system.concept}}" placeholder="{{localize "THOSEWHOWANDER.label.concept"}}"/></h2>
       <div class="resistances grid grid-3col">
-	{{#each system.resistances as |res key|}}
+        {{#each system.resistances as |res key|}}
         <div class="resistance flex-group-center">
           <div class="resistance-content flexrow flex-center flex-between">
             <label for="system.resistances.{{key}}.dice" class="resource-label rollable" data-roll-type="resistance" data-roll-dice="{{res.dice}}" data-label="{{res.label}}">{{res.label}}</label>
             <input type="text" name="system.resistances.{{key}}.dice" value="{{res.dice}}" data-dtype="Number"/>
           </div>
         </div>
-	{{/each}}
+        {{/each}}
       </div>
       <div class="pools grid grid-3col">
-	{{#each system.resistances as |res key|}}
+        {{#each system.resistances as |res key|}}
         <div class="pool flex-group-center">
           <div class="pool-content flexrow flex-center flex-between">
             <label for="system.resistances.{{key}}.pool" class="resource-label">{{res.pool_label}}</label>
@@ -24,15 +24,15 @@
             <input type="text" name="system.resistances.{{key}}.injuries" value="{{res.injuries}}" data-dtype="Number"/>
           </div>
         </div>
-	{{/each}}
+        {{/each}}
       </div>
       <div class="actions">
-	<div class="actions-content flexrow flex-center flex-between">
+        <div class="actions-content flexrow flex-center flex-between">
           <label for="system.actions" class="resource-label">{{localize "THOSEWHOWANDER.label.actions"}}</label>
-	  <button class="remove-action"><i class="fas fa-backward"></i></button>
+          <button class="remove-action"><i class="fas fa-backward"></i></button>
           <input type="text" name="system.actions" value="{{system.actions}}" data-dtype="Number" disabled />
-	  <button class="add-action"><i class="fas fa-forward"></i></button>
-	</div>
+          <button class="add-action"><i class="fas fa-forward"></i></button>
+        </div>
       </div>
     </div>
   </header>
