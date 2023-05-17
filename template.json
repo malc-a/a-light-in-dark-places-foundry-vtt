@@ -64,7 +64,9 @@
       "spell": {
         "description": "",
         "school": "",
-        "cost": 1
+        "complexity": 1,
+	"range": "touch",
+	"duration": "instant"
       },
       "talent": {
         "description": "",

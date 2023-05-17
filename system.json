@@ -2,10 +2,10 @@
   "name": "thosewhowander",
   "title": "Those Who Wander",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.291"
+    "verified": "11.299"
   },
   "authors": [
     {
@@ -22,81 +22,81 @@
   "styles": ["css/thosewhowander.css"],
   "packs": [
     {
-      "name": "thosewhowander-docs",
-      "label": "Those Who Wander Documents",
-      "path": "packs/thosewhowander-docs.db",
+      "name": "documents",
+      "label": "Documents",
+      "path": "packs/documents.db",
       "type": "JournalEntry",
       "system": "thosewhowander",
       "private": false,
       "flags": {}
     },
     {
-      "name": "thosewhowander-archetypes",
-      "label": "Those Who Wander Archetypes",
-      "path": "packs/thosewhowander-archetypes.db",
+      "name": "archetypes",
+      "label": "Archetypes",
+      "path": "packs/archetypes.db",
       "type": "Actor",
       "system": "thosewhowander",
       "private": false,
       "flags": {}
     },
     {
-      "name": "thosewhowander-gear",
-      "label": "Those Who Wander Gear",
-      "path": "packs/thosewhowander-gear.db",
+      "name": "gear",
+      "label": "Gear",
+      "path": "packs/gear.db",
       "type": "Item",
       "system": "thosewhowander",
       "private": false,
       "flags": {}
     },
     {
-      "name": "thosewhowander-languages",
-      "label": "Those Who Wander Languages",
-      "path": "packs/thosewhowander-languages.db",
+      "name": "languages",
+      "label": "Languages",
+      "path": "packs/languages.db",
       "type": "Item",
       "system": "thosewhowander",
       "private": false,
       "flags": {}
     },
     {
-      "name": "thosewhowander-problems",
-      "label": "Those Who Wander Problems",
-      "path": "packs/thosewhowander-problems.db",
+      "name": "problems",
+      "label": "Problems",
+      "path": "packs/problems.db",
       "type": "Item",
       "system": "thosewhowander",
       "private": false,
       "flags": {}
     },
     {
-      "name": "thosewhowander-skills",
-      "label": "Those Who Wander Skills",
-      "path": "packs/thosewhowander-skills.db",
+      "name": "skills",
+      "label": "Skills",
+      "path": "packs/skills.db",
       "type": "Item",
       "system": "thosewhowander",
       "private": false,
       "flags": {}
     },
     {
-      "name": "thosewhowander-schools",
-      "label": "Those Who Wander Schools of Magic",
-      "path": "packs/thosewhowander-schools.db",
+      "name": "schools",
+      "label": "Schools of Magic",
+      "path": "packs/schools.db",
       "type": "Item",
       "system": "thosewhowander",
       "private": false,
       "flags": {}
     },
     {
-      "name": "thosewhowander-spells",
-      "label": "Those Who Wander Spells",
-      "path": "packs/thosewhowander-spells.db",
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells.db",
       "type": "Item",
       "system": "thosewhowander",
       "private": false,
       "flags": {}
     },
     {
-      "name": "thosewhowander-talents",
-      "label": "Those Who Wander Talents",
-      "path": "packs/thosewhowander-talents.db",
+      "name": "talents",
+      "label": "Talents",
+      "path": "packs/talents.db",
       "type": "Item",
       "system": "thosewhowander",
       "private": false,
