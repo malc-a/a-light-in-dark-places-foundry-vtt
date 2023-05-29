@@ -54,7 +54,8 @@
       "passion",
       "problem",
       "language",
-      "gear"
+      "gear",
+      "weapon"
     ],
     "templates": {
       "ability": {
@@ -87,6 +88,13 @@
         "cost": 0,
         "bonus": "",
         "equipped": false
+      },
+      "weapon": {
+        "description": "",
+        "cost": 0,
+	"range": "reach",
+        "bonus": "",
+        "equipped": false
       }
     },
     "skill": { "templates": ["ability"] },
@@ -96,6 +104,7 @@
     "talent": { "templates": ["talent"] },
     "problem": { "templates": ["problem"] },
     "language": { "templates": ["language"] },
+    "weapon": { "templates": ["weapon"] },
     "gear": { "templates": ["gear"] }
   }
 }

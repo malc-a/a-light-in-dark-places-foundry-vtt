@@ -38,7 +38,7 @@ export class ThoseWhoWanderItem extends Item {
 
       // Calculate the bonus from talents and gear
       for (let i of this.actor.items) {
-        if (i.type == "talent" || i.type == "gear" && i.system.equipped) {
+        if (i.type == "talent" || ["gear","weapon"].includes(i.type) && i.system.equipped) {
           let bs = i.system.bonus;
           let re = new RegExp(`(^|,)\\s*${this.name}\\s+([+-]\\d+)d\\s*($|,)`);
           let m = bs.match(re);
@@ -47,7 +47,7 @@ export class ThoseWhoWanderItem extends Item {
           }
         }
       }
-    } else if (this.type == "talent" || this.type == "gear") {
+    } else if (["talent","gear","weapon"].includes(this.type)) {
       // Find the related skill and optional bonus
       let valid = false;
       const m = this.system.bonus.match(/(^|,)\s*(\w+)\s+([+-]\d+)do?\s*(,|$)/);
@@ -57,7 +57,7 @@ export class ThoseWhoWanderItem extends Item {
           if (i.type == "skill" && i.name == m[2]) {
             skill_dice = i.system.dice ?? 0;
             bonus_dice = parseInt(m[3]) ?? 0;
-            found = true;
+            valid = true;
           }
         }
       }

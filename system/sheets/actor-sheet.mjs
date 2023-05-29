@@ -116,6 +116,8 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
         languages.push(i);
       } else if (i.type === 'gear') { // Gear
         gear.push(i);
+      } else if (i.type === 'weapon') { // Weapons
+        gear.push(i);
       }
     }
 
