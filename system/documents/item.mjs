@@ -26,21 +26,38 @@ export class ThoseWhoWanderItem extends Item {
     const label = `[${this.type}] ${this.name}`;
 
     // Default the dice for each category
-    let skill_dice = 0;
+    let ability_dice = 0;
     let bonus_dice = 0;
     let injury_penalty = 0;
     let action_penalty = 0;
 
-    // Handle ability rolls
-    if (this.type == "skill" || this.type == "school") {
-      // Start out with the dice from the ability
-      skill_dice = this.system.dice ?? 0;
+    // Handle ability and spell rolls
+    if (["skill","school","spell"].includes(this.type)) {
+      // Which ability will we be rolling?
+      let ability = this.name;
+
+      // Spells are rolled by using the related School
+      if (this.type =="spell") {
+        // We're using the School for the spell
+	ability = this.system.school;
+
+        // Find the related School of magic
+        for (let i of this.actor.items) {
+          // Have we found the school matching the spell?
+          if (i.type == "school" && i.name == ability) {
+            ability_dice = i.system.dice ?? 0;
+          }
+        }
+      } else {
+        // Start out with the dice from the ability
+        ability_dice = this.system.dice ?? 0;
+      }
 
       // Calculate the bonus from talents and gear
       for (let i of this.actor.items) {
         if (i.type == "talent" || ["gear","weapon"].includes(i.type) && i.system.equipped) {
           let bs = i.system.bonus;
-          let re = new RegExp(`(^|,)\\s*${this.name}\\s+([+-]\\d+)d\\s*($|,)`);
+          let re = new RegExp(`(^|,)\\s*${ability}\\s+([+-]\\d+)d\\s*($|,)`);
           let m = bs.match(re);
           if (m && m[2] && m[2] != 0) {
             bonus_dice += parseInt(m[2]) ?? 0;
@@ -48,14 +65,14 @@ export class ThoseWhoWanderItem extends Item {
         }
       }
     } else if (["talent","gear","weapon"].includes(this.type)) {
-      // Find the related skill and optional bonus
+      // Find the related ability and optional bonus
       let valid = false;
-      const m = this.system.bonus.match(/(^|,)\s*(\w+)\s+([+-]\d+)do?\s*(,|$)/);
+      const m = this.system.bonus.match(/(^|,)\s*([\w\s]+)\s+([+-]\d+)do?\s*(,|$)/);
       if (m) {
         for (let i of this.actor.items) {
-          // Have we found the skill matching the optional bonus
-          if (i.type == "skill" && i.name == m[2]) {
-            skill_dice = i.system.dice ?? 0;
+          // Have we found the ability matching the optional bonus?
+          if (["skill","school"].includes(i.type) && i.name == m[2]) {
+            ability_dice = i.system.dice ?? 0;
             bonus_dice = parseInt(m[3]) ?? 0;
             valid = true;
           }
@@ -83,7 +100,7 @@ export class ThoseWhoWanderItem extends Item {
       title: label,
       speaker: speaker,
       flavor: label,
-      dice: skill_dice + bonus_dice - injury_penalty - action_penalty,
+      dice: ability_dice + bonus_dice - injury_penalty - action_penalty,
     });
   }
 }
