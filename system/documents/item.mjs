@@ -23,7 +23,8 @@ export class ThoseWhoWanderItem extends Item {
   async roll() {
     // Initialize chat data.
     const speaker = ChatMessage.getSpeaker({ actor: this.actor });
-    const label = `[${this.type}] ${this.name}`;
+    const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls." + this.type);
+    const label = `[${rolltype}] ${this.name}`;
 
     // Default the dice for each category
     let ability_dice = 0;
@@ -89,7 +90,7 @@ export class ThoseWhoWanderItem extends Item {
 
     // Calculate the penalty for Injuries
     for (let [k,v] of Object.entries(this.actor.system.resistances)) {
-      injury_penalty = Math.min(injury_penalty + (v.injuries ?? 0), 3);
+      injury_penalty += (v.injuries ?? 0);
     }
 
     // Calculate the penalty for multiple actions

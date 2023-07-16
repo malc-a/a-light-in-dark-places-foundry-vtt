@@ -20,9 +20,19 @@
   "THOSEWHOWANDER.roll.no_bonus": "This item is not rollable",
   "THOSEWHOWANDER.roll.no_dice": "No dice available to roll",
 
+  "THOSEWHOWANDER.rolls.resistance": "Resistance",
+  "THOSEWHOWANDER.rolls.skill": "Skill",
+  "THOSEWHOWANDER.rolls.school": "School of Magic",
+  "THOSEWHOWANDER.rolls.spell": "Spell",
+  "THOSEWHOWANDER.rolls.talent": "Talent",
+  "THOSEWHOWANDER.rolls.weapon": "Weapon",
+  "THOSEWHOWANDER.rolls.gear": "Gear",
+  "THOSEWHOWANDER.rolls.monster-attack": "Monster Attack",
+  "THOSEWHOWANDER.rolls.monster-ability": "Monster Ability",
+
   "THOSEWHOWANDER.label.name": "Name",
   "THOSEWHOWANDER.label.concept": "Concept",
-  "THOSEWHOWANDER.label.speed": "Speed",
+  "THOSEWHOWANDER.label.resistances": "Resistances",
   "THOSEWHOWANDER.label.actions": "Actions",
   "THOSEWHOWANDER.label.skills": "Skills",
   "THOSEWHOWANDER.label.talents": "Talents",
@@ -31,6 +41,7 @@
   "THOSEWHOWANDER.label.schools": "Schools of Magic",
   "THOSEWHOWANDER.label.spells": "Spells",
   "THOSEWHOWANDER.label.passions": "Passions",
+  "THOSEWHOWANDER.label.speed": "Speed",
 
   "THOSEWHOWANDER.label.main": "Main",
   "THOSEWHOWANDER.label.magic": "Magic",

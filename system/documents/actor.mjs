@@ -1,3 +1,6 @@
+// Import the dice roll dialogue from the roll helper
+import { ThoseWhoWanderRoll } from "../helpers/roll.mjs";
+
 /**
  * Extend the base Actor document by defining a custom roll data structure which is ideal for the Simple system.
  * @extends {Actor}
@@ -51,6 +54,26 @@ export class ThoseWhoWanderActor extends Actor {
         data[k] = foundry.utils.deepClone(v);
       }
     }
+  }
+
+  /**
+   * Roll a named resistance for this actor.
+   * @param {Event} event       The originating click event
+   * @param {String} resistance The name of the resistance to roll
+   */
+  rollResistance(event, resistance) {
+    event.preventDefault();
+
+    // Get the resistance dice, invoke the roll and submit it to chat
+    const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.resistance");
+    const label = `[${rolltype}] ` + game.i18n.localize(`THOSEWHOWANDER.resistance.${resistance}`);
+    const dice = this.system.resistances[resistance].dice;
+    return ThoseWhoWanderRoll.Roll({
+      title: label,
+      speaker: ChatMessage.getSpeaker({ actor: this }),
+      flavor: label,
+      dice: dice,
+    });
   }
 
   /**

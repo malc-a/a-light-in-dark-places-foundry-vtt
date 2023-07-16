@@ -37,12 +37,26 @@ THOSEWHOWANDER.roll = {
   "no_dice": "THOSEWHOWANDER.roll.no_dice",
 }
 
+// Strings defining types of dice roll
+THOSEWHOWANDER.rolls = {
 // Other strings used within the system
+  "resistance": "THOSEWHOWANDER.rolls.resistance",
+  "skill": "THOSEWHOWANDER.rolls.skill",
+  "school": "THOSEWHOWANDER.rolls.school",
+  "spell": "THOSEWHOWANDER.rolls.spell",
+  "talent": "THOSEWHOWANDER.rolls.talent",
+  "weapon": "THOSEWHOWANDER.rolls.weapon",
+  "gear": "THOSEWHOWANDER.rolls.gear",
+  "monster-attack": "THOSEWHOWANDER.rolls.monster-attack",
+  "monster-ability": "THOSEWHOWANDER.rolls.monster-ability",
+}
+
 THOSEWHOWANDER.labels = {
   "name": "THOSEWHOWANDER.label.name",
   "concept": "THOSEWHOWANDER.label.concept",
   "speed": "THOSEWHOWANDER.label.speed",
   "actions": "THOSEWHOWANDER.label.actions",
+  "resistances": "THOSEWHOWANDER.label.resistances",
   "skills": "THOSEWHOWANDER.label.skills",
   "talents": "THOSEWHOWANDER.label.talents",
   "problems": "THOSEWHOWANDER.label.problems",

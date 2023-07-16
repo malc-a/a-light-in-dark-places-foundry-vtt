@@ -2,7 +2,9 @@
   "Actor": {
     "types": [
       "character",
-      "npc"
+      "minion",
+      "menace",
+      "master"
     ],
     "templates": {
       "social": {
@@ -22,19 +24,29 @@
         "languages": {}
       },
       "talents": {
-        "talents": {},
+        "talents": {}
+      },
+      "problems": {
         "problems": {}
+      },
+      "monster": {
+	"attacks": {},
+	"abilities": {}
       },
       "development": {
         "wealth": 0,
         "treasure": 0,
         "xp": 0
       },
+      "gear": {
+        "gear": {}
+      },
       "treasure": {
         "treasure": 0
       },
-      "gear": {
-        "gear": {}
+      "dice": {
+	"minions": 2,
+	"threat": 1
       },
       "actions": {
         "speed": 1,
@@ -42,8 +54,12 @@
       }
     },
     "character": { "templates": ["social", "resistances", "abilities", "talents",
-                                 "development", "gear", "actions"]},
-    "npc": { "templates": ["resistances", "abilities", "talents", "treasure", "gear", "status"]}
+                                 "problems", "development", "gear", "actions"]},
+    "minion": { "templates": ["resistances", "abilities", "dice", "actions", "treasure"] },
+    "menace": { "templates": ["resistances", "abilities", "monster",
+			      "actions", "gear", "treasure"] },
+    "master": { "templates": ["resistances", "abilities", "talents", "monster",
+			      "gear", "actions", "treasure"] }
   },
   "Item": {
     "types": [
@@ -55,7 +71,9 @@
       "problem",
       "language",
       "gear",
-      "weapon"
+      "weapon",
+      "monster-attack",
+      "monster-ability"
     ],
     "templates": {
       "ability": {
@@ -95,6 +113,15 @@
 	"range": "reach",
         "bonus": "",
         "equipped": false
+      },
+      "monster-attack": {
+        "description": "",
+	"range": "reach",
+        "bonus": ""
+      },
+      "monster-ability": {
+        "description": "",
+        "bonus": ""
       }
     },
     "skill": { "templates": ["ability"] },
@@ -105,6 +132,8 @@
     "problem": { "templates": ["problem"] },
     "language": { "templates": ["language"] },
     "weapon": { "templates": ["weapon"] },
-    "gear": { "templates": ["gear"] }
+    "gear": { "templates": ["gear"] },
+    "monster-attack": { "templates": ["monster-attack"] },
+    "monster-ability": { "templates": ["monster-ability"] }
   }
 }

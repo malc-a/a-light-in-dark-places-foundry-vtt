@@ -43,17 +43,9 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     context.system = actorData.system;
     context.flags = actorData.flags;
 
-    // Prepare character data and items.
-    if (actorData.type == 'character') {
-      this._prepareItems(context);
-      this._prepareCharacterData(context);
-    }
-
-    // Prepare NPC data and items.
-    if (actorData.type == 'npc') {
-      this._prepareItems(context);
-      this._prepareCharacterData(context);
-    }
+    // Prepare actor data and items
+    this._prepareItems(context, (actorData.type == 'character'));
+    this._prepareData(context);
 
     // Add roll data for TinyMCE editors.
     context.rollData = context.actor.getRollData();
@@ -65,13 +57,13 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
   }
 
   /**
-   * Initialise data for Character sheets.
+   * Initialise data for Actor sheets.
    *
    * @param {Object} actorData The actor to prepare.
    *
    * @return {undefined}
    */
-  _prepareCharacterData(context) {
+  _prepareData(context) {
     // Handle resistance and pool labels
     for (let [k, v] of Object.entries(context.system.resistances)) {
       v.label = game.i18n.localize(CONFIG.THOSEWHOWANDER.resistances[k]) ?? k;
@@ -86,7 +78,7 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
    *
    * @return {undefined}
    */
-  _prepareItems(context) {
+  _prepareItems(context, pc) {
     // Initialize containers.
     const skills = [];
     const schools = [];
@@ -108,16 +100,16 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
         spells.push(i);
       } else if (i.type === 'talent') { // Talent
         talents.push(i);
-      } else if (i.type === 'passion') { // Passion
-        passions.push(i);
-      } else if (i.type === 'problem') { // Problem
-        problems.push(i);
       } else if (i.type === 'language') { // Language
         languages.push(i);
       } else if (i.type === 'gear') { // Gear
         gear.push(i);
       } else if (i.type === 'weapon') { // Weapons
         gear.push(i);
+      } else if (pc && i.type === 'passion') { // Passion
+        passions.push(i);
+      } else if (pc && i.type === 'problem') { // Problem
+        problems.push(i);
       }
     }
 
@@ -243,7 +235,8 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
       // Handle resistance rolls
       if (element.dataset.rollType == 'resistance') {
         // Get the resistance dice, invoke the roll and submit it to chat
-        const label = element.dataset.label ? `[resistance] ${element.dataset.label}` : '';
+	const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.resistance");
+        const label = element.dataset.label ? `[${rolltype}] ${element.dataset.label}` : '';
         return ThoseWhoWanderRoll.Roll({
           title: label,
           speaker: ChatMessage.getSpeaker({ actor: this.actor }),
