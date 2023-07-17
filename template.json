@@ -40,9 +40,11 @@
       "treasure": {
         "treasure": 0
       },
-      "dice": {
-	"minions": 2,
-	"threat": 1
+      "minion": {
+	"number": 2,
+	"threat": 1,
+	"dice": 2,
+	"injuries": 0
       },
       "actions": {
         "speed": 1,
@@ -51,7 +53,7 @@
     },
     "character": { "templates": ["social", "resistances", "abilities", "talents",
                                  "problems", "development", "gear", "actions"]},
-    "minion": { "templates": ["resistances", "abilities", "dice", "talents"
+    "minion": { "templates": ["resistances", "abilities", "minion", "talents",
 			      "actions", "treasure"] },
     "menace": { "templates": ["resistances", "abilities", "talents",
 			      "gear", "actions", "treasure"] },

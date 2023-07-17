@@ -8,22 +8,28 @@
         {{#each system.resistances as |res key|}}
         <div class="resistance flex-group-center">
           <div class="resistance-content flexrow flex-center flex-between">
-            <label for="system.resistances.{{key}}.dice" class="resource-label rollable" data-roll-type="resistance" data-roll-dice="{{res.dice}}" data-label="{{res.label}}">{{res.label}}</label>
+            <label for="system.resistances.{{key}}.dice" class="resource-label rollable" data-roll-type="resistance" data-roll-dice="{{res.dice}}" data-label="{{key}}">{{res.label}}</label>
             <input type="text" name="system.resistances.{{key}}.dice" value="{{res.dice}}" data-dtype="Number"/>
           </div>
         </div>
         {{/each}}
       </div>
-      <div class="pools grid grid-3col">
-        {{#each system.resistances as |res key|}}
-        <div class="pool flex-group-center">
-          <div class="pool-content flexrow flex-center flex-between">
-            <label for="system.resistances.{{key}}.pool" class="resource-label">{{res.pool_label}}</label>
-            <input type="text" name="system.resistances.{{key}}.pool" value="{{res.pool}}" data-dtype="Number"/>
-          </div>
+      <div class="dice grid grid-3col">
+	<div class="number-content flexrow flex-center flex-between">
+          <label for="system.number" class="resource-label">{{localize "THOSEWHOWANDER.label.number"}}</label>
+          <input type="text" name="system.number" value="{{system.number}}" data-dtype="Number"/>
         </div>
-        {{/each}}
+	<div class="threat-content flexrow flex-center flex-between">
+          <label for="system.threat" class="resource-label">{{localize "THOSEWHOWANDER.label.threat"}}</label>
+          <input type="text" name="system.threat" value="{{system.threat}}" data-dtype="Number"/>
+        </div>
+	<div class="dice-content flexrow flex-center flex-between">
+          <label for="system.dice" class="resource-label rollable" data-roll-type="minion" data-roll-dice="{{system.dice}}">{{localize "THOSEWHOWANDER.label.dice"}}</label>
+          <input type="text" name="system.dice" value="{{system.dice}}" data-dtype="Number" disabled />
+          <input type="text" name="system.injuries" value="{{system.injuries}}" data-dtype="Number"/>
+        </div>
       </div>
+
       <div class="actions">
         <div class="actions-content flexrow flex-center flex-between">
           <label for="system.speed" class="resource-label">{{localize "THOSEWHOWANDER.label.speed"}}</label>

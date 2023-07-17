@@ -1,9 +1,6 @@
 // Import some effects management functions from the effects helper
 import {onManageActiveEffect, prepareActiveEffectCategories} from "../helpers/effects.mjs";
 
-// Import the dice roll dialogue from the roll helper
-import { ThoseWhoWanderRoll } from "../helpers/roll.mjs";
-
 /**
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
@@ -241,27 +238,13 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     const element = event.currentTarget;
 
     if (element.dataset.rollType) {
-      // Handle resistance and wealth rolls
+      // Handle resistance, wealth and minion attack rolls
       if (element.dataset.rollType == 'resistance') {
-        // Get the resistance dice, invoke the roll and submit it to chat
-	const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.resistance");
-        const label = element.dataset.label ? `[${rolltype}] ${element.dataset.label}` : '';
-        return ThoseWhoWanderRoll.Roll({
-          title: label,
-          speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-          flavor: label,
-          dice: element.dataset.rollDice
-        });
+        this.actor.rollResistance(event, element.dataset.label);
       } else if (element.dataset.rollType == 'wealth') {
-        // Get the resistance dice, invoke the roll and submit it to chat
-	const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.wealth");
-        const label = `[${rolltype}] ${rolltype}`;
-        return ThoseWhoWanderRoll.Roll({
-          title: label,
-          speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-          flavor: label,
-          dice: element.dataset.rollDice
-        });
+        this.actor.rollWealth(event);
+      } else if (element.dataset.rollType == 'minion') {
+        this.actor.rollMinionDice(event);
       }
 
       // Handle skill, school, spell, talent, feature, atttack, gear or weapon rolls

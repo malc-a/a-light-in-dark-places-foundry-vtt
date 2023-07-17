@@ -29,6 +29,11 @@ export class ThoseWhoWanderActor extends Actor {
   prepareDerivedData() {
     const actorData = this;
     const systemData = actorData.system;
+
+    // Set the total dice for minions
+    if (this.type === 'minion') {
+      systemData.dice = systemData.number * systemData.threat;
+    }
   }
 
   /**
@@ -96,16 +101,16 @@ export class ThoseWhoWanderActor extends Actor {
   }
 
   /**
-   * Roll wealth for this actor.
+   * Roll minion dice for a minion
    * @param {Event} event       The originating click event
    */
-  rollWealth(event) {
+  rollMinionDice(event) {
     event.preventDefault();
 
-    // Get the wealth dice, invoke the roll and submit it to chat
-    const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.wealth");
+    // Get the minion dice, invoke the roll and submit it to chat
+    const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.minion");
     const label = `[${rolltype}] ${rolltype}`;
-    const dice = this.system.wealth ?? 0;
+    const dice = (this.system.dice ?? 0) - (this.system.injuries ?? 0);
     return ThoseWhoWanderRoll.Roll({
       title: label,
       speaker: ChatMessage.getSpeaker({ actor: this }),

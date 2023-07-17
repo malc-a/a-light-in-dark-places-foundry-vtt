@@ -9,7 +9,7 @@
         {{#each system.resistances as |res key|}}
         <div class="resistance flex-group-center">
           <div class="resistance-content flexrow flex-center flex-between">
-            <label for="system.resistances.{{key}}.dice" class="resource-label rollable" data-roll-type="resistance" data-roll-dice="{{res.dice}}" data-label="{{res.label}}">{{res.label}}</label>
+            <label for="system.resistances.{{key}}.dice" class="resource-label rollable" data-roll-type="resistance" data-roll-dice="{{res.dice}}" data-label="{{key}}">{{res.label}}</label>
             <input type="text" name="system.resistances.{{key}}.dice" value="{{res.dice}}" data-dtype="Number"/>
           </div>
         </div>

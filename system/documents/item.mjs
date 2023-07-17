@@ -57,7 +57,7 @@ export class ThoseWhoWanderItem extends Item {
       // Calculate the bonus from talents, features, attacks, gear and weapons
       for (let i of this.actor.items) {
         if (["talent","feature","attack"].includes(i.type)
-            || i["gear","weapon"].includes(i.type) && i.system.equipped) {
+            || ["gear","weapon"].includes(i.type) && i.system.equipped) {
           let bs = i.system.bonus;
           let re = new RegExp(`(^|,)\\s*${ability}\\s+([+-]\\d+)d\\s*($|,)`);
           let m = bs.match(re);

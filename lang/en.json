@@ -30,6 +30,7 @@
   "THOSEWHOWANDER.rolls.wealth": "Wealth",
   "THOSEWHOWANDER.rolls.attack": "Special Attack",
   "THOSEWHOWANDER.rolls.feature": "Special Feature",
+  "THOSEWHOWANDER.rolls.minion": "Minion Dice",
 
   "THOSEWHOWANDER.label.name": "Name",
   "THOSEWHOWANDER.label.concept": "Concept",
@@ -45,6 +46,10 @@
   "THOSEWHOWANDER.label.spells": "Spells",
   "THOSEWHOWANDER.label.passions": "Passions",
   "THOSEWHOWANDER.label.speed": "Speed",
+  "THOSEWHOWANDER.label.number": "Number",
+  "THOSEWHOWANDER.label.threat": "Threat",
+  "THOSEWHOWANDER.label.dice": "Dice",
+  "THOSEWHOWANDER.label.minion": "Minion Dice",
 
   "THOSEWHOWANDER.label.main": "Main",
   "THOSEWHOWANDER.label.magic": "Magic",

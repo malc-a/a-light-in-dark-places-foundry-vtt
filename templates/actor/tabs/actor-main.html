@@ -24,7 +24,6 @@
     </ol>
   </div>
   <div class="main column">
-    {{#if (ne actor.type "minion")}}
     <ol class="items-list">
       <li class="items-header flexrow">
 	{{#if (eq actor.type "character")}}
@@ -59,7 +58,6 @@
       </li>
       {{/each}}
     </ol>
-    {{/if}}
     {{#if (eq actor.type "character")}}
     <ol class="items-list">
       <li class="items-header flexrow">

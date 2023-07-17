@@ -41,6 +41,7 @@ THOSEWHOWANDER.roll = {
 THOSEWHOWANDER.rolls = {
 // Other strings used within the system
   "resistance": "THOSEWHOWANDER.rolls.resistance",
+  "minion": "THOSEWHOWANDER.rolls.minion",
   "skill": "THOSEWHOWANDER.rolls.skill",
   "school": "THOSEWHOWANDER.rolls.school",
   "spell": "THOSEWHOWANDER.rolls.spell",
@@ -55,7 +56,6 @@ THOSEWHOWANDER.rolls = {
 THOSEWHOWANDER.labels = {
   "name": "THOSEWHOWANDER.label.name",
   "concept": "THOSEWHOWANDER.label.concept",
-  "speed": "THOSEWHOWANDER.label.speed",
   "actions": "THOSEWHOWANDER.label.actions",
   "resistances": "THOSEWHOWANDER.label.resistances",
   "refresh": "THOSEWHOWANDER.label.refresh",
@@ -67,6 +67,11 @@ THOSEWHOWANDER.labels = {
   "schools": "THOSEWHOWANDER.label.schools",
   "spells": "THOSEWHOWANDER.label.spells",
   "passions": "THOSEWHOWANDER.label.passions",
+  "speed": "THOSEWHOWANDER.label.speed",
+  "number": "THOSEWHOWANDER.label.number",
+  "threat": "THOSEWHOWANDER.label.threat",
+  "dice": "THOSEWHOWANDER.label.dice",
+  "minion": "THOSEWHOWANDER.label.minion",
 
   "main": "THOSEWHOWANDER.label.main",
   "magic": "THOSEWHOWANDER.label.magic",
