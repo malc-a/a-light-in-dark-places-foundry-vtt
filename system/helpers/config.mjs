@@ -45,10 +45,11 @@ THOSEWHOWANDER.rolls = {
   "school": "THOSEWHOWANDER.rolls.school",
   "spell": "THOSEWHOWANDER.rolls.spell",
   "talent": "THOSEWHOWANDER.rolls.talent",
+  "feature": "THOSEWHOWANDER.rolls.feature",
+  "attack": "THOSEWHOWANDER.rolls.attack",
   "weapon": "THOSEWHOWANDER.rolls.weapon",
   "gear": "THOSEWHOWANDER.rolls.gear",
-  "monster-attack": "THOSEWHOWANDER.rolls.monster-attack",
-  "monster-ability": "THOSEWHOWANDER.rolls.monster-ability",
+  "wealth": "THOSEWHOWANDER.rolls.wealth",
 }
 
 THOSEWHOWANDER.labels = {
@@ -57,8 +58,10 @@ THOSEWHOWANDER.labels = {
   "speed": "THOSEWHOWANDER.label.speed",
   "actions": "THOSEWHOWANDER.label.actions",
   "resistances": "THOSEWHOWANDER.label.resistances",
+  "refresh": "THOSEWHOWANDER.label.refresh",
   "skills": "THOSEWHOWANDER.label.skills",
   "talents": "THOSEWHOWANDER.label.talents",
+  "features": "THOSEWHOWANDER.label.features",
   "problems": "THOSEWHOWANDER.label.problems",
   "languages": "THOSEWHOWANDER.label.languages",
   "schools": "THOSEWHOWANDER.label.schools",

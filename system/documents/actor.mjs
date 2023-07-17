@@ -77,6 +77,80 @@ export class ThoseWhoWanderActor extends Actor {
   }
 
   /**
+   * Roll wealth for this actor.
+   * @param {Event} event       The originating click event
+   */
+  rollWealth(event) {
+    event.preventDefault();
+
+    // Get the wealth dice, invoke the roll and submit it to chat
+    const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.wealth");
+    const label = `[${rolltype}] ${rolltype}`;
+    const dice = this.system.wealth ?? 0;
+    return ThoseWhoWanderRoll.Roll({
+      title: label,
+      speaker: ChatMessage.getSpeaker({ actor: this }),
+      flavor: label,
+      dice: dice,
+    });
+  }
+
+  /**
+   * Roll wealth for this actor.
+   * @param {Event} event       The originating click event
+   */
+  rollWealth(event) {
+    event.preventDefault();
+
+    // Get the wealth dice, invoke the roll and submit it to chat
+    const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.wealth");
+    const label = `[${rolltype}] ${rolltype}`;
+    const dice = this.system.wealth ?? 0;
+    return ThoseWhoWanderRoll.Roll({
+      title: label,
+      speaker: ChatMessage.getSpeaker({ actor: this }),
+      flavor: label,
+      dice: dice,
+    });
+  }
+
+  /**
+   * Restore all pools for this actor to their maximum value
+   */
+  refreshPools() {
+    // Build the update to apply
+    let changes = {};
+
+    // Loop over each resistance and add the update to the map
+    for (let [r, v] of Object.entries(this.system.resistances)) {
+      // Default the pool to the number of dice in the resistance
+      let dice = v.dice
+
+      // Get the label of the pool to chek for bonuses
+      let resistance = game.i18n.localize(CONFIG.THOSEWHOWANDER.pools[r]);
+
+      // Calculate the bonus from talents, features, attacks, gear and weapons
+      for (let i of this.items) {
+        if (["talent","feature","attack"].includes(i.type)
+            || ["gear","weapon"].includes(i.type) && i.system.equipped) {
+          let bs = i.system.bonus;
+          let re = new RegExp(`(^|,)\\s*${resistance}\\s+([+-]\\d+)\\s*($|,)`);
+          let m = bs.match(re);
+          if (m && m[2] && m[2] != 0) {
+            dice += parseInt(m[2]) ?? 0;
+          }
+        }
+      }
+
+      // Add the required change for this resistance to the object
+      changes['system.resistances.' + r + '.pool'] = dice;
+    }
+
+    // Finally, update the actor itself
+    return this.update(changes);
+  }
+
+  /**
    * Update the actions for this actor.
    */
   updateActions(actions) {

@@ -54,9 +54,10 @@ export class ThoseWhoWanderItem extends Item {
         ability_dice = this.system.dice ?? 0;
       }
 
-      // Calculate the bonus from talents and gear
+      // Calculate the bonus from talents, features, attacks, gear and weapons
       for (let i of this.actor.items) {
-        if (i.type == "talent" || ["gear","weapon"].includes(i.type) && i.system.equipped) {
+        if (["talent","feature","attack"].includes(i.type)
+            || i["gear","weapon"].includes(i.type) && i.system.equipped) {
           let bs = i.system.bonus;
           let re = new RegExp(`(^|,)\\s*${ability}\\s+([+-]\\d+)d\\s*($|,)`);
           let m = bs.match(re);
@@ -65,7 +66,7 @@ export class ThoseWhoWanderItem extends Item {
           }
         }
       }
-    } else if (["talent","gear","weapon"].includes(this.type)) {
+    } else if (["talent","feature","attack","gear","weapon"].includes(this.type)) {
       // Find the related ability and optional bonus
       let valid = false;
       const m = this.system.bonus.match(/(^|,)\s*([\w\s]+)\s+([+-]\d+)do?\s*(,|$)/);

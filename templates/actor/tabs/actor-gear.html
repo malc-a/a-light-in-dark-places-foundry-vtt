@@ -1,13 +1,15 @@
 <div class="wealth grid grid-2col">
+  {{#if (eq actor.type "character")}}
   <div class="wealth flex-group-center">
     <div class="wealth-content flexrow flex-center flex-between">
-      <label for="system.wealth" class="wealth-label rollable" data-roll="{{system.wealth}}d10cs>=6" data-label="{{localize "THOSEWHOWANDER.label.wealth"}}">{{localize "THOSEWHOWANDER.label.wealth"}}</label>
+      <label for="system.wealth" class="resource-label rollable" data-roll-type="wealth" data-roll-dice="{{system.wealth}}" data-label="{{localize "THOSEWHOWANDER.label.wealth"}}">{{localize "THOSEWHOWANDER.label.wealth"}}</label>
       <input type="text" name="system.wealth" value="{{system.wealth}}" data-dtype="Number"/>
     </div>
   </div>
+  {{/if}}
   <div class="treasure flex-group-center">
     <div class="wealth-content flexrow flex-center flex-between">
-      <label for="system.treasure" class="item-label">{{localize "THOSEWHOWANDER.label.treasure"}}</label>
+      <label for="system.treasure" class="resource-label">{{localize "THOSEWHOWANDER.label.treasure"}}</label>
       <input type="text" name="system.treasure" value="{{system.treasure}}" data-dtype="Number"/>
     </div>
   </div>

@@ -29,10 +29,6 @@
       "problems": {
         "problems": {}
       },
-      "monster": {
-	"attacks": {},
-	"abilities": {}
-      },
       "development": {
         "wealth": 0,
         "treasure": 0,
@@ -55,10 +51,11 @@
     },
     "character": { "templates": ["social", "resistances", "abilities", "talents",
                                  "problems", "development", "gear", "actions"]},
-    "minion": { "templates": ["resistances", "abilities", "dice", "actions", "treasure"] },
-    "menace": { "templates": ["resistances", "abilities", "monster",
-			      "actions", "gear", "treasure"] },
-    "master": { "templates": ["resistances", "abilities", "talents", "monster",
+    "minion": { "templates": ["resistances", "abilities", "dice", "talents"
+			      "actions", "treasure"] },
+    "menace": { "templates": ["resistances", "abilities", "talents",
+			      "gear", "actions", "treasure"] },
+    "master": { "templates": ["resistances", "abilities", "talents",
 			      "gear", "actions", "treasure"] }
   },
   "Item": {
@@ -67,13 +64,13 @@
       "school",
       "spell",
       "talent",
+      "feature",
       "passion",
       "problem",
       "language",
       "gear",
       "weapon",
-      "monster-attack",
-      "monster-ability"
+      "attack"
     ],
     "templates": {
       "ability": {
@@ -88,6 +85,10 @@
 	"duration": "instant"
       },
       "talent": {
+        "description": "",
+        "bonus": ""
+      },
+      "feature": {
         "description": "",
         "bonus": ""
       },
@@ -114,13 +115,9 @@
         "bonus": "",
         "equipped": false
       },
-      "monster-attack": {
+      "attack": {
         "description": "",
 	"range": "reach",
-        "bonus": ""
-      },
-      "monster-ability": {
-        "description": "",
         "bonus": ""
       }
     },
@@ -129,11 +126,11 @@
     "spell": { "templates": ["spell"] },
     "passion": { "templates": ["passion"] },
     "talent": { "templates": ["talent"] },
+    "feature": { "templates": ["feature"] },
     "problem": { "templates": ["problem"] },
     "language": { "templates": ["language"] },
     "weapon": { "templates": ["weapon"] },
     "gear": { "templates": ["gear"] },
-    "monster-attack": { "templates": ["monster-attack"] },
-    "monster-ability": { "templates": ["monster-ability"] }
+    "attack": { "templates": ["attack"] }
   }
 }

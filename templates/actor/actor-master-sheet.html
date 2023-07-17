@@ -14,7 +14,7 @@
         </div>
         {{/each}}
       </div>
-      <div class="pools grid grid-3col">
+      <div class="pools grid grid-4col">
         {{#each system.resistances as |res key|}}
         <div class="pool flex-group-center">
           <div class="pool-content flexrow flex-center flex-between">
@@ -24,6 +24,7 @@
           </div>
         </div>
         {{/each}}
+        <button class="refresh-pools"><i class="fas fa-refresh"></i></button>
       </div>
       <div class="actions">
         <div class="actions-content flexrow flex-center flex-between">

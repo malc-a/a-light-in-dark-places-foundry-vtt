@@ -44,7 +44,7 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     context.flags = actorData.flags;
 
     // Prepare actor data and items
-    this._prepareItems(context, (actorData.type == 'character'));
+    this._prepareItems(context, (actorData.type === 'character'));
     this._prepareData(context);
 
     // Add roll data for TinyMCE editors.
@@ -110,6 +110,10 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
         passions.push(i);
       } else if (pc && i.type === 'problem') { // Problem
         problems.push(i);
+      } else if (!pc && i.type === 'feature') { // Special Feature
+        talents.push(i);
+      } else if (!pc && i.type === 'attack') { // Special Attack
+        talents.push(i);
       }
     }
 
@@ -149,6 +153,11 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     html.find('.decrease-speed').click(ev => {
       const update = { 'system.speed': Math.max((this.actor.system.speed ?? 0) - 1, 1) };
       return this.actor.update(update);
+    });
+
+    // Handle the button to refresh the pools
+    html.find('.refresh-pools').click(ev => {
+      return this.actor.refreshPools();
     });
 
     // Handle the buttons to increase and decrease actions
@@ -232,7 +241,7 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     const element = event.currentTarget;
 
     if (element.dataset.rollType) {
-      // Handle resistance rolls
+      // Handle resistance and wealth rolls
       if (element.dataset.rollType == 'resistance') {
         // Get the resistance dice, invoke the roll and submit it to chat
 	const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.resistance");
@@ -243,9 +252,21 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
           flavor: label,
           dice: element.dataset.rollDice
         });
+      } else if (element.dataset.rollType == 'wealth') {
+        // Get the resistance dice, invoke the roll and submit it to chat
+	const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.wealth");
+        const label = `[${rolltype}] ${rolltype}`;
+        return ThoseWhoWanderRoll.Roll({
+          title: label,
+          speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+          flavor: label,
+          dice: element.dataset.rollDice
+        });
       }
-      // Handle skill, school, spell, talent or gear rolls
-      if (["skill","school","spell","talent","gear"].includes(element.dataset.rollType)) {
+
+      // Handle skill, school, spell, talent, feature, atttack, gear or weapon rolls
+      if (["skill","school","spell","talent","feature","attack",
+           "gear","weapon"].includes(element.dataset.rollType)) {
         const itemId = element.closest('.item').dataset.itemId;
         const item = this.actor.items.get(itemId);
         if (item) return item.roll();

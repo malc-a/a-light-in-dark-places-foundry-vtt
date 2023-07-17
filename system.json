@@ -2,7 +2,7 @@
   "name": "thosewhowander",
   "title": "Those Who Wander",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "compatibility": {
     "minimum": "10",
     "verified": "11.305"
@@ -37,6 +37,24 @@
       "type": "Actor",
       "system": "thosewhowander",
       "private": false,
+      "flags": {}
+    },
+    {
+      "name": "bestiary",
+      "label": "Bestiary",
+      "path": "packs/bestiary.db",
+      "type": "Actor",
+      "system": "thosewhowander",
+      "private": true,
+      "flags": {}
+    },
+    {
+      "name": "features",
+      "label": "Special Features",
+      "path": "packs/features.db",
+      "type": "Item",
+      "system": "thosewhowander",
+      "private": true,
       "flags": {}
     },
     {
