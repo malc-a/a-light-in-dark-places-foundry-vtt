@@ -151,7 +151,12 @@ export class ThoseWhoWanderActor extends Actor {
       changes['system.resistances.' + r + '.pool'] = dice;
     }
 
-    // Finally, update the actor itself
+    // Set up the data for the chat message
+    const chatData = { speaker: { actor: this.id, alias: this.name, token: this.token?.id, },
+		       content: game.i18n.localize("THOSEWHOWANDER.chat.refresh_pools") };
+
+    // Finally, send a chat message and update the actor itself
+    ChatMessage.create(chatData);
     return this.update(changes);
   }
 

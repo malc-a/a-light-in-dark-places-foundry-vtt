@@ -2,7 +2,7 @@
   "name": "those-who-wander",
   "title": "Those Who Wander",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "compatibility": {
     "minimum": "10",
     "verified": "11.305"

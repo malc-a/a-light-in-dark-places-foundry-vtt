@@ -27,6 +27,9 @@
       "no_bonus": "This item is not rollable",
       "no_dice": "No dice available to roll"
     },
+    "chat": {
+      "refresh_pools": "Rests for a moment, refreshing all pools"
+    },
     "rolls": {
       "resistance": "Resistance",
       "skill": "Skill",
