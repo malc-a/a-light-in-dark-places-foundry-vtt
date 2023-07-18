@@ -25,14 +25,14 @@
           </div>
         </div>
         {{/each}}
-        <button class="refresh-pools"><i class="fas fa-refresh"></i></button>
+        <button class="refresh-pools" title="{{localize "THOSEWHOWANDER.label.refresh_pools"}}"><i class="fas fa-refresh"></i></button>
       </div>
       <div class="misc grid grid-2col">
         <div class="actions-content flexrow flex-center flex-between">
           <label for="system.actions" class="resource-label">{{localize "THOSEWHOWANDER.label.actions"}}</label>
-          <button class="remove-action"><i class="fas fa-backward"></i></button>
+          <button class="remove-action" title="{{ localize "THOSEWHOWANDER.label.remove_action"}}"><i class="fas fa-backward"></i></button>
           <input type="text" name="system.actions" value="{{system.actions}}" data-dtype="Number" disabled />
-          <button class="add-action"><i class="fas fa-forward"></i></button>
+          <button class="add-action" title="{{ localize "THOSEWHOWANDER.label.add_action"}}"><i class="fas fa-forward"></i></button>
 	</div>
 	<div class="xp-content flexrow flex-center">
           <label for="system.xp" class="resource-label">{{localize "THOSEWHOWANDER.label.xp"}}</label>
