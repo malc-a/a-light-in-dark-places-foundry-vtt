@@ -1,8 +1,8 @@
 {
-  "name": "thosewhowander",
+  "name": "those-who-wander",
   "title": "Those Who Wander",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.4.4",
+  "version": "0.5.0",
   "compatibility": {
     "minimum": "10",
     "verified": "11.305"
@@ -16,15 +16,15 @@
 
     }
   ],
-  "esmodules": ["system/thosewhowander.mjs"],
-  "styles": ["css/thosewhowander.css"],
+  "esmodules": ["system/those-who-wander.mjs"],
+  "styles": ["css/those-who-wander.css"],
   "packs": [
     {
       "name": "documents",
       "label": "Documents",
       "path": "packs/documents.db",
       "type": "JournalEntry",
-      "system": "thosewhowander",
+      "system": "those-who-wander",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -36,7 +36,7 @@
       "label": "Archetypes",
       "path": "packs/archetypes.db",
       "type": "Actor",
-      "system": "thosewhowander",
+      "system": "those-who-wander",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -49,7 +49,7 @@
       "label": "Bestiary",
       "path": "packs/bestiary.db",
       "type": "Actor",
-      "system": "thosewhowander",
+      "system": "those-who-wander",
       "ownership": {
         "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
@@ -61,7 +61,7 @@
       "label": "Special Features",
       "path": "packs/features.db",
       "type": "Item",
-      "system": "thosewhowander",
+      "system": "those-who-wander",
       "ownership": {
         "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
@@ -73,7 +73,7 @@
       "label": "Gear",
       "path": "packs/gear.db",
       "type": "Item",
-      "system": "thosewhowander",
+      "system": "those-who-wander",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -85,7 +85,7 @@
       "label": "Languages",
       "path": "packs/languages.db",
       "type": "Item",
-      "system": "thosewhowander",
+      "system": "those-who-wander",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -97,7 +97,7 @@
       "label": "Problems",
       "path": "packs/problems.db",
       "type": "Item",
-      "system": "thosewhowander",
+      "system": "those-who-wander",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -109,7 +109,7 @@
       "label": "Skills",
       "path": "packs/skills.db",
       "type": "Item",
-      "system": "thosewhowander",
+      "system": "those-who-wander",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -121,7 +121,7 @@
       "label": "Schools of Magic",
       "path": "packs/schools.db",
       "type": "Item",
-      "system": "thosewhowander",
+      "system": "those-who-wander",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -133,7 +133,7 @@
       "label": "Spells",
       "path": "packs/spells.db",
       "type": "Item",
-      "system": "thosewhowander",
+      "system": "those-who-wander",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -145,7 +145,7 @@
       "label": "Talents",
       "path": "packs/talents.db",
       "type": "Item",
-      "system": "thosewhowander",
+      "system": "those-who-wander",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"

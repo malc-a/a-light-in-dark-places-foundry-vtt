@@ -7,7 +7,7 @@ export class ThoseWhoWanderItemSheet extends ItemSheet {
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ["thosewhowander", "sheet", "item"],
+      classes: ["those-who-wander", "sheet", "item"],
       width: 350,
       height: 400,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description" }]
@@ -16,7 +16,7 @@ export class ThoseWhoWanderItemSheet extends ItemSheet {
 
   /** @override */
   get template() {
-    const path = "systems/thosewhowander/templates/item";
+    const path = "systems/those-who-wander/templates/item";
 
     // Return the location of the specific item template
     return `${path}/item-${this.item.type}-sheet.html`;

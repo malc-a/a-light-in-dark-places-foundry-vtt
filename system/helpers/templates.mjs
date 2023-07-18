@@ -7,13 +7,13 @@
   return loadTemplates([
 
     // Actor tabs
-    "systems/thosewhowander/templates/actor/tabs/actor-main.html",
-    "systems/thosewhowander/templates/actor/tabs/actor-magic.html",
-    "systems/thosewhowander/templates/actor/tabs/actor-gear.html",
-    "systems/thosewhowander/templates/actor/tabs/actor-other.html",
-    "systems/thosewhowander/templates/actor/tabs/actor-effects.html",
+    "systems/those-who-wander/templates/actor/tabs/actor-main.html",
+    "systems/those-who-wander/templates/actor/tabs/actor-magic.html",
+    "systems/those-who-wander/templates/actor/tabs/actor-gear.html",
+    "systems/those-who-wander/templates/actor/tabs/actor-other.html",
+    "systems/those-who-wander/templates/actor/tabs/actor-effects.html",
 
     // Chat and dialog templates
-    "systems/thosewhowander/templates/chat/roll-dialog.html",
+    "systems/those-who-wander/templates/chat/roll-dialog.html",
   ]);
 };

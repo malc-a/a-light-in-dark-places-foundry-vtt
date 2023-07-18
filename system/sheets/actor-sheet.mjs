@@ -10,8 +10,8 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ["thosewhowander", "sheet", "actor"],
-      template: "systems/thosewhowander/templates/actor/actor-sheet.html",
+      classes: ["those-who-wander", "sheet", "actor"],
+      template: "systems/those-who-wander/templates/actor/actor-sheet.html",
       width: 600,
       height: 600,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "main" }]
@@ -20,7 +20,7 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
 
   /** @override */
   get template() {
-    return `systems/thosewhowander/templates/actor/actor-${this.actor.type}-sheet.html`;
+    return `systems/those-who-wander/templates/actor/actor-${this.actor.type}-sheet.html`;
   }
 
   /* -------------------------------------------- */

@@ -41,9 +41,9 @@ Hooks.once('init', async function() {
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("thosewhowander", ThoseWhoWanderActorSheet, { makeDefault: true });
+  Actors.registerSheet("those-who-wander", ThoseWhoWanderActorSheet, { makeDefault: true });
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("thosewhowander", ThoseWhoWanderItemSheet, { makeDefault: true });
+  Items.registerSheet("those-who-wander", ThoseWhoWanderItemSheet, { makeDefault: true });
 
   // Preload Handlebars templates.
   return preloadHandlebarsTemplates();

@@ -1,7 +1,7 @@
 // Define our own Combat Tracker Class
 export class ThoseWhoWanderCombatTracker extends CombatTracker {
   get template() {
-    return "systems/thosewhowander/templates/chat/combat-tracker.html";
+    return "systems/those-who-wander/templates/chat/combat-tracker.html";
   }
 
   async getData(options) {

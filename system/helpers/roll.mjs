@@ -16,7 +16,7 @@ export class ThoseWhoWanderRoll {
     skipDialog = false,
   } = {}) {
     let rolled = false;
-    const template = "systems/thosewhowander/templates/chat/roll-dialog.html";
+    const template = "systems/those-who-wander/templates/chat/roll-dialog.html";
 
     let dialogData = {
       dice: dice,
