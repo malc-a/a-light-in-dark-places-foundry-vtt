@@ -2,7 +2,7 @@
   "name": "those-who-wander",
   "title": "Those Who Wander",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "compatibility": {
     "minimum": "10",
     "verified": "11.305"
@@ -167,6 +167,6 @@
   "bugs": "https://github.com/malc-a/those-who-wander-foundry-vtt/issues",
   "license": "LICENSE.txt",
   "changelog": "https://github.com/malc-a/those-who-wander-foundry-vtt/RELEASES",
-  "manifest": "https://raw.githubusercontent.com/malc-a/those-who-wander-foundry-vtt/releases/latest/download/system.json",
-  "download": "https://raw.githubusercontent.com/malc-a/those-who-wander-foundry-vtt/releases/latest/download/those-who-wander.zip"
+  "manifest": "https://github.com/malc-a/those-who-wander-foundry-vtt/releases/latest/download/system.json",
+  "download": "https://github.com/malc-a/those-who-wander-foundry-vtt/releases/latest/download/those-who-wander.zip"
 }
