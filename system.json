@@ -2,7 +2,7 @@
   "name": "thosewhowander",
   "title": "Those Who Wander",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "compatibility": {
     "minimum": "10",
     "verified": "11.305"
@@ -16,8 +16,6 @@
 
     }
   ],
-  "bugs": "https://github.com/malc-a/thosewhowander/issues",
-
   "esmodules": ["system/thosewhowander.mjs"],
   "styles": ["css/thosewhowander.css"],
   "packs": [
@@ -27,7 +25,10 @@
       "path": "packs/documents.db",
       "type": "JournalEntry",
       "system": "thosewhowander",
-      "private": false,
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -36,6 +37,10 @@
       "path": "packs/archetypes.db",
       "type": "Actor",
       "system": "thosewhowander",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "private": false,
       "flags": {}
     },
@@ -45,7 +50,10 @@
       "path": "packs/bestiary.db",
       "type": "Actor",
       "system": "thosewhowander",
-      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -54,7 +62,10 @@
       "path": "packs/features.db",
       "type": "Item",
       "system": "thosewhowander",
-      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -63,7 +74,10 @@
       "path": "packs/gear.db",
       "type": "Item",
       "system": "thosewhowander",
-      "private": false,
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -72,7 +86,10 @@
       "path": "packs/languages.db",
       "type": "Item",
       "system": "thosewhowander",
-      "private": false,
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -81,7 +98,10 @@
       "path": "packs/problems.db",
       "type": "Item",
       "system": "thosewhowander",
-      "private": false,
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -90,7 +110,10 @@
       "path": "packs/skills.db",
       "type": "Item",
       "system": "thosewhowander",
-      "private": false,
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -99,7 +122,10 @@
       "path": "packs/schools.db",
       "type": "Item",
       "system": "thosewhowander",
-      "private": false,
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -108,7 +134,10 @@
       "path": "packs/spells.db",
       "type": "Item",
       "system": "thosewhowander",
-      "private": false,
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -117,7 +146,10 @@
       "path": "packs/talents.db",
       "type": "Item",
       "system": "thosewhowander",
-      "private": false,
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     }
   ],
@@ -130,9 +162,11 @@
   ],
   "gridDistance": 1.5,
   "gridUnits": "m",
-  "url": "https://github.com/malc-a/thosewhowander-foundryvtt",
-  "readme": "https://github.com/malc-a/thosewhowander-foundryvtt/blob/main/README.md",
+  "url": "https://github.com/malc-a/those-who-wander-foundry-vtt",
+  "readme": "https://github.com/malc-a/those-who-wander-foundry-vtt/blob/main/README.md",
+  "bugs": "https://github.com/malc-a/those-who-wander-foundry-vtt/issues",
   "license": "LICENSE.txt",
-  "changelog": "https://github.com/malc-a/thosewhowander-foundry-vtt/RELEASES",
-  "manifest": "https://raw.githubusercontent.com/malc-a/thosewhowander-foundryvtt/main/system.json"
+  "changelog": "https://github.com/malc-a/those-who-wander-foundry-vtt/RELEASES",
+  "manifest": "https://raw.githubusercontent.com/malc-a/those-who-wander-foundry-vtt/releases/latest/download/system.json",
+  "download": "https://raw.githubusercontent.com/malc-a/those-who-wander-foundry-vtt/releases/latest/download/those-who-wander.zip"
 }
