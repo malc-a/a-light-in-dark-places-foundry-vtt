@@ -17,36 +17,36 @@ import { THOSEWHOWANDER } from "./helpers/config.mjs";
 /* -------------------------------------------- */
 
 Hooks.once('init', async function() {
-  // Add utility classes to the global game object so that they're more easily
-  // accessible in global contexts.
-  game.thosewhowander = {
-    ThoseWhoWanderActor,
-    ThoseWhoWanderItem,
-  };
+    // Add utility classes to the global game object so that they're more easily
+    // accessible in global contexts.
+    game.thosewhowander = {
+        ThoseWhoWanderActor,
+        ThoseWhoWanderItem,
+    };
 
-  // Add custom constants for configuration.
-  CONFIG.THOSEWHOWANDER = THOSEWHOWANDER;
+    // Add custom constants for configuration.
+    CONFIG.THOSEWHOWANDER = THOSEWHOWANDER;
 
-  // Define custom Document classes
-  CONFIG.Actor.documentClass = ThoseWhoWanderActor;
-  CONFIG.Item.documentClass = ThoseWhoWanderItem;
+    // Define custom Document classes
+    CONFIG.Actor.documentClass = ThoseWhoWanderActor;
+    CONFIG.Item.documentClass = ThoseWhoWanderItem;
 
-  // Override the default status effects
-  CONFIG.statusEffects = THOSEWHOWANDER.statusEffects;
+    // Override the default status effects
+    CONFIG.statusEffects = THOSEWHOWANDER.statusEffects;
 
-  // Override the default combat tracker
-  CONFIG.Combat.documentClass = ThoseWhoWanderCombat;
-  CONFIG.Combatant.documentClass = ThoseWhoWanderCombatant;
-  CONFIG.ui.combat = ThoseWhoWanderCombatTracker;
+    // Override the default combat tracker
+    CONFIG.Combat.documentClass = ThoseWhoWanderCombat;
+    CONFIG.Combatant.documentClass = ThoseWhoWanderCombatant;
+    CONFIG.ui.combat = ThoseWhoWanderCombatTracker;
 
-  // Register sheet application classes
-  Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("those-who-wander", ThoseWhoWanderActorSheet, { makeDefault: true });
-  Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("those-who-wander", ThoseWhoWanderItemSheet, { makeDefault: true });
+    // Register sheet application classes
+    Actors.unregisterSheet("core", ActorSheet);
+    Actors.registerSheet("those-who-wander", ThoseWhoWanderActorSheet, { makeDefault: true });
+    Items.unregisterSheet("core", ItemSheet);
+    Items.registerSheet("those-who-wander", ThoseWhoWanderItemSheet, { makeDefault: true });
 
-  // Preload Handlebars templates.
-  return preloadHandlebarsTemplates();
+    // Preload Handlebars templates.
+    return preloadHandlebarsTemplates();
 });
 
 /* -------------------------------------------- */
@@ -55,17 +55,17 @@ Hooks.once('init', async function() {
 
 // If you need to add Handlebars helpers, here are a few useful examples:
 Handlebars.registerHelper('concat', function() {
-  var outStr = '';
-  for (var arg in arguments) {
-    if (typeof arguments[arg] != 'object') {
-      outStr += arguments[arg];
+    var outStr = '';
+    for (var arg in arguments) {
+        if (typeof arguments[arg] != 'object') {
+            outStr += arguments[arg];
+        }
     }
-  }
-  return outStr;
+    return outStr;
 });
 
 Handlebars.registerHelper('toLowerCase', function(str) {
-  return str.toLowerCase();
+    return str.toLowerCase();
 });
 
 /* -------------------------------------------- */
@@ -73,5 +73,5 @@ Handlebars.registerHelper('toLowerCase', function(str) {
 /* -------------------------------------------- */
 
 Hooks.once("ready", async function() {
-  // Include steps that must happen after Foundry is fully loaded here
+    // Include steps that must happen after Foundry is fully loaded here
 });

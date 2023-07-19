@@ -41,10 +41,10 @@
         "treasure": 0
       },
       "minion": {
-	"number": 2,
-	"threat": 1,
-	"dice": 2,
-	"injuries": 0
+        "number": 2,
+        "threat": 1,
+        "dice": 2,
+        "injuries": 0
       },
       "actions": {
         "speed": 1,
@@ -54,11 +54,11 @@
     "character": { "templates": ["social", "resistances", "abilities", "talents",
                                  "problems", "development", "gear", "actions"]},
     "minion": { "templates": ["resistances", "abilities", "minion", "talents",
-			      "actions", "treasure"] },
+                              "actions", "treasure"] },
     "menace": { "templates": ["resistances", "abilities", "talents",
-			      "gear", "actions", "treasure"] },
+                              "gear", "actions", "treasure"] },
     "master": { "templates": ["resistances", "abilities", "talents",
-			      "gear", "actions", "treasure"] }
+                              "gear", "actions", "treasure"] }
   },
   "Item": {
     "types": [
@@ -83,8 +83,8 @@
         "description": "",
         "school": "",
         "complexity": 1,
-	"range": "touch",
-	"duration": "instant"
+        "range": "touch",
+        "duration": "instant"
       },
       "talent": {
         "description": "",
@@ -113,13 +113,13 @@
       "weapon": {
         "description": "",
         "cost": 0,
-	"range": "reach",
+        "range": "reach",
         "bonus": "",
         "equipped": false
       },
       "attack": {
         "description": "",
-	"range": "reach",
+        "range": "reach",
         "bonus": ""
       }
     },

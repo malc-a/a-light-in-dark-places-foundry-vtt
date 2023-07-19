@@ -15,15 +15,15 @@
         {{/each}}
       </div>
       <div class="dice grid grid-3col">
-	<div class="number-content flexrow flex-center flex-between">
+        <div class="number-content flexrow flex-center flex-between">
           <label for="system.number" class="resource-label">{{localize "THOSEWHOWANDER.label.number"}}</label>
           <input type="text" name="system.number" value="{{system.number}}" data-dtype="Number"/>
         </div>
-	<div class="threat-content flexrow flex-center flex-between">
+        <div class="threat-content flexrow flex-center flex-between">
           <label for="system.threat" class="resource-label">{{localize "THOSEWHOWANDER.label.threat"}}</label>
           <input type="text" name="system.threat" value="{{system.threat}}" data-dtype="Number"/>
         </div>
-	<div class="dice-content flexrow flex-center flex-between">
+        <div class="dice-content flexrow flex-center flex-between">
           <label for="system.dice" class="resource-label rollable" data-roll-type="minion" data-roll-dice="{{system.dice}}">{{localize "THOSEWHOWANDER.label.dice"}}</label>
           <input type="text" name="system.dice" value="{{system.dice}}" data-dtype="Number" disabled />
           <input type="text" name="system.injuries" value="{{system.injuries}}" data-dtype="Number"/>
