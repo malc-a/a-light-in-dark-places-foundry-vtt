@@ -123,6 +123,11 @@ export class ThoseWhoWanderActor extends Actor {
      * Restore all pools for this actor to their maximum value
      */
     refreshPools() {
+	// If the actor is a minion then there are no pools to refresh
+	if (this.type === 'minion') {
+	    return;
+	}
+
         // Build the update to apply
         let changes = {};
 
@@ -131,7 +136,7 @@ export class ThoseWhoWanderActor extends Actor {
             // Default the pool to the number of dice in the resistance
             let dice = v.dice
 
-            // Get the label of the pool to chek for bonuses
+            // Get the label of the pool to check for bonuses
             let resistance = game.i18n.localize(CONFIG.THOSEWHOWANDER.pools[r]);
 
             // Calculate the bonus from talents, features, attacks, gear and weapons
