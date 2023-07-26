@@ -5,6 +5,7 @@ import { ThoseWhoWanderItem } from "./documents/item.mjs";
 // Import sheet classes.
 import { ThoseWhoWanderActorSheet } from "./sheets/actor-sheet.mjs";
 import { ThoseWhoWanderItemSheet } from "./sheets/item-sheet.mjs";
+import { ThoseWhoWanderJournalSheet } from "./sheets/journal-sheet.mjs";
 
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
@@ -44,6 +45,12 @@ Hooks.once('init', async function() {
     Actors.registerSheet("those-who-wander", ThoseWhoWanderActorSheet, { makeDefault: true });
     Items.unregisterSheet("core", ItemSheet);
     Items.registerSheet("those-who-wander", ThoseWhoWanderItemSheet, { makeDefault: true });
+    Journal.unregisterSheet("core", JournalSheet);
+    Journal.registerSheet("those-who-wander", ThoseWhoWanderJournalSheet, {
+        label: () => game.i18n.format("SHEETS.DefaultDocumentSheet",
+				      { document: game.i18n.localize("DOCUMENT.JournalEntry") }),
+        makeDefault: true,
+    });
 
     // Preload Handlebars templates.
     return preloadHandlebarsTemplates();

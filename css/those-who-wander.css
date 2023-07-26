@@ -1,9 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-/* Global styles */
-.window-app {
-  font-family: "Roboto", sans-serif;
+/* Set up the required fonts */
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/LibreBaskerville-Regular.ttf);
+}
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/LibreBaskerville-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/LibreBaskerville-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: Carolingia;
+    src: url(../fonts/Carolingia.ttf);
 }
 
+/* Global styles */
 .rollable:hover, .rollable:focus {
   color: #000;
   text-shadow: 0 0 10px red;
@@ -128,15 +143,14 @@
 }
 
 /* Styles limited to those-who-wander sheets */
-.those-who-wander {
-  /* ----------------------------------------- */
-  /*  Items Lists                              */
-  /* ----------------------------------------- */
-  /* Example style for Those Who Wander (can be removed if not needed) */
+/* Use a custom background and font for all sheets */
+.those-who-wander.sheet.journal-entry .journal-entry-content,
+.those-who-wander .window-content {
+  background-image: url('../assets/sheets/background.webp');
+  font-family: "Libre Baskerville", sans-serif;
 }
-.those-who-wander .item-form {
-  font-family: "Roboto", sans-serif;
-}
+
+/* Customise the sheet header */
 .those-who-wander .sheet-header {
   -webkit-box-flex: 0;
   -ms-flex: 0 auto;
@@ -179,6 +193,54 @@
   height: 100%;
   margin: 0;
 }
+.those-who-wander .sheet-header .refresh-pools {
+  width: 30px;
+  height: 30px;
+  border: 2px groove #50B050;
+  border-radius: 2px;
+  text-align: center;
+  padding: 0px 2px;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+}
+.those-who-wander .sheet-header .refresh-pools:hover {
+  background-color: #50B050;
+  color: white;
+}
+.those-who-wander .sheet-header .refresh-pools:active {
+  background-color: #50B050;
+  color: white;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+  transform: translate(1px, 1px);
+}
+.those-who-wander .sheet-header .remove-action,
+.those-who-wander .sheet-header .add-action,
+.those-who-wander .sheet-header .increase-speed,
+.those-who-wander .sheet-header .decrease-speed {
+  width: 30px;
+  height: 30px;
+  border: 2px groove #5050B0;
+  border-radius: 2px;
+  text-align: center;
+  padding: 0px 2px;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+}
+.those-who-wander .sheet-header .remove-action:hover,
+.those-who-wander .sheet-header .add-action:hover,
+.those-who-wander .sheet-header .increase-speed:hover,
+.those-who-wander .sheet-header .decrease-speed:hover {
+  background-color: #5050B0;
+  color: white;
+}
+.those-who-wander .sheet-header .remove-action:active,
+.those-who-wander .sheet-header .add-action:active,
+.those-who-wander .sheet-header .increase-speed:active,
+.those-who-wander .sheet-header .decrease-speed:active {
+  background-color: #5050B0;
+  color: white;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+  transform: translate(1px, 1px);
+}
+
 .those-who-wander .sheet-tabs {
   -webkit-box-flex: 0;
   -ms-flex: 0;
@@ -190,12 +252,14 @@
   height: 100%;
 }
 .those-who-wander .tox .tox-editor-container {
-  background: #fff;
+  background-image: url('../../../ui/parchment.jpg');
 }
 .those-who-wander .tox .tox-edit-area {
   padding: 0 8px;
 }
 .those-who-wander .resource-label {
+  text-align: left;
+  margin: auto;
   font-weight: bold;
 }
 .those-who-wander .items-header {
@@ -205,7 +269,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(80, 80, 80, 0.80);
   border: 2px groove #eeede0;
   font-weight: bold;
 }
