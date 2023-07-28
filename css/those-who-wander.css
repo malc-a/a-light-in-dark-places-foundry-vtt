@@ -1,4 +1,6 @@
+/*****************************/
 /* Set up the required fonts */
+/*****************************/
 @font-face {
     font-family: Libre Baskerville;
     src: url(../fonts/LibreBaskerville-Regular.ttf);
@@ -18,15 +20,18 @@
     src: url(../fonts/Carolingia.ttf);
 }
 
+/*****************/
 /* Global styles */
+/*****************/
+/* Highlight rollable items in red when hovered */
 .rollable:hover, .rollable:focus {
   color: #000;
   text-shadow: 0 0 10px red;
   cursor: pointer;
 }
 
-.grid,
-.grid-2col {
+/* Set up a 2-column grid format */
+.two-column {
   display: grid;
   grid-column: span 2/span 2;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -35,43 +40,34 @@
   padding: 0;
 }
 
+/* Set up a 6-column grid format */
+.six-column {
+  display: grid;
+  grid-column: span 6/span 6;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 3px;
+  margin: 3px 0;
+  padding: 0;
+}
+
+/* Set up 3- and 4-column grid formats */
+.grid {
+  display: grid;
+  gap: 3px;
+  margin: 3px 0;
+  padding: 0;
+}
 .grid-3col {
   grid-column: span 3/span 3;
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
-
 .grid-4col {
   grid-column: span 4/span 4;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.grid-start-2 {
-  grid-column-start: 2;
-}
-
-.grid-start-3 {
-  grid-column-start: 3;
-}
-
-.grid-start-4 {
-  grid-column-start: 4;
-}
-
-.grid-span-2 {
-  grid-column-end: span 2;
-}
-
-.grid-span-3 {
-  grid-column-end: span 3;
-}
-
-.grid-span-4 {
-  grid-column-end: span 4;
-}
-
-.flex-group-center,
-.flex-group-left,
-.flex-group-right {
+/* Extensions to the Foundry VTT flexrow/flexcol classes */
+.flex-group-center {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -80,53 +76,25 @@
   align-items: center;
   text-align: center;
 }
-
-.flex-group-left {
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  text-align: left;
-}
-
-.flex-group-right {
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  text-align: right;
-}
-
-.flexshrink {
-  -webkit-box-flex: 0;
-  -ms-flex: 0;
-  flex: 0;
-}
-
 .flex-between {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
-.flexlarge {
-  -webkit-box-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
-}
-
+/* Set alignment on a specific element */
 .align-left {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
   text-align: left;
 }
-
 .align-right {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
   text-align: right;
 }
-
 .align-center {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -134,7 +102,10 @@
   text-align: center;
 }
 
+/*****************************************/
 /* Styles used in combat tracker entries */
+/*****************************************/
+/* Set the appearance of the buttons to handle actions */
 .combat-sidebar li.combatant .token-actions {
   color: var(--color-text-light-2);
   flex: 0 0 32px;
@@ -142,7 +113,9 @@
   border-right: 1px solid var(--color-border-dark-2);
 }
 
+/*********************************************/
 /* Styles limited to those-who-wander sheets */
+/*********************************************/
 /* Use a custom background and font for all sheets */
 .those-who-wander.sheet.journal-entry .journal-entry-content,
 .those-who-wander .window-content {
@@ -170,6 +143,8 @@
   justify-content: flex-start;
   margin-bottom: 10px;
 }
+
+/* Customise individual elements of the sheet header */
 .those-who-wander .sheet-header .profile-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 112px;
@@ -192,6 +167,11 @@
   width: 100%;
   height: 100%;
   margin: 0;
+}
+.those-who-wander .sheet-header .resource-label {
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
 }
 .those-who-wander .sheet-header .refresh-pools {
   width: 30px;
@@ -241,27 +221,26 @@
   transform: translate(1px, 1px);
 }
 
+/* Customise the sheet tabs */
 .those-who-wander .sheet-tabs {
   -webkit-box-flex: 0;
   -ms-flex: 0;
   flex: 0;
 }
+
+/* Customise the sheet body */
 .those-who-wander .sheet-body,
 .those-who-wander .sheet-body .tab,
 .those-who-wander .sheet-body .tab .editor {
   height: 100%;
 }
-.those-who-wander .tox .tox-editor-container {
-  background-image: url('../../../ui/parchment.jpg');
-}
-.those-who-wander .tox .tox-edit-area {
-  padding: 0 8px;
-}
-.those-who-wander .resource-label {
-  text-align: left;
+.those-who-wander .sheet-body .resource-label {
+  text-align: center;
   margin: auto;
   font-weight: bold;
 }
+
+/* Customise item lists in the sheet */
 .those-who-wander .items-header {
   height: 28px;
   margin: 2px 0;
@@ -284,6 +263,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.those-who-wander .two-column > .items-header {
+    grid-column-end: span 2;
 }
 .those-who-wander .items-list {
   list-style: none;
@@ -381,12 +363,8 @@
   padding-left: 5px;
   text-align: left;
 }
-.those-who-wander .item-formula {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 200px;
-  flex: 0 0 200px;
-  padding: 0 8px;
-}
+
+/* Configure the effects tab */
 .those-who-wander .effects .item .effect-source,
 .those-who-wander .effects .item .effect-duration,
 .those-who-wander .effects .item .effect-controls {
@@ -397,4 +375,12 @@
 }
 .those-who-wander .effects .item .effect-controls {
   border: none;
+}
+
+/* Configure the TinyMCE editor */
+.those-who-wander .tox .tox-editor-container {
+  background-image: url('../../../ui/parchment.jpg');
+}
+.those-who-wander .tox .tox-edit-area {
+  padding: 0 8px;
 }

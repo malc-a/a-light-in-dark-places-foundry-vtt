@@ -8,11 +8,11 @@
       </div>
     </li>
     {{#each passions as |item id|}}
-    <li class="item flexrow" data-item-id="{{item._id}}">
-      <div class="item-details grid grid-3col">
-        <img src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
-        <span class="flex0">&#160;&#160</span>
-        <h4>{{item.name}}</h4>
+    <li class="item flexrow flex-between" data-item-id="{{item._id}}">
+      <div class="item-details flexrow flex-between" data-roll-type="spell" data-label="{{item.name}}">
+	<img class="flex0" src="{{item.img}}" title="{{item.name}}" width="24" height="24"/>
+	<span class="flex0">&#160;&#160</span>
+	<h4>{{item.name}}</h4>
       </div>
       <div class="item-controls">
         <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_passion"}}"><i class="fas fa-edit"></i></a>
