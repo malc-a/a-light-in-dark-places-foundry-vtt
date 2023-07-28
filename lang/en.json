@@ -10,6 +10,11 @@
       "focus": "Focus",
       "will": "Will"
     },
+    "minion": {
+      "number": "Number",
+      "threat": "Threat",
+      "dice": "Dice"
+    },
     "status": {
       "dying": "Dying"
     },
@@ -83,7 +88,7 @@
       "duration": "Duration",
       "bonus": "Bonus",
       "cost": "Cost",
-      "xp": "Experience",
+      "xp": "XP",
       "wealth": "Wealth",
       "treasure": "Treasure",
       "equipped": "Equipped",
