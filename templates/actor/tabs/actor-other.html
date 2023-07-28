@@ -4,7 +4,7 @@
     <li class="item flexrow items-header">
       <div class="item-name">{{localize "THOSEWHOWANDER.label.passions"}}</div>
       <div class="item-controls">
-        <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.label.add_passion"}}" data-type="passion"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_passion"}}</a>
+        <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.tooltip.add_passion"}}" data-type="passion"><i class="fas fa-plus"></i> {{localize "THOSEWHOWANDER.label.add_passion"}}</a>
       </div>
     </li>
     {{#each passions as |item id|}}
@@ -15,8 +15,8 @@
 	<h4>{{item.name}}</h4>
       </div>
       <div class="item-controls">
-        <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.label.edit_passion"}}"><i class="fas fa-edit"></i></a>
-        <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.label.delete_passion"}}"><i class="fas fa-trash"></i></a>
+        <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.tooltip.edit_passion"}}"><i class="fas fa-edit"></i></a>
+        <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.tooltip.delete_passion"}}"><i class="fas fa-trash"></i></a>
       </div>
     </li>
     {{/each}}

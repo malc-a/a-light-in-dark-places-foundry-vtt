@@ -48,7 +48,7 @@
       },
       "actions": {
         "speed": 1,
-        "actions": 0
+        "actions": 1
       }
     },
     "character": { "templates": ["social", "resistances", "abilities", "talents",

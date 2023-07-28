@@ -26,15 +26,15 @@
 	{{!-- These elements should individually line up to the 5-column format --}}
         <label for="system.speed" class="resource-label">{{localize "THOSEWHOWANDER.label.speed"}}</label>
         <div class="speed-controls flexrow flex-center flex-between">
-          <button class="decrease-speed" title="{{localize "THOSEWHOWANDER.label.decrease_speed"}}"><i class="fas fa-backward"></i></button>
+          <button class="decrease-speed" title="{{localize "THOSEWHOWANDER.tooltip.decrease_speed"}}"><i class="fas fa-backward"></i></button>
           <input type="text" name="system.speed" value="{{system.speed}}" data-dtype="Number" disabled />
-          <button class="increase-speed" title="{{localize "THOSEWHOWANDER.label.increase_speed"}}"><i class="fas fa-forward"></i></button>
+          <button class="increase-speed" title="{{localize "THOSEWHOWANDER.tooltip.increase_speed"}}"><i class="fas fa-forward"></i></button>
         </div>
         <label for="system.actions" class="resource-label">{{localize "THOSEWHOWANDER.label.actions"}}</label>
         <div class="actions-controls flexrow flex-group-center flex-between">
-	  <button class="remove-action flex0" title="{{ localize "THOSEWHOWANDER.label.remove_action"}}"><i class="fas fa-backward"></i></button>
+	  <button class="remove-action flex0" title="{{ localize "THOSEWHOWANDER.tooltip.remove_action"}}"><i class="fas fa-backward"></i></button>
           <input type="text" name="system.actions" value="{{system.actions}}" data-dtype="Number" disabled />
-          <button class="add-action flex0" title="{{ localize "THOSEWHOWANDER.label.add_action"}}"><i class="fas fa-forward"></i></button>
+          <button class="add-action flex0" title="{{ localize "THOSEWHOWANDER.tooltip.add_action"}}"><i class="fas fa-forward"></i></button>
 	</div>
 	<span></span>
       </div>
