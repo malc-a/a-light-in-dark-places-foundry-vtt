@@ -132,8 +132,10 @@
 .those-who-wander .sheet-header .profile-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 112px;
-  flex: 0 0 112px;
-  height: 170px;
+  flex: 0 0 20%;
+  align-self: flex-start;
+  width: 20%;
+  height: auto;
   margin-right: 10px;
 }
 .those-who-wander .sheet-header .header-fields {
