@@ -81,7 +81,6 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
         const schools = [];
         const spells = [];
         const talents = [];
-        const passions = [];
         const problems = [];
         const languages = [];
         const gear = [];
@@ -103,8 +102,6 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
                 gear.push(i);
             } else if (i.type === 'weapon') { // Weapons
                 gear.push(i);
-            } else if (pc && i.type === 'passion') { // Passion
-                passions.push(i);
             } else if (pc && i.type === 'problem') { // Problem
                 problems.push(i);
             } else if (!pc && i.type === 'feature') { // Special Feature
@@ -119,7 +116,6 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
         context.schools = schools;
         context.spells = spells;
         context.talents = talents;
-        context.passions = passions;
         context.problems = problems;
         context.languages = languages;
         context.gear = gear;

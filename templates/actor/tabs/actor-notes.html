@@ -1,0 +1,11 @@
+{{#if (eq actor.type "character")}}
+<div class="passions">
+  <div class="section-header">{{localize "THOSEWHOWANDER.label.passions"}}</div>
+  {{#each system.passions}}
+  <input class="passion" type="text" name="system.passions.{{@index}}" value="{{this}}"/>
+  {{/each}}
+</div>
+{{/if}}
+<div class="section-header">{{localize "THOSEWHOWANDER.label.notes"}}</div>
+{{!-- If you want TinyMCE editors to output inline rolls when rendered, you need to pass the actor's roll data to the rollData property. --}}
+{{editor system.description target="system.description" rollData=rollData button=true owner=owner editable=editable}}

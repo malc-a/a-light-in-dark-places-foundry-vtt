@@ -62,13 +62,14 @@
       "schools": "Schools of Magic",
       "spells": "Spells",
       "passions": "Passions",
+      "notes": "Notes",
       "speed": "Speed",
       "minion": "Minion Dice",
 
       "main": "Main",
       "magic": "Magic",
       "gear": "Gear",
-      "other": "Other",
+      "notes": "Notes",
       "effects": "Effects",
 
       "description": "Description",
@@ -93,7 +94,6 @@
       "add_school": "Add",
       "add_spell": "Add",
       "add_item": "Add",
-      "add_passion": "Add",
       "add_effect": "Add"
     },
     "tooltip": {
@@ -128,9 +128,6 @@
       "equipped": "Equip Item",
       "edit_item": "Edit Item",
       "delete_item": "Delete Item",
-      "add_passion": "Add Passion",
-      "edit_passion": "Edit Passion",
-      "delete_passion": "Delete Passion",
       "add_effect": "Add Effect",
       "toggle_effect": "Toggle Effect",
       "delete_effect": "Delete Effect"

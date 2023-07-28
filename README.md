@@ -5,4 +5,4 @@
 
 This system supports Those Who Wander, a rules-light system for running Fantasy adventures in a broad range of settings.
 
-At the moment the system is very much a work in progress. Most of the core functionality is in place, but there is almost no automation (it's pretty much a character sheet and dice roller), and the user interface is horrible. No attention has been paid to making it look good, just getting the core functionality to work well enough to playtest the game itself.
+At the moment the system is very much a work in progress. Most of the core functionality is in place, but there is almost no automation (it's pretty much just a character sheet and dice roller), and the user interface is still in development; it's usable but not as attractive as it could be.

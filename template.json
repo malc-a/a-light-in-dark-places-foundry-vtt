@@ -9,7 +9,7 @@
     "templates": {
       "social": {
         "concept": "",
-        "passions": {}
+        "passions": { "0": "", "1": "", "2": "" }
       },
       "resistances": {
         "resistances": {
@@ -67,7 +67,6 @@
       "spell",
       "talent",
       "feature",
-      "passion",
       "problem",
       "language",
       "gear",
@@ -93,9 +92,6 @@
       "feature": {
         "description": "",
         "bonus": ""
-      },
-      "passion": {
-        "description": ""
       },
       "problem": {
         "description": ""
@@ -126,7 +122,6 @@
     "skill": { "templates": ["ability"] },
     "school": { "templates": ["ability"] },
     "spell": { "templates": ["spell"] },
-    "passion": { "templates": ["passion"] },
     "talent": { "templates": ["talent"] },
     "feature": { "templates": ["feature"] },
     "problem": { "templates": ["problem"] },

@@ -10,7 +10,7 @@ export const preloadHandlebarsTemplates = async function() {
         "systems/those-who-wander/templates/actor/tabs/actor-main.html",
         "systems/those-who-wander/templates/actor/tabs/actor-magic.html",
         "systems/those-who-wander/templates/actor/tabs/actor-gear.html",
-        "systems/those-who-wander/templates/actor/tabs/actor-other.html",
+        "systems/those-who-wander/templates/actor/tabs/actor-notes.html",
         "systems/those-who-wander/templates/actor/tabs/actor-effects.html",
 
         // Chat and dialog templates
