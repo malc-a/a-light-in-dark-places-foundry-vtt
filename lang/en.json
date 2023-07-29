@@ -52,7 +52,7 @@
       "name": "Name",
       "concept": "Concept",
       "resistances": "Resistances",
-      "refresh_pools": "Refresh Pools",
+      "injuries": "Injuries",
       "actions": "Actions",
       "skills": "Skills",
       "talents": "Talents",
@@ -97,11 +97,15 @@
       "add_effect": "Add"
     },
     "tooltip": {
-      "refresh_pools": "Refresh All Pools",
       "add_action": "Add Action",
       "remove_action": "Remove Action",
       "increase_speed": "Increase Speed",
       "decrease_speed": "Decrease Speed",
+      "increase_pool": "Increase Pool",
+      "decrease_pool": "Decrease Pool",
+      "increase_injuries": "Increase Injuries",
+      "decrease_injuries": "Decrease Injuries",
+      "refresh_pools": "Refresh All Pools",
 
       "add_skill": "Add Skill",
       "edit_skill": "Edit Skill",
