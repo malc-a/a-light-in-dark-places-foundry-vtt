@@ -25,65 +25,65 @@
 /*****************/
 /* Highlight rollable items in red when hovered */
 .rollable:hover, .rollable:focus {
-  color: #000;
-  text-shadow: 0 0 10px red;
-  cursor: pointer;
+    color: #000;
+    text-shadow: 0 0 10px red;
+    cursor: pointer;
 }
 
 /* Set up a 2-column grid format for item lists */
 .two-column {
-  display: grid;
-  grid-column: span 2/span 2;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 3px;
-  margin: 3px 0;
-  padding: 0;
+    display: grid;
+    grid-column: span 2/span 2;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 3px;
+    margin: 3px 0;
+    padding: 0;
 }
 
 /* Set up a 5-column grid format for the header details */
 .five-column {
-  display: grid;
-  grid-column: span 5/span 5;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 3px;
-  margin: 3px 0;
-  padding: 0;
+    display: grid;
+    grid-column: span 5/span 5;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 3px;
+    margin: 3px 0;
+    padding: 0;
 }
 
 /* Extensions to the Foundry VTT flexrow/flexcol classes */
 .flex-group-center {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
 }
 .flex-between {
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 /* Set alignment on a specific element */
 .align-left {
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  text-align: left;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    text-align: left;
 }
 .align-right {
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  text-align: right;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    text-align: right;
 }
 .align-center {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /*****************************************/
@@ -91,10 +91,10 @@
 /*****************************************/
 /* Set the appearance of the buttons to handle actions */
 .combat-sidebar li.combatant .token-actions {
-  color: var(--color-text-light-2);
-  flex: 0 0 32px;
-  text-align: center;
-  border-right: 1px solid var(--color-border-dark-2);
+    color: var(--color-text-light-2);
+    flex: 0 0 32px;
+    text-align: center;
+    border-right: 1px solid var(--color-border-dark-2);
 }
 
 /*********************************************/
@@ -103,299 +103,299 @@
 /* Use a custom background and font for all sheets */
 .those-who-wander.sheet.journal-entry .journal-entry-content,
 .those-who-wander .window-content {
-  background-image: url('../assets/sheets/background.webp');
-  font-family: "Libre Baskerville", sans-serif;
+    background-image: url('../assets/sheets/background.webp');
+    font-family: "Libre Baskerville", sans-serif;
 }
 
 /* Customise the font for journal entry page headers */
 .those-who-wander.sheet.journal-entry .journal-entry-content .title {
-  font-family: "Carolingia", serif;
-  color: #ef3f23;
+    font-family: "Carolingia", serif;
+    color: #ef3f23;
 }
 .those-who-wander.sheet.journal-entry .journal-entry-content .journal-page-header {
-  font-family: "Carolingia", serif;
+    font-family: "Carolingia", serif;
 }
 
 /* Make the page numbers in the Journal Entry page directory invisible */
 .those-who-wander.sheet.journal-entry .pages-list .page-heading .page-number {
-  color: transparent;
+    color: transparent;
 }
 
 /* Customise the sheet header */
 .those-who-wander .sheet-header {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  margin-bottom: 10px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
 }
 
 /* Customise individual elements of the sheet header */
 .those-who-wander .sheet-header .profile-img {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 112px;
-  flex: 0 0 20%;
-  align-self: flex-start;
-  width: 20%;
-  height: auto;
-  margin-right: 10px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 112px;
+    flex: 0 0 20%;
+    align-self: flex-start;
+    width: 20%;
+    height: auto;
+    margin-right: 10px;
 }
 .those-who-wander .sheet-header .header-fields {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 .those-who-wander .sheet-header h1.charname {
-  height: 50px;
-  padding: 0px;
-  margin: 5px 0;
-  border-bottom: 0;
+    height: 50px;
+    padding: 0px;
+    margin: 5px 0;
+    border-bottom: 0;
 }
 .those-who-wander .sheet-header h1.charname input {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 .those-who-wander .sheet-header .resource-label {
-  text-align: center;
-  margin: auto;
-  font-weight: bold;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
 }
 .those-who-wander .sheet-header .refresh-pools {
-  width: 100%;
-  height: 30px;
-  border: 2px groove #50B050;
-  border-radius: 2px;
-  text-align: center;
-  padding: 0px 2px;
-  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+    width: 100%;
+    height: 30px;
+    border: 2px groove #50B050;
+    border-radius: 2px;
+    text-align: center;
+    padding: 0px 2px;
+    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
 }
 .those-who-wander .sheet-header .refresh-pools:hover {
-  background-color: #50B050;
-  color: white;
+    background-color: #50B050;
+    color: white;
 }
 .those-who-wander .sheet-header .refresh-pools:active {
-  background-color: #50B050;
-  color: white;
-  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
-  transform: translate(1px, 1px);
+    background-color: #50B050;
+    color: white;
+    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+    transform: translate(1px, 1px);
 }
 .those-who-wander .sheet-header .remove-action,
 .those-who-wander .sheet-header .add-action,
 .those-who-wander .sheet-header .increase-speed,
 .those-who-wander .sheet-header .decrease-speed {
-  width: 30px;
-  height: 30px;
-  border: 2px groove #5050B0;
-  border-radius: 2px;
-  text-align: center;
-  padding: 0px 2px;
-  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+    width: 30px;
+    height: 30px;
+    border: 2px groove #5050B0;
+    border-radius: 2px;
+    text-align: center;
+    padding: 0px 2px;
+    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
 }
 .those-who-wander .sheet-header .remove-action:hover,
 .those-who-wander .sheet-header .add-action:hover,
 .those-who-wander .sheet-header .increase-speed:hover,
 .those-who-wander .sheet-header .decrease-speed:hover {
-  background-color: #5050B0;
-  color: white;
+    background-color: #5050B0;
+    color: white;
 }
 .those-who-wander .sheet-header .remove-action:active,
 .those-who-wander .sheet-header .add-action:active,
 .those-who-wander .sheet-header .increase-speed:active,
 .those-who-wander .sheet-header .decrease-speed:active {
-  background-color: #5050B0;
-  color: white;
-  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
-  transform: translate(1px, 1px);
+    background-color: #5050B0;
+    color: white;
+    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+    transform: translate(1px, 1px);
 }
 
 /* Customise the sheet tabs */
 .those-who-wander .sheet-tabs {
-  -webkit-box-flex: 0;
-  -ms-flex: 0;
-  flex: 0;
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
 }
 
 /* Customise the sheet body */
 .those-who-wander .sheet-body,
 .those-who-wander .sheet-body .tab,
 .those-who-wander .sheet-body .tab .editor {
-  height: 100%;
+    height: 100%;
 }
 .those-who-wander .sheet-body .resource-label {
-  text-align: center;
-  margin: auto;
-  font-weight: bold;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
 }
 .those-who-wander .sheet-body .section-header {
-  height: 28px;
-  margin: 2px 0;
-  padding: 0;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.05);
-  border: 2px groove #eeede0;
-  font-weight: bold;
+    height: 28px;
+    margin: 2px 0;
+    padding: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px groove #eeede0;
+    font-weight: bold;
 }
 .those-who-wander .sheet-body .passion {
-  background: rgba(0, 0, 0, 0.03);
+    background: rgba(0, 0, 0, 0.03);
 }
 
 /* Customise item lists in the sheet */
 .those-who-wander .items-header {
-  height: 28px;
-  margin: 2px 0;
-  padding: 0;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(80, 80, 80, 0.80);
-  border: 2px groove #eeede0;
-  font-weight: bold;
+    height: 28px;
+    margin: 2px 0;
+    padding: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgba(80, 80, 80, 0.80);
+    border: 2px groove #eeede0;
+    font-weight: bold;
 }
 .those-who-wander .items-header > * {
-  font-size: 14px;
-  text-align: center;
+    font-size: 14px;
+    text-align: center;
 }
 .those-who-wander .items-header .item-name {
-  font-weight: bold;
-  padding-left: 5px;
-  text-align: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    font-weight: bold;
+    padding-left: 5px;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 .those-who-wander .two-column > .items-header {
     grid-column-end: span 2;
 }
 .those-who-wander .items-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow-y: auto;
-  scrollbar-width: thin;
-  color: #444;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    color: #444;
 }
 .those-who-wander .items-list .item-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .those-who-wander .items-list .item-name {
-  -webkit-box-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
-  margin: 0;
-  overflow: hidden;
-  font-size: 13px;
-  text-align: left;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    margin: 0;
+    overflow: hidden;
+    font-size: 13px;
+    text-align: left;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 .those-who-wander .items-list .item-name h3, .those-who-wander .items-list .item-name h4 {
-  margin: 0;
-  white-space: nowrap;
-  overflow-x: hidden;
+    margin: 0;
+    white-space: nowrap;
+    overflow-x: hidden;
 }
 .those-who-wander .items-list .item-controls {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 100px;
-  flex: 0 0 100px;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100px;
+    flex: 0 0 100px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
 }
 .those-who-wander .items-list .item-controls a {
-  font-size: 12px;
-  text-align: center;
-  margin: 0 6px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 6px;
 }
 .those-who-wander .items-list .item {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 0 2px;
-  border-bottom: 1px solid #c9c7b8;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 2px;
+    border-bottom: 1px solid #c9c7b8;
 }
 .those-who-wander .items-list .item:last-child {
-  border-bottom: none;
+    border-bottom: none;
 }
 .those-who-wander .items-list .item .item-name {
-  color: #191813;
+    color: #191813;
 }
 .those-who-wander .items-list .item .item-name .item-image {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 30px;
-  flex: 0 0 30px;
-  height: 30px;
-  background-size: 30px;
-  border: none;
-  margin-right: 5px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30px;
+    flex: 0 0 30px;
+    height: 30px;
+    background-size: 30px;
+    border: none;
+    margin-right: 5px;
 }
 .those-who-wander .items-list .item-prop {
-  text-align: center;
-  border-left: 1px solid #c9c7b8;
-  border-right: 1px solid #c9c7b8;
-  font-size: 12px;
+    text-align: center;
+    border-left: 1px solid #c9c7b8;
+    border-right: 1px solid #c9c7b8;
+    font-size: 12px;
 }
 .those-who-wander .items-list .items-header {
-  height: 28px;
-  margin: 2px 0;
-  padding: 0;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.05);
-  border: 2px groove #eeede0;
-  font-weight: bold;
+    height: 28px;
+    margin: 2px 0;
+    padding: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px groove #eeede0;
+    font-weight: bold;
 }
 .those-who-wander .items-list .items-header > * {
-  font-size: 12px;
-  text-align: center;
+    font-size: 12px;
+    text-align: center;
 }
 .those-who-wander .items-list .items-header .item-name {
-  padding-left: 5px;
-  text-align: left;
+    padding-left: 5px;
+    text-align: left;
 }
 
 /* Configure the effects tab */
 .those-who-wander .effects .item .effect-source,
 .those-who-wander .effects .item .effect-duration,
 .those-who-wander .effects .item .effect-controls {
-  text-align: center;
-  border-left: 1px solid #c9c7b8;
-  border-right: 1px solid #c9c7b8;
-  font-size: 12px;
+    text-align: center;
+    border-left: 1px solid #c9c7b8;
+    border-right: 1px solid #c9c7b8;
+    font-size: 12px;
 }
 .those-who-wander .effects .item .effect-controls {
-  border: none;
+    border: none;
 }
 
 /* Configure the TinyMCE editor */
 .those-who-wander .tox .tox-editor-container {
-  background-image: url('../../../ui/parchment.jpg');
+    background-image: url('../../../ui/parchment.jpg');
 }
 .those-who-wander .tox .tox-edit-area {
-  padding: 0 8px;
+    padding: 0 8px;
 }
