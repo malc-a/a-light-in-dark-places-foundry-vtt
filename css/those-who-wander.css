@@ -107,6 +107,20 @@
   font-family: "Libre Baskerville", sans-serif;
 }
 
+/* Customise the font for journal entry page headers */
+.those-who-wander.sheet.journal-entry .journal-entry-content .title {
+  font-family: "Carolingia", serif;
+  color: #ef3f23;
+}
+.those-who-wander.sheet.journal-entry .journal-entry-content .journal-page-header {
+  font-family: "Carolingia", serif;
+}
+
+/* Make the page numbers in the Journal Entry page directory invisible */
+.those-who-wander.sheet.journal-entry .pages-list .page-heading .page-number {
+  color: transparent;
+}
+
 /* Customise the sheet header */
 .those-who-wander .sheet-header {
   -webkit-box-flex: 0;
