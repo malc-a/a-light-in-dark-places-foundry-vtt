@@ -46,7 +46,7 @@
       "wealth": "Wealth",
       "attack": "Special Attack",
       "feature": "Special Feature",
-      "minion": "Minion Dice"
+      "minion": "Minion"
     },
     "label": {
       "name": "Name",
