@@ -44,7 +44,7 @@
         "number": 2,
         "threat": 1,
         "dice": 2,
-        "injuries": 0
+        "damage": 0
       },
       "actions": {
         "speed": 1,

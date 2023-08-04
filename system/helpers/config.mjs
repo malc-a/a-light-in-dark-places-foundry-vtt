@@ -1,18 +1,21 @@
 export const THOSEWHOWANDER = {};
 
-// The set of resistances used within the sytem.
-THOSEWHOWANDER.resistances = {
-  "body": "THOSEWHOWANDER.resistance.body",
-  "mind": "THOSEWHOWANDER.resistance.mind",
-  "soul": "THOSEWHOWANDER.resistance.soul",
+// Allow us to get the related pool for a resistance
+THOSEWHOWANDER.pools = {
+  "body": "health",
+  "mind": "focus",
+  "soul": "will",
 };
 
-// The set of pools used within the system
-THOSEWHOWANDER.pools = {
-  "body": "THOSEWHOWANDER.pool.health",
-  "mind": "THOSEWHOWANDER.pool.focus",
-  "soul": "THOSEWHOWANDER.pool.will",
+// Allow us to get the related resistance for a pool
+THOSEWHOWANDER.resistances = {
+  "health": "body",
+  "focus": "mind",
+  "will": "soul",
 };
+
+// How many injuries can an an actor take
+THOSEWHOWANDER.max_injuries = 4;
 
 // The status effects used by the system
 THOSEWHOWANDER.statusEffects = [

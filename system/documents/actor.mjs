@@ -27,38 +27,21 @@ export class ThoseWhoWanderActor extends Actor {
      * Override prepareDerivedData() to add any calculated values
      */
     prepareDerivedData() {
-        const actorData = this;
-        const systemData = actorData.system;
-
-        // Set the total dice for minions
+        // Set up the actor's derived values
         if (this.type === 'minion') {
-            systemData.dice = systemData.number * systemData.threat;
-        }
-    }
-
-    /**
-     * @override
-     * Override getRollData() that's supplied to rolls.
-     */
-    getRollData() {
-        const data = super.getRollData();
-
-        // Copy the resistances and ability scores to the top level for convenience
-        if (data.resistances) {
-            for (let [k, v] of Object.entries(data.resistances)) {
-                data[k] = foundry.utils.deepClone(v);
-            }
-        }
-        if (data.skills) {
-            for (let [k, v] of Object.entries(data.skills)) {
-                data[k] = foundry.utils.deepClone(v);
-            }
-        }
-        if (data.schools) {
-            for (let [k, v] of Object.entries(data.schools)) {
-                data[k] = foundry.utils.deepClone(v);
-            }
-        }
+	    // Calculate the total dice and fake health/injuries bars for minions
+            this.system.dice = this.system.number * this.system.threat;
+	    this.system.health = { value: 0, max: 0 };
+	    this.system.injuries = { value: this.system.damage, max : this.system.dice };
+        } else {
+	    // Calculate pool/injuries bars for everyone else
+	    const imax = (this.type === 'menace') ? 0 : CONFIG.THOSEWHOWANDER.max_injuries;
+            for (let [k, v] of Object.entries(this.system.resistances)) {
+		this.system[CONFIG.THOSEWHOWANDER.pools[k]] =
+		    { value: this.system.resistances[k].pool, max: this.getPoolMax(k) };
+	    }
+	    this.system.injuries = { value: this.system.resistances.body.injuries, max: imax };
+	}
     }
 
     /**
@@ -110,7 +93,7 @@ export class ThoseWhoWanderActor extends Actor {
         // Get the minion dice, invoke the roll and submit it to chat
         const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.minion");
         const label = `[${rolltype}] ${rolltype}`;
-        const dice = (this.system.dice ?? 0) - (this.system.injuries ?? 0);
+        const dice = (this.system.dice ?? 0) - (this.system.damage ?? 0);
         return ThoseWhoWanderRoll.Roll({
             title: label,
             speaker: ChatMessage.getSpeaker({ actor: this }),
@@ -169,14 +152,17 @@ export class ThoseWhoWanderActor extends Actor {
         injuries = ((injuries ?? 0) >= 0) ? (injuries ?? 0) : 0;
         if (this.type === 'minion') {
             injuries = (injuries > this.system.dice) ? this.system.dice : injuries;
-        }
+        } else {
+            injuries = (injuries > CONFIG.THOSEWHOWANDER.max_injuries)
+		? CONFIG.THOSEWHOWANDER.max_injuries : injuries;
+	}
 
         // Default the changes we're making to the actor
         let changes = {};
 
         // Handle injuries to minions, which work a little differently
         if (this.type === 'minion' && resistance === 'minion') {
-            changes['system.injuries'] = injuries;
+            changes['system.damage'] = injuries;
         } else if (this.type !== 'minion' && resistance !== 'minion') {
             changes['system.resistances.' + resistance + '.injuries'] = injuries;
         }
@@ -216,7 +202,7 @@ export class ThoseWhoWanderActor extends Actor {
      * Get the maximum value of a pool (specified by resistance)
      */
     getPoolMax(resistance) {
-        // If the actor is a minion then there are no pools to refresh
+        // If the actor is a minion then they have no pools
         if (this.type === 'minion') {
             return 0;
         }
@@ -225,14 +211,15 @@ export class ThoseWhoWanderActor extends Actor {
         let dice = this.system.resistances[resistance].dice ?? 0;
 
         // Get the label of the pool to check for bonuses
-        let pool = game.i18n.localize(CONFIG.THOSEWHOWANDER.pools[resistance]);
+        let pool = CONFIG.THOSEWHOWANDER.pools[resistance];
+        let label = game.i18n.localize("THOSEWHOWANDER.pool." + pool) ?? pool;
 
         // Calculate the bonus from talents, features, attacks, gear and weapons
         for (let i of this.items) {
             if (["talent","feature","attack"].includes(i.type)
                 || ["gear","weapon"].includes(i.type) && i.system.equipped) {
                 let bs = i.system.bonus;
-                let re = new RegExp(`(^|,)\\s*${pool}\\s+([+-]\\d+)\\s*($|,)`);
+                let re = new RegExp(`(^|,)\\s*${label}\\s+([+-]\\d+)\\s*($|,)`);
                 let m = bs.match(re);
                 if (m && m[2] && m[2] != 0) {
                     dice += parseInt(m[2]) ?? 0;

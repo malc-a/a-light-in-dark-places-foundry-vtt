@@ -75,7 +75,7 @@ export class ThoseWhoWanderItem extends Item {
 		const minionDice = game.i18n.localize("THOSEWHOWANDER.rolls.minion");
 		if (this.actor.type == "minion" && m[2] === minionDice) {
 		    ability_dice = (this.actor.system.dice ?? 0)
-			- (this.actor.system.injuries ?? 0);
+			- (this.actor.system.damage ?? 0);
 		    bonus_dice = parseInt(m[3]) ?? 0;
 		    valid = true;
 		} else for (let i of this.actor.items) {

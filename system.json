@@ -2,7 +2,7 @@
   "id": "those-who-wander",
   "title": "Those Who Wander",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.6.10",
+  "version": "0.6.11",
   "compatibility": {
     "minimum": "10",
     "verified": "11.307"
@@ -162,6 +162,8 @@
   ],
   "gridDistance": 1.5,
   "gridUnits": "m",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "injuries",
   "url": "https://github.com/malc-a/those-who-wander-foundry-vtt",
   "readme": "https://github.com/malc-a/those-who-wander-foundry-vtt/blob/main/README.md",
   "bugs": "https://github.com/malc-a/those-who-wander-foundry-vtt/issues",

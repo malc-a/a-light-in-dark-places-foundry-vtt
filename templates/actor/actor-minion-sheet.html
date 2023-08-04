@@ -20,7 +20,7 @@
 	{{else if (eq key "soul")}}
         <label for="system.dice" class="resource-label rollable" data-roll-type="minion" data-roll-dice="{{../system.dice}}">{{localize "THOSEWHOWANDER.minion.dice"}}</label>
         <input type="text" name="system.dice" value="{{../system.dice}}" data-dtype="Number" disabled />
-        <input type="text" name="system.injuries" value="{{../system.injuries}}" data-dtype="Number"/>
+        <input type="text" name="system.damage" value="{{../system.damage}}" data-dtype="Number"/>
 	{{/if}}
         {{/each}}
 	{{!-- These elements should individually line up to the 5-column format --}}

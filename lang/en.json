@@ -53,6 +53,7 @@
       "concept": "Concept",
       "resistances": "Resistances",
       "injuries": "Injuries",
+      "damage": "Damage",
       "actions": "Actions",
       "skills": "Skills",
       "talents": "Talents",
@@ -106,6 +107,8 @@
       "increase_injuries": "Increase Injuries",
       "decrease_injuries": "Decrease Injuries",
       "refresh_pools": "Refresh All Pools",
+      "increase_damage": "Increase Damage",
+      "decrease_damage": "Decrease Damage",
 
       "add_skill": "Add Skill",
       "edit_skill": "Edit Skill",

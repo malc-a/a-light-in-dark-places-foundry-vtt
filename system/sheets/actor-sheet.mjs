@@ -63,8 +63,12 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     _prepareData(context) {
         // Handle resistance and pool labels
         for (let [k, v] of Object.entries(context.system.resistances)) {
-            v.label = game.i18n.localize(CONFIG.THOSEWHOWANDER.resistances[k]) ?? k;
-            v.pool_label = game.i18n.localize(CONFIG.THOSEWHOWANDER.pools[k]) ?? k;
+	    // Get the name of the pool related to the resistance
+	    const pool = CONFIG.THOSEWHOWANDER.pools[k];
+
+	    // And set up the labels
+            v.label = game.i18n.localize("THOSEWHOWANDER.resistance." + k) ?? k;
+            v.pool_label = game.i18n.localize("THOSEWHOWANDER.pool." + pool) ?? pool;
         }
     }
 
