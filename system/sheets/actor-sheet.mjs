@@ -142,6 +142,23 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
         // Everything below here is only needed if the sheet is editable
         if (!this.isEditable) return;
 
+	// Handle increasing or decreasing injuries
+        html.find('.injuries').on('click contextmenu', ev => {
+	    // Gather the values passed by the template
+	    const element = ev.currentTarget;
+	    const field = element.dataset.field;
+	    const max = element.dataset.max;
+
+	    // Figure out the updated number of injuries
+	    let value = foundry.utils.getProperty(this.actor, field) ?? 0;
+	    value = (ev.type === 'click') ? value + 1 : value - 1;
+	    value = (value < 0) ? 0 : (value > max) ? max : value;
+
+	    // Now build and apply the update
+            const update = { [field]: value };
+            return this.actor.update(update);
+        });
+
         // Handle the buttons to increase and decrease speed
         html.find('.increase-speed').click(ev => {
             const update = { 'system.speed': (this.actor.system.speed ?? 0) + 1 };

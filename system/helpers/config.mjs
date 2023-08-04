@@ -14,8 +14,13 @@ THOSEWHOWANDER.resistances = {
   "will": "soul",
 };
 
-// How many injuries can an an actor take
-THOSEWHOWANDER.max_injuries = 4;
+// How many injuries can each type of actor take
+THOSEWHOWANDER.maxInjuries = {
+  "character" : 4,
+  "minion" : 0,
+  "menace": 1,
+  "master" : 4,
+}
 
 // The status effects used by the system
 THOSEWHOWANDER.statusEffects = [

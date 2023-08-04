@@ -98,6 +98,7 @@
       "add_effect": "Add"
     },
     "tooltip": {
+      "injuries": "Injuries",
       "add_action": "Add Action",
       "remove_action": "Remove Action",
       "increase_speed": "Increase Speed",

@@ -35,7 +35,7 @@ export class ThoseWhoWanderActor extends Actor {
 	    this.system.injuries = { value: this.system.damage, max : this.system.dice };
         } else {
 	    // Calculate pool/injuries bars for everyone else
-	    const imax = (this.type === 'menace') ? 0 : CONFIG.THOSEWHOWANDER.max_injuries;
+	    const imax = CONFIG.THOSEWHOWANDER.maxInjuries[this.type];
             for (let [k, v] of Object.entries(this.system.resistances)) {
 		this.system[CONFIG.THOSEWHOWANDER.pools[k]] =
 		    { value: this.system.resistances[k].pool, max: this.getPoolMax(k) };
@@ -143,19 +143,13 @@ export class ThoseWhoWanderActor extends Actor {
      * Update the value of specified injuries for this actor.
      */
     updateInjuries(resistance, injuries) {
-        // If the actor is a menace then there are no injuries to update
-        if (this.type === 'menace') {
-            return;
-        }
+	// The maximum Injuries depends on the actor type
+	const imax = (this.type === 'minion') ? this.system.dice ?? 0 :
+	      CONFIG.THOSEWHOWANDER.maxInjuries[this.type];
 
         // First sanity check the injuries
         injuries = ((injuries ?? 0) >= 0) ? (injuries ?? 0) : 0;
-        if (this.type === 'minion') {
-            injuries = (injuries > this.system.dice) ? this.system.dice : injuries;
-        } else {
-            injuries = (injuries > CONFIG.THOSEWHOWANDER.max_injuries)
-		? CONFIG.THOSEWHOWANDER.max_injuries : injuries;
-	}
+	injuries = ((injuries ?? 0) <= imax) ? injuries : imax;
 
         // Default the changes we're making to the actor
         let changes = {};

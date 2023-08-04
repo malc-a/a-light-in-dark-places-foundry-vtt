@@ -173,6 +173,12 @@
     margin: auto;
     font-weight: bold;
 }
+.those-who-wander .sheet-header .injuries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ef3f23;
+}
 .those-who-wander .sheet-header .refresh-pools {
     width: 100%;
     height: 30px;

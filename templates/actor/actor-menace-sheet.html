@@ -10,7 +10,7 @@
         <input type="text" name="system.resistances.{{key}}.dice" value="{{res.dice}}" data-dtype="Number"/>
         <label for="system.resistances.{{key}}.pool" class="resource-label">{{res.pool_label}}</label>
         <input type="text" name="system.resistances.{{key}}.pool" value="{{res.pool}}" data-dtype="Number"/>
-        <input type="text" name="system.resistances.{{key}}.injuries" value="{{res.injuries}}" data-dtype="Number"/>
+	{{injuries (concat "system.resistances." key ".injuries") value=res.injuries max=1 }}
         {{/each}}
 	{{!-- These elements should individually line up to the 5-column format --}}
         <label for="system.speed" class="resource-label">{{localize "THOSEWHOWANDER.label.speed"}}</label>

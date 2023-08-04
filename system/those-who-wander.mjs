@@ -9,6 +9,7 @@ import { ThoseWhoWanderJournalSheet } from "./sheets/journal-sheet.mjs";
 
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
+import { registerHandlebarsHelpers } from "./helpers/handlebars.mjs";
 import { ThoseWhoWanderCombat, ThoseWhoWanderCombatant,
          ThoseWhoWanderCombatTracker } from "./helpers/combat-tracker.mjs";
 import { THOSEWHOWANDER } from "./helpers/config.mjs";
@@ -52,27 +53,9 @@ Hooks.once('init', async function() {
         makeDefault: true,
     });
 
-    // Preload Handlebars templates.
-    return preloadHandlebarsTemplates();
-});
-
-/* -------------------------------------------- */
-/*  Handlebars Helpers                          */
-/* -------------------------------------------- */
-
-// If you need to add Handlebars helpers, here are a few useful examples:
-Handlebars.registerHelper('concat', function() {
-    var outStr = '';
-    for (var arg in arguments) {
-        if (typeof arguments[arg] != 'object') {
-            outStr += arguments[arg];
-        }
-    }
-    return outStr;
-});
-
-Handlebars.registerHelper('toLowerCase', function(str) {
-    return str.toLowerCase();
+    // Preload Handlebars templates and register helpers
+    preloadHandlebarsTemplates();
+    return registerHandlebarsHelpers();
 });
 
 /* -------------------------------------------- */
