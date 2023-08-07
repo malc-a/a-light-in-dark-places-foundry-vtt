@@ -1,3 +1,6 @@
+// Import the custom dialogue from the helper
+import { ThoseWhoWanderDialog } from "./dialog.mjs";
+
 // A class to add a dialog box to dice rolls
 export class ThoseWhoWanderRoll {
     /**
@@ -57,7 +60,7 @@ export class ThoseWhoWanderRoll {
 
         // Create Dialog window
         return new Promise((resolve) => {
-            new Dialog({
+            new ThoseWhoWanderDialog({
                 title: title,
                 content: html,
                 buttons: buttons,

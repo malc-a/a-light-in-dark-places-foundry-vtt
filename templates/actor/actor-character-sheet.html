@@ -14,7 +14,7 @@
 	{{injuries (concat "system.resistances." key ".injuries") value=res.injuries max=4 }}
         {{/each}}
 	{{!-- These elements should individually line up to the 5-column format --}}
-	<label for="system.xp" class="resource-label">{{localize "THOSEWHOWANDER.label.xp"}}</label>
+	<label for="system.xp" class="resource-label show-build-report">{{localize "THOSEWHOWANDER.label.xp"}}</label>
 	<input type="text" name="system.xp" value="{{system.xp}}" data-dtype="Number"/>
         <label for="system.actions" class="resource-label">{{localize "THOSEWHOWANDER.label.actions"}}</label>
         <div class="actions-controls flexrow flex-group-center flex-between">

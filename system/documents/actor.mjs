@@ -224,4 +224,80 @@ export class ThoseWhoWanderActor extends Actor {
         // And return the calculated maximum
         return dice;
     }
+
+    /**
+     * Returns the actor's build data; only relevant to characters
+     */
+    getBuild() {
+	// Calculate the points cost of a number of dice
+	function pointsCost(dice) {
+	    // Set up the defaults
+	    let cost = 0;
+	    let each = 1;
+
+	    // Calculate the cost
+	    for (let i = 0; i < dice; i++) {
+		if (i > 0 && (i % 4) == 0) { each *= 2; }
+		cost += each;
+	    }
+
+	    // And return it
+	    return(cost);
+	}
+
+	// This function is only available (or useful) for characters
+	if (this.type !== 'character') { return; }
+
+	// Initialise the data for the character
+	let build = {
+	    counts: { skill: 0, school: 0, wealth: 0, talent: 0, language: 0 },
+	    points: { resistance: 0, skill: 0, school: 0, wealth: 0, talent: 0 },
+	    spells: {},
+	    total: 0,
+	}
+
+	// Calculate the points spent on resistances
+        for (let [k, v] of Object.entries(this.system.resistances)) {
+	    build.points.resistance += pointsCost(v.dice);
+	}
+
+	// Calculate the points spent on wealth
+	build.points.wealth = pointsCost(this.system.wealth);
+	build.counts.wealth = this.system.wealth;
+
+	// Now loop over the actor's items to handle them
+        for (let i of this.items) {
+	    if (["skill","school"].includes(i.type)) {
+		// Calculate the points spent on abilities
+		build.counts[i.type]++;
+		build.points[i.type] += pointsCost(i.system.dice);
+
+		// If this is a school then default the spells and set the dice
+		if (i.type === 'school' && !(i.name in build.spells)) {
+		    build.spells[i.name] = { dice: i.system.dice, count: 0, complexity: 0 };
+		} else if (i.type === 'school') {
+		    build.spells[i.name].dice = i.system.dice;
+		}
+	    } else if (["language","talent"].includes(i.type)) {
+		// Just count languages as they may be free
+		build.counts[i.type] += 1;
+	    } else if (i.type == "spell") {
+		// Add the spell data to the spells
+		if (!(i.system.school in build.spells)) {
+		    build.spells[i.system.school] = { dice: 0, count: 0, complexity: 0 };
+		}
+		build.spells[i.system.school].count++;
+		build.spells[i.system.school].complexity += i.system.complexity;
+	    }
+	}
+
+	// Set up the points cost of any talents; the first 3 are free
+	build.points.talent = (build.counts.talent > 3) ? (build.counts.talent - 3) * 2 : 0;
+
+	// Now get the total points for the character
+	build.total = Object.values(build.points).reduce((a, b) => a + b, 0);
+
+	// Return the details of the character build
+	return(build);
+    }
 }

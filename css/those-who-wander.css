@@ -30,6 +30,13 @@
     cursor: pointer;
 }
 
+/* Highlight the build report trigger in blue when hovered */
+.show-build-report:hover, .show-build-report:focus {
+    color: #000;
+    text-shadow: 0 0 10px blue;
+    cursor: pointer;
+}
+
 /* Set up a 2-column grid format for item lists */
 .two-column {
     display: grid;
@@ -396,6 +403,27 @@
 }
 .those-who-wander .effects .item .effect-controls {
     border: none;
+}
+
+/* Configure the character build report */
+.those-who-wander .build-report .report-group {
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 3px 0;
+  align-items: center;
+  text-align: center;
+}
+.those-who-wander .build-report .report-group > * {
+  flex: 1;
+}
+.those-who-wander .build-report .report-group h2:first-child,
+.those-who-wander .build-report .report-group label:first-child {
+  text-align: left;
+}
+.those-who-wander .build-report .report-group .total-label {
+  font-weight: bold;
 }
 
 /* Configure the TinyMCE editor */

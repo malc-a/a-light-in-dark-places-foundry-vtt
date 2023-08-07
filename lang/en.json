@@ -139,6 +139,18 @@
       "add_effect": "Add Effect",
       "toggle_effect": "Toggle Effect",
       "delete_effect": "Delete Effect"
+    },
+    "buildReport": {
+      "title": "Character Build Report",
+      "category": "Category",
+      "count": "Count",
+      "points": "Points",
+      "total": "Total",
+      "school": "School",
+      "dice": "Dice",
+      "spells": "Spells",
+      "complexity": "Comp.",
+      "ok": "OK"
     }
   }
 }

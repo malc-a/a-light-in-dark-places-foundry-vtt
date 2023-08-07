@@ -1,3 +1,6 @@
+// Import the custom dialogue from the dialogue helper
+import { ThoseWhoWanderDialog } from "../helpers/dialog.mjs";
+
 // Import some effects management functions from the effects helper
 import {onManageActiveEffect, prepareActiveEffectCategories} from "../helpers/effects.mjs";
 
@@ -207,6 +210,9 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
         // Rollable abilities
         html.find('.rollable').click(this._onRoll.bind(this));
 
+	// The character build report popup
+	html.find('.show-build-report').click(this._onBuildReport.bind(this));
+
         // Drag events for macros.
         if (this.actor.isOwner) {
             let handler = ev => this._onDragStart(ev);
@@ -272,5 +278,37 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
                 if (item) return item.roll();
             }
         }
+    }
+
+    /**
+     * Handle displaying the build report.
+     * @param {Event} event   The originating click event
+     * @private
+     */
+    async _onBuildReport(event) {
+	// Stop processing the event here
+	event.preventDefault();
+
+	// Render the template for the report with the build details
+        const template = "systems/those-who-wander/templates/chat/build-report.html";
+        const dialogData = { build: this.actor.getBuild() };
+        const html = await renderTemplate(template, dialogData);
+
+	// The button to close the build report window
+        let buttons = {
+            ok: {
+                label: game.i18n.localize("THOSEWHOWANDER.buildReport.ok"),
+                callback: (html) => {},
+            },
+	};
+
+        // Create the dialog window
+        return new Promise((resolve) => {
+	    new ThoseWhoWanderDialog({
+                title: game.i18n.localize("THOSEWHOWANDER.buildReport.title"),
+                content: html,
+		buttons: buttons,
+	    }).render(true);
+        });
     }
 }
