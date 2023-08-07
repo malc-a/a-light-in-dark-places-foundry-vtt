@@ -37,9 +37,6 @@
       "gear": {
         "gear": {}
       },
-      "treasure": {
-        "treasure": 0
-      },
       "minion": {
         "number": 2,
         "threat": 1,
@@ -52,13 +49,10 @@
       }
     },
     "character": { "templates": ["social", "resistances", "abilities", "talents",
-                                 "problems", "development", "gear", "actions"]},
-    "minion": { "templates": ["resistances", "abilities", "minion", "talents",
-                              "actions", "treasure"] },
-    "menace": { "templates": ["resistances", "abilities", "talents",
-                              "gear", "actions", "treasure"] },
-    "master": { "templates": ["resistances", "abilities", "talents",
-                              "gear", "actions", "treasure"] }
+                                 "problems", "development", "gear", "actions"] },
+    "minion": { "templates": ["resistances", "abilities", "minion", "talents", "actions"] },
+    "menace": { "templates": ["resistances", "abilities", "talents", "gear", "actions"] },
+    "master": { "templates": ["resistances", "abilities", "talents", "gear", "actions"] }
   },
   "Item": {
     "types": [

@@ -1,17 +1,16 @@
+{{#if (eq actor.type "character")}}
 <div class="wealth flexrow flex-center flex-between">
-  {{#if (eq actor.type "character")}}
   <div class="wealth-content flexrow flex-center flex-between flex2">
     <label for="system.wealth" class="resource-label rollable" data-roll-type="wealth" data-roll-dice="{{system.wealth}}" data-label="wealth">{{localize "THOSEWHOWANDER.label.wealth"}}</label>
     <input type="text" name="system.wealth" value="{{system.wealth}}" data-dtype="Number"/>
   </div>
   <span></span>
-  {{/if}}
   <div class="treasure-content flexrow flex-center flex-between flex2">
     <label for="system.treasure" class="resource-label">{{localize "THOSEWHOWANDER.label.treasure"}}</label>
     <input type="text" name="system.treasure" value="{{system.treasure}}" data-dtype="Number"/>
   </div>
 </div>
-{{#if (ne actor.type "minion")}}
+{{/if}}
 <div class="gear">
   <ol class="items-list two-column">
     <li class="items-header flexrow">
@@ -36,4 +35,3 @@
     {{/each}}
   </ol>
 </div>
-{{/if}}
