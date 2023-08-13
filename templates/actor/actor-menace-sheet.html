@@ -7,22 +7,22 @@
       <div class="header-data five-column">
         {{#each system.resistances as |res key|}}
         <label for="system.resistances.{{key}}.dice" class="resource-label rollable" data-roll-type="resistance" data-roll-dice="{{res.dice}}" data-label="{{key}}">{{res.label}}</label>
-        <input type="text" name="system.resistances.{{key}}.dice" value="{{res.dice}}" data-dtype="Number"/>
+        <input type="number" min="0" required name="system.resistances.{{key}}.dice" value="{{res.dice}}" data-dtype="Number"/>
         <label for="system.resistances.{{key}}.pool" class="resource-label">{{res.pool_label}}</label>
-        <input type="text" name="system.resistances.{{key}}.pool" value="{{res.pool}}" data-dtype="Number"/>
+        <input type="number" min="0" name="system.resistances.{{key}}.pool" value="{{res.pool}}" data-dtype="Number"/>
 	{{injuries (concat "system.resistances." key ".injuries") value=res.injuries max=1 }}
         {{/each}}
 	{{!-- These elements should individually line up to the 5-column format --}}
         <label for="system.speed" class="resource-label">{{localize "THOSEWHOWANDER.label.speed"}}</label>
         <div class="speed-controls flexrow flex-center flex-between">
           <button class="decrease-speed" title="{{localize "THOSEWHOWANDER.tooltip.decrease_speed"}}"><i class="fas fa-backward"></i></button>
-          <input type="text" name="system.speed" value="{{system.speed}}" data-dtype="Number" disabled />
+          <input type="number" min="1" name="system.speed" value="{{system.speed}}" data-dtype="Number" disabled />
           <button class="increase-speed" title="{{localize "THOSEWHOWANDER.tooltip.increase_speed"}}"><i class="fas fa-forward"></i></button>
         </div>
         <label for="system.actions" class="resource-label">{{localize "THOSEWHOWANDER.label.actions"}}</label>
         <div class="actions-controls flexrow flex-group-center flex-between">
 	  <button class="remove-action flex0" title="{{ localize "THOSEWHOWANDER.tooltip.remove_action"}}"><i class="fas fa-backward"></i></button>
-          <input type="text" name="system.actions" value="{{system.actions}}" data-dtype="Number" disabled />
+          <input type="number" min="1" name="system.actions" value="{{system.actions}}" data-dtype="Number" disabled />
           <button class="add-action flex0" title="{{ localize "THOSEWHOWANDER.tooltip.add_action"}}"><i class="fas fa-forward"></i></button>
 	</div>
         <button class="refresh-pools" title="{{localize "THOSEWHOWANDER.tooltip.refresh_pools"}}"><i class="fas fa-refresh"></i></button>

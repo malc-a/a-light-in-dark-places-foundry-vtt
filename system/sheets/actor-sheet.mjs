@@ -141,9 +141,31 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
             item.sheet.render(true);
         });
 
+	// The character build report popup
+	html.find('.show-build-report').click(this._onBuildReport.bind(this));
+
         // -------------------------------------------------------------
         // Everything below here is only needed if the sheet is editable
         if (!this.isEditable) return;
+
+	// Set up validating input fields on the sheet
+	const inputs = html.find('input');
+	for (const i of html.find('input')) {
+	    // We only validate numeric fields, so only set up the listener for them
+	    if (i.type === 'number') {
+		i.addEventListener('change', () => {
+		    // If the value isn't valid then we need to fix it
+		    if (!i.checkValidity()) {
+			// See if we can get the current value, if not default it
+			const c = getProperty(this.actor, i.name ?? "");
+			i.value = c ?? (i.min ?? 0).toString();
+		    } else if (i.value === "") {
+			// Numerical fields with no input should be set to zero
+			i.value = "0";
+		    }
+		});
+	    }
+	}
 
 	// Handle increasing or decreasing injuries
         html.find('.injuries').on('click contextmenu', ev => {
@@ -209,9 +231,6 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
 
         // Rollable abilities
         html.find('.rollable').click(this._onRoll.bind(this));
-
-	// The character build report popup
-	html.find('.show-build-report').click(this._onBuildReport.bind(this));
 
         // Drag events for macros.
         if (this.actor.isOwner) {

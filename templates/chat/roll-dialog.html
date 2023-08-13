@@ -6,11 +6,11 @@
     {{/if}}
     <div class="form-group">
         <label>{{localize "THOSEWHOWANDER.roll.dice"}}</label>
-        <input type="text" name="dice" value="{{dice}}" disabled />
+        <input type="number" min="1" name="dice" value="{{dice}}" disabled />
     </div>
     <div class="form-group">
         <label>{{localize "THOSEWHOWANDER.roll.modifier"}}</label>
-        <input type="text" name="modifier" value="{{modifier}}" data-dtype="Number"/>
+        <input type="number" name="modifier" value="{{modifier}}" data-dtype="Number"/>
     </div>
     <div class="form-group">
         <label>{{localize "THOSEWHOWANDER.roll.mode"}}</label>

@@ -55,6 +55,20 @@ export class ThoseWhoWanderItemSheet extends ItemSheet {
         // Everything below here is only needed if the sheet is editable
         if (!this.isEditable) return;
 
-        // Roll handlers, click handlers, etc. would go here.
+	// Set up validating input fields on the sheet
+	const inputs = html.find('input');
+	for (const i of html.find('input')) {
+	    // We only validate numeric fields, so only set up the listener for them
+	    if (i.type === 'number') {
+		i.addEventListener('change', () => {
+		    // If the value isn't valid then default it to the minumum or zero
+		    if (!i.checkValidity()) {
+			// See if we can get the current value, if not default it
+			const c = getProperty(this.object, i.name ?? "");
+			i.value = c ?? (i.min ?? 0).toString();
+		    }
+		});
+	    }
+	}
     }
 }

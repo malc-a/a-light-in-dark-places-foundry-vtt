@@ -22,7 +22,7 @@
     <div class="tab dice" data-group="primary" data-tab="dice">
       <div class="dice flexrow flex-between">
         <label for="system.dice" class="item-label">{{localize "THOSEWHOWANDER.label.dice"}}</label>
-        <input type="text" name="system.dice" value="{{system.dice}}" data-dtype="Number"/>
+        <input type="number" min="0" required name="system.dice" value="{{system.dice}}" data-dtype="Number"/>
       </div>
     </div>
   </section>

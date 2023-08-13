@@ -22,7 +22,7 @@
     <div class="tab details" data-group="primary" data-tab="details">
       <div class="cost flexrow flex-between">
         <label for="system.cost" class="item-label">{{localize "THOSEWHOWANDER.label.cost"}}</label>
-        <input type="text" name="system.cost" value="{{system.cost}}" data-dtype="Number"/>
+        <input type="number" min="0" name="system.cost" value="{{system.cost}}" data-dtype="Number"/>
       </div>
       <div class="bonus flexrow flex-between">
         <label for="system.range" class="item-label">{{localize "THOSEWHOWANDER.label.range"}}</label>
