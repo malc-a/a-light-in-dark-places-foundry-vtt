@@ -1,18 +1,17 @@
 // Import document classes.
-import { ThoseWhoWanderActor } from "./documents/actor.mjs";
-import { ThoseWhoWanderItem } from "./documents/item.mjs";
+import { ALiDPActor } from "./documents/actor.mjs";
+import { ALiDPItem } from "./documents/item.mjs";
 
 // Import sheet classes.
-import { ThoseWhoWanderActorSheet } from "./sheets/actor-sheet.mjs";
-import { ThoseWhoWanderItemSheet } from "./sheets/item-sheet.mjs";
-import { ThoseWhoWanderJournalSheet } from "./sheets/journal-sheet.mjs";
+import { ALiDPActorSheet } from "./sheets/actor-sheet.mjs";
+import { ALiDPItemSheet } from "./sheets/item-sheet.mjs";
+import { ALiDPJournalSheet } from "./sheets/journal-sheet.mjs";
 
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
 import { registerHandlebarsHelpers } from "./helpers/handlebars.mjs";
-import { ThoseWhoWanderCombat, ThoseWhoWanderCombatant,
-         ThoseWhoWanderCombatTracker } from "./helpers/combat-tracker.mjs";
-import { THOSEWHOWANDER } from "./helpers/config.mjs";
+import { ALiDPCombatTracker, ALiDPCombat } from "./helpers/combat-tracker.mjs";
+import { ALIDP } from "./helpers/config.mjs";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -21,35 +20,35 @@ import { THOSEWHOWANDER } from "./helpers/config.mjs";
 Hooks.once('init', async function() {
     // Add utility classes to the global game object so that they're more easily
     // accessible in global contexts.
-    game.thosewhowander = {
-        ThoseWhoWanderActor,
-        ThoseWhoWanderItem,
+    game.alidp = {
+        ALiDPActor,
+        ALiDPItem,
+        ALiDPJournalSheet,
     };
 
     // Add custom constants for configuration.
-    CONFIG.THOSEWHOWANDER = THOSEWHOWANDER;
+    CONFIG.ALIDP = ALIDP;
 
     // Define custom Document classes
-    CONFIG.Actor.documentClass = ThoseWhoWanderActor;
-    CONFIG.Item.documentClass = ThoseWhoWanderItem;
+    CONFIG.Actor.documentClass = ALiDPActor;
+    CONFIG.Item.documentClass = ALiDPItem;
 
     // Override the default status effects
-    CONFIG.statusEffects = THOSEWHOWANDER.statusEffects;
+    CONFIG.statusEffects = ALIDP.statusEffects;
 
     // Override the default combat tracker
-    CONFIG.Combat.documentClass = ThoseWhoWanderCombat;
-    CONFIG.Combatant.documentClass = ThoseWhoWanderCombatant;
-    CONFIG.ui.combat = ThoseWhoWanderCombatTracker;
+    CONFIG.Combat.documentClass = ALiDPCombat;
+    CONFIG.ui.combat = ALiDPCombatTracker;
 
     // Register sheet application classes
     Actors.unregisterSheet("core", ActorSheet);
-    Actors.registerSheet("those-who-wander", ThoseWhoWanderActorSheet, { makeDefault: true });
+    Actors.registerSheet("a-light-in-dark-places", ALiDPActorSheet, { makeDefault: true });
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("those-who-wander", ThoseWhoWanderItemSheet, { makeDefault: true });
+    Items.registerSheet("a-light-in-dark-places", ALiDPItemSheet, { makeDefault: true });
     Journal.unregisterSheet("core", JournalSheet);
-    Journal.registerSheet("those-who-wander", ThoseWhoWanderJournalSheet, {
+    Journal.registerSheet("a-light-in-dark-places", ALiDPJournalSheet, {
         label: () => game.i18n.format("SHEETS.DefaultDocumentSheet",
-				      { document: game.i18n.localize("DOCUMENT.JournalEntry") }),
+                                      { document: game.i18n.localize("DOCUMENT.JournalEntry") }),
         makeDefault: true,
     });
 

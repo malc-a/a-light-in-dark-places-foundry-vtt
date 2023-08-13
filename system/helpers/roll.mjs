@@ -1,8 +1,8 @@
 // Import the custom dialogue from the helper
-import { ThoseWhoWanderDialog } from "./dialog.mjs";
+import { ALiDPDialog } from "./dialog.mjs";
 
 // A class to add a dialog box to dice rolls
-export class ThoseWhoWanderRoll {
+export class ALiDPRoll {
     /**
      * Handle a dice-rolling dialog to set modifiers and roll mode
      * @param {String} title          The title of the roll
@@ -19,7 +19,7 @@ export class ThoseWhoWanderRoll {
         skipDialog = false,
     } = {}) {
         let rolled = false;
-        const template = "systems/those-who-wander/templates/chat/roll-dialog.html";
+        const template = "systems/a-light-in-dark-places/templates/chat/roll-dialog.html";
 
         let dialogData = {
             dice: dice,
@@ -36,21 +36,21 @@ export class ThoseWhoWanderRoll {
             modifier: 0,
         };
 
-        if (skipDialog) { return ThoseWhoWanderRoll.sendRoll(rollData); }
+        if (skipDialog) { return ALiDPRoll.sendRoll(rollData); }
 
         let buttons = {
             ok: {
-                label: game.i18n.localize("THOSEWHOWANDER.roll.roll"),
+                label: game.i18n.localize("ALIDP.roll.roll"),
                 icon: '<i class="fas fa-dice-d10"></i>',
                 callback: (html) => {
                     rolled = true;
                     rollData.form = html[0].querySelector("form");
-                    roll = ThoseWhoWanderRoll.sendRoll(rollData);
+                    roll = ALiDPRoll.sendRoll(rollData);
                 },
             },
             cancel: {
                 icon: '<i class="fas fa-times"></i>',
-                label: game.i18n.localize("THOSEWHOWANDER.roll.cancel"),
+                label: game.i18n.localize("ALIDP.roll.cancel"),
                 callback: (html) => { },
             },
         };
@@ -60,7 +60,7 @@ export class ThoseWhoWanderRoll {
 
         // Create Dialog window
         return new Promise((resolve) => {
-            new ThoseWhoWanderDialog({
+            new ALiDPDialog({
                 title: title,
                 content: html,
                 buttons: buttons,
@@ -109,7 +109,7 @@ export class ThoseWhoWanderRoll {
         }
 
         // We ended up with no dice to roll
-        const warning = game.i18n.localize("THOSEWHOWANDER.roll.no_dice");
+        const warning = game.i18n.localize("ALIDP.roll.no_dice");
         ui.notifications.warn(warning);
     }
 }

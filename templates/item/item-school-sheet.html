@@ -2,14 +2,14 @@
   <header class="sheet-header">
     <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
     <div class="header-fields">
-      <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="{{localize "THOSEWHOWANDER.label.name"}}"/></h1>
+      <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="{{localize "ALIDP.label.name"}}"/></h1>
     </div>
   </header>
 
   {{!-- Sheet Tab Navigation --}}
   <nav class="sheet-tabs tabs" data-group="primary">
-    <a class="item" data-tab="description">{{localize "THOSEWHOWANDER.label.description"}}</a>
-    <a class="item" data-tab="dice">{{localize "THOSEWHOWANDER.label.dice"}}</a>
+    <a class="item" data-tab="description">{{localize "ALIDP.label.description"}}</a>
+    <a class="item" data-tab="dice">{{localize "ALIDP.label.dice"}}</a>
   </nav>
 
   {{!-- Sheet Body --}}
@@ -21,7 +21,7 @@
     {{!-- The dice in the school --}}
     <div class="tab dice" data-group="primary" data-tab="dice">
       <div class="dice flexrow flex-between">
-        <label for="system.dice" class="item-label">{{localize "THOSEWHOWANDER.label.dice"}}</label>
+        <label for="system.dice" class="item-label">{{localize "ALIDP.label.dice"}}</label>
         <input type="number" min="0" required name="system.dice" value="{{system.dice}}" data-dtype="Number"/>
       </div>
     </div>

@@ -1,8 +1,8 @@
 {
-  "id": "those-who-wander",
-  "title": "Those Who Wander",
+  "id": "a-light-in-dark-places",
+  "title": "A Light in Dark Places",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.6.15",
+  "version": "0.7.0",
   "compatibility": {
     "minimum": "10",
     "verified": "11.307"
@@ -13,18 +13,17 @@
       "url": "https://github.com/malc-a",
       "discord": "malc#0040",
       "flags": {}
-
     }
   ],
-  "esmodules": ["system/those-who-wander.mjs"],
-  "styles": ["css/those-who-wander.css"],
+  "esmodules": ["system/a-light-in-dark-places.mjs"],
+  "styles": ["css/a-light-in-dark-places.css"],
   "packs": [
     {
       "name": "documents",
       "label": "Documents",
       "path": "packs/documents.db",
       "type": "JournalEntry",
-      "system": "those-who-wander",
+      "system": "a-light-in-dark-places",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -36,12 +35,11 @@
       "label": "Archetypes",
       "path": "packs/archetypes.db",
       "type": "Actor",
-      "system": "those-who-wander",
+      "system": "a-light-in-dark-places",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "private": false,
       "flags": {}
     },
     {
@@ -49,7 +47,7 @@
       "label": "Bestiary",
       "path": "packs/bestiary.db",
       "type": "Actor",
-      "system": "those-who-wander",
+      "system": "a-light-in-dark-places",
       "ownership": {
         "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
@@ -61,7 +59,7 @@
       "label": "Special Features",
       "path": "packs/features.db",
       "type": "Item",
-      "system": "those-who-wander",
+      "system": "a-light-in-dark-places",
       "ownership": {
         "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
@@ -73,7 +71,7 @@
       "label": "Gear",
       "path": "packs/gear.db",
       "type": "Item",
-      "system": "those-who-wander",
+      "system": "a-light-in-dark-places",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -85,7 +83,7 @@
       "label": "Languages",
       "path": "packs/languages.db",
       "type": "Item",
-      "system": "those-who-wander",
+      "system": "a-light-in-dark-places",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -97,7 +95,7 @@
       "label": "Problems",
       "path": "packs/problems.db",
       "type": "Item",
-      "system": "those-who-wander",
+      "system": "a-light-in-dark-places",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -109,7 +107,7 @@
       "label": "Skills",
       "path": "packs/skills.db",
       "type": "Item",
-      "system": "those-who-wander",
+      "system": "a-light-in-dark-places",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -121,7 +119,7 @@
       "label": "Schools of Magic",
       "path": "packs/schools.db",
       "type": "Item",
-      "system": "those-who-wander",
+      "system": "a-light-in-dark-places",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -133,7 +131,7 @@
       "label": "Spells",
       "path": "packs/spells.db",
       "type": "Item",
-      "system": "those-who-wander",
+      "system": "a-light-in-dark-places",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -145,7 +143,7 @@
       "label": "Talents",
       "path": "packs/talents.db",
       "type": "Item",
-      "system": "those-who-wander",
+      "system": "a-light-in-dark-places",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -157,18 +155,19 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     }
   ],
   "gridDistance": 1.5,
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "injuries",
-  "url": "https://github.com/malc-a/those-who-wander-foundry-vtt",
-  "readme": "https://github.com/malc-a/those-who-wander-foundry-vtt/blob/main/README.md",
-  "bugs": "https://github.com/malc-a/those-who-wander-foundry-vtt/issues",
+  "url": "https://github.com/malc-a/a-light-in-dark-places-foundry-vtt",
+  "readme": "https://github.com/malc-a/a-light-in-dark-places-foundry-vtt/blob/main/README.md",
+  "bugs": "https://github.com/malc-a/a-light-in-dark-places-foundry-vtt/issues",
   "license": "LICENSE.txt",
-  "changelog": "https://github.com/malc-a/those-who-wander-foundry-vtt/RELEASES",
-  "manifest": "https://github.com/malc-a/those-who-wander-foundry-vtt/releases/latest/download/system.json",
-  "download": "https://github.com/malc-a/those-who-wander-foundry-vtt/releases/latest/download/those-who-wander.zip"
+  "changelog": "https://github.com/malc-a/a-light-in-dark-places-foundry-vtt/RELEASES",
+  "manifest": "https://github.com/malc-a/a-light-in-dark-places-foundry-vtt/releases/latest/download/system.json",
+  "download": "https://github.com/malc-a/a-light-in-dark-places-foundry-vtt/releases/latest/download/a-light-in-dark-places.zip"
 }

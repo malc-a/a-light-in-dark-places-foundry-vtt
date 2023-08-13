@@ -3,29 +3,29 @@
   <header class="sheet-header">
     <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
     <div class="header-fields flexcol">
-      <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "THOSEWHOWANDER.label.name"}}"/></h1>
+      <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "ALIDP.label.name"}}"/></h1>
       <div class="header-data five-column">
         {{#each system.resistances as |res key|}}
         <label for="system.resistances.{{key}}.dice" class="resource-label rollable" data-roll-type="resistance" data-roll-dice="{{res.dice}}" data-label="{{key}}">{{res.label}}</label>
         <input type="number" min="0" required name="system.resistances.{{key}}.dice" value="{{res.dice}}" data-dtype="Number"/>
         <label for="system.resistances.{{key}}.pool" class="resource-label">{{res.pool_label}}</label>
         <input type="number" min="0" name="system.resistances.{{key}}.pool" value="{{res.pool}}" data-dtype="Number"/>
-	{{injuries (concat "system.resistances." key ".injuries") value=res.injuries max=1 }}
+        {{injuries (concat "system.resistances." key ".injuries") value=res.injuries max=1 }}
         {{/each}}
-	{{!-- These elements should individually line up to the 5-column format --}}
-        <label for="system.speed" class="resource-label">{{localize "THOSEWHOWANDER.label.speed"}}</label>
+        {{!-- These elements should individually line up to the 5-column format --}}
+        <label for="system.speed" class="resource-label">{{localize "ALIDP.label.speed"}}</label>
         <div class="speed-controls flexrow flex-center flex-between">
-          <button class="decrease-speed" title="{{localize "THOSEWHOWANDER.tooltip.decrease_speed"}}"><i class="fas fa-backward"></i></button>
+          <button class="decrease-speed" title="{{localize "ALIDP.tooltip.decrease_speed"}}"><i class="fas fa-backward"></i></button>
           <input type="number" min="1" name="system.speed" value="{{system.speed}}" data-dtype="Number" disabled />
-          <button class="increase-speed" title="{{localize "THOSEWHOWANDER.tooltip.increase_speed"}}"><i class="fas fa-forward"></i></button>
+          <button class="increase-speed" title="{{localize "ALIDP.tooltip.increase_speed"}}"><i class="fas fa-forward"></i></button>
         </div>
-        <label for="system.actions" class="resource-label">{{localize "THOSEWHOWANDER.label.actions"}}</label>
+        <label for="system.actions" class="resource-label">{{localize "ALIDP.label.actions"}}</label>
         <div class="actions-controls flexrow flex-group-center flex-between">
-	  <button class="remove-action flex0" title="{{ localize "THOSEWHOWANDER.tooltip.remove_action"}}"><i class="fas fa-backward"></i></button>
+          <button class="remove-action flex0" title="{{ localize "ALIDP.tooltip.remove_action"}}"><i class="fas fa-backward"></i></button>
           <input type="number" min="1" name="system.actions" value="{{system.actions}}" data-dtype="Number" disabled />
-          <button class="add-action flex0" title="{{ localize "THOSEWHOWANDER.tooltip.add_action"}}"><i class="fas fa-forward"></i></button>
-	</div>
-        <button class="refresh-pools" title="{{localize "THOSEWHOWANDER.tooltip.refresh_pools"}}"><i class="fas fa-refresh"></i></button>
+          <button class="add-action flex0" title="{{ localize "ALIDP.tooltip.add_action"}}"><i class="fas fa-forward"></i></button>
+        </div>
+        <button class="refresh-pools" title="{{localize "ALIDP.tooltip.refresh_pools"}}"><i class="fas fa-refresh"></i></button>
       </div>
     </div>
   </header>
@@ -33,11 +33,11 @@
   {{!-- Sheet Tab Navigation --}}
   <nav class="sheet-tabs tabs" data-group="primary">
     {{!-- Default tab is specified in actor-sheet.mjs --}}
-    <a class="item" data-tab="main">{{localize "THOSEWHOWANDER.label.main"}}</a>
-    <a class="item" data-tab="magic">{{localize "THOSEWHOWANDER.label.magic"}}</a>
-    <a class="item" data-tab="gear">{{localize "THOSEWHOWANDER.label.gear"}}</a>
-    <a class="item" data-tab="notes">{{localize "THOSEWHOWANDER.label.notes"}}</a>
-    <a class="item" data-tab="effects">{{localize "THOSEWHOWANDER.label.effects"}}</a>
+    <a class="item" data-tab="main">{{localize "ALIDP.label.main"}}</a>
+    <a class="item" data-tab="magic">{{localize "ALIDP.label.magic"}}</a>
+    <a class="item" data-tab="gear">{{localize "ALIDP.label.gear"}}</a>
+    <a class="item" data-tab="notes">{{localize "ALIDP.label.notes"}}</a>
+    <a class="item" data-tab="effects">{{localize "ALIDP.label.effects"}}</a>
   </nav>
 
   {{!-- Sheet Body --}}
@@ -45,27 +45,27 @@
 
     {{!-- Main Tab --}}
     <div class="tab main" data-group="primary" data-tab="main">
-       {{> "systems/those-who-wander/templates/actor/tabs/actor-main.html"}}
+      {{> "systems/a-light-in-dark-places/templates/actor/tabs/actor-main.html"}}
     </div>
 
     {{!-- Magic Tab --}}
     <div class="tab magic" data-group="primary" data-tab="magic">
-       {{> "systems/those-who-wander/templates/actor/tabs/actor-magic.html"}}
+      {{> "systems/a-light-in-dark-places/templates/actor/tabs/actor-magic.html"}}
     </div>
 
     {{!-- Gear Tab --}}
     <div class="tab gear" data-group="primary" data-tab="gear">
-       {{> "systems/those-who-wander/templates/actor/tabs/actor-gear.html"}}
+      {{> "systems/a-light-in-dark-places/templates/actor/tabs/actor-gear.html"}}
     </div>
 
     {{!-- Notes Tab --}}
     <div class="tab notes" data-group="primary" data-tab="notes">
-       {{> "systems/those-who-wander/templates/actor/tabs/actor-notes.html"}}
+      {{> "systems/a-light-in-dark-places/templates/actor/tabs/actor-notes.html"}}
     </div>
 
     {{!-- Effects Tab --}}
     <div class="tab effects" data-group="primary" data-tab="effects">
-       {{> "systems/those-who-wander/templates/actor/tabs/actor-effects.html"}}
+      {{> "systems/a-light-in-dark-places/templates/actor/tabs/actor-effects.html"}}
     </div>
   </section>
 </form>

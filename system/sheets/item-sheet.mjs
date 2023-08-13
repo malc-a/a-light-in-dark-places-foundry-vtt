@@ -2,12 +2,12 @@
  * Extend the basic ItemSheet with some very simple modifications
  * @extends {ItemSheet}
  */
-export class ThoseWhoWanderItemSheet extends ItemSheet {
+export class ALiDPItemSheet extends ItemSheet {
 
     /** @override */
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            classes: ["those-who-wander", "sheet", "item"],
+            classes: ["a-light-in-dark-places", "sheet", "item"],
             width: 350,
             height: 400,
             tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description" }]
@@ -16,7 +16,7 @@ export class ThoseWhoWanderItemSheet extends ItemSheet {
 
     /** @override */
     get template() {
-        const path = "systems/those-who-wander/templates/item";
+        const path = "systems/a-light-in-dark-places/templates/item";
 
         // Return the location of the specific item template
         return `${path}/item-${this.item.type}-sheet.html`;
@@ -55,20 +55,20 @@ export class ThoseWhoWanderItemSheet extends ItemSheet {
         // Everything below here is only needed if the sheet is editable
         if (!this.isEditable) return;
 
-	// Set up validating input fields on the sheet
-	const inputs = html.find('input');
-	for (const i of html.find('input')) {
-	    // We only validate numeric fields, so only set up the listener for them
-	    if (i.type === 'number') {
-		i.addEventListener('change', () => {
-		    // If the value isn't valid then default it to the minumum or zero
-		    if (!i.checkValidity()) {
-			// See if we can get the current value, if not default it
-			const c = getProperty(this.object, i.name ?? "");
-			i.value = c ?? (i.min ?? 0).toString();
-		    }
-		});
-	    }
-	}
+        // Set up validating input fields on the sheet
+        const inputs = html.find('input');
+        for (const i of html.find('input')) {
+            // We only validate numeric fields, so only set up the listener for them
+            if (i.type === 'number') {
+                i.addEventListener('change', () => {
+                    // If the value isn't valid then default it to the minumum or zero
+                    if (!i.checkValidity()) {
+                        // See if we can get the current value, if not default it
+                        const c = getProperty(this.object, i.name ?? "");
+                        i.value = c ?? (i.min ?? 0).toString();
+                    }
+                });
+            }
+        }
     }
 }

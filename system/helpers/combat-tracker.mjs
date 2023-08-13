@@ -1,18 +1,7 @@
 // Define our own Combat Tracker Class
-export class ThoseWhoWanderCombatTracker extends CombatTracker {
+export class ALiDPCombatTracker extends CombatTracker {
     get template() {
-        return "systems/those-who-wander/templates/chat/combat-tracker.html";
-    }
-
-    async getData(options) {
-        const data = await super.getData(options);
-        return {
-            ...data,
-            turns: data.turns.map((turn) => {
-                const c = this.viewed.combatants.get(turn.id);
-                return turn;
-            }),
-        };
+        return "systems/a-light-in-dark-places/templates/chat/combat-tracker.html";
     }
 
     async _onCombatControl(event) {
@@ -21,7 +10,7 @@ export class ThoseWhoWanderCombatTracker extends CombatTracker {
         const combat = this.viewed;
         switch (btn.dataset.control) {
         case "resetActions":
-            return combat.turns.forEach((c) => { c.actor.updateActions(0); });
+            return combat.turns.forEach((c) => { c.actor.updateActions(1); });
         }
     }
 
@@ -42,27 +31,20 @@ export class ThoseWhoWanderCombatTracker extends CombatTracker {
     }
 }
 
-// Define our own Combatant Class
-export class ThoseWhoWanderCombatant extends Combatant {
-    constructor(data, options) {
-        return super(data, options);
-    }
-}
-
 // Define our own Combat Class
-export class ThoseWhoWanderCombat extends Combat {
+export class ALiDPCombat extends Combat {
     _sortCombatants(a, b) {
         const s = b.initiative - a.initiative;
         return (s == 0 && !a.isNPC && b.isNPC) ? -1 : (s == 0 && a.isNPC && !b.isNPC) ? 1 : s;
     }
 
     async beginCombat() {
-        this.turns.forEach((c) => { c.actor.updateActions(0); });
+        this.turns.forEach((c) => { c.actor.updateActions(1); });
         return super.beginCombat();
     }
 
     async nextRound() {
-        this.turns.forEach((c) => { c.actor.updateActions(0); });
+        this.turns.forEach((c) => { c.actor.updateActions(1); });
         return super.nextRound();
     }
 }

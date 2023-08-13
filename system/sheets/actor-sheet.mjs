@@ -1,5 +1,5 @@
 // Import the custom dialogue from the dialogue helper
-import { ThoseWhoWanderDialog } from "../helpers/dialog.mjs";
+import { ALiDPDialog } from "../helpers/dialog.mjs";
 
 // Import some effects management functions from the effects helper
 import {onManageActiveEffect, prepareActiveEffectCategories} from "../helpers/effects.mjs";
@@ -8,13 +8,13 @@ import {onManageActiveEffect, prepareActiveEffectCategories} from "../helpers/ef
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
  */
-export class ThoseWhoWanderActorSheet extends ActorSheet {
+export class ALiDPActorSheet extends ActorSheet {
 
     /** @override */
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            classes: ["those-who-wander", "sheet", "actor"],
-            template: "systems/those-who-wander/templates/actor/actor-sheet.html",
+            classes: ["a-light-in-dark-places", "sheet", "actor"],
+            template: "systems/a-light-in-dark-places/templates/actor/actor-sheet.html",
             width: 600,
             height: 600,
             tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "main" }]
@@ -23,7 +23,7 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
 
     /** @override */
     get template() {
-        return `systems/those-who-wander/templates/actor/actor-${this.actor.type}-sheet.html`;
+        return `systems/a-light-in-dark-places/templates/actor/actor-${this.actor.type}-sheet.html`;
     }
 
     /* -------------------------------------------- */
@@ -66,12 +66,12 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
     _prepareData(context) {
         // Handle resistance and pool labels
         for (let [k, v] of Object.entries(context.system.resistances)) {
-	    // Get the name of the pool related to the resistance
-	    const pool = CONFIG.THOSEWHOWANDER.pools[k];
+            // Get the name of the pool related to the resistance
+            const pool = CONFIG.ALIDP.pools[k];
 
-	    // And set up the labels
-            v.label = game.i18n.localize("THOSEWHOWANDER.resistance." + k) ?? k;
-            v.pool_label = game.i18n.localize("THOSEWHOWANDER.pool." + pool) ?? pool;
+            // And set up the labels
+            v.label = game.i18n.localize("ALIDP.resistance." + k) ?? k;
+            v.pool_label = game.i18n.localize("ALIDP.pool." + pool) ?? pool;
         }
     }
 
@@ -141,45 +141,45 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
             item.sheet.render(true);
         });
 
-	// The character build report popup
-	html.find('.show-build-report').click(this._onBuildReport.bind(this));
+        // The character build report popup
+        html.find('.show-build-report').click(this._onBuildReport.bind(this));
 
         // -------------------------------------------------------------
         // Everything below here is only needed if the sheet is editable
         if (!this.isEditable) return;
 
-	// Set up validating input fields on the sheet
-	const inputs = html.find('input');
-	for (const i of html.find('input')) {
-	    // We only validate numeric fields, so only set up the listener for them
-	    if (i.type === 'number') {
-		i.addEventListener('change', () => {
-		    // If the value isn't valid then we need to fix it
-		    if (!i.checkValidity()) {
-			// See if we can get the current value, if not default it
-			const c = getProperty(this.actor, i.name ?? "");
-			i.value = c ?? (i.min ?? 0).toString();
-		    } else if (i.value === "") {
-			// Numerical fields with no input should be set to zero
-			i.value = "0";
-		    }
-		});
-	    }
-	}
+        // Set up validating input fields on the sheet
+        const inputs = html.find('input');
+        for (const i of html.find('input')) {
+            // We only validate numeric fields, so only set up the listener for them
+            if (i.type === 'number') {
+                i.addEventListener('change', () => {
+                    // If the value isn't valid then we need to fix it
+                    if (!i.checkValidity()) {
+                        // See if we can get the current value, if not default it
+                        const c = getProperty(this.actor, i.name ?? "");
+                        i.value = c ?? (i.min ?? 0).toString();
+                    } else if (i.value === "") {
+                        // Numerical fields with no input should be set to zero
+                        i.value = "0";
+                    }
+                });
+            }
+        }
 
-	// Handle increasing or decreasing injuries
+        // Handle increasing or decreasing injuries
         html.find('.injuries').on('click contextmenu', ev => {
-	    // Gather the values passed by the template
-	    const element = ev.currentTarget;
-	    const field = element.dataset.field;
-	    const max = element.dataset.max;
+            // Gather the values passed by the template
+            const element = ev.currentTarget;
+            const field = element.dataset.field;
+            const max = element.dataset.max;
 
-	    // Figure out the updated number of injuries
-	    let value = foundry.utils.getProperty(this.actor, field) ?? 0;
-	    value = (ev.type === 'click') ? value + 1 : value - 1;
-	    value = (value < 0) ? 0 : (value > max) ? max : value;
+            // Figure out the updated number of injuries
+            let value = foundry.utils.getProperty(this.actor, field) ?? 0;
+            value = (ev.type === 'click') ? value + 1 : value - 1;
+            value = (value < 0) ? 0 : (value > max) ? max : value;
 
-	    // Now build and apply the update
+            // Now build and apply the update
             const update = { [field]: value };
             return this.actor.update(update);
         });
@@ -305,29 +305,29 @@ export class ThoseWhoWanderActorSheet extends ActorSheet {
      * @private
      */
     async _onBuildReport(event) {
-	// Stop processing the event here
-	event.preventDefault();
+        // Stop processing the event here
+        event.preventDefault();
 
-	// Render the template for the report with the build details
-        const template = "systems/those-who-wander/templates/chat/build-report.html";
+        // Render the template for the report with the build details
+        const template = "systems/a-light-in-dark-places/templates/chat/build-report.html";
         const dialogData = { build: this.actor.getBuild() };
         const html = await renderTemplate(template, dialogData);
 
-	// The button to close the build report window
+        // The button to close the build report window
         let buttons = {
             ok: {
-                label: game.i18n.localize("THOSEWHOWANDER.buildReport.ok"),
+                label: game.i18n.localize("ALIDP.buildReport.ok"),
                 callback: (html) => {},
             },
-	};
+        };
 
         // Create the dialog window
         return new Promise((resolve) => {
-	    new ThoseWhoWanderDialog({
-                title: game.i18n.localize("THOSEWHOWANDER.buildReport.title"),
+            new ALiDPDialog({
+                title: game.i18n.localize("ALIDP.buildReport.title"),
                 content: html,
-		buttons: buttons,
-	    }).render(true);
+                buttons: buttons,
+            }).render(true);
         });
     }
 }

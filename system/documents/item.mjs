@@ -1,11 +1,11 @@
 // Import the dice roll dialogue from the roll helper
-import { ThoseWhoWanderRoll } from "../helpers/roll.mjs";
+import { ALiDPRoll } from "../helpers/roll.mjs";
 
 /**
  * Extend the basic Item with some very simple modifications.
  * @extends {Item}
  */
-export class ThoseWhoWanderItem extends Item {
+export class ALiDPItem extends Item {
     /**
      * Augment the basic Item data model with additional dynamic data.
      */
@@ -23,7 +23,7 @@ export class ThoseWhoWanderItem extends Item {
     async roll() {
         // Initialize chat data.
         const speaker = ChatMessage.getSpeaker({ actor: this.actor });
-        const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls." + this.type);
+        const rolltype = game.i18n.localize("ALIDP.rolls." + this.type);
         const label = `[${rolltype}] ${this.name}`;
 
         // Default the dice for each category
@@ -71,14 +71,14 @@ export class ThoseWhoWanderItem extends Item {
             let valid = false;
             const m = this.system.bonus.match(/(^|,)\s*([\w\s]+)\s+([+-]\d+)do?\s*(,|$)/);
             if (m) {
-		// Handle a bonus to minion dice or regular abilities
-		const minionDice = game.i18n.localize("THOSEWHOWANDER.rolls.minion");
-		if (this.actor.type == "minion" && m[2] === minionDice) {
-		    ability_dice = (this.actor.system.dice ?? 0)
-			- (this.actor.system.damage ?? 0);
-		    bonus_dice = parseInt(m[3]) ?? 0;
-		    valid = true;
-		} else for (let i of this.actor.items) {
+                // Handle a bonus to minion dice or regular abilities
+                const minionDice = game.i18n.localize("ALIDP.rolls.minion");
+                if (this.actor.type == "minion" && m[2] === minionDice) {
+                    ability_dice = (this.actor.system.dice ?? 0)
+                        - (this.actor.system.damage ?? 0);
+                    bonus_dice = parseInt(m[3]) ?? 0;
+                    valid = true;
+                } else for (let i of this.actor.items) {
                     // Have we found the ability matching the optional bonus?
                     if (["skill","school"].includes(i.type) && i.name == m[2]) {
                         ability_dice = i.system.dice ?? 0;
@@ -90,7 +90,7 @@ export class ThoseWhoWanderItem extends Item {
 
             // Report an error if we didn't find a valid rollable bonus
             if (!valid) {
-                const warning = game.i18n.localize("THOSEWHOWANDER.roll.no_bonus");
+                const warning = game.i18n.localize("ALIDP.roll.no_bonus");
                 ui.notifications.warn(warning);
                 return;
             }
@@ -105,7 +105,7 @@ export class ThoseWhoWanderItem extends Item {
         action_penalty = Math.max(((this.actor.system.actions ?? 0) - (this.actor.system.speed ?? 1)) * 2, 0);
 
         // Invoke the roll and submit it to chat
-        return ThoseWhoWanderRoll.Roll({
+        return ALiDPRoll.Roll({
             title: label,
             speaker: speaker,
             flavor: label,

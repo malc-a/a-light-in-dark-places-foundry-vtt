@@ -9,12 +9,12 @@ export const registerHandlebarsHelpers = async function() {
         const value = Number(options.hash.value);
         const max = Number(options.hash.max);
 
-	// Get the tooltip we should use for an Injury track
-	const label = game.i18n.localize("THOSEWHOWANDER.tooltip.injuries");
+        // Get the tooltip we should use for an Injury track
+        const label = game.i18n.localize("ALIDP.tooltip.injuries");
 
         // Build the HTML for the injury track
         let s = `<a title="${label}" class="injuries" data-field="${field}" data-max="${max}">`;
-	for (let i = 0; i < max; i++) {
+        for (let i = 0; i < max; i++) {
             s += (i >= value) ? '<i class="far fa-circle"></i>' : '<i class="fas fa-circle"></i>'
         }
         s += '</a>';

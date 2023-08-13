@@ -1,11 +1,11 @@
 // Import the dice roll dialogue from the roll helper
-import { ThoseWhoWanderRoll } from "../helpers/roll.mjs";
+import { ALiDPRoll } from "../helpers/roll.mjs";
 
 /**
  * Extend the base Actor document by defining a custom roll data structure which is ideal for the Simple system.
  * @extends {Actor}
  */
-export class ThoseWhoWanderActor extends Actor {
+export class ALiDPActor extends Actor {
 
     /** @override */
     prepareData() {
@@ -29,19 +29,19 @@ export class ThoseWhoWanderActor extends Actor {
     prepareDerivedData() {
         // Set up the actor's derived values
         if (this.type === 'minion') {
-	    // Calculate the total dice and fake health/injuries bars for minions
+            // Calculate the total dice and fake health/injuries bars for minions
             this.system.dice = this.system.number * this.system.threat;
-	    this.system.health = { value: 0, max: 0 };
-	    this.system.injuries = { value: this.system.damage, max : this.system.dice };
+            this.system.health = { value: 0, max: 0 };
+            this.system.injuries = { value: this.system.damage, max : this.system.dice };
         } else {
-	    // Calculate pool/injuries bars for everyone else
-	    const imax = CONFIG.THOSEWHOWANDER.maxInjuries[this.type];
+            // Calculate pool/injuries bars for everyone else
+            const imax = CONFIG.ALIDP.maxInjuries[this.type];
             for (let [k, v] of Object.entries(this.system.resistances)) {
-		this.system[CONFIG.THOSEWHOWANDER.pools[k]] =
-		    { value: this.system.resistances[k].pool, max: this.getPoolMax(k) };
-	    }
-	    this.system.injuries = { value: this.system.resistances.body.injuries, max: imax };
-	}
+                this.system[CONFIG.ALIDP.pools[k]] =
+                    { value: this.system.resistances[k].pool, max: this.getPoolMax(k) };
+            }
+            this.system.injuries = { value: this.system.resistances.body.injuries, max: imax };
+        }
     }
 
     /**
@@ -53,10 +53,10 @@ export class ThoseWhoWanderActor extends Actor {
         event.preventDefault();
 
         // Get the resistance dice, invoke the roll and submit it to chat
-        const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.resistance");
-        const label = `[${rolltype}] ` + game.i18n.localize(`THOSEWHOWANDER.resistance.${resistance}`);
+        const rolltype = game.i18n.localize("ALIDP.rolls.resistance");
+        const label = `[${rolltype}] ` + game.i18n.localize(`ALIDP.resistance.${resistance}`);
         const dice = this.system.resistances[resistance].dice;
-        return ThoseWhoWanderRoll.Roll({
+        return ALiDPRoll.Roll({
             title: label,
             speaker: ChatMessage.getSpeaker({ actor: this }),
             flavor: label,
@@ -72,10 +72,10 @@ export class ThoseWhoWanderActor extends Actor {
         event.preventDefault();
 
         // Get the wealth dice, invoke the roll and submit it to chat
-        const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.wealth");
+        const rolltype = game.i18n.localize("ALIDP.rolls.wealth");
         const label = `[${rolltype}] ${rolltype}`;
         const dice = this.system.wealth ?? 0;
-        return ThoseWhoWanderRoll.Roll({
+        return ALiDPRoll.Roll({
             title: label,
             speaker: ChatMessage.getSpeaker({ actor: this }),
             flavor: label,
@@ -91,10 +91,10 @@ export class ThoseWhoWanderActor extends Actor {
         event.preventDefault();
 
         // Get the minion dice, invoke the roll and submit it to chat
-        const rolltype = game.i18n.localize("THOSEWHOWANDER.rolls.minion");
+        const rolltype = game.i18n.localize("ALIDP.rolls.minion");
         const label = `[${rolltype}] ${rolltype}`;
         const dice = (this.system.dice ?? 0) - (this.system.damage ?? 0);
-        return ThoseWhoWanderRoll.Roll({
+        return ALiDPRoll.Roll({
             title: label,
             speaker: ChatMessage.getSpeaker({ actor: this }),
             flavor: label,
@@ -143,13 +143,13 @@ export class ThoseWhoWanderActor extends Actor {
      * Update the value of specified injuries for this actor.
      */
     updateInjuries(resistance, injuries) {
-	// The maximum Injuries depends on the actor type
-	const imax = (this.type === 'minion') ? this.system.dice ?? 0 :
-	      CONFIG.THOSEWHOWANDER.maxInjuries[this.type];
+        // The maximum Injuries depends on the actor type
+        const imax = (this.type === 'minion') ? this.system.dice ?? 0 :
+              CONFIG.ALIDP.maxInjuries[this.type];
 
         // First sanity check the injuries
         injuries = ((injuries ?? 0) >= 0) ? (injuries ?? 0) : 0;
-	injuries = ((injuries ?? 0) <= imax) ? injuries : imax;
+        injuries = ((injuries ?? 0) <= imax) ? injuries : imax;
 
         // Default the changes we're making to the actor
         let changes = {};
@@ -185,7 +185,7 @@ export class ThoseWhoWanderActor extends Actor {
 
         // Set up the data for the chat message
         const chatData = { speaker: { actor: this.id, alias: this.name, token: this.token?.id, },
-                           content: game.i18n.localize("THOSEWHOWANDER.chat.refresh_pools") };
+                           content: game.i18n.localize("ALIDP.chat.refresh_pools") };
 
         // Finally, send a chat message and update the actor itself
         ChatMessage.create(chatData);
@@ -205,8 +205,8 @@ export class ThoseWhoWanderActor extends Actor {
         let dice = this.system.resistances[resistance].dice ?? 0;
 
         // Get the label of the pool to check for bonuses
-        let pool = CONFIG.THOSEWHOWANDER.pools[resistance];
-        let label = game.i18n.localize("THOSEWHOWANDER.pool." + pool) ?? pool;
+        let pool = CONFIG.ALIDP.pools[resistance];
+        let label = game.i18n.localize("ALIDP.pool." + pool) ?? pool;
 
         // Calculate the bonus from talents, features, attacks, gear and weapons
         for (let i of this.items) {
@@ -229,75 +229,75 @@ export class ThoseWhoWanderActor extends Actor {
      * Returns the actor's build data; only relevant to characters
      */
     getBuild() {
-	// Calculate the points cost of a number of dice
-	function pointsCost(dice) {
-	    // Set up the defaults
-	    let cost = 0;
-	    let each = 1;
+        // Calculate the points cost of a number of dice
+        function pointsCost(dice) {
+            // Set up the defaults
+            let cost = 0;
+            let each = 1;
 
-	    // Calculate the cost
-	    for (let i = 0; i < dice; i++) {
-		if (i > 0 && (i % 4) == 0) { each *= 2; }
-		cost += each;
-	    }
+            // Calculate the cost
+            for (let i = 0; i < dice; i++) {
+                if (i > 0 && (i % 4) == 0) { each *= 2; }
+                cost += each;
+            }
 
-	    // And return it
-	    return(cost);
-	}
+            // And return it
+            return(cost);
+        }
 
-	// This function is only available (or useful) for characters
-	if (this.type !== 'character') { return; }
+        // This function is only available (or useful) for characters
+        if (this.type !== 'character') { return; }
 
-	// Initialise the data for the character
-	let build = {
-	    counts: { skill: 0, school: 0, wealth: 0, talent: 0, language: 0 },
-	    points: { resistance: 0, skill: 0, school: 0, wealth: 0, talent: 0 },
-	    spells: {},
-	    total: 0,
-	}
+        // Initialise the data for the character
+        let build = {
+            counts: { skill: 0, school: 0, wealth: 0, talent: 0, language: 0 },
+            points: { resistance: 0, skill: 0, school: 0, wealth: 0, talent: 0 },
+            spells: {},
+            total: 0,
+        }
 
-	// Calculate the points spent on resistances
+        // Calculate the points spent on resistances
         for (let [k, v] of Object.entries(this.system.resistances)) {
-	    build.points.resistance += pointsCost(v.dice);
-	}
+            build.points.resistance += pointsCost(v.dice);
+        }
 
-	// Calculate the points spent on wealth
-	build.points.wealth = pointsCost(this.system.wealth);
-	build.counts.wealth = this.system.wealth;
+        // Calculate the points spent on wealth
+        build.points.wealth = pointsCost(this.system.wealth);
+        build.counts.wealth = this.system.wealth;
 
-	// Now loop over the actor's items to handle them
+        // Now loop over the actor's items to handle them
         for (let i of this.items) {
-	    if (["skill","school"].includes(i.type)) {
-		// Calculate the points spent on abilities
-		build.counts[i.type]++;
-		build.points[i.type] += pointsCost(i.system.dice);
+            if (["skill","school"].includes(i.type)) {
+                // Calculate the points spent on abilities
+                build.counts[i.type]++;
+                build.points[i.type] += pointsCost(i.system.dice);
 
-		// If this is a school then default the spells and set the dice
-		if (i.type === 'school' && !(i.name in build.spells)) {
-		    build.spells[i.name] = { dice: i.system.dice, count: 0, complexity: 0 };
-		} else if (i.type === 'school') {
-		    build.spells[i.name].dice = i.system.dice;
-		}
-	    } else if (["language","talent"].includes(i.type)) {
-		// Just count languages as they may be free
-		build.counts[i.type] += 1;
-	    } else if (i.type == "spell") {
-		// Add the spell data to the spells
-		if (!(i.system.school in build.spells)) {
-		    build.spells[i.system.school] = { dice: 0, count: 0, complexity: 0 };
-		}
-		build.spells[i.system.school].count++;
-		build.spells[i.system.school].complexity += i.system.complexity;
-	    }
-	}
+                // If this is a school then default the spells and set the dice
+                if (i.type === 'school' && !(i.name in build.spells)) {
+                    build.spells[i.name] = { dice: i.system.dice, count: 0, complexity: 0 };
+                } else if (i.type === 'school') {
+                    build.spells[i.name].dice = i.system.dice;
+                }
+            } else if (["language","talent"].includes(i.type)) {
+                // Just count languages as they may be free
+                build.counts[i.type] += 1;
+            } else if (i.type == "spell") {
+                // Add the spell data to the spells
+                if (!(i.system.school in build.spells)) {
+                    build.spells[i.system.school] = { dice: 0, count: 0, complexity: 0 };
+                }
+                build.spells[i.system.school].count++;
+                build.spells[i.system.school].complexity += i.system.complexity;
+            }
+        }
 
-	// Set up the points cost of any talents; the first 3 are free
-	build.points.talent = (build.counts.talent > 3) ? (build.counts.talent - 3) * 2 : 0;
+        // Set up the points cost of any talents; the first 3 are free
+        build.points.talent = (build.counts.talent > 3) ? (build.counts.talent - 3) * 2 : 0;
 
-	// Now get the total points for the character
-	build.total = Object.values(build.points).reduce((a, b) => a + b, 0);
+        // Now get the total points for the character
+        build.total = Object.values(build.points).reduce((a, b) => a + b, 0);
 
-	// Return the details of the character build
-	return(build);
+        // Return the details of the character build
+        return(build);
     }
 }

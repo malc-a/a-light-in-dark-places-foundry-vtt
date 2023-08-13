@@ -2,14 +2,14 @@
   <header class="sheet-header">
     <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
     <div class="header-fields">
-      <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="{{localize "THOSEWHOWANDER.label.name"}}"/></h1>
+      <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="{{localize "ALIDP.label.name"}}"/></h1>
     </div>
   </header>
 
   {{!-- Sheet Tab Navigation --}}
   <nav class="sheet-tabs tabs" data-group="primary">
-    <a class="item" data-tab="description">{{localize "THOSEWHOWANDER.label.description"}}</a>
-    <a class="item" data-tab="details">{{localize "THOSEWHOWANDER.label.details"}}</a>
+    <a class="item" data-tab="description">{{localize "ALIDP.label.description"}}</a>
+    <a class="item" data-tab="details">{{localize "ALIDP.label.details"}}</a>
   </nav>
 
   {{!-- Sheet Body --}}
@@ -21,20 +21,20 @@
     {{!-- The details of the item --}}
     <div class="tab details" data-group="primary" data-tab="details">
       <div class="cost flexrow flex-between">
-        <label for="system.cost" class="item-label">{{localize "THOSEWHOWANDER.label.cost"}}</label>
+        <label for="system.cost" class="item-label">{{localize "ALIDP.label.cost"}}</label>
         <input type="number" min="0" name="system.cost" value="{{system.cost}}" data-dtype="Number"/>
       </div>
       <div class="bonus flexrow flex-between">
-        <label for="system.range" class="item-label">{{localize "THOSEWHOWANDER.label.range"}}</label>
+        <label for="system.range" class="item-label">{{localize "ALIDP.label.range"}}</label>
         <input type="text" name="system.range" value="{{system.range}}" data-dtype="String"/>
       </div>
       <div class="bonus flexrow flex-between">
-        <label for="system.bonus" class="item-label">{{localize "THOSEWHOWANDER.label.bonus"}}</label>
+        <label for="system.bonus" class="item-label">{{localize "ALIDP.label.bonus"}}</label>
         <input type="text" name="system.bonus" value="{{system.bonus}}" data-dtype="String"/>
       </div>
       <div class="equipped flexrow flex-between">
-        <label for="system.equipped" class="item-label">{{localize "THOSEWHOWANDER.label.equipped"}}</label>
-        <input type="checkbox" title="{{localize "THOSEWHOWANDER.label.equipped"}}" name="system.equipped" {{checked system.equipped}} />
+        <label for="system.equipped" class="item-label">{{localize "ALIDP.label.equipped"}}</label>
+        <input type="checkbox" title="{{localize "ALIDP.label.equipped"}}" name="system.equipped" {{checked system.equipped}} />
     </div>
   </section>
 </form>

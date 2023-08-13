@@ -1,19 +1,19 @@
-<form class="those-who-wander roll-dialog">
+<form class="a-light-in-dark-places roll-dialog">
     {{#if data.rollData.details}}
     <div class="roll-details">
         {{data.rollData.details}}
     </div>
     {{/if}}
     <div class="form-group">
-        <label>{{localize "THOSEWHOWANDER.roll.dice"}}</label>
+        <label>{{localize "ALIDP.roll.dice"}}</label>
         <input type="number" min="1" name="dice" value="{{dice}}" disabled />
     </div>
     <div class="form-group">
-        <label>{{localize "THOSEWHOWANDER.roll.modifier"}}</label>
+        <label>{{localize "ALIDP.roll.modifier"}}</label>
         <input type="number" name="modifier" value="{{modifier}}" data-dtype="Number"/>
     </div>
     <div class="form-group">
-        <label>{{localize "THOSEWHOWANDER.roll.mode"}}</label>
+        <label>{{localize "ALIDP.roll.mode"}}</label>
         <select name="rollMode">
             {{#select rollMode}}
             {{#each rollModes as |label mode|}}

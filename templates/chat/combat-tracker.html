@@ -28,7 +28,7 @@
       {{/if}}
 
       {{#if user.isGM}}
-      <a class="combat-button combat-control" data-tooltip="THOSEWHOWANDER.combat.reset_actions" data-control="resetActions"
+      <a class="combat-button combat-control" data-tooltip="ALIDP.combat.reset_actions" data-control="resetActions"
         {{#unless hasCombat}}disabled{{/unless}}><i class="fas fa-undo"></i></a>
       <a class="combat-button combat-control" data-tooltip="{{labels.scope}}"
         data-control="toggleSceneLink" {{#unless hasCombat}}disabled{{/unless}}>
@@ -47,8 +47,8 @@
         <h4>{{this.name}}</h4>
         <div class="combatant-controls flexrow">
           {{#if this.owner}}
-          <a class="combatant-control" title="{{localize 'THOSEWHOWANDER.combat.remove_action'}}" data-control="removeAction"><i class="fas fa-backward"></i></a>
-          <a class="combatant-control" title="{{localize 'THOSEWHOWANDER.combat.add_action'}}" data-control="addAction"><i class="fas fa-forward"></i></a>
+          <a class="combatant-control" title="{{localize 'ALIDP.combat.remove_action'}}" data-control="removeAction"><i class="fas fa-backward"></i></a>
+          <a class="combatant-control" title="{{localize 'ALIDP.combat.add_action'}}" data-control="addAction"><i class="fas fa-forward"></i></a>
           {{/if}}
           {{#if ../user.isGM}}
           <a class="combatant-control {{#if this.hidden}}active{{/if}}" data-tooltip="COMBAT.ToggleVis" data-control="toggleHidden"><i class="fas fa-eye-slash"></i></a>

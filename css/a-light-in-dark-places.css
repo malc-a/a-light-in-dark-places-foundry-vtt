@@ -104,32 +104,32 @@
     border-right: 1px solid var(--color-border-dark-2);
 }
 
-/*********************************************/
-/* Styles limited to those-who-wander sheets */
-/*********************************************/
+/***************************************************/
+/* Styles limited to a-light-in-dark-places sheets */
+/***************************************************/
 /* Use a custom background and font for all sheets */
-.those-who-wander.sheet.journal-entry .journal-entry-content,
-.those-who-wander .window-content {
+.a-light-in-dark-places.sheet.journal-entry .journal-entry-content,
+.a-light-in-dark-places .window-content {
     background-image: url('../assets/sheets/background.webp');
     font-family: "Libre Baskerville", sans-serif;
 }
 
 /* Customise the font for journal entry page headers */
-.those-who-wander.sheet.journal-entry .journal-entry-content .title {
+.a-light-in-dark-places.sheet.journal-entry .journal-entry-content .title {
     font-family: "Carolingia", serif;
     color: #ef3f23;
 }
-.those-who-wander.sheet.journal-entry .journal-entry-content .journal-page-header {
+.a-light-in-dark-places.sheet.journal-entry .journal-entry-content .journal-page-header {
     font-family: "Carolingia", serif;
 }
 
 /* Make the page numbers in the Journal Entry page directory invisible */
-.those-who-wander.sheet.journal-entry .pages-list .page-heading .page-number {
+.a-light-in-dark-places.sheet.journal-entry .pages-list .page-heading .page-number {
     color: transparent;
 }
 
 /* Customise the sheet header */
-.those-who-wander .sheet-header {
+.a-light-in-dark-places .sheet-header {
     -webkit-box-flex: 0;
     -ms-flex: 0 auto;
     flex: 0 auto;
@@ -150,7 +150,7 @@
 }
 
 /* Customise individual elements of the sheet header */
-.those-who-wander .sheet-header .profile-img {
+.a-light-in-dark-places .sheet-header .profile-img {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 112px;
     flex: 0 0 20%;
@@ -159,34 +159,34 @@
     height: auto;
     margin-right: 10px;
 }
-.those-who-wander .sheet-header .header-fields {
+.a-light-in-dark-places .sheet-header .header-fields {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
 }
-.those-who-wander .sheet-header h1.charname {
+.a-light-in-dark-places .sheet-header h1.charname {
     height: 50px;
     padding: 0px;
     margin: 5px 0;
     border-bottom: 0;
 }
-.those-who-wander .sheet-header h1.charname input {
+.a-light-in-dark-places .sheet-header h1.charname input {
     width: 100%;
     height: 100%;
     margin: 0;
 }
-.those-who-wander .sheet-header .resource-label {
+.a-light-in-dark-places .sheet-header .resource-label {
     text-align: center;
     margin: auto;
     font-weight: bold;
 }
-.those-who-wander .sheet-header .injuries {
+.a-light-in-dark-places .sheet-header .injuries {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ef3f23;
 }
-.those-who-wander .sheet-header .refresh-pools {
+.a-light-in-dark-places .sheet-header .refresh-pools {
     width: 100%;
     height: 30px;
     border: 2px groove #50B050;
@@ -195,20 +195,20 @@
     padding: 0px 2px;
     box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
 }
-.those-who-wander .sheet-header .refresh-pools:hover {
+.a-light-in-dark-places .sheet-header .refresh-pools:hover {
     background-color: #50B050;
     color: white;
 }
-.those-who-wander .sheet-header .refresh-pools:active {
+.a-light-in-dark-places .sheet-header .refresh-pools:active {
     background-color: #50B050;
     color: white;
     box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
     transform: translate(1px, 1px);
 }
-.those-who-wander .sheet-header .remove-action,
-.those-who-wander .sheet-header .add-action,
-.those-who-wander .sheet-header .increase-speed,
-.those-who-wander .sheet-header .decrease-speed {
+.a-light-in-dark-places .sheet-header .remove-action,
+.a-light-in-dark-places .sheet-header .add-action,
+.a-light-in-dark-places .sheet-header .increase-speed,
+.a-light-in-dark-places .sheet-header .decrease-speed {
     width: 30px;
     height: 30px;
     border: 2px groove #5050B0;
@@ -217,17 +217,17 @@
     padding: 0px 2px;
     box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
 }
-.those-who-wander .sheet-header .remove-action:hover,
-.those-who-wander .sheet-header .add-action:hover,
-.those-who-wander .sheet-header .increase-speed:hover,
-.those-who-wander .sheet-header .decrease-speed:hover {
+.a-light-in-dark-places .sheet-header .remove-action:hover,
+.a-light-in-dark-places .sheet-header .add-action:hover,
+.a-light-in-dark-places .sheet-header .increase-speed:hover,
+.a-light-in-dark-places .sheet-header .decrease-speed:hover {
     background-color: #5050B0;
     color: white;
 }
-.those-who-wander .sheet-header .remove-action:active,
-.those-who-wander .sheet-header .add-action:active,
-.those-who-wander .sheet-header .increase-speed:active,
-.those-who-wander .sheet-header .decrease-speed:active {
+.a-light-in-dark-places .sheet-header .remove-action:active,
+.a-light-in-dark-places .sheet-header .add-action:active,
+.a-light-in-dark-places .sheet-header .increase-speed:active,
+.a-light-in-dark-places .sheet-header .decrease-speed:active {
     background-color: #5050B0;
     color: white;
     box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
@@ -235,24 +235,24 @@
 }
 
 /* Customise the sheet tabs */
-.those-who-wander .sheet-tabs {
+.a-light-in-dark-places .sheet-tabs {
     -webkit-box-flex: 0;
     -ms-flex: 0;
     flex: 0;
 }
 
 /* Customise the sheet body */
-.those-who-wander .sheet-body,
-.those-who-wander .sheet-body .tab,
-.those-who-wander .sheet-body .tab .editor {
+.a-light-in-dark-places .sheet-body,
+.a-light-in-dark-places .sheet-body .tab,
+.a-light-in-dark-places .sheet-body .tab .editor {
     height: 100%;
 }
-.those-who-wander .sheet-body .resource-label {
+.a-light-in-dark-places .sheet-body .resource-label {
     text-align: center;
     margin: auto;
     font-weight: bold;
 }
-.those-who-wander .sheet-body .section-header {
+.a-light-in-dark-places .sheet-body .section-header {
     height: 28px;
     margin: 2px 0;
     padding: 0;
@@ -264,12 +264,12 @@
     border: 2px groove #eeede0;
     font-weight: bold;
 }
-.those-who-wander .sheet-body .passion {
+.a-light-in-dark-places .sheet-body .passion {
     background: rgba(0, 0, 0, 0.03);
 }
 
 /* Customise item lists in the sheet */
-.those-who-wander .items-header {
+.a-light-in-dark-places .items-header {
     height: 28px;
     margin: 2px 0;
     padding: 0;
@@ -280,11 +280,11 @@
     border: 2px groove #eeede0;
     font-weight: bold;
 }
-.those-who-wander .items-header > * {
+.a-light-in-dark-places .items-header > * {
     font-size: 14px;
     text-align: center;
 }
-.those-who-wander .items-header .item-name {
+.a-light-in-dark-places .items-header .item-name {
     font-weight: bold;
     padding-left: 5px;
     text-align: left;
@@ -292,10 +292,10 @@
     display: -ms-flexbox;
     display: flex;
 }
-.those-who-wander .two-column > .items-header {
+.a-light-in-dark-places .two-column > .items-header {
     grid-column-end: span 2;
 }
-.those-who-wander .items-list {
+.a-light-in-dark-places .items-list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -303,12 +303,12 @@
     scrollbar-width: thin;
     color: #444;
 }
-.those-who-wander .items-list .item-list {
+.a-light-in-dark-places .items-list .item-list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.those-who-wander .items-list .item-name {
+.a-light-in-dark-places .items-list .item-name {
     -webkit-box-flex: 2;
     -ms-flex: 2;
     flex: 2;
@@ -323,12 +323,13 @@
     display: -ms-flexbox;
     display: flex;
 }
-.those-who-wander .items-list .item-name h3, .those-who-wander .items-list .item-name h4 {
+.a-light-in-dark-places .items-list .item-name h3,
+.a-light-in-dark-places .items-list .item-name h4 {
     margin: 0;
     white-space: nowrap;
     overflow-x: hidden;
 }
-.those-who-wander .items-list .item-controls {
+.a-light-in-dark-places .items-list .item-controls {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -339,25 +340,25 @@
     -ms-flex-pack: end;
     justify-content: flex-end;
 }
-.those-who-wander .items-list .item-controls a {
+.a-light-in-dark-places .items-list .item-controls a {
     font-size: 12px;
     text-align: center;
     margin: 0 6px;
 }
-.those-who-wander .items-list .item {
+.a-light-in-dark-places .items-list .item {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     padding: 0 2px;
     border-bottom: 1px solid #c9c7b8;
 }
-.those-who-wander .items-list .item:last-child {
+.a-light-in-dark-places .items-list .item:last-child {
     border-bottom: none;
 }
-.those-who-wander .items-list .item .item-name {
+.a-light-in-dark-places .items-list .item .item-name {
     color: #191813;
 }
-.those-who-wander .items-list .item .item-name .item-image {
+.a-light-in-dark-places .items-list .item .item-name .item-image {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 30px;
     flex: 0 0 30px;
@@ -366,13 +367,13 @@
     border: none;
     margin-right: 5px;
 }
-.those-who-wander .items-list .item-prop {
+.a-light-in-dark-places .items-list .item-prop {
     text-align: center;
     border-left: 1px solid #c9c7b8;
     border-right: 1px solid #c9c7b8;
     font-size: 12px;
 }
-.those-who-wander .items-list .items-header {
+.a-light-in-dark-places .items-list .items-header {
     height: 28px;
     margin: 2px 0;
     padding: 0;
@@ -383,53 +384,53 @@
     border: 2px groove #eeede0;
     font-weight: bold;
 }
-.those-who-wander .items-list .items-header > * {
+.a-light-in-dark-places .items-list .items-header > * {
     font-size: 12px;
     text-align: center;
 }
-.those-who-wander .items-list .items-header .item-name {
+.a-light-in-dark-places .items-list .items-header .item-name {
     padding-left: 5px;
     text-align: left;
 }
 
 /* Configure the effects tab */
-.those-who-wander .effects .item .effect-source,
-.those-who-wander .effects .item .effect-duration,
-.those-who-wander .effects .item .effect-controls {
+.a-light-in-dark-places .effects .item .effect-source,
+.a-light-in-dark-places .effects .item .effect-duration,
+.a-light-in-dark-places .effects .item .effect-controls {
     text-align: center;
     border-left: 1px solid #c9c7b8;
     border-right: 1px solid #c9c7b8;
     font-size: 12px;
 }
-.those-who-wander .effects .item .effect-controls {
+.a-light-in-dark-places .effects .item .effect-controls {
     border: none;
 }
 
 /* Configure the character build report */
-.those-who-wander .build-report .report-group {
-  clear: both;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin: 3px 0;
-  align-items: center;
-  text-align: center;
+.a-light-in-dark-places .build-report .report-group {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 3px 0;
+    align-items: center;
+    text-align: center;
 }
-.those-who-wander .build-report .report-group > * {
-  flex: 1;
+.a-light-in-dark-places .build-report .report-group > * {
+    flex: 1;
 }
-.those-who-wander .build-report .report-group h2:first-child,
-.those-who-wander .build-report .report-group label:first-child {
-  text-align: left;
+.a-light-in-dark-places .build-report .report-group h2:first-child,
+.a-light-in-dark-places .build-report .report-group label:first-child {
+    text-align: left;
 }
-.those-who-wander .build-report .report-group .total-label {
-  font-weight: bold;
+.a-light-in-dark-places .build-report .report-group .total-label {
+    font-weight: bold;
 }
 
 /* Configure the TinyMCE editor */
-.those-who-wander .tox .tox-editor-container {
+.a-light-in-dark-places .tox .tox-editor-container {
     background-image: url('../../../ui/parchment.jpg');
 }
-.those-who-wander .tox .tox-edit-area {
+.a-light-in-dark-places .tox .tox-edit-area {
     padding: 0 8px;
 }

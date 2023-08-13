@@ -7,13 +7,13 @@ export const preloadHandlebarsTemplates = async function() {
     return loadTemplates([
 
         // Actor tabs
-        "systems/those-who-wander/templates/actor/tabs/actor-main.html",
-        "systems/those-who-wander/templates/actor/tabs/actor-magic.html",
-        "systems/those-who-wander/templates/actor/tabs/actor-gear.html",
-        "systems/those-who-wander/templates/actor/tabs/actor-notes.html",
-        "systems/those-who-wander/templates/actor/tabs/actor-effects.html",
+        "systems/a-light-in-dark-places/templates/actor/tabs/actor-main.html",
+        "systems/a-light-in-dark-places/templates/actor/tabs/actor-magic.html",
+        "systems/a-light-in-dark-places/templates/actor/tabs/actor-gear.html",
+        "systems/a-light-in-dark-places/templates/actor/tabs/actor-notes.html",
+        "systems/a-light-in-dark-places/templates/actor/tabs/actor-effects.html",
 
         // Chat and dialog templates
-        "systems/those-who-wander/templates/chat/roll-dialog.html",
+        "systems/a-light-in-dark-places/templates/chat/roll-dialog.html",
     ]);
 };

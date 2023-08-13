@@ -2,14 +2,14 @@
   <header class="sheet-header">
     <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
     <div class="header-fields">
-      <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="{{localize "THOSEWHOWANDER.label.name"}}"/></h1>
+      <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="{{localize "ALIDP.label.name"}}"/></h1>
     </div>
   </header>
 
   {{!-- Sheet Tab Navigation --}}
   <nav class="sheet-tabs tabs" data-group="primary">
-    <a class="item" data-tab="description">{{localize "THOSEWHOWANDER.label.description"}}</a>
-    <a class="item" data-tab="details">{{localize "THOSEWHOWANDER.label.details"}}</a>
+    <a class="item" data-tab="description">{{localize "ALIDP.label.description"}}</a>
+    <a class="item" data-tab="details">{{localize "ALIDP.label.details"}}</a>
   </nav>
 
   {{!-- Sheet Body --}}
@@ -21,19 +21,19 @@
     {{!-- The details of the item --}}
     <div class="tab details" data-group="primary" data-tab="details">
       <div class="school flexrow flex-between">
-        <label for="system.school" class="item-label">{{localize "THOSEWHOWANDER.label.school"}}</label>
+        <label for="system.school" class="item-label">{{localize "ALIDP.label.school"}}</label>
         <input type="text" name="system.school" value="{{system.school}}" data-dtype="String"/>
       </div>
       <div class="complexity flexrow flex-between">
-        <label for="system.complexity" class="item-label">{{localize "THOSEWHOWANDER.label.complexity"}}</label>
+        <label for="system.complexity" class="item-label">{{localize "ALIDP.label.complexity"}}</label>
         <input type="number" min="0" required name="system.complexity" value="{{system.complexity}}" data-dtype="Number"/>
       </div>
       <div class="school flexrow flex-between">
-        <label for="system.range" class="item-label">{{localize "THOSEWHOWANDER.label.range"}}</label>
+        <label for="system.range" class="item-label">{{localize "ALIDP.label.range"}}</label>
         <input type="text" name="system.range" value="{{system.range}}" data-dtype="String"/>
       </div>
       <div class="school flexrow flex-between">
-        <label for="system.duration" class="item-label">{{localize "THOSEWHOWANDER.label.duration"}}</label>
+        <label for="system.duration" class="item-label">{{localize "ALIDP.label.duration"}}</label>
         <input type="text" name="system.duration" value="{{system.duration}}" data-dtype="String"/>
       </div>
     </div>

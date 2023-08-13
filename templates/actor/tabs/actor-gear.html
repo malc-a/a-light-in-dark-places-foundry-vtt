@@ -1,12 +1,12 @@
 {{#if (eq actor.type "character")}}
 <div class="wealth flexrow flex-center flex-between">
   <div class="wealth-content flexrow flex-center flex-between flex2">
-    <label for="system.wealth" class="resource-label rollable" data-roll-type="wealth" data-roll-dice="{{system.wealth}}" data-label="wealth">{{localize "THOSEWHOWANDER.label.wealth"}}</label>
+    <label for="system.wealth" class="resource-label rollable" data-roll-type="wealth" data-roll-dice="{{system.wealth}}" data-label="wealth">{{localize "ALIDP.label.wealth"}}</label>
     <input type="number" min="0" required name="system.wealth" value="{{system.wealth}}" data-dtype="Number"/>
   </div>
   <span></span>
   <div class="treasure-content flexrow flex-center flex-between flex2">
-    <label for="system.treasure" class="resource-label">{{localize "THOSEWHOWANDER.label.treasure"}}</label>
+    <label for="system.treasure" class="resource-label">{{localize "ALIDP.label.treasure"}}</label>
     <input type="number" min="0" name="system.treasure" value="{{system.treasure}}" data-dtype="Number"/>
   </div>
 </div>
@@ -14,9 +14,9 @@
 <div class="gear">
   <ol class="items-list two-column">
     <li class="items-header flexrow">
-      <div class="item-name">{{localize "THOSEWHOWANDER.label.gear"}}</div>
+      <div class="item-name">{{localize "ALIDP.label.gear"}}</div>
       <div class="item-controls">
-        <a class="item-control item-create" title="{{localize "THOSEWHOWANDER.tooltip.add_item"}}" data-type="gear"><i class="fas fa-plus"></i>{{localize "THOSEWHOWANDER.label.add_item"}}</a>
+        <a class="item-control item-create" title="{{localize "ALIDP.tooltip.add_item"}}" data-type="gear"><i class="fas fa-plus"></i>{{localize "ALIDP.label.add_item"}}</a>
       </div>
     </li>
     {{#each gear as |item id|}}
@@ -27,9 +27,9 @@
         <h4 class="flex3">{{item.name}}</h4>
       </div>
       <div class="item-controls">
-        <a class="item-control item-equip" title="{{localize "THOSEWHOWANDER.tooltip.equipped"}}">{{#if item.system.equipped}}<i class="fas fa-tshirt"></i>{{else}}<i class="fas fa-box"></i>{{/if}}</a>
-        <a class="item-control item-edit" title="{{localize "THOSEWHOWANDER.tooltip.edit_item"}}"><i class="fas fa-edit"></i></a>
-        <a class="item-control item-delete" title="{{localize "THOSEWHOWANDER.tooltip.delete_item"}}"><i class="fas fa-trash"></i></a>
+        <a class="item-control item-equip" title="{{localize "ALIDP.tooltip.equipped"}}">{{#if item.system.equipped}}<i class="fas fa-tshirt"></i>{{else}}<i class="fas fa-box"></i>{{/if}}</a>
+        <a class="item-control item-edit" title="{{localize "ALIDP.tooltip.edit_item"}}"><i class="fas fa-edit"></i></a>
+        <a class="item-control item-delete" title="{{localize "ALIDP.tooltip.delete_item"}}"><i class="fas fa-trash"></i></a>
       </div>
     </li>
     {{/each}}
