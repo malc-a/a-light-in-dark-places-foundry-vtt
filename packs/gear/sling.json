@@ -1,0 +1,21 @@
+{
+   "_id": "1pCpheTnE7A6dBDj",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/weapons/slings/slingshot-wood.webp",
+   "name": "Sling",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Shoot +2d",
+      "cost": 0,
+      "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A leather cup with two straps, a stone or lead bullet is placed in the cup and the sling whirled around to gain speed until one strap is released to fire the projectile. Like crossbows, slings are slow weapons, and can't be used to Shoot more than once a round. Slings can be remarkably effective given how simple they are.</p>\n</div>\n</div>\n</div>",
+      "equipped": false,
+      "range": "medium"
+   },
+   "type": "weapon"
+}

@@ -1,0 +1,21 @@
+{
+   "_id": "3z8W8GnmkMgBFFbq",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/weapons/staves/staff-simple.webp",
+   "name": "Staff",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Fight +1d",
+      "cost": 0,
+      "description": "<div class=\"page\" title=\"Page 24\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A wooden staff, usually up to 2m long, heavy and sturdy. It is used in both hands.</p>\n</div>\n</div>\n</div>",
+      "equipped": false,
+      "range": "reach"
+   },
+   "type": "weapon"
+}

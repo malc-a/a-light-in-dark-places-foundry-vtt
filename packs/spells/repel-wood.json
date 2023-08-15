@@ -1,0 +1,21 @@
+{
+   "_id": "slnNGtsy3aPCivwD",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+   "name": "Repel Wood",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 3,
+      "description": "<div class=\"page\" title=\"Page 82\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>While the spell lasts the caster can force anything made of wood away from themselves. While the force is not enough to move or break heavy objects, the repulsion can be used to repel weapons, especially missiles. The caster can choose to use the sustained margin to defend against anyone firing wooden missiles at them with Shoot, or using wooden-hafted weapons against them with Fight. In either case, repelling the wooden weapons is a Free Action.</p>\n</div>\n</div>\n</div>",
+      "duration": "sustained",
+      "range": "self",
+      "school": "Nature"
+   },
+   "type": "spell"
+}

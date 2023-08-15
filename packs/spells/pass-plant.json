@@ -1,0 +1,21 @@
+{
+   "_id": "Bj6smgDi47GPN6jg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/nature/root-vine-beanstolk-green.webp",
+   "name": "Pass Plant",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 3,
+      "description": "<div class=\"page\" title=\"Page 82\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A way opens for the caster, as well as anyone within close range of them, through any barrier made of wood or plants, and then closes behind them as they pass. If anyone is within the obstacle when the spell ends they are safely ejected at the nearest side.</p>\n</div>\n</div>\n</div>",
+      "duration": "hour",
+      "range": "self",
+      "school": "Nature"
+   },
+   "type": "spell"
+}

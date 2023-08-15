@@ -1,0 +1,18 @@
+{
+   "_id": "oxYPWve6wB5nFayJ",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/air/air-smoke-casting.webp",
+   "name": "Air",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "description": "<p class=\"p1\"><span class=\"s1\">This School of magic is concerned with mastery of the air, including weather effects such as fog, clouds, thunder and lightning. Poisonous gases also fall within the remit of the School of </span><span class=\"s2\">Air</span><span class=\"s1\">. Spells from this School require strong, clear gestures to be cast, as well as words of power.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Summon wind or fog; predict the local weather</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Damage Health with thunder, lightning, poison gas or winds</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create powerful but well-controlled winds</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">3</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Alter the temperature, wind or rain within sight range</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+      "dice": 0
+   },
+   "type": "school"
+}

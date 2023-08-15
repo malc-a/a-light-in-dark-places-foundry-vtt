@@ -1,0 +1,21 @@
+{
+   "_id": "v7JMotqNlKhztj0c",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/fire/flame-burning-embers-yellow.webp",
+   "name": "Protection from Fire",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 3,
+      "description": "<div class=\"page\" title=\"Page 74\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Gives the target additional resistance to fire. While the spell lasts, the target gains bonus dice equal to the successes in the margin on any Body roll to resist fire or heat.</p>\n</div>\n</div>\n</div>",
+      "duration": "minute",
+      "range": "close",
+      "school": "Fire"
+   },
+   "type": "spell"
+}

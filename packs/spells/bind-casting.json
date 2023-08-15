@@ -1,0 +1,21 @@
+{
+   "_id": "Cx4EcpPpqNg7r4Eq",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+   "name": "Bind Casting",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 1,
+      "description": "<div class=\"page\" title=\"Page 64\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Bind a single casting, which may be from any School of magic, into a single-use item. The Complexity of this spell must be at least equal to the Complexity of the casting to be bound. The caster should describe how the casting is to be activated when the item is used. The most common item for binding a spell is a potion to be drunk, but any item can be used, providing there is a clear way to activate it, such as a word of command. An example might be a Call Lightning spell bound into a case, which is activated when the lid is removed.</p>\n<p>Creating the item for the binding may require difficult and expensive <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">components. The usual Cost of the ingredients needed for the item is the same as the Complexity of the Bind Casting spell, and the caster must spend the Complexity in hours in their laboratory preparing the item.</span></p>\n</div>\n</div>\n</div>",
+      "duration": "permanent",
+      "range": "touch",
+      "school": "Artifice"
+   },
+   "type": "spell"
+}

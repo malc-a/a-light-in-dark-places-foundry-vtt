@@ -1,0 +1,18 @@
+{
+   "_id": "U5Ts7KjvCh2XxF5y",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+   "name": "Healing",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "description": "<p class=\"p1\"><span class=\"s1\">The </span><span class=\"s2\">School of</span><span class=\"s1\"> magic involved with healing Injuries and diseases, as well as removing damaging and crippling effects. Spells of this School only require incantations to cast, which are often phrased in the form of prayers.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Help rolls to resist or recover from disease</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Recover Health or Will equal to the margin</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Allow a recovery roll with a bonus of the margin</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+      "dice": 0
+   },
+   "type": "school"
+}

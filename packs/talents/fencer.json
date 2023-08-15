@@ -1,0 +1,18 @@
+{
+   "_id": "ASAw7jMIAVrHdicu",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+   "name": "Fencer",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Fight +1d",
+      "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>If you use a sword in one hand with the other hand empty, you gain a +1d bonus on Fight rolls.</p>\n</div>\n</div>\n</div>"
+   },
+   "type": "talent"
+}

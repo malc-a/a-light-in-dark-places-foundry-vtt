@@ -1,0 +1,21 @@
+{
+   "_id": "ujMffOaBXLd05CTD",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+   "name": "Arcane Bolt",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 2,
+      "description": "<div class=\"page\" title=\"Page 62\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates an invisible bolt of pure force aimed at a single target. The bolt does +0 Health damage, resisted by the target's Body. Because the bolt is invisible, the Body roll to resist the damage is made with a -2d penalty.</p>\n</div>\n</div>\n</div>",
+      "duration": "instant",
+      "range": "short",
+      "school": "Arcana"
+   },
+   "type": "spell"
+}

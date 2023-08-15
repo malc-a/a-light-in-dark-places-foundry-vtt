@@ -1,0 +1,21 @@
+{
+   "_id": "HsC3rX5Kh6SMkC5N",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/environment/settlement/tower-stone-blue.webp",
+   "name": "The Mystic Tower",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 12,
+      "description": "<div class=\"page\" title=\"Page 73\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>This spell requires the floor to be made of rock or stone. A tower of up to seven stories rises from the ground. The tower can occupy an area of up to close range from the target. The caster can determine the design of the rooms within the tower.</p>\n</div>\n</div>\n</div>",
+      "duration": "instant",
+      "range": "short",
+      "school": "Earth"
+   },
+   "type": "spell"
+}

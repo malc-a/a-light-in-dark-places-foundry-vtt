@@ -1,0 +1,618 @@
+{
+   "_id": "52rYU4pSklKTD22b",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/svg/mystery-man.svg",
+   "items": [
+      {
+         "_id": "yTW5s3Ejgt9NMYMS",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/targeting/target-glowing-yellow.webp",
+         "name": "Notice",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 300000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>\n</div>\n</div>\n</div>",
+            "dice": 3
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "cK1coWhpBheY6mPr",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/ranged/bow-arrows-red.webp",
+         "name": "Shoot",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 400000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>\n</div>\n</div>\n</div>",
+            "dice": 2
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "UlOgCAQSSVBDeksb",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/sundries/flags/banner-flag-white-mountain.webp",
+         "name": "Common",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "description": "<p>The common language, spoken by almost all peoples of the world.</p>",
+            "fluent": false
+         },
+         "type": "language"
+      },
+      {
+         "_id": "AjL2HonD7mlJ27og",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Attractive",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 150000,
+         "system": {
+            "bonus": "Persuade +1do",
+            "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are physically attractive, and gain a +1d bonus to Persuade when your appearance is likely to influence your target.</p>\n</div>\n</div>\n</div>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "Q2Vi1FLQz4htup8v",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Inspiring",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 200000,
+         "system": {
+            "bonus": "Perform +0d",
+            "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You have the ability to inspire confidence and courage with your performances. Provided you take no other action during a combat round, you can roll Perform to help one or more people who are rolling Fight or Shoot that round.</p>\n</div>\n</div>\n</div>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "1f10qyXMNhpzyI0s",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/tools/instruments/harp-lap-brown.webp",
+         "name": "Musical Instrument",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 600000,
+         "system": {
+            "bonus": "Perform +1d",
+            "cost": 0,
+            "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Musical instruments come in various types, and as a result the cost varies widely. Common instruments such as pipes, flutes or lutes are relatively inexpensive (Cost 0-1), while rarer ones can cost much more. Gives a +1d bonus to Perform rolls when using the instrument.</p>\n</div>\n</div>\n</div>",
+            "equipped": true
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "hRAAQYSkKMZD28tl",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/containers/bags/pack-leather-tan.webp",
+         "name": "Adventurer's Pack",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 700000,
+         "system": {
+            "bonus": "",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>\n</div>\n</div>\n</div>",
+            "equipped": false
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "vGbmtewW72WN0Y1l",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+         "name": "Athletics",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 100000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 4
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "OVadKercGMLkFiAj",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/melee/strike-sword-blood-red.webp",
+         "name": "Fight",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 175000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>\n</div>\n</div>\n</div>",
+            "dice": 3
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "iITlZOaOhMoq1cvn",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/trades/academics-book-study-runes.webp",
+         "name": "Lore",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 237500,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Combines both commonly-held knowledge, as well as knowledge of history and legends. Use Lore when you try to recall information or research a topic.</p>\n</div>\n</div>\n</div>",
+            "dice": 2
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "1CwsAJoCr3A8N1Di",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/trades/music-notes-sound-blue.webp",
+         "name": "Perform",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 350000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers any form of performance, including song, dance, musical instruments and acting. Use Perform when you attempt to impress or distract a crowd with your skill.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 5
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "jgWEhco8Tk6L3tkt",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/social/diplomacy-handshake.webp",
+         "name": "Persuade",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 375000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 3
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "sjqBCXfLrFJrPRKy",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
+         "name": "Stealth",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 1100000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">The ability both to remain out of sight, and to move noiselessly. Use Stealth when you are trying to avoid being noticed.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 4
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "esOoNAsCzIkc2Oac",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/equipment/chest/breastplate-banded-leather-brown.webp",
+         "name": "Light Armour",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 500000,
+         "system": {
+            "bonus": "Health +1",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Light armour is made primarily from leather, either reinforced with metal rings or plates, or boiled in wax to form cuir bouilli, rigid hardened leather that can be used to create armour plates in the same way that metal can.</p>\n</div>\n</div>\n</div>",
+            "equipped": true
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "MtYjiB1fFKTco7qG",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/equipment/shield/buckler-wooden-boss-steel.webp",
+         "name": "Buckler",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 300000,
+         "system": {
+            "bonus": "Fight +1d",
+            "cost": 1,
+            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Unlike larger shields, bucklers are sometimes made of metal. Bucklers<span class=\"Apple-converted-space\">&nbsp; </span>are effective in melee defense, and can also be used as weapons. Unlike larger shields they are too small to act as cover against a ranged attack. If a character using a buckler is injured in a fight, they can choose to sacrifice their buckler instead - the buckler is destroyed until repaired, and can no longer be used, but the character does not take any Injury from the attack, even if it would have caused multiple Injuries.</span></p>\n</div>\n</div>\n</div>",
+            "equipped": true
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "OayavnqYFQm3s0Js",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/swords/sword-guard.webp",
+         "name": "Sword",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Fight +1d",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">treated as a sword. Feel free to define the exact type that fits your character concept.</span></p>\n</div>\n</div>\n</div>",
+            "equipped": true,
+            "range": "reach"
+         },
+         "type": "weapon"
+      },
+      {
+         "_id": "qGWwogmmWYCAm99o",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/daggers/dagger-black.webp",
+         "name": "Dagger",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Fight +1d",
+            "cost": 0,
+            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>\n</div>\n</div>\n</div>",
+            "equipped": false,
+            "range": "reach"
+         },
+         "type": "weapon"
+      },
+      {
+         "_id": "y6LXpbsskRUxMCQx",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/thrown/dagger-simple.webp",
+         "name": "Throwing Knife (2)",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 400000,
+         "system": {
+            "bonus": "Shoot +0d",
+            "cost": 0,
+            "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Throwing knives are smaller than daggers intended for hand-to-hand combat, and better balanced to be thrown. They can be used as melee weapons, but give no bonus.</p>\n</div>\n</div>\n</div>",
+            "equipped": true,
+            "range": "reach"
+         },
+         "type": "weapon"
+      },
+      {
+         "_id": "i0P5fzFtS9SfZ0G4",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/magic/perception/orb-eye-scrying.webp",
+         "name": "Message",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "complexity": 1,
+            "description": "<div class=\"page\" title=\"Page 78\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster whispers a short message, no more than a few seconds of speech. The target (but nobody else) will be able to clearly hear the message.</p>\n</div>\n</div>\n</div>",
+            "duration": "instant",
+            "range": "sight",
+            "school": "Enchantment"
+         },
+         "type": "spell"
+      },
+      {
+         "_id": "txBNpIJLsNVsWRVt",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/magic/control/debuff-chains-blue.webp",
+         "name": "Calm",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "complexity": 1,
+            "description": "<div class=\"page\" title=\"Page 78\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Removes any strong emotion from the target creature. The target can attempt to resist the casting with a Mind roll. Because this spell has a duration of instant, if there was a good reason for that emotion it is likely to return again very quickly.</p>\n</div>\n</div>\n</div>",
+            "duration": "instant",
+            "range": "short",
+            "school": "Enchantment"
+         },
+         "type": "spell"
+      },
+      {
+         "_id": "IROFEpFa8ITykHMc",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+         "name": "Command",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "complexity": 2,
+            "description": "<div class=\"page\" title=\"Page 78\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Speak a single word command to the target, which must obey if it fails to resist the casting with a Mind roll. A suicidal or self-harming command will automatically cause the spell to fail.</p>\n</div>\n</div>\n</div>",
+            "duration": "instant",
+            "range": "short",
+            "school": "Enchantment"
+         },
+         "type": "spell"
+      },
+      {
+         "_id": "UDr7s2JItReoSkzq",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Adaptable Study (Enchantment)",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 100000,
+         "system": {
+            "bonus": "",
+            "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are able to learn spells or skill in the selected School from someone whose Casting Form differs from your own. This talent may be taken multiple times, for different Schools of magic.</p>\n</div>\n</div>\n</div>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "xEbH2Yl5rRfP5uty",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+         "name": "Mirror Image",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "complexity": 2,
+            "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Splits the caster's image, creating multiple images moving constantly around them and making it hard to see exactly where they are. The caster gains bonus dice equal to half the margin (rounded up) to any Body rolls to resist ranged attacks, or Fight roll to oppose a melee attack.</p>\n</div>\n</div>\n</div>",
+            "duration": "instant",
+            "range": "self",
+            "school": "Illusion"
+         },
+         "type": "spell"
+      },
+      {
+         "_id": "Fee4sYMxsVyI4zKp",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/magic/light/beam-rays-blue-small.webp",
+         "name": "Scintillation",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "complexity": 2,
+            "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A sphere of colours surrounds a single target within range, potentially distracting and mesmerising them. The target takes +0 Focus damage, which may be resisted with a Mind roll.</p>\n</div>\n</div>\n</div>",
+            "duration": "instant",
+            "range": "short",
+            "school": "Illusion"
+         },
+         "type": "spell"
+      },
+      {
+         "_id": "aw7DePaK8cyLQqAL",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/magic/control/control-influence-rally-purple.webp",
+         "name": "Enchantment",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "description": "<p class=\"p1\"><span class=\"s1\">The </span><span class=\"s2\">School of</span><span class=\"s1\"> magic concerned with mind-altering effects, mostly those that affect the target's attitudes, but also others causing mental harm to the target. Casting spells from this School normally requires both incantations and clear gestures.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Sense or influence emotions; form words in another's mind</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Issue a single-word command</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Influence someone's thoughts</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">3</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create or remove a memory</span></p>\n</td>\n</tr>\n<tr>\n<td>4</td>\n<td>\n<p class=\"p1\"><span class=\"s1\">Help Persuade rolls with the margin</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "dice": 4
+         },
+         "type": "school"
+      },
+      {
+         "_id": "7Yi88eAhBftJXplk",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/magic/light/orb-shadow-blue.webp",
+         "name": "Illusion",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "description": "<p class=\"p1\"><span class=\"s1\">This subtle school of magic is concerned with manipulating the senses to deceive the unwary. It allows the manipulation of the senses, including sight, sound, smell and touch. The core of this School is, of course, illusions. An illusion can't affect the real world in any way - it can't move a real object, or damage a character; although an advanced enough illusion can make a character <em>feel</em> the pain of a blow, that pain isn't real. Illusions can distract characters or conceal real things. An illusion that affects the sense of touch will <em>feel</em> correct when lightly touched, but has no substance. You could create an illusion of a door, but people would still be able to walk through it freely.</span></p>\n<p class=\"p1\"><span class=\"s1\">Spells of this School are cast with firm gestures, as well as spoken incantations.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create an illusion affecting one sense</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create an illusion affecting three senses; Inflict Focus damage through images</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create an illusion affecting all senses; use senses at a distance</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">3</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Remove all traces of an object to one sense</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "dice": 4
+         },
+         "type": "school"
+      }
+   ],
+   "name": "Bard",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "prototypeToken": {
+      "actorLink": true,
+      "alpha": 1,
+      "appendNumber": false,
+      "bar1": {
+         "attribute": "health"
+      },
+      "bar2": {
+         "attribute": "focus"
+      },
+      "detectionModes": [],
+      "displayBars": 20,
+      "displayName": 30,
+      "disposition": 1,
+      "flags": {},
+      "height": 1,
+      "light": {
+         "alpha": 0.5,
+         "angle": 360,
+         "animation": {
+            "intensity": 5,
+            "reverse": false,
+            "speed": 5,
+            "type": null
+         },
+         "attenuation": 0.5,
+         "bright": 0,
+         "color": null,
+         "coloration": 1,
+         "contrast": 0,
+         "darkness": {
+            "max": 1,
+            "min": 0
+         },
+         "dim": 0,
+         "luminosity": 0.5,
+         "saturation": 0,
+         "shadows": 0
+      },
+      "lockRotation": false,
+      "name": "Bard",
+      "prependAdjective": false,
+      "randomImg": false,
+      "rotation": 0,
+      "sight": {
+         "angle": 360,
+         "attenuation": 0.1,
+         "brightness": 0,
+         "color": null,
+         "contrast": 0,
+         "enabled": true,
+         "range": null,
+         "saturation": 0,
+         "visionMode": "basic"
+      },
+      "texture": {
+         "offsetX": 0,
+         "offsetY": 0,
+         "rotation": 0,
+         "scaleX": 1,
+         "scaleY": 1,
+         "src": "icons/svg/mystery-man.svg",
+         "tint": null
+      },
+      "width": 1
+   },
+   "sort": 0,
+   "system": {
+      "actions": 1,
+      "concept": "",
+      "gear": {},
+      "languages": {},
+      "passions": {
+         "0": "",
+         "1": "",
+         "2": ""
+      },
+      "problems": {},
+      "resistances": {
+         "body": {
+            "dice": 4,
+            "injuries": 0,
+            "pool": 5
+         },
+         "mind": {
+            "dice": 5,
+            "injuries": 0,
+            "pool": 5
+         },
+         "soul": {
+            "dice": 4,
+            "injuries": 0,
+            "pool": 5
+         }
+      },
+      "schools": {},
+      "skills": {},
+      "speed": 1,
+      "talents": {},
+      "treasure": 0,
+      "wealth": 2,
+      "xp": 0
+   },
+   "type": "character"
+}

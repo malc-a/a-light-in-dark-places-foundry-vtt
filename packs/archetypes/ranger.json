@@ -1,0 +1,500 @@
+{
+   "_id": "AEPFmD49JJSL5Ncm",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/svg/mystery-man.svg",
+   "items": [
+      {
+         "_id": "KxTx02LWaqk51IpH",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/targeting/target-glowing-yellow.webp",
+         "name": "Notice",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 300000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>\n</div>\n</div>\n</div>",
+            "dice": 4
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "ouiLEHVq0Fbhz1Or",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/ranged/bow-arrows-red.webp",
+         "name": "Shoot",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 400000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>\n</div>\n</div>\n</div>",
+            "dice": 5
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "b6oazGsrlgm3nbWI",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/sundries/flags/banner-flag-white-mountain.webp",
+         "name": "Common",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "description": "<p>The common language, spoken by almost all peoples of the world.</p>",
+            "fluent": false
+         },
+         "type": "language"
+      },
+      {
+         "_id": "YQhG3xvJD1bbLCvC",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Dead Shot",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Shoot +1do",
+            "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>ou have a keen eye for a target. If you don't move during a round and your only action is a Shoot roll, then you gain a +1d bonus on that Shoot roll.</p>\n</div>\n</div>\n</div>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "XNlUEAgqIOpzQ4SN",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Dodge",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "ability": "Fight",
+            "bonus": "Fight +1d",
+            "description": "<p class=\"p1\"><span class=\"s1\">If you are wearing light or no armour, and are able to move freely, you get a +1d bonus on Fight rolls.</span></p>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "6mJBg8bNNLzbwfVX",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Sense of Direction",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Survive +1do",
+            "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You always know which way North is. You gain a +1d bonus to Survive rolls to find your way even when you do not have a compass.</p>\n</div>\n</div>\n</div>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "YpMXn8otfrdiOjbg",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/containers/bags/pack-leather-tan.webp",
+         "name": "Adventurer's Pack",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 500000,
+         "system": {
+            "bonus": "",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>\n</div>\n</div>\n</div>",
+            "equipped": false
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "RQpGu1yy3vBCovMz",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/environment/traps/trap-jaw-steel.webp",
+         "name": "Survival Kit",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 600000,
+         "system": {
+            "bonus": "Survive +2do",
+            "cost": 0,
+            "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A selection of traps and snares, along with a length of fishing line and a selection of hooks. Gives a +2d bonus to Survival rolls made to hunt food.</p>\n</div>\n</div>\n</div>",
+            "equipped": true
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "OtkAI4xk0AnOKwMX",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+         "name": "Athletics",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 100000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 4
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "yUrZixdvGBi4XVef",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/melee/strike-sword-blood-red.webp",
+         "name": "Fight",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 275000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>\n</div>\n</div>\n</div>",
+            "dice": 4
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "ebO8ewV2KLOtorIH",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/social/diplomacy-handshake.webp",
+         "name": "Persuade",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 350000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 2
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "bN3Gdz5KF59LNRME",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
+         "name": "Stealth",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 500000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">The ability both to remain out of sight, and to move noiselessly. Use Stealth when you are trying to avoid being noticed.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 4
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "bdQzL6gIvhYLcMCd",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/trades/woodcutting-logging-splitting.webp",
+         "name": "Survive",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 600000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Knowledge of how to survive in the lands outside cities. Use Survive to find your way in the wilderness, to hunt or forage for food, to find or construct shelter, to follow tracks, and to avoid leaving a trail while moving.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 5
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "rb0TqZJdnx9145jQ",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/equipment/chest/breastplate-banded-leather-brown.webp",
+         "name": "Light Armour",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 400000,
+         "system": {
+            "bonus": "Health +1",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Light armour is made primarily from leather, either reinforced with metal rings or plates, or boiled in wax to form cuir bouilli, rigid hardened leather that can be used to create armour plates in the same way that metal can.</p>\n</div>\n</div>\n</div>",
+            "equipped": true
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "gxNok7p6r3B8w9NT",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/swords/sword-guard.webp",
+         "name": "Sword",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Fight +1d",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">treated as a sword. Feel free to define the exact type that fits your character concept.</span></p>\n</div>\n</div>\n</div>",
+            "equipped": true,
+            "range": "reach"
+         },
+         "type": "weapon"
+      },
+      {
+         "_id": "Thfo0BsGMlqj56dY",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/daggers/dagger-black.webp",
+         "name": "Dagger",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Fight +1d",
+            "cost": 0,
+            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>\n</div>\n</div>\n</div>",
+            "equipped": false,
+            "range": "reach"
+         },
+         "type": "weapon"
+      },
+      {
+         "_id": "dyLB6J1Nd1u0XWOh",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/bows/longbow-leather-green.webp",
+         "name": "Longbow",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Shoot +2d",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Another wooden bow made from a single piece of wood, traditionally yew, but closer to 2m long. Longbows are much more powerful and longer ranged than the self bow. Can only be fired from a standing position due to its size.</p>\n</div>\n</div>\n</div>",
+            "equipped": true,
+            "range": "long"
+         },
+         "type": "weapon"
+      },
+      {
+         "_id": "RRv3K6rZJvJOYbnC",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/magic/nature/barrier-shield-wood-vines.webp",
+         "name": "Barkskin",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "complexity": 2,
+            "description": "<div class=\"page\" title=\"Page 82\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster's outer layer of skin turns into a gnarled layer of bark. This bark gives the caster protection against attacks, boosting their Health by the margin of the spell.</p>\n</div>\n</div>\n</div>",
+            "duration": "minute",
+            "range": "self",
+            "school": "Nature"
+         },
+         "type": "spell"
+      },
+      {
+         "_id": "1zwsopfkoNz7LJ9Z",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/magic/lightning/projectile-tendrils-teal.webp",
+         "name": "Hunter's Arror",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "complexity": 2,
+            "description": "<div class=\"page\" title=\"Page 82\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Enchants a single arrow. When the arrow is fired, it does extra damage equal to the margin of the casting.</p>\n</div>\n</div>\n</div>",
+            "duration": "minute",
+            "range": "touch",
+            "school": "Nature"
+         },
+         "type": "spell"
+      },
+      {
+         "_id": "duTP5LuJEwaHlNto",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/magic/nature/leaf-glow-green.webp",
+         "name": "Nature",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "description": "<p class=\"p1\"><span class=\"s1\">This </span><span class=\"s2\">School of</span><span class=\"s1\"> magic concerns itself with plants and plant products, including wood, rope, cloth, and paper. Spells are usually cast in the form of both spoken incantations and arcane gestures.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Learn the properties of a plant; promote the healthy growth of plants</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Grow plants rapidly or alter their shape</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create plants or plant materials</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">3</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Control plants or plant products</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "dice": 4
+         },
+         "type": "school"
+      }
+   ],
+   "name": "Ranger",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "prototypeToken": {
+      "actorLink": true,
+      "alpha": 1,
+      "appendNumber": false,
+      "bar1": {
+         "attribute": "health"
+      },
+      "bar2": {
+         "attribute": "focus"
+      },
+      "detectionModes": [],
+      "displayBars": 0,
+      "displayName": 30,
+      "disposition": 1,
+      "flags": {},
+      "height": 1,
+      "light": {
+         "alpha": 0.5,
+         "angle": 360,
+         "animation": {
+            "intensity": 5,
+            "reverse": false,
+            "speed": 5,
+            "type": null
+         },
+         "attenuation": 0.5,
+         "bright": 0,
+         "color": null,
+         "coloration": 1,
+         "contrast": 0,
+         "darkness": {
+            "max": 1,
+            "min": 0
+         },
+         "dim": 0,
+         "luminosity": 0.5,
+         "saturation": 0,
+         "shadows": 0
+      },
+      "lockRotation": false,
+      "name": "Ranger",
+      "prependAdjective": false,
+      "randomImg": false,
+      "rotation": 0,
+      "sight": {
+         "angle": 360,
+         "attenuation": 0.1,
+         "brightness": 0,
+         "color": null,
+         "contrast": 0,
+         "enabled": true,
+         "range": null,
+         "saturation": 0,
+         "visionMode": "basic"
+      },
+      "texture": {
+         "offsetX": 0,
+         "offsetY": 0,
+         "rotation": 0,
+         "scaleX": 1,
+         "scaleY": 1,
+         "src": "icons/svg/mystery-man.svg",
+         "tint": null
+      },
+      "width": 1
+   },
+   "sort": 0,
+   "system": {
+      "actions": 1,
+      "concept": "",
+      "gear": {},
+      "languages": {},
+      "passions": {
+         "0": "",
+         "1": "",
+         "2": ""
+      },
+      "problems": {},
+      "resistances": {
+         "body": {
+            "dice": 4,
+            "injuries": 0,
+            "pool": 5
+         },
+         "mind": {
+            "dice": 5,
+            "injuries": 0,
+            "pool": 5
+         },
+         "soul": {
+            "dice": 4,
+            "injuries": 0,
+            "pool": 4
+         }
+      },
+      "schools": {},
+      "skills": {},
+      "speed": 1,
+      "talents": {},
+      "treasure": 0,
+      "wealth": 2,
+      "xp": 0
+   },
+   "type": "character"
+}

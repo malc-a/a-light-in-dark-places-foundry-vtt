@@ -1,0 +1,418 @@
+{
+  "name": "A Light in Dark Places",
+  "_id": "OluulvDsGVvYwJ62",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Welcome to A Light in Dark Places",
+      "type": "text",
+      "_id": "cIFR7rIdlfwx5WdH",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Welcome to <em>A Light in Dark Places</em>, the Foundry VTT system to run the rules-light fantasy RPG of the same name.</p><p>This system, while quite usable, is still very much a work in progress, mostly intended for use while playtesting the <em>A Light in Dark Places</em> system itself. While this system is quite usable, its automation is still very basic, mostly because while playtesting I prefer the VTT experience to be as close as possible to the face-to-face one.</p><p>At the moment, most things on sheets are rollable: Resistances, skills, talents, gear and wealth. There is a button on character, menace and master sheets to refesh all pools which takes into account any bonuses from Gear or Special Features. Bonuses given by gear or talents are mostly handled correctly. Finally, the combat encounters panel allows updating how many actions each actor is taking through buttons on the combatant.</p><p>What isn't in place yet is any automation for conflicts; you have to adjudicate the rolls and apply damage manually.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 200000,
+      "name": "Items",
+      "type": "text",
+      "_id": "A38tjodaNrh6OLss",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>In Foundry VTT an item represents anything that can be attached to an actor (such as a player character or NPC). It might be Gear, but it might also be a Skill, a Spell or anything else that could be added to an actor's sheet.</p><p>Items each have a type, but some features are common across several types of item.</p><p><b>Description:</b> All items have a description. This is usually text from one of the <em>A Light in Dark Places</em> books. It has no system effect, it is just text.</p><p><b>Dice:</b> Items that represent Abilities (ie. skills and schools of magic) have a number of Dice attached. This is how many dice to roll when rolling the item.</p><p><b>Bonus:</b> The bonus field, found on gear, talents and special features <em>does</em> have a game effect. It can be one of three forms. The simplest is The name of a Pool followed by a modifier (eg. Health +1). This is a simple bonus to a pool, used when resetting the pool to its maximum value. The second is the name of an Ability followed by +1d (eg. Fight +1d). This gives a bonus to all rolls of the named skill. The final form is an Ability name followed by +1do (eg. Notice +1do). This is an optional bonus; it is only added to the Ability when the specific item with the bonus is rolled.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 150000,
+      "name": "Actors",
+      "type": "text",
+      "_id": "FlsvildZUGCNLjyx",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>In Foundry VTT an actor is anything that could have a token representing it on a scene. In A Light in Dark Places this includes player characters, and the three types of non-player-character: minions, menaces and masters.</p><p>All four sheets are automated, allowing you to roll any skills, schools of magic, spells, talents or gear.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 175000,
+      "name": "Character",
+      "type": "text",
+      "_id": "TyZMgCKcSAVD7Bie",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Characters are the actors representing player characters. Abilities are rollable, as are spells. Gear and talents are rollable if they give a bonus to an Ability.</p><p>One useful feature for creating a character is clicking on the <em>XP</em> label on the sheet. This will pop up a report on the character's build, making it easy to check that they have the right number of Abilities, wealth and spells.</p> ",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 178125,
+      "name": "Minion",
+      "type": "text",
+      "_id": "EbbAC6w7LxL56Ezf",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Minions represent groups of NPCs who are too weak individually to threaten the characters. Rather than pools they have a number of dice, which is rolled in place of their Fight or Shoot skill.</p><p>Minions are usually represented by double-size tokens, as they are groups rather than individuals.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 181250,
+      "name": "Menace",
+      "type": "text",
+      "_id": "iUpDMqLNQZsVL2iz",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Menaces are the most common NPCs that may oppose or assist the characters.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 190625,
+      "name": "Master",
+      "type": "text",
+      "_id": "wZx4NrrLn1DnC0oU",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Masters are the toughest opponents that characters may face. They often have special features that boost their pools. A master is often tough enough to face an entire party of adventurers by itself.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 300000,
+      "name": "Gear",
+      "type": "text",
+      "_id": "Ru8NRHzNaxBke4ic",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Gear represents equipment in the possession of an actor. Gear has three unusual features:</p><p><b>Cost:</b> the cost of the gear; the difficulty of a wealth roll to buy it.</p><p><b>Range:</b> the default range of the gear; only available if the item represents a weapon.</p><p><b>Equipped:</b> whether the item is equipped. Gear that gives a permanent bonus to an ability will only do so if it is equipped.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 400000,
+      "name": "Languages",
+      "type": "text",
+      "_id": "yugq2P8WUKlt2N2e",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Languages represent the languages encountered within the game setting. They are handled as items so that the GM can create an appropriate list for the setting.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 500000,
+      "name": "Problems",
+      "type": "text",
+      "_id": "AMyCd5omz8y6T93l",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Problems are difficulties intrinsic to a player character. They give a character bonus XP if they cause them difficulties during a game session.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 600000,
+      "name": "Schools of Magic",
+      "type": "text",
+      "_id": "HVf68fGeGS6SjHWp",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Schools of Magic are the Abilities that allow a character to use magic. Knowing a School of Magic will also give access to some of the spells of that School.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 700000,
+      "name": "Skills",
+      "type": "text",
+      "_id": "CeaE4wnrKUQqKLeO",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Skills are the Abilities that let the character try to actively achieve something.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 800000,
+      "name": "Spells",
+      "type": "text",
+      "_id": "PsyeodOTnMIQp8xz",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Spells require knowledge of the related School of Magic to cast. Spells have four unusual features:</p><p><b>School:</b> the School of Magic used to learn or cast the spell.</p><p><b>Complexity:</b> the Complexity of the spell, used as the Cost to cast it.</p><p><b>Range:</b> the range of the spell.</p><p><b>Duration:</b> how long the effects of the spell will persist.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 1100000,
+      "name": "Talents",
+      "type": "text",
+      "_id": "bQ3t4u3FEM9P9R20",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Talents are special abilities that either player characters or non-player characters may have. They typically customise some aspect of the character. Most talents will have a bonus.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    },
+    {
+      "sort": 750000,
+      "name": "Special Features",
+      "type": "text",
+      "_id": "wdbODAOETErHbLnS",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Special features represent the special abilities of a creature, such as flight, a poison bite or a keen sense of smell. Special abilities usually give a bonus, and the description is likely to give details of how they work. Special features  may also have a defined range if they represent an attack.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "JJPSWcXIKWXAvjob": 3
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JJPSWcXIKWXAvjob": 3
+  }
+}

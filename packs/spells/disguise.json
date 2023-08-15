@@ -1,0 +1,21 @@
+{
+   "_id": "UQ75HiSTpAXBoH5z",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+   "name": "Disguise",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 2,
+      "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates an illusion that disguises the caster as any desired creature of a similar size to the caster.</p>\n</div>\n</div>\n</div>",
+      "duration": "hour",
+      "range": "self",
+      "school": "Illusion"
+   },
+   "type": "spell"
+}

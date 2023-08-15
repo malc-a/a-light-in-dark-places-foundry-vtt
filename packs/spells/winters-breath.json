@@ -1,0 +1,21 @@
+{
+   "_id": "Mi89OOoaw2KYi8mY",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/water/ice-crystal-white.webp",
+   "name": "Winter's Breath",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 4,
+      "description": "<div class=\"page\" title=\"Page 76\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Any water within close range of the target location turns to ice. The ice will rapidly melt if the ambient temperature is too high. If a creature is trapped by the ice it will need to make an Athletics roll opposed by the margin of the casting to break free.</p>\n</div>\n</div>\n</div>",
+      "duration": "instant",
+      "range": "short",
+      "school": "Water"
+   },
+   "type": "spell"
+}

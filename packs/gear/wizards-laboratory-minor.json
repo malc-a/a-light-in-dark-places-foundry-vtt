@@ -1,0 +1,20 @@
+{
+   "_id": "QuI9AsF8UnPE5Jmz",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
+   "name": "Wizard's Laboratory (Minor)",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "",
+      "cost": 4,
+      "description": "<p class=\"p1\"><span class=\"s1\">The tools, instruments and other items required for a character to do limited magical research, including inventing and binding spells. This is only the equipment required to carry out such magical research, if a wizard intends to do much laboratory work, then they may also want to buy a building to store it in.</span></p>",
+      "equipped": false
+   },
+   "type": "gear"
+}

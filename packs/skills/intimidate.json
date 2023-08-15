@@ -1,0 +1,18 @@
+{
+   "_id": "ky9Fzzugh9onKi4p",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/skills/social/intimidation-impressing.webp",
+   "name": "Intimidate",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>How to bully, threaten and scare people to get your own way. Use intimidate when you try to pull rank or threaten the use of force to achieve a goal.</p>\n</div>\n</div>\n</div>",
+      "dice": 0
+   },
+   "type": "skill"
+}

@@ -1,0 +1,17 @@
+{
+   "_id": "Xxn8hAeGlaJ5rO6V",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/commodities/treasure/mask-bone-white.webp",
+   "name": "Missing Hand",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "description": "<div class=\"page\" title=\"Page 16\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You have a missing hand, which has been replaced with a hook or other prosthetic. You can't take any actions that require both hands. Actions such as Athletics rolls for swimming that would usually use both hands are rolled at a -1d penalty.</p>\n</div>\n</div>\n</div>"
+   },
+   "type": "problem"
+}

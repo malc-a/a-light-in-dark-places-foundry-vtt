@@ -1,0 +1,21 @@
+{
+   "_id": "tlwVmQkb8rnSTqk3",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/perception/orb-eye-scrying.webp",
+   "name": "Message",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 1,
+      "description": "<div class=\"page\" title=\"Page 78\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster whispers a short message, no more than a few seconds of speech. The target (but nobody else) will be able to clearly hear the message.</p>\n</div>\n</div>\n</div>",
+      "duration": "instant",
+      "range": "sight",
+      "school": "Enchantment"
+   },
+   "type": "spell"
+}

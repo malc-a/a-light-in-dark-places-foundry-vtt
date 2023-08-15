@@ -1,0 +1,18 @@
+{
+   "_id": "gWIXHufgeUqmKUAL",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+   "name": "Battle",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A combination of strategy, tactics and command presence. Use Battle when you are commanding troops in a fight, to assist them tactially or to rally their morale.</span></p>\n</div>\n</div>\n</div>",
+      "dice": 0
+   },
+   "type": "skill"
+}

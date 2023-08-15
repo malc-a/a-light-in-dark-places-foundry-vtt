@@ -1,0 +1,21 @@
+{
+   "_id": "mtUutcaOl3gNy7JC",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+   "name": "Silence",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 4,
+      "description": "<div class=\"page\" title=\"Page 81\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The area within close range of the target creature or location becomes devoid of sound. If the spell is cast at a creature, then it can make a Mind roll to resist the effect. If it succeeds, then the spell takes effect at their current location. If they fail then the zone of silence is centred on them, and moves when they do.</p>\n</div>\n</div>\n</div>",
+      "duration": "minute",
+      "range": "medium",
+      "school": "Illusion"
+   },
+   "type": "spell"
+}

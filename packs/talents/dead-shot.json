@@ -1,0 +1,18 @@
+{
+   "_id": "M4849AbX72ERJYNg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+   "name": "Dead Shot",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Shoot +1do",
+      "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>ou have a keen eye for a target. If you don't move during a round and your only action is a Shoot roll, then you gain a +1d bonus on that Shoot roll.</p>\n</div>\n</div>\n</div>"
+   },
+   "type": "talent"
+}

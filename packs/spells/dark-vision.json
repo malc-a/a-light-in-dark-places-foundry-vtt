@@ -1,0 +1,21 @@
+{
+   "_id": "n98xTFeUOvhgnwjC",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+   "name": "Dark Vision",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 8,
+      "description": "<p class=\"p1\"><span class=\"s1\">Allows the target to see normally even in pitch darkness.</span></p>",
+      "duration": "hour",
+      "range": "close",
+      "school": "Blessings"
+   },
+   "type": "spell"
+}

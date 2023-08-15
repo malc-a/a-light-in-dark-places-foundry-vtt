@@ -1,0 +1,21 @@
+{
+   "_id": "Baf0NwPIUmLVuUUQ",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/defensive/armor-stone-skin.webp",
+   "name": "Skin of Stone",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 3,
+      "description": "<div class=\"page\" title=\"Page 72\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The target's skin is covered in a thin skin of tough stone. This skin gives the target protection against attacks, boosting their Health by the margin of the spell.</p>\n</div>\n</div>\n</div>",
+      "duration": "minute",
+      "range": "self",
+      "school": "Earth"
+   },
+   "type": "spell"
+}

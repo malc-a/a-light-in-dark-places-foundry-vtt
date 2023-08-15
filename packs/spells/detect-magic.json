@@ -1,0 +1,21 @@
+{
+   "_id": "DSVwWFk7CxP0L2S1",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/perception/eye-ringed-green.webp",
+   "name": "Detect Magic",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 1,
+      "description": "<div class=\"page\" title=\"Page 62\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>While this spell lasts the caster can sense magic as an aura around any magical creature, object or area. They can also determine which School of magic is involved, unless the School is completely outside their experience. The spell is blocked by anything that blocks vision.</p>\n</div>\n</div>\n</div>",
+      "duration": "minute",
+      "range": "self",
+      "school": "Arcana"
+   },
+   "type": "spell"
+}

@@ -1,0 +1,18 @@
+{
+   "_id": "qw3n9TnmU4NU8nen",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+   "name": "Sense of Direction",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Survive +1do",
+      "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You always know which way North is. You gain a +1d bonus to Survive rolls to find your way even when you do not have a compass.</p>\n</div>\n</div>\n</div>"
+   },
+   "type": "talent"
+}

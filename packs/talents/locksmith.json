@@ -1,0 +1,18 @@
+{
+   "_id": "pHxAa56l8AHlteuM",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+   "name": "Locksmith",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Disable +1do",
+      "description": "<div class=\"page\" title=\"Page 14\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You can pick a lock with a hairpin and a piece of bent wire. You gain a +1d bonus on Disable rolls to pick a lock even if you do not have access to picks &amp; tools.</p>\n</div>\n</div>\n</div>"
+   },
+   "type": "talent"
+}

@@ -1,0 +1,21 @@
+{
+   "_id": "gznAtj10dFPrZqCR",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/weapons/thrown/dagger-simple.webp",
+   "name": "Throwing Knife",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Shoot +0d",
+      "cost": 0,
+      "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Throwing knives are smaller than daggers intended for hand-to-hand combat, and better balanced to be thrown. They can be used as melee weapons, but give no bonus.</p>\n</div>\n</div>\n</div>",
+      "equipped": false,
+      "range": "reach"
+   },
+   "type": "weapon"
+}

@@ -1,0 +1,21 @@
+{
+   "_id": "oKNybmERK2tqVUH6",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/defensive/shield-barrier-blue.webp",
+   "name": "Arcane Shield",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 3,
+      "description": "<div class=\"page\" title=\"Page 63\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 63\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Creates an invisible shield of force hovering in front of the caster. If the caster is attacked using Fight or Shoot while this spell is active, then they may defend themselves by using the sustained margin, which can reduce or prevent any damage (but not cause damage itself). Using the shield to defend yourself in this way is a Free Action.</span></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+      "duration": "sustained",
+      "range": "self",
+      "school": "Arcana"
+   },
+   "type": "spell"
+}

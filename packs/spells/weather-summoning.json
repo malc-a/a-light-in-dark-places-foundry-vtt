@@ -1,0 +1,21 @@
+{
+   "_id": "Yg0kiIkmCeja4syE",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/air/wind-weather-snow-gusts.webp",
+   "name": "Weather Summoning",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 6,
+      "description": "<div class=\"page\" title=\"Page 71\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">The caster can change the weather in their immediate vicinity by one step for each success in the margin. Each step may increase or decrease the temperature, from freezing to cold, cold to warm, warm to hot or hot to stifling. A step may change the precipitation, from storm to rain, rain to drizzle or drizzle to dry. Finally, wind can be affected, from still to a breeze, a breeze to windy, a wind to strong winds, or a strong wind to a gale. If the temperature is cold, the caster can change rain to hail. If the temperature is freezing then rain will become sleet or snow.</span></p>\n<p>The weather is changed within sight range of the caster. Once changed, the weather will slowly revert to the naturally prevailing conditions, usually taking several hours to do so.</p>\n</div>\n</div>\n</div>",
+      "duration": "instant",
+      "range": "self",
+      "school": "Air"
+   },
+   "type": "spell"
+}

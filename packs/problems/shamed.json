@@ -1,0 +1,17 @@
+{
+   "_id": "mY036dSsCx1cfN57",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/commodities/treasure/mask-bone-white.webp",
+   "name": "Shamed",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "description": "<div class=\"page\" title=\"Page 16\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Something in your past haunts you. It's up to you how well known your shame is, but you should decide which people are likely to know of it.</p>\n</div>\n</div>\n</div>"
+   },
+   "type": "problem"
+}

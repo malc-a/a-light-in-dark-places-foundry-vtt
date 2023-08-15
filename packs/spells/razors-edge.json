@@ -1,0 +1,21 @@
+{
+   "_id": "DDv8u65S1MhCCO9U",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/weapons/swords/greatsword-guard-gem-blue.webp",
+   "name": "Razor's Edge",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 2,
+      "description": "<div class=\"page\" title=\"Page 71\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Makes any metal edge sharper than is possible by manual methods. If used on a weapon this spell gives the weapon a Damage bonus equal to half the successes in the margin (rounded up).</p>\n</div>\n</div>\n</div>",
+      "duration": "minute",
+      "range": "touch",
+      "school": "Earth"
+   },
+   "type": "spell"
+}

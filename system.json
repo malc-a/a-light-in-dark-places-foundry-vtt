@@ -2,9 +2,9 @@
   "id": "a-light-in-dark-places",
   "title": "A Light in Dark Places",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "compatibility": {
-    "minimum": "10",
+    "minimum": "11",
     "verified": "11.307"
   },
   "authors": [
@@ -19,9 +19,9 @@
   "styles": ["css/a-light-in-dark-places.css"],
   "packs": [
     {
-      "name": "documents",
-      "label": "Documents",
-      "path": "packs/documents.db",
+      "name": "documentation",
+      "label": "System Documentation",
+      "path": "packs/documentation",
       "type": "JournalEntry",
       "system": "a-light-in-dark-places",
       "ownership": {
@@ -33,7 +33,7 @@
     {
       "name": "archetypes",
       "label": "Archetypes",
-      "path": "packs/archetypes.db",
+      "path": "packs/archetypes",
       "type": "Actor",
       "system": "a-light-in-dark-places",
       "ownership": {
@@ -45,7 +45,7 @@
     {
       "name": "bestiary",
       "label": "Bestiary",
-      "path": "packs/bestiary.db",
+      "path": "packs/bestiary",
       "type": "Actor",
       "system": "a-light-in-dark-places",
       "ownership": {
@@ -57,7 +57,7 @@
     {
       "name": "features",
       "label": "Special Features",
-      "path": "packs/features.db",
+      "path": "packs/features",
       "type": "Item",
       "system": "a-light-in-dark-places",
       "ownership": {
@@ -69,7 +69,7 @@
     {
       "name": "gear",
       "label": "Gear",
-      "path": "packs/gear.db",
+      "path": "packs/gear",
       "type": "Item",
       "system": "a-light-in-dark-places",
       "ownership": {
@@ -81,7 +81,7 @@
     {
       "name": "languages",
       "label": "Languages",
-      "path": "packs/languages.db",
+      "path": "packs/languages",
       "type": "Item",
       "system": "a-light-in-dark-places",
       "ownership": {
@@ -93,7 +93,7 @@
     {
       "name": "problems",
       "label": "Problems",
-      "path": "packs/problems.db",
+      "path": "packs/problems",
       "type": "Item",
       "system": "a-light-in-dark-places",
       "ownership": {
@@ -105,7 +105,7 @@
     {
       "name": "skills",
       "label": "Skills",
-      "path": "packs/skills.db",
+      "path": "packs/skills",
       "type": "Item",
       "system": "a-light-in-dark-places",
       "ownership": {
@@ -117,7 +117,7 @@
     {
       "name": "schools",
       "label": "Schools of Magic",
-      "path": "packs/schools.db",
+      "path": "packs/schools",
       "type": "Item",
       "system": "a-light-in-dark-places",
       "ownership": {
@@ -129,7 +129,7 @@
     {
       "name": "spells",
       "label": "Spells",
-      "path": "packs/spells.db",
+      "path": "packs/spells",
       "type": "Item",
       "system": "a-light-in-dark-places",
       "ownership": {
@@ -141,7 +141,7 @@
     {
       "name": "talents",
       "label": "Talents",
-      "path": "packs/talents.db",
+      "path": "packs/talents",
       "type": "Item",
       "system": "a-light-in-dark-places",
       "ownership": {

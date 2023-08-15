@@ -1,0 +1,18 @@
+{
+   "_id": "wXcGwYRcb8JYjEFx",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+   "name": "Artifice",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "description": "<p class=\"p1\"><span class=\"s1\">This School concerns itself with the creation of magical items, either single use or permanent. It has very few related spells, and most of those spells are unique in that castings vary in Complexity. A character can learn such a spell at any Complexity, and may then cast it at at any Complexity up to the highest they have learned.</span></p>\n<p class=\"p1\"><span class=\"s1\">Casting most spells from this School requires not only the usual spoken works and gestures, but also access to a wizard's laboratory to prepare the item which is to be enchanted. Binding a spell into an item for a single use will require only a minor laboratory, but more lasting enchantments will require the caster to access to a major wizard's laboratory while they work.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Determine whether an item is enchanted, and if so from which School</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Determine the exact properties of an enchanted item</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Determine how an item could be destroyed or disenchanted</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+      "dice": 0
+   },
+   "type": "school"
+}

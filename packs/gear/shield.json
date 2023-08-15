@@ -1,0 +1,20 @@
+{
+   "_id": "WSW4hI0btWDn4DCG",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/equipment/shield/heater-steel-boss-red.webp",
+   "name": "Shield",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Fight +1d",
+      "cost": 1,
+      "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Generally made of painted wood, usually with a metal rim and central boss. Shields are effective in defense, and can also be used as weapons. If a character using a shield is injured in a fight, they can choose to sacrifice their shield instead - the shield is destroyed until repaired, and can no longer be used, but the character does not take any Injury from the attack, even if it would have caused multiple Injuries. Shields also act as mobile cover; a character with a Shield can always dive for cover when facing a ranged attack.</span></p>\n</div>\n</div>\n</div>",
+      "equipped": false
+   },
+   "type": "gear"
+}

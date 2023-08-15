@@ -1,0 +1,21 @@
+{
+   "_id": "1llbjaT4g8xq4l8Y",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/fire/elemental-fire-flying.webp",
+   "name": "Summon Salamander",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 8,
+      "description": "<div class=\"page\" title=\"Page 75\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Summons a salamander, an elemental of fire, under the caster's control. There must be a large enough fire in the area to allow the salamander to manifest; usually this requires a fire that is larger than a camp fire. While the spell lasts the salamander will follow the caster's commands; once the spell ends the salamander dissipates back into the largest fire available.</p>\n<p>Your GM will have details of salamanders. Each success in the margin will add one dice to one of the salamander's Resistances or Abilities.</p>\n</div>\n</div>\n</div>",
+      "duration": "minute",
+      "range": "close",
+      "school": "Earth"
+   },
+   "type": "spell"
+}

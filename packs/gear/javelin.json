@@ -1,0 +1,21 @@
+{
+   "_id": "6WQiS3zxHkRl2Us4",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/weapons/polearms/javelin-simple.webp",
+   "name": "Javelin",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Shoot +1d",
+      "cost": 1,
+      "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A short, lightweight spear, between 1 and 1.5m long, designed for throwing. As a thrown weapon, you can only use a javelin once before you need to retrieve it. Javelins can be used as a melee weapon, but don't give any bonus.</p>\n</div>\n</div>\n</div>",
+      "equipped": false,
+      "range": "close"
+   },
+   "type": "weapon"
+}

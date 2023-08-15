@@ -1,0 +1,21 @@
+{
+   "_id": "9QcZhAMKGHxf1pLy",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/symbols/circle-ouroboros.webp",
+   "name": "Glyph of Sustaining",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 4,
+      "description": "<div class=\"page\" title=\"Page 63\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 63\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>This spell is cast on a casting that the caster has previously cast, and is currently sustaining. This spell will maintain the target casting for a short time, so the target casting's duration changes to Minute, and its margin of success becomes fixed at the margin of the last roll to cast or sustain it. The caster is then free to make another casting with Sustained duration..</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+      "duration": "minute",
+      "range": "self",
+      "school": "Arcana"
+   },
+   "type": "spell"
+}

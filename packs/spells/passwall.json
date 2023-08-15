@@ -1,0 +1,21 @@
+{
+   "_id": "6GREOsv8wGMBtqKl",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
+   "name": "Passwall",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 5,
+      "description": "<div class=\"page\" title=\"Page 72\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Opens a passageway through a stone or metal barrier. The length of the passageway depends on the successes in the margin: 1 success gives close range, 2-3 short range and 4 or more medium range. The passageway is wide and tall enough for a person to pass through. If anyone is in the passageway when the spell ends they are safely ejected at the nearest end.</p>\n</div>\n</div>\n</div>",
+      "duration": "hour",
+      "range": "short",
+      "school": "Earth"
+   },
+   "type": "spell"
+}

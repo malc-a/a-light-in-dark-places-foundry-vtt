@@ -1,0 +1,18 @@
+{
+   "_id": "eFfcndPQll5WS4xu",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/light/orb-shadow-blue.webp",
+   "name": "Illusion",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "description": "<p class=\"p1\"><span class=\"s1\">This subtle school of magic is concerned with manipulating the senses to deceive the unwary. It allows the manipulation of the senses, including sight, sound, smell and touch. The core of this School is, of course, illusions. An illusion can't affect the real world in any way - it can't move a real object, or damage a character; although an advanced enough illusion can make a character <em>feel</em> the pain of a blow, that pain isn't real. Illusions can distract characters or conceal real things. An illusion that affects the sense of touch will <em>feel</em> correct when lightly touched, but has no substance. You could create an illusion of a door, but people would still be able to walk through it freely.</span></p>\n<p class=\"p1\"><span class=\"s1\">Spells of this School are cast with firm gestures, as well as spoken incantations.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create an illusion affecting one sense</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create an illusion affecting three senses; Inflict Focus damage through images</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create an illusion affecting all senses; use senses at a distance</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">3</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Remove all traces of an object to one sense</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+      "dice": 0
+   },
+   "type": "school"
+}

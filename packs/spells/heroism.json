@@ -1,0 +1,21 @@
+{
+   "_id": "0ZbMoQbHVSDUJsOn",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/skills/melee/strike-sword-dagger-runes-gold.webp",
+   "name": "Heroism",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 5,
+      "description": "<p class=\"p1\"><span class=\"s1\">Gives the target bonus dice equal to half the margin of the casting (rounded up)<span class=\"Apple-converted-space\">&nbsp; </span>whenever they roll </span><span class=\"s1\">an Ability while the spell is active.</span></p>",
+      "duration": "minute",
+      "range": "close",
+      "school": "Blessings"
+   },
+   "type": "spell"
+}

@@ -1,0 +1,21 @@
+{
+   "_id": "nw9ujZIySbAn1CIx",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/nature/cornucopia-orange.webp",
+   "name": "Create Food",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 2,
+      "description": "<div class=\"page\" title=\"Page 81\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates enough raw vegetarian food to feed one person for a day for each success in the margin.</p>\n</div>\n</div>\n</div>",
+      "duration": "permanent",
+      "range": "touch",
+      "school": "Nature"
+   },
+   "type": "spell"
+}

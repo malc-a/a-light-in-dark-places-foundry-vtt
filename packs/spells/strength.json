@@ -1,0 +1,21 @@
+{
+   "_id": "EW51bNcY0ca0aAjU",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/control/buff-strength-muscle-damage.webp",
+   "name": "Strength",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 6,
+      "description": "<p class=\"p1\"><span class=\"s1\">Enhances an ally's strength and coordination. While this spell is active the target will do addition</span><span class=\"s1\">al damage equal to half the margin of the casting (rounded up) on any successful Fight roll.</span></p>",
+      "duration": "minute",
+      "range": "close",
+      "school": "Blessings"
+   },
+   "type": "spell"
+}

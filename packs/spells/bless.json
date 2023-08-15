@@ -1,0 +1,21 @@
+{
+   "_id": "5euIqt7loEXERO8W",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
+   "name": "Bless",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 1,
+      "description": "<p class=\"p1\"><span class=\"s1\">Magically aid your allies in a fight. You can use the successes in the margin of the casting to help any allies within range who are rolling Fight or Shoot.</span></p>",
+      "duration": "instant",
+      "range": "close",
+      "school": "Blessings"
+   },
+   "type": "spell"
+}

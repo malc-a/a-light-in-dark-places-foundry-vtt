@@ -1,0 +1,476 @@
+{
+   "_id": "tyWAUcGUfkXftoyL",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/svg/mystery-man.svg",
+   "items": [
+      {
+         "_id": "xSgyieS7YZBOUBUP",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/trades/security-locksmith-key-gray.webp",
+         "name": "Disable",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 200000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Knowledge about locks and traps. Use Disable to pick a lock or to disarm a trap. You would use Notice to detect a trap if it is hidden.</p>\n</div>\n</div>\n</div>",
+            "dice": 4
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "rKHaRDEfZQIXyeFZ",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/targeting/target-glowing-yellow.webp",
+         "name": "Notice",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 300000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>\n</div>\n</div>\n</div>",
+            "dice": 4
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "meoN0w49AZczAkza",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/ranged/bow-arrows-red.webp",
+         "name": "Shoot",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 400000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>\n</div>\n</div>\n</div>",
+            "dice": 2
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "mG5EWAqgULcXawXr",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/sundries/flags/banner-flag-white-mountain.webp",
+         "name": "Common",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "description": "<p>The common language, spoken by almost all peoples of the world.</p>",
+            "fluent": false
+         },
+         "type": "language"
+      },
+      {
+         "_id": "N0Pf46PsLYuiinQE",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Agile",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Athletics +1do",
+            "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are particularly agile, and gain a +1d bonus to Athletics rolls to move faster, jump or climb.</p>\n</div>\n</div>\n</div>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "0DELkozwIRbCyvL1",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Dodge",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "ability": "Fight",
+            "bonus": "Fight +1d",
+            "description": "<p class=\"p1\"><span class=\"s1\">If you are wearing light or no armour, and are able to move freely, you get a +1d bonus on Fight rolls.</span></p>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "vWd9sTjK4AaCL42I",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Dual-Wield",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "",
+            "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You can use a lightweight weapon in your off-hand, gaining the bonus to Fight rolls from that weapon in addition to that of the weapon in your main hand.</p>\n</div>\n</div>\n</div>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "eFfBuuaeUVBLEGYN",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/containers/bags/pack-leather-tan.webp",
+         "name": "Adventurer's Pack",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 375000,
+         "system": {
+            "bonus": "",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>\n</div>\n</div>\n</div>",
+            "equipped": false
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "Ci5FtiwE7t82JvGh",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/tools/hand/lockpicks-steel-grey.webp",
+         "name": "Picks & Tools",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 400000,
+         "system": {
+            "bonus": "Disable +1d",
+            "cost": 1,
+            "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Tools for picking locks and disabling mechanical devices. Gives a +1d bonus to Disable rolls.</p>\n</div>\n</div>\n</div>",
+            "equipped": true
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "hHBYij7xrmRmYdKy",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+         "name": "Athletics",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 100000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 5
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "HFdPHIxYLx6ERaQA",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/melee/strike-sword-blood-red.webp",
+         "name": "Fight",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 275000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>\n</div>\n</div>\n</div>",
+            "dice": 4
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "HFSJPzRRtDYfSJYV",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/trades/music-notes-sound-blue.webp",
+         "name": "Perform",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 350000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers any form of performance, including song, dance, musical instruments and acting. Use Perform when you attempt to impress or distract a crowd with your skill.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 2
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "zof4wNQ7s7AR6qQC",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/social/diplomacy-handshake.webp",
+         "name": "Persuade",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 375000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 3
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "e2ilI54u5IHRVz2l",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+         "name": "Sleight",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 900000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">The ability to make small items vanish without others noticing. Use Sleight to pick a pocket, cut a purse, or steal a small item without being noticed.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 3
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "aXRxywyR9ojez5cz",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
+         "name": "Stealth",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 1000000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">The ability both to remain out of sight, and to move noiselessly. Use Stealth when you are trying to avoid being noticed.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 5
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "4jnv3RGldiXJ2ZSF",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/equipment/chest/breastplate-banded-leather-brown.webp",
+         "name": "Light Armour",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 350000,
+         "system": {
+            "bonus": "Health +1",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Light armour is made primarily from leather, either reinforced with metal rings or plates, or boiled in wax to form cuir bouilli, rigid hardened leather that can be used to create armour plates in the same way that metal can.</p>\n</div>\n</div>\n</div>",
+            "equipped": true
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "1SXd2cCXuawmG2qr",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/daggers/dagger-black.webp",
+         "name": "Dagger",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Fight +1d",
+            "cost": 0,
+            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>\n</div>\n</div>\n</div>",
+            "equipped": true,
+            "range": "reach"
+         },
+         "type": "weapon"
+      },
+      {
+         "_id": "kOxTsXOWxxinf9wC",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/thrown/dagger-simple.webp",
+         "name": "Throwing Knife (4)",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 175000,
+         "system": {
+            "bonus": "Shoot +0d",
+            "cost": 0,
+            "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Throwing knives are smaller than daggers intended for hand-to-hand combat, and better balanced to be thrown. They can be used as melee weapons, but give no bonus.</p>\n</div>\n</div>\n</div>",
+            "equipped": true,
+            "range": "reach"
+         },
+         "type": "weapon"
+      },
+      {
+         "_id": "nkEC2uyRXL60nAgT",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/daggers/dagger-black.webp",
+         "name": "Dagger",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Fight +1d",
+            "cost": 0,
+            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>\n</div>\n</div>\n</div>",
+            "equipped": true,
+            "range": "reach"
+         },
+         "type": "weapon"
+      }
+   ],
+   "name": "Thief",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "prototypeToken": {
+      "actorLink": true,
+      "alpha": 1,
+      "appendNumber": false,
+      "bar1": {
+         "attribute": "health"
+      },
+      "bar2": {
+         "attribute": "injuries"
+      },
+      "detectionModes": [],
+      "displayBars": 20,
+      "displayName": 30,
+      "disposition": 1,
+      "flags": {},
+      "height": 1,
+      "light": {
+         "alpha": 0.5,
+         "angle": 360,
+         "animation": {
+            "intensity": 5,
+            "reverse": false,
+            "speed": 5,
+            "type": null
+         },
+         "attenuation": 0.5,
+         "bright": 0,
+         "color": null,
+         "coloration": 1,
+         "contrast": 0,
+         "darkness": {
+            "max": 1,
+            "min": 0
+         },
+         "dim": 0,
+         "luminosity": 0.5,
+         "saturation": 0,
+         "shadows": 0
+      },
+      "lockRotation": false,
+      "name": "Thief",
+      "prependAdjective": false,
+      "randomImg": false,
+      "rotation": 0,
+      "sight": {
+         "angle": 360,
+         "attenuation": 0.1,
+         "brightness": 0,
+         "color": null,
+         "contrast": 0,
+         "enabled": true,
+         "range": null,
+         "saturation": 0,
+         "visionMode": "basic"
+      },
+      "texture": {
+         "offsetX": 0,
+         "offsetY": 0,
+         "rotation": 0,
+         "scaleX": 1,
+         "scaleY": 1,
+         "src": "icons/svg/mystery-man.svg",
+         "tint": null
+      },
+      "width": 1
+   },
+   "sort": 0,
+   "system": {
+      "actions": 1,
+      "concept": "",
+      "gear": {},
+      "languages": {},
+      "passions": {
+         "0": "",
+         "1": "",
+         "2": ""
+      },
+      "problems": {},
+      "resistances": {
+         "body": {
+            "dice": 5,
+            "injuries": 0,
+            "pool": 6
+         },
+         "mind": {
+            "dice": 4,
+            "injuries": 0,
+            "pool": 4
+         },
+         "soul": {
+            "dice": 4,
+            "injuries": 0,
+            "pool": 4
+         }
+      },
+      "schools": {},
+      "skills": {},
+      "speed": 1,
+      "talents": {},
+      "treasure": 0,
+      "wealth": 2,
+      "xp": 0
+   },
+   "type": "character"
+}

@@ -1,0 +1,21 @@
+{
+   "_id": "0fFMASykDXbFIYYd",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/nature/root-vine-thorned-coil-green.webp",
+   "name": "Wall of Thorns",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 8,
+      "description": "<div class=\"page\" title=\"Page 83\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A wall of tangled thorn plants which reaches up to close range from the ground springs from an earthen floor in the area determined by the caster. It may be a flat plane which spans two points up to short range apart, or a circle at the boundaries of close range. Arrows and bolts will be blocked by the plants. Any creature trying to force a way through the thorns will take +6 Health damage, which may be resisted by a Body roll. If the creature is damaged by the thorns then it fails to pass through the wall. </span>The <em>Pass Plant</em> spell works normally on a <em>Wall of Thorns</em>.</p>\n</div>\n</div>\n</div>",
+      "duration": "sustained",
+      "range": "short",
+      "school": "Nature"
+   },
+   "type": "spell"
+}

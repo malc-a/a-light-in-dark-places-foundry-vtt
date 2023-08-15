@@ -1,0 +1,21 @@
+{
+   "_id": "6Iy4YgbLraZrNjV7",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/consumables/food/short-ribs-cooked-meat-brown.webp",
+   "name": "Conjure Meat",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 3,
+      "description": "<div class=\"page\" title=\"Page 66\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Conjures raw, edible meat. Each success in the margin will provide enough meat for one person for one day.</p>\n</div>\n</div>\n</div>",
+      "duration": "permanent",
+      "range": "touch",
+      "school": "Beasts"
+   },
+   "type": "spell"
+}

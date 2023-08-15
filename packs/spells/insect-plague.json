@@ -1,0 +1,21 @@
+{
+   "_id": "txOHtuD2btjSjTAn",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/creatures/invertebrates/wasp-swarm-movement.webp",
+   "name": "Insect Plague",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 7,
+      "description": "<div class=\"page\" title=\"Page 67\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Calls a swarm of biting, stinging insects, which form a cloud within close range of the target location. Any creatures within the swarm will take a penalty of the sustained margin to all Ability rolls, as they are distracted by the swarming insects. This penalty may be resisted with a Soul roll; each success reduces the penalty by 1d, to a minimum of 0.</span></p>\n</div>\n</div>\n</div>",
+      "duration": "sustained",
+      "range": "short",
+      "school": "Beasts"
+   },
+   "type": "spell"
+}

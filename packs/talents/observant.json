@@ -1,0 +1,18 @@
+{
+   "_id": "dSHimECpceREzYmD",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+   "name": "Observant",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Notice +1do",
+      "description": "<div class=\"page\" title=\"Page 14\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are keenly aware of your surroundings. You gain a +1d bonus when rolling Notice against another character's Stealth.</p>\n</div>\n</div>\n</div>"
+   },
+   "type": "talent"
+}

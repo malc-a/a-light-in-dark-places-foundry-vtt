@@ -1,0 +1,21 @@
+{
+   "_id": "rQ3UmZwlW2L1zQ3P",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/lightning/projectile-orb-blue.webp",
+   "name": "Thunderclap",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 5,
+      "description": "<div class=\"page\" title=\"Page 71\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster claps their hands together, creating a thunderclap which affects all other creatures within close range. The combination of sound and shock does +4 Health damage to the affected creatures, which may be resisted by a Body roll.</p>\n</div>\n</div>\n</div>",
+      "duration": "instant",
+      "range": "self",
+      "school": "Air"
+   },
+   "type": "spell"
+}

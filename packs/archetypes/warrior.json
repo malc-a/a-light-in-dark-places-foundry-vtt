@@ -1,0 +1,514 @@
+{
+   "_id": "slplY5QKnZjaAQ6f",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/svg/mystery-man.svg",
+   "items": [
+      {
+         "_id": "7qj9FrqRwbt0LDGX",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/social/intimidation-impressing.webp",
+         "name": "Intimidate",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 300000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>How to bully, threaten and scare people to get your own way. Use intimidate when you try to pull rank or threaten the use of force to achieve a goal.</p>\n</div>\n</div>\n</div>",
+            "dice": 3
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "5nRxXbXYCoxhIKV2",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/targeting/target-glowing-yellow.webp",
+         "name": "Notice",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 400000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>\n</div>\n</div>\n</div>",
+            "dice": 4
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "dH8RRb58V3g7Zy2P",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/environment/creatures/horse-brown.webp",
+         "name": "Ride",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 500000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Covers both the ability to ride a mount, and to handle animals generally (including such things as driving a cart). Use Ride when you need to make difficult manoeuvres while mounted or driving.</p>\n</div>\n</div>\n</div>",
+            "dice": 2
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "tyoHzYiSQoa66kfs",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/ranged/bow-arrows-red.webp",
+         "name": "Shoot",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 600000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>\n</div>\n</div>\n</div>",
+            "dice": 4
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "AH7WHXFahT6ZTi0g",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/sundries/flags/banner-flag-white-mountain.webp",
+         "name": "Common",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "description": "<p>The common language, spoken by almost all peoples of the world.</p>",
+            "fluent": false
+         },
+         "type": "language"
+      },
+      {
+         "_id": "V2vBfaAZ9V4nyqpi",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Menacing",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Intimidate +1do",
+            "description": "<div class=\"page\" title=\"Page 14\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Your very appearance is frightening. You get a +1d bonus to Intimidate rolls to scare off an opponent or dissuade them from attacking you.</p>\n</div>\n</div>\n</div>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "aGYeUopl4oJ2g8ds",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Mighty",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Athletics +1do",
+            "description": "<div class=\"page\" title=\"Page 14\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are known for your great strength. You get a +1d bonus to Athletics rolls representing feats of strength, such as breaking or moving things or grappling.</p>\n</div>\n</div>\n</div>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "Z2cOlT3CAsuLFw62",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+         "name": "Observant",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 0,
+         "system": {
+            "bonus": "Notice +1do",
+            "description": "<div class=\"page\" title=\"Page 14\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are keenly aware of your surroundings. You gain a +1d bonus when rolling Notice against another character's Stealth.</p>\n</div>\n</div>\n</div>"
+         },
+         "type": "talent"
+      },
+      {
+         "_id": "cKxKSjRS9jgWPlDj",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/containers/bags/pack-leather-tan.webp",
+         "name": "Adventurer's Pack",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 700000,
+         "system": {
+            "bonus": "",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>\n</div>\n</div>\n</div>",
+            "equipped": false
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "9jZ3EhvNBwWodGck",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+         "name": "Athletics",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 100000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 5
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "Ix9gpBgxmCQ5LJOH",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+         "name": "Battle",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 150000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A combination of strategy, tactics and command presence. Use Battle when you are commanding troops in a fight, to assist them tactially or to rally their morale.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 2
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "eMGxQusHUr3AXYLu",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/trades/mining-pickaxe-stone-cart.webp",
+         "name": "Craft",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 200000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The knowledge and experience to repair items, or make them from scratch. Use Craft to create or repair an item.</p>\n</div>\n</div>\n</div>",
+            "dice": 2
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "aItQCoveOKatDTxP",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/melee/strike-sword-blood-red.webp",
+         "name": "Fight",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 275000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>\n</div>\n</div>\n</div>",
+            "dice": 5
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "hNMHATLL5h6kFVtF",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/social/diplomacy-handshake.webp",
+         "name": "Persuade",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 450000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 2
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "ZFYYusasexks5CzK",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/skills/trades/woodcutting-logging-splitting.webp",
+         "name": "Survive",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 700000,
+         "system": {
+            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Knowledge of how to survive in the lands outside cities. Use Survive to find your way in the wilderness, to hunt or forage for food, to find or construct shelter, to follow tracks, and to avoid leaving a trail while moving.</span></p>\n</div>\n</div>\n</div>",
+            "dice": 3
+         },
+         "type": "skill"
+      },
+      {
+         "_id": "y5iV87YS74xOn9kf",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+         "name": "Heavy Armour",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 600000,
+         "system": {
+            "bonus": "Health +3, Stealth -2d, Athletics -1do",
+            "cost": 4,
+            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Heavy armour is predominantly made of metal. The most common types are mail, scale and plate. Mail is made of interlocking metal rings. Scale attaches metal scales to a leather base. Plate consists of breast and back plates, usually paired with mail.</span></p>\n<p>All heavy armour is heavy and noisy. As well as the bonus to Fight rolls, wearing heavy armour gives a -2d penalty to Stealth rolls as well as Athletics rolls for swimming. It also gives a -1d penalty to Athletics rolls to increase movement, jump or climb.</p>\n</div>\n</div>\n</div>",
+            "equipped": true
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "U0gMofEQ7HfrGTtO",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/equipment/shield/heater-steel-boss-red.webp",
+         "name": "Shield",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 300000,
+         "system": {
+            "bonus": "Fight +1d",
+            "cost": 1,
+            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Generally made of painted wood, usually with a metal rim and central boss. Shields are effective in defense, and can also be used as weapons. If a character using a shield is injured in a fight, they can choose to sacrifice their shield instead - the shield is destroyed until repaired, and can no longer be used, but the character does not take any Injury from the attack, even if it would have caused multiple Injuries. Shields also act as mobile cover; a character with a Shield can always dive for cover when facing a ranged attack.</span></p>\n</div>\n</div>\n</div>",
+            "equipped": true
+         },
+         "type": "gear"
+      },
+      {
+         "_id": "jUAUInuG6clZyq5C",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/swords/sword-guard.webp",
+         "name": "Sword",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 100000,
+         "system": {
+            "bonus": "Fight +1d",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">treated as a sword. Feel free to define the exact type that fits your character concept.</span></p>\n</div>\n</div>\n</div>",
+            "equipped": true,
+            "range": "reach"
+         },
+         "type": "weapon"
+      },
+      {
+         "_id": "8AtI57C4pokhGJOf",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/daggers/dagger-black.webp",
+         "name": "Dagger",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 200000,
+         "system": {
+            "bonus": "Fight +1d",
+            "cost": 0,
+            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>\n</div>\n</div>\n</div>",
+            "equipped": false,
+            "range": "reach"
+         },
+         "type": "weapon"
+      },
+      {
+         "_id": "NwUGIU2MkSBmczKh",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/thrown/dart-feathered.webp",
+         "name": "Dart (3)",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 400000,
+         "system": {
+            "bonus": "Shoot +0d",
+            "cost": 0,
+            "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Darts are miniature javelins, with a metal head attached to a fletched haft. They are often carried attached to the inside of a shield. Darts, like javelins, are thrown.</p>\n</div>\n</div>\n</div>",
+            "equipped": true,
+            "range": "close"
+         },
+         "type": "weapon"
+      },
+      {
+         "_id": "vsV3hyI9Q47mWPZL",
+         "effects": [],
+         "flags": {},
+         "folder": null,
+         "img": "icons/weapons/crossbows/crossbow-simple-brown.webp",
+         "name": "Crossbow",
+         "ownership": {
+            "default": 0,
+            "eo6BalpqAg0Hf8ie": 3
+         },
+         "sort": 500000,
+         "system": {
+            "bonus": "Shoot +2d",
+            "cost": 2,
+            "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Because crossbows are drawn by putting a foot in the stirrup, the small bow section (called the prod) can be much stronger than in a bow drawn purely with arm strength. Crossbows are slow weapons, which means that a character can't use a multiple action to make more than one shot in a round with a crossbow.</p>\n</div>\n</div>\n</div>",
+            "equipped": false,
+            "range": "short"
+         },
+         "type": "weapon"
+      }
+   ],
+   "name": "Warrior",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "prototypeToken": {
+      "actorLink": true,
+      "alpha": 1,
+      "appendNumber": false,
+      "bar1": {
+         "attribute": "health"
+      },
+      "bar2": {
+         "attribute": "injuries"
+      },
+      "detectionModes": [],
+      "displayBars": 20,
+      "displayName": 30,
+      "disposition": 1,
+      "flags": {},
+      "height": 1,
+      "light": {
+         "alpha": 0.5,
+         "angle": 360,
+         "animation": {
+            "intensity": 5,
+            "reverse": false,
+            "speed": 5,
+            "type": null
+         },
+         "attenuation": 0.5,
+         "bright": 0,
+         "color": null,
+         "coloration": 1,
+         "contrast": 0,
+         "darkness": {
+            "max": 1,
+            "min": 0
+         },
+         "dim": 0,
+         "luminosity": 0.5,
+         "saturation": 0,
+         "shadows": 0
+      },
+      "lockRotation": false,
+      "name": "Warrior",
+      "prependAdjective": false,
+      "randomImg": false,
+      "rotation": 0,
+      "sight": {
+         "angle": 360,
+         "attenuation": 0.1,
+         "brightness": 0,
+         "color": null,
+         "contrast": 0,
+         "enabled": true,
+         "range": null,
+         "saturation": 0,
+         "visionMode": "basic"
+      },
+      "texture": {
+         "offsetX": 0,
+         "offsetY": 0,
+         "rotation": 0,
+         "scaleX": 1,
+         "scaleY": 1,
+         "src": "icons/svg/mystery-man.svg",
+         "tint": null
+      },
+      "width": 1
+   },
+   "sort": 0,
+   "system": {
+      "actions": 1,
+      "concept": "",
+      "gear": {},
+      "languages": {},
+      "passions": {
+         "0": "",
+         "1": "",
+         "2": ""
+      },
+      "problems": {},
+      "resistances": {
+         "body": {
+            "dice": 5,
+            "injuries": 0,
+            "pool": 8
+         },
+         "mind": {
+            "dice": 4,
+            "injuries": 0,
+            "pool": 4
+         },
+         "soul": {
+            "dice": 4,
+            "injuries": 0,
+            "pool": 4
+         }
+      },
+      "schools": {},
+      "skills": {},
+      "speed": 1,
+      "talents": {},
+      "treasure": 0,
+      "wealth": 2,
+      "xp": 0
+   },
+   "type": "character"
+}

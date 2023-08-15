@@ -1,0 +1,21 @@
+{
+   "_id": "4INvAm6Re2YYn7Ds",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/weapons/swords/sword-guard.webp",
+   "name": "Sword",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Fight +1d",
+      "cost": 2,
+      "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">treated as a sword. Feel free to define the exact type that fits your character concept.</span></p>\n</div>\n</div>\n</div>",
+      "equipped": false,
+      "range": "reach"
+   },
+   "type": "weapon"
+}

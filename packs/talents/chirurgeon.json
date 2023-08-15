@@ -1,0 +1,18 @@
+{
+   "_id": "GZa9IgChWVFzNk3U",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+   "name": "Chirurgeon",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "bonus": "Heal +1do",
+      "description": "<div class=\"page\" title=\"Page 14\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are practiced at staunching wounds. You get a +1d bonus to Heal rolls to stabilise a character who is bleeding out even if you do not have access to Healer's Tools.</p>\n</div>\n</div>\n</div>"
+   },
+   "type": "talent"
+}

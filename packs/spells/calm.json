@@ -1,0 +1,21 @@
+{
+   "_id": "i8FF1o9nkIFuM7DQ",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/control/debuff-chains-blue.webp",
+   "name": "Calm",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 1,
+      "description": "<div class=\"page\" title=\"Page 78\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Removes any strong emotion from the target creature. The target can attempt to resist the casting with a Mind roll. Because this spell has a duration of instant, if there was a good reason for that emotion it is likely to return again very quickly.</p>\n</div>\n</div>\n</div>",
+      "duration": "instant",
+      "range": "short",
+      "school": "Enchantment"
+   },
+   "type": "spell"
+}

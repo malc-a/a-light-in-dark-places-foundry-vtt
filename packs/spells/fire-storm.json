@@ -1,0 +1,21 @@
+{
+   "_id": "eOGMwpdElqFPmIZS",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "img": "icons/magic/fire/projectile-meteor-salvo-light-purple.webp",
+   "name": "Fire Storm",
+   "ownership": {
+      "default": 0,
+      "eo6BalpqAg0Hf8ie": 3
+   },
+   "sort": 0,
+   "system": {
+      "complexity": 7,
+      "description": "<div class=\"page\" title=\"Page 75\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A storm of fire springs up in an area within close range of the target location. The fire will do +8 Health damage to any creatures in the affected area, which may be resisted by a Body roll.</p>\n</div>\n</div>\n</div>",
+      "duration": "instant",
+      "range": "short",
+      "school": "Fire"
+   },
+   "type": "spell"
+}
