@@ -31,8 +31,8 @@ async function unpackCompendium(output, input) {
     for await (const [key, value] of db.iterator()) {
         // Add actors, items and journals to the records
         if (key.startsWith('!actors!') || key.startsWith('!items!')
-            || key.startsWith('!journal!')) {
-            records.push(value);
+            || key.startsWith('!journal!') || key.startsWith('!adventures!')) {
+            records.push(cleanUp(value));
         } else {
             // Store actor item or journal page records to be processed later
             let m = key.match(/^\!actors\.items\!(\w+)\.(\w+)$/);
@@ -85,4 +85,29 @@ async function unpackCompendium(output, input) {
         // Confirm success
         console.log('Wrote ' + file);
     }
+}
+
+/**
+ * Clean up the JSON record read from a pack. This mostly means that we
+ * want to set all flags entries to empty objects, and remove all _stats
+ * objects, regardless of the
+ * @param {object} record The record we're cleaning up
+ */
+function cleanUp(record) {
+    // If record is null then there's nothing to do
+    if (record === null) { return record; }
+
+    // Remove any _stats property in the record
+    if ('_stats' in record) { delete record._stats };
+
+    // Then set any flags property to empty
+    if ('flags' in record) { record.flags = {} };
+
+    // Now traverse any objects within the record
+    for (let key in record) {
+	if (typeof record[key] === 'object') { record[key] = cleanUp(record[key]) };
+    }
+
+    // Return the updated record
+    return record;
 }
