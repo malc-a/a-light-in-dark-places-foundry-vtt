@@ -1,0 +1,21 @@
+{
+  "_id": "t5EfzkH82nJnXw5B",
+  "effects": [],
+  "flags": {},
+  "folder": "v7TloDi09Aluv1Ld",
+  "img": "icons/magic/water/strike-weapon-blade-ice-blue.webp",
+  "name": "Armour of Ice",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 76\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The target's skin is covered in a thin skin of tough ice. This skin shatters when struck, absorbing the energy of the blow. The target's Health is increased by the margin of success while the spell lasts.</p>\n</div>\n</div>\n</div>",
+    "school": "Water",
+    "complexity": 3,
+    "range": "self",
+    "duration": "minute"
+  },
+  "type": "spell"
+}

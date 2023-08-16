@@ -1,0 +1,21 @@
+{
+  "_id": "sm1GTDL8XPHkvhH8",
+  "effects": [],
+  "flags": {},
+  "folder": "v7TloDi09Aluv1Ld",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-faceted.webp",
+  "name": "Wall of Ice",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100196,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 76\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates a wall of ice reaching up to close range from the floor. The wall can be a flat plane which spans two points up to short range apart, or a circle at the <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">boundaries of close range. If flat, the wall can be placed in any orientation, so it could be used to bridge a gap. The thickness of the ice increases with the margin of the casting.</span></p>\n</div>\n</div>\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Magic</p>\n</div>\n</div>\n</div>",
+    "school": "Water",
+    "complexity": 5,
+    "range": "short",
+    "duration": "minute"
+  },
+  "type": "spell"
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "tQYIGB4eGkE1gD1J",
+  "effects": [],
+  "flags": {},
+  "folder": "qtzPYfCruQg7kO9A",
+  "img": "icons/magic/life/heart-area-circle-red-green.webp",
+  "name": "Pure Air",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 112500,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 70\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The target breathes pure, sweet air, even when they are underwater, surrounded by smoke or in a vacuum. The caster can affect a number of targets equal to half the margin (rounded up), who must all be touched while casting the spell.</p>\n</div>\n</div>\n</div>",
+    "school": "Air",
+    "complexity": 3,
+    "range": "touch",
+    "duration": "hour"
+  },
+  "type": "spell"
+}

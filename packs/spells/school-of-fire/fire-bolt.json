@@ -1,0 +1,21 @@
+{
+  "_id": "afJpmJlwcl5a57Cr",
+  "effects": [],
+  "flags": {},
+  "folder": "BOrbQp3az78CoFX4",
+  "img": "icons/magic/fire/projectile-bolt-zigzag-orange.webp",
+  "name": "Fire Bolt",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 200000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 74\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster fires a bolt of flame from their hand at a single target within range. The fire bolt does +2 Health damage, resisted by the target's Body.</p>\n</div>\n</div>\n</div>",
+    "school": "Fire",
+    "complexity": 2,
+    "range": "short",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

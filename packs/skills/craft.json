@@ -1,18 +1,18 @@
 {
-   "_id": "34sPBCaUOAlh3NXH",
-   "effects": [],
-   "flags": {},
-   "folder": null,
-   "img": "icons/skills/trades/mining-pickaxe-stone-cart.webp",
-   "name": "Craft",
-   "ownership": {
-      "default": 0,
-      "eo6BalpqAg0Hf8ie": 3
-   },
-   "sort": 0,
-   "system": {
-      "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The knowledge and experience to repair items, or make them from scratch. Use Craft to create or repair an item.</p>\n</div>\n</div>\n</div>",
-      "dice": 0
-   },
-   "type": "skill"
+  "_id": "34sPBCaUOAlh3NXH",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/skills/trades/mining-pickaxe-stone-cart.webp",
+  "name": "Craft",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 0,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The knowledge and experience to repair items, or make them from scratch. Use Craft to create or repair an item.</p>\n</div>\n</div>\n</div>",
+    "dice": 0
+  },
+  "type": "skill"
 }

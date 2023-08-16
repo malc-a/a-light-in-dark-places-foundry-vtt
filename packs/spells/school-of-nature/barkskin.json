@@ -1,0 +1,21 @@
+{
+  "_id": "v0gfS5hD6YgNDABv",
+  "effects": [],
+  "flags": {},
+  "folder": "uECSFD5mcbSsmHbr",
+  "img": "icons/magic/nature/barrier-shield-wood-vines.webp",
+  "name": "Barkskin",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 82\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster's outer layer of skin turns into a gnarled layer of bark. This bark gives the caster protection against attacks, boosting their Health by the margin of the spell.</p>\n</div>\n</div>\n</div>",
+    "school": "Nature",
+    "complexity": 2,
+    "range": "self",
+    "duration": "minute"
+  },
+  "type": "spell"
+}

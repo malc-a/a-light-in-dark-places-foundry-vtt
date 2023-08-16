@@ -1,0 +1,21 @@
+{
+  "_id": "6myvx91C6EbTF2EZ",
+  "effects": [],
+  "flags": {},
+  "folder": "fcPmllF1LMwF8DYl",
+  "img": "icons/weapons/daggers/dagger-black.webp",
+  "name": "Dagger",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 200000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>\n</div>\n</div>\n</div>",
+    "cost": 0,
+    "range": "reach",
+    "bonus": "Fight +1d",
+    "equipped": false
+  },
+  "type": "weapon"
+}

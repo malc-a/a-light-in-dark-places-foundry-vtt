@@ -1,0 +1,21 @@
+{
+  "_id": "UXZch5myaVdxwe4I",
+  "effects": [],
+  "flags": {},
+  "folder": "fcPmllF1LMwF8DYl",
+  "img": "icons/weapons/polearms/halberd-crescent-steel.webp",
+  "name": "Polearm",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 101563,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 24\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>There are many different polearms, intended for different purposes. All of them are based on a long haft, typically around 1.5, to 2m in length. Among the most common are the halberd, which mounts an axe head and tops the haft with a spike; the partisan, similar to a spear with protrusions at either side of the base of the spear head, or the Lucerne hammer, which mounts a hammer head and a spike at the end of the haft.</p>\n</div>\n</div>\n</div>",
+    "cost": 2,
+    "range": "reach",
+    "bonus": "Fight +1d, Damage +1",
+    "equipped": false
+  },
+  "type": "weapon"
+}

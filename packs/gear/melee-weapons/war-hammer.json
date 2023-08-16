@@ -1,0 +1,21 @@
+{
+  "_id": "YAU4MnRIX5BwdaX7",
+  "effects": [],
+  "flags": {},
+  "folder": "fcPmllF1LMwF8DYl",
+  "img": "icons/weapons/hammers/hammer-war-spiked.webp",
+  "name": "War Hammer",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100098,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 24\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A hammer designed for war, sometimes with a spike on one side of the head to punch through armour.</p>\n</div>\n</div>\n</div>",
+    "cost": 1,
+    "range": "reach",
+    "bonus": "Fight +1d",
+    "equipped": false
+  },
+  "type": "weapon"
+}

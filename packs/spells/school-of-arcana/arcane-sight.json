@@ -1,0 +1,21 @@
+{
+  "_id": "E5rZYPxdDvv8lu8u",
+  "effects": [],
+  "flags": {},
+  "folder": "RjKhUfKK0ixm9AsW",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "name": "Arcane Sight",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 112500,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 63\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Allows the caster to see magical effects just as Detect Magic does. It also allows them to see concealed, hidden or even invisible objects or creatures, and to recognise illusions for what they are.</p>\n</div>\n</div>\n</div>",
+    "school": "Arcana",
+    "complexity": 5,
+    "range": "self",
+    "duration": "minute"
+  },
+  "type": "spell"
+}

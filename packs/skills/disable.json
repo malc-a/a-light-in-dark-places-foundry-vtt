@@ -1,18 +1,18 @@
 {
-   "_id": "Bya5Jhm82xTQUblS",
-   "effects": [],
-   "flags": {},
-   "folder": null,
-   "img": "icons/skills/trades/security-locksmith-key-gray.webp",
-   "name": "Disable",
-   "ownership": {
-      "default": 0,
-      "eo6BalpqAg0Hf8ie": 3
-   },
-   "sort": 0,
-   "system": {
-      "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Knowledge about locks and traps. Use Disable to pick a lock or to disarm a trap. You would use Notice to detect a trap if it is hidden.</p>\n</div>\n</div>\n</div>",
-      "dice": 0
-   },
-   "type": "skill"
+  "_id": "Bya5Jhm82xTQUblS",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/skills/trades/security-locksmith-key-gray.webp",
+  "name": "Disable",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 0,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Knowledge about locks and traps. Use Disable to pick a lock or to disarm a trap. You would use Notice to detect a trap if it is hidden.</p>\n</div>\n</div>\n</div>",
+    "dice": 0
+  },
+  "type": "skill"
 }

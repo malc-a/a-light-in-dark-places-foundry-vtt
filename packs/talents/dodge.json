@@ -1,19 +1,19 @@
 {
-   "_id": "TxsKCjvQmEFEOLeD",
-   "effects": [],
-   "flags": {},
-   "folder": null,
-   "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
-   "name": "Dodge",
-   "ownership": {
-      "default": 0,
-      "eo6BalpqAg0Hf8ie": 3
-   },
-   "sort": 0,
-   "system": {
-      "ability": "Fight",
-      "bonus": "Fight +1d",
-      "description": "<p class=\"p1\"><span class=\"s1\">If you are wearing light or no armour, and are able to move freely, you get a +1d bonus on Fight rolls.</span></p>"
-   },
-   "type": "talent"
+  "_id": "TxsKCjvQmEFEOLeD",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+  "name": "Dodge",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 0,
+  "system": {
+    "ability": "Fight",
+    "bonus": "Fight +1d",
+    "description": "<p class=\"p1\"><span class=\"s1\">If you are wearing light or no armour, and are able to move freely, you get a +1d bonus on Fight rolls.</span></p>"
+  },
+  "type": "talent"
 }

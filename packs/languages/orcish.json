@@ -1,18 +1,18 @@
 {
-   "_id": "BuSk6U7BF8LjP98C",
-   "effects": [],
-   "flags": {},
-   "folder": null,
-   "img": "icons/sundries/flags/banner-flag-white-mountain.webp",
-   "name": "Orcish",
-   "ownership": {
-      "default": 0,
-      "eo6BalpqAg0Hf8ie": 3
-   },
-   "sort": 0,
-   "system": {
-      "description": "<p>The language of the orcs. Each community of orcs speaks its own dialect, and most are not comprehensible to others.</p>",
-      "fluent": false
-   },
-   "type": "language"
+  "_id": "BuSk6U7BF8LjP98C",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/sundries/flags/banner-flag-white-mountain.webp",
+  "name": "Orcish",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 0,
+  "system": {
+    "description": "<p>The language of the orcs. Each community of orcs speaks its own dialect, and most are not comprehensible to others.</p>",
+    "fluent": false
+  },
+  "type": "language"
 }

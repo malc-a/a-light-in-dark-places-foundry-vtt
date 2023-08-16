@@ -1,18 +1,18 @@
 {
-   "_id": "tm3iKyBFWSi8vSr4",
-   "effects": [],
-   "flags": {},
-   "folder": null,
-   "img": "icons/sundries/flags/banner-flag-white-mountain.webp",
-   "name": "Dwarvish",
-   "ownership": {
-      "default": 0,
-      "eo6BalpqAg0Hf8ie": 3
-   },
-   "sort": 0,
-   "system": {
-      "description": "<p>The language of the dwarven kindred. They do not normally teach it to outsiders.</p>",
-      "fluent": false
-   },
-   "type": "language"
+  "_id": "tm3iKyBFWSi8vSr4",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/sundries/flags/banner-flag-white-mountain.webp",
+  "name": "Dwarvish",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 0,
+  "system": {
+    "description": "<p>The language of the dwarven kindred. They do not normally teach it to outsiders.</p>",
+    "fluent": false
+  },
+  "type": "language"
 }

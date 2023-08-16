@@ -1,0 +1,20 @@
+{
+  "_id": "jf4xIEcuQLmPhprH",
+  "effects": [],
+  "flags": {},
+  "folder": "3018YRvOw2rZPDv8",
+  "img": "icons/tools/laboratory/bowl-herbs-green.webp",
+  "name": "Healer's Tools",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 1500000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 27\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Surgical tools and herbs used by healers. Gives a +1d bonus to Heal rolls.</p>\n</div>\n</div>\n</div>",
+    "cost": 2,
+    "bonus": "Heal +1d",
+    "equipped": false
+  },
+  "type": "gear"
+}

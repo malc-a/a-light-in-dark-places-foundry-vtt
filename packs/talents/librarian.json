@@ -1,18 +1,18 @@
 {
-   "_id": "yCoexD1TQZbdZdkF",
-   "effects": [],
-   "flags": {},
-   "folder": null,
-   "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
-   "name": "Librarian",
-   "ownership": {
-      "default": 0,
-      "eo6BalpqAg0Hf8ie": 3
-   },
-   "sort": 0,
-   "system": {
-      "bonus": "Lore +1do",
-      "description": "<div class=\"page\" title=\"Page 14\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are skilled at finding and using reference works. Gain a +1d bonus to Lore rolls when you have access to one or more written sources of information on the topic you are researching.</p>\n</div>\n</div>\n</div>"
-   },
-   "type": "talent"
+  "_id": "yCoexD1TQZbdZdkF",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+  "name": "Librarian",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 0,
+  "system": {
+    "bonus": "Lore +1do",
+    "description": "<div class=\"page\" title=\"Page 14\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are skilled at finding and using reference works. Gain a +1d bonus to Lore rolls when you have access to one or more written sources of information on the topic you are researching.</p>\n</div>\n</div>\n</div>"
+  },
+  "type": "talent"
 }

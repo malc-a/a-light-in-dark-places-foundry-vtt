@@ -1,0 +1,21 @@
+{
+  "_id": "o1ZcMpxtIsJgtneC",
+  "effects": [],
+  "flags": {},
+  "folder": "RjKhUfKK0ixm9AsW",
+  "img": "icons/magic/symbols/rune-sigil-green.webp",
+  "name": "Unbind",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100196,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 62\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Unlocks a single mundane lock, bolt or bar holding something closed. Casting this spell on a target which is held closed with a Bind Portal spell will dispel the binding if the margin of the Unbind is 3 or more.</p>\n</div>\n</div>\n</div>",
+    "school": "Arcana",
+    "complexity": 2,
+    "range": "touch",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

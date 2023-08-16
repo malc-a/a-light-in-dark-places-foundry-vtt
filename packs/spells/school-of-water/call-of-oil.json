@@ -1,0 +1,21 @@
+{
+  "_id": "NszszVBFSRcFOhpl",
+  "effects": [],
+  "flags": {},
+  "folder": "v7TloDi09Aluv1Ld",
+  "img": "icons/magic/water/water-hand.webp",
+  "name": "Call of Oil",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 150000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 76\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Summons a small amount of oil in an area, about enough to fuel a lantern. If used against a creature, the oil will be enough to saturate the fur or clothing of a human-sized creature. If then set afire, it will do 6d of fire damage each round, reducing by one per round.</p>\n</div>\n</div>\n</div>",
+    "school": "Water",
+    "complexity": 1,
+    "range": "short",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

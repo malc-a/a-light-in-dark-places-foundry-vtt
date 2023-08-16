@@ -1,0 +1,21 @@
+{
+  "_id": "GPJmToM5RCfpQklL",
+  "effects": [],
+  "flags": {},
+  "folder": "a6mT8bJWXKNKmXDw",
+  "img": "icons/magic/time/hourglass-tilted-glowing-gold.webp",
+  "name": "Haste",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 112500,
+  "system": {
+    "description": "<p class=\"p1\"><span class=\"s1\">Allows a single ally to move and react faster. Increases the number of action that the target can make without incurring a multiple action penalty by half the margin of the casting (rounded up).</span></p>",
+    "school": "Blessings",
+    "complexity": 7,
+    "range": "close",
+    "duration": "minute"
+  },
+  "type": "spell"
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "Bjcu4dfRCAcMnZq1",
+  "effects": [],
+  "flags": {},
+  "folder": "qtzPYfCruQg7kO9A",
+  "img": "icons/magic/air/wind-tornado-wall-blue.webp",
+  "name": "Wall of Winds",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100782,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 70\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Creates an immobile wall of swirling winds, which can reach up to close range from the floor. The wall can be a flat plane which spans two points up to short range apart, or a circle at the boundary of close range. Ranged attacks are impossible through the wall. If a creature tries to move through the Wall of Winds the caster rolls the sustained margin of the spell, opposed by a Body roll from the creature trying to penetrate the wall. If the caster wins, the creature is unable to move past the winds. Flying creatures make this Body roll at a -2d penalty.</span></p>\n</div>\n</div>\n</div>",
+    "school": "Air",
+    "complexity": 4,
+    "range": "short",
+    "duration": "sustained"
+  },
+  "type": "spell"
+}

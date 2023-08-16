@@ -1,0 +1,20 @@
+{
+  "_id": "kCvy5OYErR9NSpqe",
+  "effects": [],
+  "flags": {},
+  "folder": "Ab307wd5T4s2pe3q",
+  "img": "icons/tools/hand/hammer-mason-white-grey.webp",
+  "name": "Mason's Tools",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 400000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Tools for working with stone. Gives a +1d bonus to any attempt to create, modify or repair stone with Craft.</p>\n</div>\n</div>\n</div>",
+    "cost": 1,
+    "bonus": "Craft +1do",
+    "equipped": false
+  },
+  "type": "gear"
+}

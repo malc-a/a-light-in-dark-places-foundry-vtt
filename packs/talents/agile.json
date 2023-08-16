@@ -1,18 +1,18 @@
 {
-   "_id": "CpaXJCD4nT3VNG97",
-   "effects": [],
-   "flags": {},
-   "folder": null,
-   "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
-   "name": "Agile",
-   "ownership": {
-      "default": 0,
-      "eo6BalpqAg0Hf8ie": 3
-   },
-   "sort": 0,
-   "system": {
-      "bonus": "Athletics +1do",
-      "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are particularly agile, and gain a +1d bonus to Athletics rolls to move faster, jump or climb.</p>\n</div>\n</div>\n</div>"
-   },
-   "type": "talent"
+  "_id": "CpaXJCD4nT3VNG97",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+  "name": "Agile",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 0,
+  "system": {
+    "bonus": "Athletics +1do",
+    "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are particularly agile, and gain a +1d bonus to Athletics rolls to move faster, jump or climb.</p>\n</div>\n</div>\n</div>"
+  },
+  "type": "talent"
 }

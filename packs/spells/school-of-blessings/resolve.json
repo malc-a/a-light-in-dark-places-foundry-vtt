@@ -1,0 +1,21 @@
+{
+  "_id": "ZV9MAl9NYfy3lAmH",
+  "effects": [],
+  "flags": {},
+  "folder": "a6mT8bJWXKNKmXDw",
+  "img": "icons/magic/life/heart-red-blue.webp",
+  "name": "Resolve",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 101563,
+  "system": {
+    "description": "<p class=\"p1\"><span class=\"s1\">Enhances your allies' willpower and resolve. Allows you to increase an ally's Will pool by half of the margin of the casting (rounded up), even above their normal maximum. A character cannot benefit from two castings of this spell at the same time, only the largest increase applies.</span></p>",
+    "school": "Blessings",
+    "complexity": 2,
+    "range": "touch",
+    "duration": "minute"
+  },
+  "type": "spell"
+}

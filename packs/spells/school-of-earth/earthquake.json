@@ -1,0 +1,21 @@
+{
+  "_id": "HDTjXQcZfChyAKTx",
+  "effects": [],
+  "flags": {},
+  "folder": "EZMa9YtpxqW98jTL",
+  "img": "icons/magic/earth/lava-explosion-orange.webp",
+  "name": "Earthquake",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 200000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 73\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>This spell can only be cast underground. It causes an earthquake in an area within short range of the target location. Any creature within that area takes +8 Health damage, which can be resisted with a Body roll.</p>\n</div>\n</div>\n</div>",
+    "school": "Earth",
+    "complexity": 9,
+    "range": "short",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

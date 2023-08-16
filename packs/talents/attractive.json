@@ -1,18 +1,18 @@
 {
-   "_id": "IAw1K6BNywYPZxbF",
-   "effects": [],
-   "flags": {},
-   "folder": null,
-   "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
-   "name": "Attractive",
-   "ownership": {
-      "default": 0,
-      "eo6BalpqAg0Hf8ie": 3
-   },
-   "sort": 0,
-   "system": {
-      "bonus": "Persuade +1do",
-      "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are physically attractive, and gain a +1d bonus to Persuade when your appearance is likely to influence your target.</p>\n</div>\n</div>\n</div>"
-   },
-   "type": "talent"
+  "_id": "IAw1K6BNywYPZxbF",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+  "name": "Attractive",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 0,
+  "system": {
+    "bonus": "Persuade +1do",
+    "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are physically attractive, and gain a +1d bonus to Persuade when your appearance is likely to influence your target.</p>\n</div>\n</div>\n</div>"
+  },
+  "type": "talent"
 }

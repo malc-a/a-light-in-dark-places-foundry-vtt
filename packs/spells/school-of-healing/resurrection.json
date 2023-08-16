@@ -1,0 +1,21 @@
+{
+  "_id": "ZDlzlRWaeQ6OH4Wo",
+  "effects": [],
+  "flags": {},
+  "folder": "tgnIwX73PvPMuAv2",
+  "img": "icons/magic/life/heart-area-circle-red-green.webp",
+  "name": "Resurrection",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100391,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 81\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Returns a character, who may have been dead for up to a month, to life. The character's remains must be available for this spell to work. The returned character is healed from any injuries, poisons or diseases that may have afflicted them when they died. Resurrecting a character who died of old age will work, but it is very likely that the character will die again shortly.</p>\n</div>\n</div>\n</div>",
+    "school": "Healing",
+    "complexity": 15,
+    "range": "touch",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

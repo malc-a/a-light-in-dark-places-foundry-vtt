@@ -1,0 +1,21 @@
+{
+  "_id": "PSgpIVb7ozWyP1Xl",
+  "effects": [],
+  "flags": {},
+  "folder": "tgnIwX73PvPMuAv2",
+  "img": "icons/magic/symbols/rune-sigil-green-purple.webp",
+  "name": "Stone to Flesh",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100098,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 81\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Returns a character who has been turned to stone back into flesh. The spell has no effect on stone that wasn't originally a living creature.</p>\n</div>\n</div>\n</div>",
+    "school": "Healing",
+    "complexity": 6,
+    "range": "touch",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

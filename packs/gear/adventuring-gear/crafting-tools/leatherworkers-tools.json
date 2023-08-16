@@ -1,0 +1,20 @@
+{
+  "_id": "vQQEWlE6YGAKF5uO",
+  "effects": [],
+  "flags": {},
+  "folder": "Ab307wd5T4s2pe3q",
+  "img": "icons/tools/hand/needle-grey.webp",
+  "name": "Leatherworker's Tools",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 300000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Tools for working with leather. Gives a +1d bonus to any attempt to create or repair a leather item with Craft.</p>\n</div>\n</div>\n</div>",
+    "cost": 0,
+    "bonus": "Craft +1do",
+    "equipped": false
+  },
+  "type": "gear"
+}

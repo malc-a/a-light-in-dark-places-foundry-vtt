@@ -1,0 +1,21 @@
+{
+  "_id": "TM42l911z3LVQzWh",
+  "effects": [],
+  "flags": {},
+  "folder": "5WIPfssIgoJSZimf",
+  "img": "icons/creatures/reptiles/snake-fangs-bite-green-yellow.webp",
+  "name": "Soothe the Savage Beast",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 106250,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 66\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Removes anger from a single target animal, provided that it is a natural animal, and is not actively involved in combat. The target can oppose the casting with a Soul roll, if the animal wins then the spell fails.</p>\n<p>The spell removes the anger, but has no lasting effect. If the cause of any anger is not also removed, then it is very likely that the animal will become angry again.</p>\n</div>\n</div>\n</div>",
+    "school": "Beasts",
+    "complexity": 2,
+    "range": "short",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

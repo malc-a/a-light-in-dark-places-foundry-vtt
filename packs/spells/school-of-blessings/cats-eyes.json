@@ -1,0 +1,21 @@
+{
+  "_id": "ies9D8LXoti75zy8",
+  "effects": [],
+  "flags": {},
+  "folder": "a6mT8bJWXKNKmXDw",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+  "name": "Cat's Eyes",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 150000,
+  "system": {
+    "description": "<p class=\"p1\"><span class=\"s1\">Allows the target to see like a cat in the dark, although they are still unable to see in total dark</span><span class=\"s1\">ness.</span></p>",
+    "school": "Blessings",
+    "complexity": 4,
+    "range": "close",
+    "duration": "hour"
+  },
+  "type": "spell"
+}

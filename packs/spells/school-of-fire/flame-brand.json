@@ -1,0 +1,21 @@
+{
+  "_id": "EhktNBmPFij6wRQt",
+  "effects": [],
+  "flags": {},
+  "folder": "BOrbQp3az78CoFX4",
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-orange.webp",
+  "name": "Flame Brand",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 106250,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 74\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Causes a single weapon to light in flames. The flames need no fuel to sustain them, and cannot be extinguished while the spell lasts. The weapon gains a bonus to Damage equal to half the margin (rounded up).</p>\n</div>\n</div>\n</div>",
+    "school": "Fire",
+    "complexity": 4,
+    "range": "touch",
+    "duration": "minute"
+  },
+  "type": "spell"
+}

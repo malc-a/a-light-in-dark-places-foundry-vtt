@@ -1,0 +1,21 @@
+{
+  "_id": "yzOOgDNef0RucjCD",
+  "effects": [],
+  "flags": {},
+  "folder": "uECSFD5mcbSsmHbr",
+  "img": "icons/magic/nature/root-vine-barrier-wall-brown.webp",
+  "name": "Wall of Wood",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100196,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 83\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A wall of wood reaching up to close range from the ground grows out of an earthen floor. The wall can be a flat plane which spans two points up to short range apart, or a circle at the boundaries of close range. The thickness of the wall increases with the margin of the casting. The <em>Pass Plant</em> spell works normally on a <em>Wall of Wood</em>.</p>\n</div>\n</div>\n</div>",
+    "school": "Nature",
+    "complexity": 5,
+    "range": "short",
+    "duration": "minute"
+  },
+  "type": "spell"
+}

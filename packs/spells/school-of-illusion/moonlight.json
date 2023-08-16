@@ -1,0 +1,21 @@
+{
+  "_id": "jVwQTAOHtrCowHXv",
+  "effects": [],
+  "flags": {},
+  "folder": "BQc30qRbLAh1UNay",
+  "img": "icons/magic/nature/moon-crescent.webp",
+  "name": "Moonlight",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 101563,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates an illusory orb which is about as bright as moonlight. Most characters won't be able to see normally in this light, which is quite dim.</p>\n</div>\n</div>\n</div>",
+    "school": "Illusion",
+    "complexity": 1,
+    "range": "close",
+    "duration": "hour"
+  },
+  "type": "spell"
+}

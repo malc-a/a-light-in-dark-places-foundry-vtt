@@ -1,17 +1,17 @@
 {
-   "_id": "ChCr1byrrxCZgjMT",
-   "effects": [],
-   "flags": {},
-   "folder": null,
-   "img": "icons/commodities/treasure/mask-bone-white.webp",
-   "name": "Curious",
-   "ownership": {
-      "default": 0,
-      "eo6BalpqAg0Hf8ie": 3
-   },
-   "sort": 0,
-   "system": {
-      "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You can't stand an unsolved mystery. You feel a strong need to investigate anything strange you encounter, no matter how dangerous.</p>\n</div>\n</div>\n</div>"
-   },
-   "type": "problem"
+  "_id": "ChCr1byrrxCZgjMT",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/commodities/treasure/mask-bone-white.webp",
+  "name": "Curious",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 0,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You can't stand an unsolved mystery. You feel a strong need to investigate anything strange you encounter, no matter how dangerous.</p>\n</div>\n</div>\n</div>"
+  },
+  "type": "problem"
 }

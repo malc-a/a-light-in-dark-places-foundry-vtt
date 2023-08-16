@@ -1,0 +1,21 @@
+{
+  "_id": "TZvmbSCJmCbDY9jD",
+  "effects": [],
+  "flags": {},
+  "folder": "EZMa9YtpxqW98jTL",
+  "img": "icons/magic/earth/barrier-stone-brown-green.webp",
+  "name": "Wall of Stome",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100098,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 72\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A wall of stone grows out of a stone or earthen floor. The top of the wall may be up to close range from the floor. The wall can be a flat plane which spans two points up to short range apart, or a circle at the boundaries of close range. The thickness of the stone wall increases with the margin of the casting. The <em>Passwall</em> &nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">spell works normally on a <em>Wall of Stone</em>.</span></p>\n</div>\n</div>\n</div>",
+    "school": "Earth",
+    "complexity": 5,
+    "range": "short",
+    "duration": "sustained"
+  },
+  "type": "spell"
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "g8EYYLfsFAYgMI4L",
+  "effects": [],
+  "flags": {},
+  "folder": "RjKhUfKK0ixm9AsW",
+  "img": "icons/magic/sonic/bell-alarm-red-purple.webp",
+  "name": "Arcane Alarm",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 61\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster fills the area within close range of themselves with lines of magic. These lines serve as an alarm; if any are broken by something passing through them, then the caster will receive a mental alert that this has happened, and <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">where. The alert is enough to wake the caster if they are sleeping. Creatures within the area of the alarm when the spell is cast will not trigger alerts when they break the lines of magic.</span></p>\n</div>\n</div>\n</div>",
+    "school": "Arcana",
+    "complexity": 1,
+    "range": "self",
+    "duration": "area"
+  },
+  "type": "spell"
+}

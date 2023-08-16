@@ -1,0 +1,21 @@
+{
+  "_id": "uSvZGCa2hMfX0RWK",
+  "effects": [],
+  "flags": {},
+  "folder": "BQc30qRbLAh1UNay",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "name": "Invisibility",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 125000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 81\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The target of the spell becomes invisible, and cannot be seen. The invisible character can't attack or cast spells without breaking the spell, but can move at normal speed. If the character does choose to attack while invisible then the target will not be able to see that attack coming, and so will not be able to defend against it.</p>\n</div>\n</div>\n</div>",
+    "school": "Illusion",
+    "complexity": 5,
+    "range": "close",
+    "duration": "minute"
+  },
+  "type": "spell"
+}

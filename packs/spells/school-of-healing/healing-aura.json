@@ -1,0 +1,21 @@
+{
+  "_id": "fbx2b5QCM12zCOVo",
+  "effects": [],
+  "flags": {},
+  "folder": "tgnIwX73PvPMuAv2",
+  "img": "icons/magic/life/heart-cross-purple-orange.webp",
+  "name": "Healing Aura",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 150000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates an aura around the caster which invigorates and heals those nearby. Each character within close range of the caster regains Health equal to the margin of the casting, including enemies. No character can benefit from this spell (or <em>Invigorate</em>) more than once between chances to rest and recover their Health.</p>\n</div>\n</div>\n</div>",
+    "school": "Healing",
+    "complexity": 3,
+    "range": "self",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

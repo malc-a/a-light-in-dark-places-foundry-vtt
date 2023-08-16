@@ -1,0 +1,21 @@
+{
+  "_id": "t56peGRRNlM5lUDN",
+  "effects": [],
+  "flags": {},
+  "folder": "tgnIwX73PvPMuAv2",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "name": "Remove Curse",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 106250,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 81\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Dispels any persistent harmful magical effects on a single creature. Any effect which was cast with a Complexity less than the margin of the Remove Curse ends. This only affects ongoing magical effects on the creature.</p>\n</div>\n</div>\n</div>",
+    "school": "Healing",
+    "complexity": 4,
+    "range": "touch",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

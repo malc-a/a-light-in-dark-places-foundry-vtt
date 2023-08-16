@@ -1,18 +1,18 @@
 {
-   "_id": "jFUzBIDIBkAv8lBa",
-   "effects": [],
-   "flags": {},
-   "folder": null,
-   "img": "icons/skills/targeting/target-glowing-yellow.webp",
-   "name": "Notice",
-   "ownership": {
-      "default": 0,
-      "eo6BalpqAg0Hf8ie": 3
-   },
-   "sort": 0,
-   "system": {
-      "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>\n</div>\n</div>\n</div>",
-      "dice": 0
-   },
-   "type": "skill"
+  "_id": "jFUzBIDIBkAv8lBa",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/skills/targeting/target-glowing-yellow.webp",
+  "name": "Notice",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 0,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>\n</div>\n</div>\n</div>",
+    "dice": 0
+  },
+  "type": "skill"
 }

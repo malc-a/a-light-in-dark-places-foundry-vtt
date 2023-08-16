@@ -1,0 +1,20 @@
+{
+  "_id": "Khq5PYMt9BM6JDSI",
+  "effects": [],
+  "flags": {},
+  "folder": "Ab307wd5T4s2pe3q",
+  "img": "icons/tools/smithing/pincers.webp",
+  "name": "Blacksmith's Tools",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The portable part of a smith's toolkit. Gives a +1d bonus to any attempt to create or repair a metal item with Craft.</p>\n</div>\n</div>\n</div>",
+    "cost": 1,
+    "bonus": "Craft +1do",
+    "equipped": false
+  },
+  "type": "gear"
+}

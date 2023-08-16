@@ -1,0 +1,21 @@
+{
+  "_id": "3TkXisMq18lG6mp2",
+  "effects": [],
+  "flags": {},
+  "folder": "a6mT8bJWXKNKmXDw",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+  "name": "Perception",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 103125,
+  "system": {
+    "description": "<p class=\"p1\"><span class=\"s1\">Magically boost an ally's perceptiveness. You can use the successes in the margin to help any ally within range who is rolling Notice.</span></p>",
+    "school": "Blessings",
+    "complexity": 1,
+    "range": "close",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

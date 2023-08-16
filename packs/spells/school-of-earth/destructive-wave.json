@@ -1,0 +1,21 @@
+{
+  "_id": "nPAX8WDzZDuaLpZ0",
+  "effects": [],
+  "flags": {},
+  "folder": "EZMa9YtpxqW98jTL",
+  "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
+  "name": "Destructive Wave",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 100000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 72\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Summons a destructive wave in the ground, provided it is earth or stone. The wave moves outwards from the caster in all directions, affecting all creatures within close range. Each creature struck by the wave takes +4 Health damage, which may be resisted with a Body roll. Any creature that does not resist all of the wave's damage will be pushed back to short range from the caster.</span></p>\n</div>\n</div>\n</div>",
+    "school": "Earth",
+    "complexity": 5,
+    "range": "self",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

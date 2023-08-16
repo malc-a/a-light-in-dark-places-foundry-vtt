@@ -1,0 +1,21 @@
+{
+  "_id": "lw0cNqqyldcTBsHq",
+  "effects": [],
+  "flags": {},
+  "folder": "5WIPfssIgoJSZimf",
+  "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+  "name": "The Beast Revealed",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 101563,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 66\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Gives the caster an image of a natural animal provided they have access to some trace of the animal. The trace could be a part of the animal, such as fur or a tooth, or tracks or injuries caused by it. If the source of the traces is not a natural animal, the spell will fail.</p>\n</div>\n</div>\n</div>",
+    "school": "Beasts",
+    "complexity": 1,
+    "range": "touch",
+    "duration": "instant"
+  },
+  "type": "spell"
+}

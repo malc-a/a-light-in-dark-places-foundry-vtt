@@ -1,0 +1,20 @@
+{
+  "_id": "RpifWygILo5zCk6z",
+  "effects": [],
+  "flags": {},
+  "folder": "3018YRvOw2rZPDv8",
+  "img": "icons/tools/instruments/harp-lap-brown.webp",
+  "name": "Musical Instrument",
+  "ownership": {
+    "default": 0,
+    "eo6BalpqAg0Hf8ie": 3
+  },
+  "sort": 1000000,
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Musical instruments come in various types, and as a result the cost varies widely. Common instruments such as pipes, flutes or lutes are relatively inexpensive (Cost 0-1), while rarer ones can cost much more. Gives a +1d bonus to Perform rolls when using the instrument.</p>\n</div>\n</div>\n</div>",
+    "cost": 0,
+    "bonus": "Perform +1d",
+    "equipped": false
+  },
+  "type": "gear"
+}
