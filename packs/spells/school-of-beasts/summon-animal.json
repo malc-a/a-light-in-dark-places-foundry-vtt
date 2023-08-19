@@ -11,7 +11,7 @@
   },
   "sort": 103125,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 66\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Summons an animal, which is under the control of the caster. The number of successes in the margin dictate what the summoned animal might be; 1 success gives a small dog, a cat or a hawk, 2 successes a wolf or large dog, 3 a lion, tiger or bear. If the margin is 4 or greater then any natural animal can be chosen.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Summons an animal, which is under the control of the caster. The number of successes in the margin dictate what the summoned animal might be; 1 success gives a small dog, a cat or a hawk, 2 successes a wolf or large dog, 3 a lion, tiger or bear. If the margin is 4 or greater then any natural animal can be chosen.</p>",
     "school": "Beasts",
     "complexity": 3,
     "range": "close",

@@ -11,7 +11,7 @@
   },
   "sort": 150000,
   "system": {
-    "description": "<p class=\"p1\"><span class=\"s1\">A spiked or flanged ball attached to a handle by a short chain. Sometimes called a morning star.</span></p>",
+    "description": "<p>A spiked or flanged ball attached to a handle by a short chain. Sometimes called a morning star.</p>",
     "cost": 1,
     "range": "reach",
     "bonus": "Damage +1",

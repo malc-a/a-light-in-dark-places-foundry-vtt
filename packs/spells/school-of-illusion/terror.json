@@ -11,7 +11,7 @@
   },
   "sort": 100098,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 81\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>This spell reaches into the target's psyche and confronts them with their worst fear. The target takes +4 Will damage, which may be resisted with a Soul roll.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>This spell reaches into the target's psyche and confronts them with their worst fear. The target takes +4 Will damage, which may be resisted with a Soul roll.</p>",
     "school": "Illusion",
     "complexity": 6,
     "range": "medium",

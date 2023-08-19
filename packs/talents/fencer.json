@@ -12,7 +12,7 @@
   "sort": 0,
   "system": {
     "bonus": "Fight +1d",
-    "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>If you use a sword in one hand with the other hand empty, you gain a +1d bonus on Fight rolls.</p>\n</div>\n</div>\n</div>"
+    "description": "<p>If you use a sword in one hand with the other hand empty, you gain a +1d bonus on Fight rolls.</p>"
   },
   "type": "talent"
 }

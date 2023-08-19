@@ -11,7 +11,7 @@
   },
   "sort": 150000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 62\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Creates an invisible hand of pure force, which can be controlled mentally by the caster at distances up to short range. You can use the hand as if it were your own, except that it can't be used to attack.</span></p>\n</div>\n</div>\n</div>",
+    "description": "Creates an invisible hand of pure force, which can be controlled mentally by the caster at distances up to short range. You can use the hand as if it were your own, except that it can't be used to attack.</p>",
     "school": "Arcana",
     "complexity": 1,
     "range": "self",

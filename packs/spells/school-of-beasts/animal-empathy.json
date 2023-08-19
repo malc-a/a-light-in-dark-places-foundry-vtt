@@ -11,7 +11,7 @@
   },
   "sort": 100000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 66\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Gives the caster a brief sense of the target beast's emotions. The margin of success of this spell can be used to help someone making a subsequent Ride roll to calm or tame the same beast.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Gives the caster a brief sense of the target beast's emotions. The margin of success of this spell can be used to help someone making a subsequent Ride roll to calm or tame the same beast.</p>",
     "school": "Beasts",
     "complexity": 1,
     "range": "short",

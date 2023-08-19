@@ -11,7 +11,7 @@
   },
   "sort": 103125,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 24\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A simple bow made from a single piece of wood, typically about 1.2m in length.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>A simple bow made from a single piece of wood, typically about 1.2m in length.</p>",
     "cost": 1,
     "range": "short",
     "bonus": "Shoot +1d",

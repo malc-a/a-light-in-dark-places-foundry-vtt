@@ -11,7 +11,7 @@
   },
   "sort": 106250,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 74\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Causes a single weapon to light in flames. The flames need no fuel to sustain them, and cannot be extinguished while the spell lasts. The weapon gains a bonus to Damage equal to half the margin (rounded up).</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Causes a single weapon to light in flames. The flames need no fuel to sustain them, and cannot be extinguished while the spell lasts. The weapon gains a bonus to Damage equal to half the margin (rounded up).</p>",
     "school": "Fire",
     "complexity": 4,
     "range": "touch",

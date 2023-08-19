@@ -11,7 +11,7 @@
   },
   "sort": 150000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates an aura around the caster which invigorates and heals those nearby. Each character within close range of the caster regains Health equal to the margin of the casting, including enemies. No character can benefit from this spell (or <em>Invigorate</em>) more than once between chances to rest and recover their Health.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Creates an aura around the caster which invigorates and heals those nearby. Each character within close range of the caster regains Health equal to the margin of the casting, including enemies. No character can benefit from this spell (or <em>Invigorate</em>) more than once between chances to rest and recover their Health.</p>",
     "school": "Healing",
     "complexity": 3,
     "range": "self",

@@ -11,7 +11,7 @@
   },
   "sort": 150000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 78\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Speak a single word command to the target, which must obey if it fails to resist the casting with a Mind roll. A suicidal or self-harming command will automatically cause the spell to fail.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Speak a single word command to the target, which must obey if it fails to resist the casting with a Mind roll. A suicidal or self-harming command will automatically cause the spell to fail.</p>",
     "school": "Enchantment",
     "complexity": 2,
     "range": "short",

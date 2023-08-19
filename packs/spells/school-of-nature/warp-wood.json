@@ -11,7 +11,7 @@
   },
   "sort": 100098,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 82\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Shapes a volume of wood within reach of the caster's hands into the desired shape. The GM may require a higher margin on the casting to create more intricate shapes.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Shapes a volume of wood within reach of the caster's hands into the desired shape. The GM may require a higher margin on the casting to create more intricate shapes.</p>",
     "school": "Nature",
     "complexity": 1,
     "range": "touch",

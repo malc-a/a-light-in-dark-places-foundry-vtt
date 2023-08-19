@@ -11,7 +11,7 @@
   },
   "sort": 100782,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 81\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>This spell can only be cast on a character once between sunset and sunrise, or sunrise and sunset. The character is immediately restored to perfect health, with all Health Injuries healed, even crippling injuries such as losing a limb.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>This spell can only be cast on a character once between sunset and sunrise, or sunrise and sunset. The character is immediately restored to perfect health, with all Health Injuries healed, even crippling injuries such as losing a limb.</p>",
     "school": "Healing",
     "complexity": 9,
     "range": "touch",

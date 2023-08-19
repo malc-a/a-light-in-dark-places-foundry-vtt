@@ -11,7 +11,7 @@
   },
   "sort": 100000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 24\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Designed for melee combat, a battle axe may be single- or double-bitted (or headed). They can be used as tools in an emergency (+1d to Survival rolls to make a shelter).</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Designed for melee combat, a battle axe may be single- or double-bitted (or headed). They can be used as tools in an emergency (+1d to Survival rolls to make a shelter).</p>",
     "cost": 1,
     "range": "reach",
     "bonus": "Damage +1",

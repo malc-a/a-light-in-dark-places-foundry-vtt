@@ -11,7 +11,7 @@
   },
   "sort": 150000,
   "system": {
-    "description": "<p class=\"p1\"><span class=\"s1\">Allows the target to see like a cat in the dark, although they are still unable to see in total dark</span><span class=\"s1\">ness.</span></p>",
+    "description": "<p>Allows the target to see like a cat in the dark, although they are still unable to see in total darkness.</p>",
     "school": "Blessings",
     "complexity": 4,
     "range": "close",

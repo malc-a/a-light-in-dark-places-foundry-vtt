@@ -11,7 +11,7 @@
   },
   "sort": 100000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A bow made from horn, wood and sinew laminated together, roughly the same size as a self bow. The materials give better power and range when compared to wooden self bows.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>A bow made from horn, wood and sinew laminated together, roughly the same size as a self bow. The materials give better power and range when compared to wooden self bows.</p>",
     "cost": 3,
     "range": "medium",
     "bonus": "Shoot +2d",

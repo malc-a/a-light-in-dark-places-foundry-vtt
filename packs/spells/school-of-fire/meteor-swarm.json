@@ -11,7 +11,7 @@
   },
   "sort": 100391,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 75\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>This spell can only be cast under the open sky. A swarm of balls of fire appear from the sky, landing in such a way as to fill the area within short range of the target location. The fire will do +6 Health damage to any creatures in the affected area, which may be resisted by a Body roll.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>This spell can only be cast under the open sky. A swarm of balls of fire appear from the sky, landing in such a way as to fill the area within short range of the target location. The fire will do +6 Health damage to any creatures in the affected area, which may be resisted by a Body roll.</p>",
     "school": "Fire",
     "complexity": 12,
     "range": "sight",

@@ -11,7 +11,7 @@
   },
   "sort": 125000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Similar to a crossbow, but with a steel prod, heavy crossbows are too powerful to draw manually, but use a crank called a cranequin to draw back the string. Because of this, the heavy crossbow is not only slow, but also requires a full round to be reloaded after firing. Reloading the crossbow is a free action, but it does limit the firing rate of a heavy crossbow to every other round.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Similar to a crossbow, but with a steel prod, heavy crossbows are too powerful to draw manually, but use a crank called a cranequin to draw back the string. Because of this, the heavy crossbow is not only slow, but also requires a full round to be reloaded after firing. Reloading the crossbow is a free action, but it does limit the firing rate of a heavy crossbow to every other round.</p>",
     "cost": 4,
     "range": "medium",
     "bonus": "Shoot +2d, Damage +1",

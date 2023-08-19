@@ -11,7 +11,7 @@
   },
   "sort": 112500,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 74\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Heats a single metal item to a red hot temperature. If cast on heavy armour that someone is wearing then the wearer will take +0 Health damage each round that the spell is sustained, which may be resisted by a Body roll.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Heats a single metal item to a red hot temperature. If cast on heavy armour that someone is wearing then the wearer will take +0 Health damage each round that the spell is sustained, which may be resisted by a Body roll.</p>",
     "school": "Fire",
     "complexity": 3,
     "range": "short",

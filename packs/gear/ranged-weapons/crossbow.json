@@ -11,7 +11,7 @@
   },
   "sort": 200000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Because crossbows are drawn by putting a foot in the stirrup, the small bow section (called the prod) can be much stronger than in a bow drawn purely with arm strength. Crossbows are slow weapons, which means that a character can't use a multiple action to make more than one shot in a round with a crossbow.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Because crossbows are drawn by putting a foot in the stirrup, the small bow section (called the prod) can be much stronger than in a bow drawn purely with arm strength. Crossbows are slow weapons, which means that a character can't use a multiple action to make more than one shot in a round with a crossbow.</p>",
     "cost": 2,
     "range": "short",
     "bonus": "Shoot +2d",

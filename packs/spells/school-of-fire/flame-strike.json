@@ -11,7 +11,7 @@
   },
   "sort": 103125,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 74\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A column of flame strikes a single target within range from above. The flame does +8 Health damage to the target, resisted by the target's Body.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>A column of flame strikes a single target within range from above. The flame does +8 Health damage to the target, resisted by the target's Body.</p>",
     "school": "Fire",
     "complexity": 5,
     "range": "short",

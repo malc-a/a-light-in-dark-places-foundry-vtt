@@ -11,7 +11,7 @@
   },
   "sort": 950000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A length of relatively lightweight rope, made of rough silk. If anchored in place, gives a +2d bonus to Athletics rolls made to climb.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>A length of relatively lightweight rope, made of rough silk. If anchored in place, gives a +2d bonus to Athletics rolls made to climb.</p>",
     "cost": 0,
     "bonus": "Athletics +2do",
     "equipped": false

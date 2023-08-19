@@ -11,7 +11,7 @@
   },
   "sort": 100000,
   "system": {
-    "description": "<p class=\"p1\"><span class=\"s1\">The tools, instruments and other items required for a character to do magical research of any type. This is only the equipment required to carry out magical research, if a wizard intends to do much laboratory work, then they may also want to buy a building to store it in.</span></p>",
+    "description": "<p>The tools, instruments and other items required for a character to do magical research of any type. This is only the equipment required to carry out magical research, if a wizard intends to do much laboratory work, then they may also want to buy a building to store it in.</p>",
     "cost": 6,
     "bonus": "",
     "equipped": false

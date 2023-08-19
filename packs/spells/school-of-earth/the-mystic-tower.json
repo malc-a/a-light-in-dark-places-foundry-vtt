@@ -11,7 +11,7 @@
   },
   "sort": 100391,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 73\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>This spell requires the floor to be made of rock or stone. A tower of up to seven stories rises from the ground. The tower can occupy an area of up to close range from the target. The caster can determine the design of the rooms within the tower.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>This spell requires the floor to be made of rock or stone. A tower of up to seven stories rises from the ground. The tower can occupy an area of up to close range from the target. The caster can determine the design of the rooms within the tower.</p>",
     "school": "Earth",
     "complexity": 12,
     "range": "short",

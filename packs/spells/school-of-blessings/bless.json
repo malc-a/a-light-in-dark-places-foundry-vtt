@@ -11,7 +11,7 @@
   },
   "sort": 200000,
   "system": {
-    "description": "<p class=\"p1\"><span class=\"s1\">Magically aid your allies in a fight. You can use the successes in the margin of the casting to help any allies within range who are rolling Fight or Shoot.</span></p>",
+    "description": "<p>Magically aid your allies in a fight. You can use the successes in the margin of the casting to help any allies within range who are rolling Fight or Shoot.</p>",
     "school": "Blessings",
     "complexity": 1,
     "range": "close",

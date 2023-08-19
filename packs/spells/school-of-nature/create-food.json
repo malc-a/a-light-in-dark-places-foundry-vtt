@@ -11,7 +11,7 @@
   },
   "sort": 200000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 81\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates enough raw vegetarian food to feed one person for a day for each success in the margin.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Creates enough raw vegetarian food to feed one person for a day for each success in the margin.</p>",
     "school": "Nature",
     "complexity": 2,
     "range": "touch",

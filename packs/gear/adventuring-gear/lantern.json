@@ -11,7 +11,7 @@
   },
   "sort": 1400000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Will illuminate the area within short range. Lanterns can be refilled with oil, which lasts about 6 hours. Some lanterns, known as hooded lanterns, have a cover which can be slid into place to block the light.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Will illuminate the area within short range. Lanterns can be refilled with oil, which lasts about 6 hours. Some lanterns, known as hooded lanterns, have a cover which can be slid into place to block the light.</p>",
     "cost": 0,
     "bonus": "",
     "equipped": false

@@ -12,7 +12,7 @@
   "sort": 0,
   "system": {
     "bonus": "Lore +0d",
-    "description": "<p class=\"p1\"><span class=\"s1\">You are deeply versed in the lore of magical creatures, and often know of their weaknesses. Provided you take no other action during a combat round, you can roll Lore to help someone who is using Fight or Shoot against a Monster that round.</span></p>"
+    "description": "<p>You are deeply versed in the lore of magical creatures, and often know of their weaknesses. Provided you take no other action during a combat round, you can roll Lore to help someone who is using Fight or Shoot against a Monster that round.</p>"
   },
   "type": "talent"
 }

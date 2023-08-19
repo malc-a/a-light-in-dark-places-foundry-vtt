@@ -11,7 +11,7 @@
   },
   "sort": 0,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You have an irrational fear of something. You might refuse to take some actions because of this fear, or you may get a penalty to rolls when your fear is triggered.</p>\n</div>\n</div>\n</div>"
+    "description": "<p>You have an irrational fear of something. You might refuse to take some actions because of this fear, or you may get a penalty to rolls when your fear is triggered.</p>"
   },
   "type": "problem"
 }

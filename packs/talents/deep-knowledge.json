@@ -12,7 +12,7 @@
   "sort": 0,
   "system": {
     "bonus": "",
-    "description": "<div class=\"page\" title=\"Page 16\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You have a deep understanding of a particular School of magic. If you have a written copy of a spell that you do not know, you are able to cast that spell directly from the written copy. However, casting a spell in this way takes about a minute or so. This talent may be taken multiple times, for different Schools of magic.</p>\n</div>\n</div>\n</div>"
+    "description": "<p>You have a deep understanding of a particular School of magic. If you have a written copy of a spell that you do not know, you are able to cast that spell directly from the written copy. However, casting a spell in this way takes about a minute or so. This talent may be taken multiple times, for different Schools of magic.</p>"
   },
   "type": "talent"
 }

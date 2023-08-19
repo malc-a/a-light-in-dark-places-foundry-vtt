@@ -11,7 +11,7 @@
   },
   "sort": 200000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 69\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster calls forth a powerful wind from their hands, which will prevent the <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">target from moving closer and may injure them. The target takes +0 Health damage, which may be resisted by a Body roll. If the target does not resist all of the damage done by the wind, they are forced back to short range from the caster. In any case, the target is unable to move any closer to the caster that round.</span></p>\n</div>\n</div>\n</div>",
+    "description": "<p>The caster calls forth a powerful wind from their hands, which will prevent the target from moving closer and may injure them. The target takes +0 Health damage, which may be resisted by a Body roll. If the target does not resist all of the damage done by the wind, they are forced back to short range from the caster. In any case, the target is unable to move any closer to the caster that round.</p>",
     "school": "Air",
     "complexity": 2,
     "range": "self",

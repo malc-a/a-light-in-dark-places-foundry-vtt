@@ -11,7 +11,7 @@
   },
   "sort": 103125,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 62\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>While this spell lasts the caster can sense magic as an aura around any magical creature, object or area. They can also determine which School of magic is involved, unless the School is completely outside their experience. The spell is blocked by anything that blocks vision.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>While this spell lasts the caster can sense magic as an aura around any magical creature, object or area. They can also determine which School of magic is involved, unless the School is completely outside their experience. The spell is blocked by anything that blocks vision.</p>",
     "school": "Arcana",
     "complexity": 1,
     "range": "self",

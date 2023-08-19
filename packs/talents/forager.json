@@ -12,7 +12,7 @@
   "sort": 0,
   "system": {
     "bonus": "Survive +1do",
-    "description": "<div class=\"page\" title=\"Page 14\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are adept at foraging for food and mprovising simple traps and snares. You gain a +1d bonus to Survive rolls to hunt or forage for food, even if you do not have a survival kit.</p>\n</div>\n</div>\n</div>"
+    "description": "<p>You are adept at foraging for food and mprovising simple traps and snares. You gain a +1d bonus to Survive rolls to hunt or forage for food, even if you do not have a survival kit.</p>"
   },
   "type": "talent"
 }

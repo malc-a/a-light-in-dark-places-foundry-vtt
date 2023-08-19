@@ -11,7 +11,7 @@
   },
   "sort": 112500,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 76\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Allows the caster to control water or other liquids up to a volume filling close range from the target location. The water can be moved in any way the caster wishes, agitated into a storm or calmed.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Allows the caster to control water or other liquids up to a volume filling close range from the target location. The water can be moved in any way the caster wishes, agitated into a storm or calmed.</p>",
     "school": "Water",
     "complexity": 4,
     "range": "short",

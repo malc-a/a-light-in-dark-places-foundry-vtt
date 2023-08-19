@@ -18,7 +18,7 @@
          },
          "sort": 300000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -36,7 +36,7 @@
          },
          "sort": 400000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>",
             "dice": 2
          },
          "type": "skill"
@@ -56,7 +56,7 @@
          "system": {
             "ability": "Fight",
             "bonus": "Fight +1d",
-            "description": "<p class=\"p1\"><span class=\"s1\">If you are wearing light or no armour, and are able to move freely, you get a +1d bonus on Fight rolls.</span></p>"
+            "description": "<p>If you are wearing light or no armour, and are able to move freely, you get a +1d bonus on Fight rolls.</p>"
          },
          "type": "talent"
       },
@@ -92,7 +92,7 @@
          "sort": 0,
          "system": {
             "bonus": "Persuade +1do",
-            "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are physically attractive, and gain a +1d bonus to Persuade when your appearance is likely to influence your target.</p>\n</div>\n</div>\n</div>"
+            "description": "<p>You are physically attractive, and gain a +1d bonus to Persuade when your appearance is likely to influence your target.</p>"
          },
          "type": "talent"
       },
@@ -110,7 +110,7 @@
          "sort": 200000,
          "system": {
             "bonus": "Perform +0d",
-            "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You have the ability to inspire confidence and courage with your performances. Provided you take no other action during a combat round, you can roll Perform to help one or more people who are rolling Fight or Shoot that round.</p>\n</div>\n</div>\n</div>"
+            "description": "<p>You have the ability to inspire confidence and courage with your performances. Provided you take no other action during a combat round, you can roll Perform to help one or more people who are rolling Fight or Shoot that round.</p>"
          },
          "type": "talent"
       },
@@ -129,7 +129,7 @@
          "system": {
             "bonus": "Perform +1d",
             "cost": 0,
-            "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Musical instruments come in various types, and as a result the cost varies widely. Common instruments such as pipes, flutes or lutes are relatively inexpensive (Cost 0-1), while rarer ones can cost much more. Gives a +1d bonus to Perform rolls when using the instrument.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Musical instruments come in various types, and as a result the cost varies widely. Common instruments such as pipes, flutes or lutes are relatively inexpensive (Cost 0-1), while rarer ones can cost much more. Gives a +1d bonus to Perform rolls when using the instrument.</p>",
             "equipped": true
          },
          "type": "gear"
@@ -149,7 +149,7 @@
          "system": {
             "bonus": "",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>",
             "equipped": false
          },
          "type": "gear"
@@ -167,7 +167,7 @@
          },
          "sort": 100000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -185,7 +185,7 @@
          },
          "sort": 175000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -203,7 +203,7 @@
          },
          "sort": 237500,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Combines both commonly-held knowledge, as well as knowledge of history and legends. Use Lore when you try to recall information or research a topic.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Combines both commonly-held knowledge, as well as knowledge of history and legends. Use Lore when you try to recall information or research a topic.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -221,7 +221,7 @@
          },
          "sort": 350000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers any form of performance, including song, dance, musical instruments and acting. Use Perform when you attempt to impress or distract a crowd with your skill.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Covers any form of performance, including song, dance, musical instruments and acting. Use Perform when you attempt to impress or distract a crowd with your skill.</p>",
             "dice": 5
          },
          "type": "skill"
@@ -239,7 +239,7 @@
          },
          "sort": 375000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</p>",
             "dice": 5
          },
          "type": "skill"
@@ -257,7 +257,7 @@
          },
          "sort": 1000000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">The ability to make small items vanish without others noticing. Use Sleight to pick a pocket, cut a purse, or steal a small item without being noticed.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability to make small items vanish without others noticing. Use Sleight to pick a pocket, cut a purse, or steal a small item without being noticed.</p>",
             "dice": 2
          },
          "type": "skill"
@@ -275,7 +275,7 @@
          },
          "sort": 1100000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">The ability both to remain out of sight, and to move noiselessly. Use Stealth when you are trying to avoid being noticed.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability both to remain out of sight, and to move noiselessly. Use Stealth when you are trying to avoid being noticed.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -295,7 +295,7 @@
          "system": {
             "bonus": "Health +1",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Light armour is made primarily from leather, either reinforced with metal rings or plates, or boiled in wax to form cuir bouilli, rigid hardened leather that can be used to create armour plates in the same way that metal can.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Light armour is made primarily from leather, either reinforced with metal rings or plates, or boiled in wax to form cuir bouilli, rigid hardened leather that can be used to create armour plates in the same way that metal can.</p>",
             "equipped": true
          },
          "type": "gear"
@@ -315,7 +315,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 1,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Unlike larger shields, bucklers are sometimes made of metal. Bucklers<span class=\"Apple-converted-space\">&nbsp; </span>are effective in melee defense, and can also be used as weapons. Unlike larger shields they are too small to act as cover against a ranged attack. If a character using a buckler is injured in a fight, they can choose to sacrifice their buckler instead - the buckler is destroyed until repaired, and can no longer be used, but the character does not take any Injury from the attack, even if it would have caused multiple Injuries.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Unlike larger shields, bucklers are sometimes made of metal. Bucklers are effective in melee defense, and can also be used as weapons. Unlike larger shields they are too small to act as cover against a ranged attack. If a character using a buckler is injured in a fight, they can choose to sacrifice their buckler instead - the buckler is destroyed until repaired, and can no longer be used, but the character does not take any Injury from the attack, even if it would have caused multiple Injuries.</p>",
             "equipped": true
          },
          "type": "gear"
@@ -335,7 +335,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">treated as a sword. Feel free to define the exact type that fits your character concept.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is treated as a sword. Feel free to define the exact type that fits your character concept.</p>",
             "equipped": true,
             "range": "reach"
          },
@@ -356,7 +356,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 0,
-            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>",
             "equipped": false,
             "range": "reach"
          },
@@ -377,7 +377,7 @@
          "system": {
             "bonus": "Shoot +0d",
             "cost": 0,
-            "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Throwing knives are smaller than daggers intended for hand-to-hand combat, and better balanced to be thrown. They can be used as melee weapons, but give no bonus.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Throwing knives are smaller than daggers intended for hand-to-hand combat, and better balanced to be thrown. They can be used as melee weapons, but give no bonus.</p>",
             "equipped": true,
             "range": "reach"
          },

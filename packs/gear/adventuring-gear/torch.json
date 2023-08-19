@@ -11,7 +11,7 @@
   },
   "sort": 300000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 29\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Will light the area within short range; lasting for about 1 hour.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Will light the area within short range; lasting for about 1 hour.</p>",
     "cost": 0,
     "bonus": "",
     "equipped": false

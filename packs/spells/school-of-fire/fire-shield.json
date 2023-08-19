@@ -11,7 +11,7 @@
   },
   "sort": 150000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 74\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">The caster wreathes<span class=\"Apple-converted-space\">&nbsp; </span>themselves in flames. While the spell lasts, any character attacking the caster with Fight will take +2 Health damage from the sustained margin, which may be resisted by a Body roll. This is in addition to any consequences of the (possibly-opposed) Fight roll for the attack.</span></p>\n</div>\n</div>\n</div>",
+    "description": "The caster wreathes themselves in flames. While the spell lasts, any character attacking the caster with Fight will take +2 Health damage from the sustained margin, which may be resisted by a Body roll. This is in addition to any consequences of the (possibly-opposed) Fight roll for the attack.</p>",
     "school": "Fire",
     "complexity": 2,
     "range": "self",
