@@ -334,7 +334,8 @@
             "cost": 2,
             "description": "<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is treated as a sword. Feel free to define the exact type that fits your character concept.</p>",
             "equipped": true,
-            "range": "reach"
+            "range": "reach",
+            "twohands": false
          },
          "type": "weapon"
       },
@@ -355,7 +356,8 @@
             "cost": 0,
             "description": "<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>",
             "equipped": false,
-            "range": "reach"
+            "range": "reach",
+            "twohands": false
          },
          "type": "weapon"
       },
@@ -376,7 +378,8 @@
             "cost": 0,
             "description": "<p>Darts are miniature javelins, with a metal head attached to a fletched haft. They are often carried attached to the inside of a shield. Darts, like javelins, are thrown.</p>",
             "equipped": true,
-            "range": "close"
+            "range": "close",
+            "twohands": false
          },
          "type": "weapon"
       },
@@ -397,7 +400,8 @@
             "cost": 2,
             "description": "<p>Because crossbows are drawn by putting a foot in the stirrup, the small bow section (called the prod) can be much stronger than in a bow drawn purely with arm strength. Crossbows are slow weapons, which means that a character can't use a multiple action to make more than one shot in a round with a crossbow.</p>",
             "equipped": false,
-            "range": "short"
+            "range": "short",
+            "twohands": true
          },
          "type": "weapon"
       }

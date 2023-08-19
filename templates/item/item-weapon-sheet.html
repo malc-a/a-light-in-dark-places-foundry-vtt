@@ -32,6 +32,10 @@
         <label for="system.bonus" class="item-label">{{localize "ALIDP.label.bonus"}}</label>
         <input type="text" name="system.bonus" value="{{system.bonus}}" data-dtype="String"/>
       </div>
+      <div class="twohands flexrow flex-between">
+        <label for="system.twohands" class="item-label">{{localize "ALIDP.label.twohands"}}</label>
+        <input type="checkbox" title="{{localize "ALIDP.label.twohands"}}" name="system.twohands" {{checked system.twohands}} />
+      </div>
       <div class="equipped flexrow flex-between">
         <label for="system.equipped" class="item-label">{{localize "ALIDP.label.equipped"}}</label>
         <input type="checkbox" title="{{localize "ALIDP.label.equipped"}}" name="system.equipped" {{checked system.equipped}} />

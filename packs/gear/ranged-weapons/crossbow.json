@@ -15,7 +15,8 @@
     "cost": 2,
     "range": "short",
     "bonus": "Shoot +2d",
-    "equipped": false
+    "equipped": false,
+    "twohands": true
   },
   "type": "weapon"
 }

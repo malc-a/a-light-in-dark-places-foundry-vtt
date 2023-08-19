@@ -337,7 +337,8 @@
             "cost": 2,
             "description": "<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is treated as a sword. Feel free to define the exact type that fits your character concept.</p>",
             "equipped": true,
-            "range": "reach"
+            "range": "reach",
+            "twohands": false
          },
          "type": "weapon"
       },
@@ -358,7 +359,8 @@
             "cost": 0,
             "description": "<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>",
             "equipped": false,
-            "range": "reach"
+            "range": "reach",
+            "twohands": false
          },
          "type": "weapon"
       },
@@ -379,7 +381,8 @@
             "cost": 0,
             "description": "<p>Throwing knives are smaller than daggers intended for hand-to-hand combat, and better balanced to be thrown. They can be used as melee weapons, but give no bonus.</p>",
             "equipped": true,
-            "range": "reach"
+            "range": "reach",
+            "twohands": false
          },
          "type": "weapon"
       }

@@ -281,7 +281,8 @@
             "cost": 2,
             "description": "<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is treated as a sword. Feel free to define the exact type that fits your character concept.</p>",
             "equipped": true,
-            "range": "reach"
+            "range": "reach",
+            "twohands": false
          },
          "type": "weapon"
       },
@@ -302,7 +303,8 @@
             "cost": 0,
             "description": "<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>",
             "equipped": false,
-            "range": "reach"
+            "range": "reach",
+            "twohands": false
          },
          "type": "weapon"
       },
@@ -323,7 +325,8 @@
             "cost": 2,
             "description": "<p>Another wooden bow made from a single piece of wood, traditionally yew, but closer to 2m long. Longbows are much more powerful and longer ranged than the self bow. Can only be fired from a standing position due to its size.</p>",
             "equipped": true,
-            "range": "long"
+            "range": "long",
+            "twohands": true
          },
          "type": "weapon"
       },
@@ -382,7 +385,7 @@
          },
          "sort": 0,
          "system": {
-	   "description": "<p>This School of magic concerns itself with plants and plant products, including wood, rope, cloth, and paper. Spells are usually cast in the form of both spoken incantations and arcane gestures.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Learn the properties of a plant; promote the healthy growth of plants</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Grow plants rapidly or alter their shape</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Create plants or plant materials</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Control plants or plant products</p></td></tr>\n</tbody>\n</table>",
+           "description": "<p>This School of magic concerns itself with plants and plant products, including wood, rope, cloth, and paper. Spells are usually cast in the form of both spoken incantations and arcane gestures.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Learn the properties of a plant; promote the healthy growth of plants</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Grow plants rapidly or alter their shape</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Create plants or plant materials</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Control plants or plant products</p></td></tr>\n</tbody>\n</table>",
             "dice": 4
          },
          "type": "school"

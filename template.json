@@ -105,6 +105,7 @@
         "cost": 0,
         "range": "reach",
         "bonus": "",
+        "twohands": false,
         "equipped": false
       },
       "attack": {

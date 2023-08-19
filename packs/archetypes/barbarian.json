@@ -297,7 +297,8 @@
             "cost": 2,
             "description": "<p>A larger version of the battle axe, too heavy to use in one hand.</p>",
             "equipped": true,
-            "range": "reach"
+            "range": "reach",
+            "twohands": true
          },
          "type": "weapon"
       },
@@ -318,7 +319,8 @@
             "cost": 0,
             "description": "<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>",
             "equipped": false,
-            "range": "reach"
+            "range": "reach",
+            "twohands": false
          },
          "type": "weapon"
       },
@@ -339,7 +341,8 @@
             "cost": 1,
             "description": "<p>A simple bow made from a single piece of wood, typically about 1.2m in length.</p>",
             "equipped": true,
-            "range": "short"
+            "range": "short",
+            "twohands": true
          },
          "type": "weapon"
       }
