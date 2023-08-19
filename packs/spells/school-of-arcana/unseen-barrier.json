@@ -11,7 +11,7 @@
   },
   "sort": 100098,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 63\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>An invisible, immobile plane of force is created wherever you choose. It can be a flat plane which spans two points up to short range apart and up to close range high, or a sphere at the boundaries of close range. If flat, the barrier can be placed in any orientation, so it could be used to bridge a gap. Nothing, either physical or magical, can pass through the barrier in either direction.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>An invisible, immobile plane of force is created wherever you choose. It can be a flat plane which spans two points up to short range apart and up to close range high, or a sphere at the boundaries of close range. If flat, the barrier can be placed in any orientation, so it could be used to bridge a gap. Nothing, either physical or magical, can pass through the barrier in either direction.</p>",
     "school": "Arcana",
     "complexity": 8,
     "range": "medium",

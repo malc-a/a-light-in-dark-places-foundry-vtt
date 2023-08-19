@@ -11,7 +11,7 @@
   },
   "sort": 100782,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 63\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 63\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>This spell is cast on a casting that the caster has previously cast, and is currently sustaining. This spell will maintain the target casting for a short time, so the target casting's duration changes to Minute, and its margin of success becomes fixed at the margin of the last roll to cast or sustain it. The caster is then free to make another casting with Sustained duration..</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+    "description": "<p>This spell is cast on a casting that the caster has previously cast, and is currently sustaining. This spell will maintain the target casting for a short time, so the target casting's duration changes to Minute, and its margin of success becomes fixed at the margin of the last roll to cast or sustain it. The caster is then free to make another casting with Sustained duration..</p>",
     "school": "Arcana",
     "complexity": 4,
     "range": "self",

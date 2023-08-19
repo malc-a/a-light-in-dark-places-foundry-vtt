@@ -11,7 +11,7 @@
   },
   "sort": 100391,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 69\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster is surrounded by swirling winds, which protects them from missiles. When targeted by an attack using Shoot, rather than taking an action to take cover the caster can roll to sustain the spell as a defence. This defence works even if the caster is unaware of the attack.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>The caster is surrounded by swirling winds, which protects them from missiles. When targeted by an attack using Shoot, rather than taking an action to take cover the caster can roll to sustain the spell as a defence. This defence works even if the caster is unaware of the attack.</p>",
     "school": "Air",
     "complexity": 1,
     "range": "self",

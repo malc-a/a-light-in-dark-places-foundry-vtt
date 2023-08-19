@@ -12,7 +12,7 @@
   "sort": 0,
   "system": {
     "bonus": "Intimidate +1do",
-    "description": "<div class=\"page\" title=\"Page 14\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Your very appearance is frightening. You get a +1d bonus to Intimidate rolls to scare off an opponent or dissuade them from attacking you.</p>\n</div>\n</div>\n</div>"
+    "description": "<p>Your very appearance is frightening. You get a +1d bonus to Intimidate rolls to scare off an opponent or dissuade them from attacking you.</p>"
   },
   "type": "talent"
 }

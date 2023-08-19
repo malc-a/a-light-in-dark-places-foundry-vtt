@@ -11,7 +11,7 @@
   },
   "sort": 100782,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Throwing axes are about 30cm long, and balanced for throwing. They can be used as melee weapons, but do not give any bonus.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Throwing axes are about 30cm long, and balanced for throwing. They can be used as melee weapons, but do not give any bonus.</p>",
     "cost": 0,
     "range": "reach",
     "bonus": "Shoot +0d",

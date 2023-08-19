@@ -11,7 +11,7 @@
   },
   "sort": 700000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A small telescope. Gives a +2d bonus to Notice rolls made to see something distant.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>A small telescope. Gives a +2d bonus to Notice rolls made to see something distant.</p>",
     "cost": 4,
     "bonus": "Notice +2do",
     "equipped": false

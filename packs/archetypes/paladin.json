@@ -18,7 +18,7 @@
          },
          "sort": 300000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>",
             "dice": 3
          },
          "type": "skill"
@@ -36,7 +36,7 @@
          },
          "sort": 500000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Covers both the ability to ride a mount, and to handle animals generally (including such things as driving a cart). Use Ride when you need to make difficult manoeuvres while mounted or driving.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Covers both the ability to ride a mount, and to handle animals generally (including such things as driving a cart). Use Ride when you need to make difficult manoeuvres while mounted or driving.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -54,7 +54,7 @@
          },
          "sort": 600000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>",
             "dice": 2
          },
          "type": "skill"
@@ -73,7 +73,7 @@
          "sort": 200000,
          "system": {
             "bonus": "Athletics +1do",
-            "description": "<div class=\"page\" title=\"Page 14\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are known for your great strength. You get a +1d bonus to Athletics rolls representing feats of strength, such as breaking or moving things or grappling.</p>\n</div>\n</div>\n</div>"
+            "description": "<p>You are known for your great strength. You get a +1d bonus to Athletics rolls representing feats of strength, such as breaking or moving things or grappling.</p>"
          },
          "type": "talent"
       },
@@ -109,7 +109,7 @@
          "sort": 100000,
          "system": {
             "bonus": "Ride +2do",
-            "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are at home in the saddle. When using Ride as a multiple action to control your mount, you get a +2d bonus to your Ride roll.</p>\n</div>\n</div>\n</div>"
+            "description": "<p>You are at home in the saddle. When using Ride as a multiple action to control your mount, you get a +2d bonus to your Ride roll.</p>"
          },
          "type": "talent"
       },
@@ -127,7 +127,7 @@
          "sort": 300000,
          "system": {
             "bonus": "Battle +0d",
-            "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Your tactical abilities help even in the smallest skirmish. Provided you take no other action during a combat round, you can roll Battle to help someone who is using Fight or Shoot that round.</p>\n</div>\n</div>\n</div>"
+            "description": "<p>Your tactical abilities help even in the smallest skirmish. Provided you take no other action during a combat round, you can roll Battle to help someone who is using Fight or Shoot that round.</p>"
          },
          "type": "talent"
       },
@@ -146,7 +146,7 @@
          "system": {
             "bonus": "",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>",
             "equipped": false
          },
          "type": "gear"
@@ -164,7 +164,7 @@
          },
          "sort": 100000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</p>",
             "dice": 5
          },
          "type": "skill"
@@ -182,7 +182,7 @@
          },
          "sort": 150000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A combination of strategy, tactics and command presence. Use Battle when you are commanding troops in a fight, to assist them tactially or to rally their morale.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>A combination of strategy, tactics and command presence. Use Battle when you are commanding troops in a fight, to assist them tactially or to rally their morale.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -200,7 +200,7 @@
          },
          "sort": 187500,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>",
             "dice": 5
          },
          "type": "skill"
@@ -218,7 +218,7 @@
          },
          "sort": 400000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -238,7 +238,7 @@
          "system": {
             "bonus": "Health +3, Stealth -2d, Athletics -1do",
             "cost": 4,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Heavy armour is predominantly made of metal. The most common types are mail, scale and plate. Mail is made of interlocking metal rings. Scale attaches metal scales to a leather base. Plate consists of breast and back plates, usually paired with mail.</span></p>\n<p>All heavy armour is heavy and noisy. As well as the bonus to Fight rolls, wearing heavy armour gives a -2d penalty to Stealth rolls as well as Athletics rolls for swimming. It also gives a -1d penalty to Athletics rolls to increase movement, jump or climb.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>All heavy armour is heavy and noisy. As well as the bonus to Health, wearing heavy armour gives a -2d penalty to Stealth rolls as well as Athletics rolls for swimming. It also gives a -1d penalty to Athletics rolls to increase movement, jump or climb.</p>",
             "equipped": true
          },
          "type": "gear"
@@ -258,7 +258,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 1,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Generally made of painted wood, usually with a metal rim and central boss. Shields are effective in defense, and can also be used as weapons. If a character using a shield is injured in a fight, they can choose to sacrifice their shield instead - the shield is destroyed until repaired, and can no longer be used, but the character does not take any Injury from the attack, even if it would have caused multiple Injuries. Shields also act as mobile cover; a character with a Shield can always dive for cover when facing a ranged attack.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Generally made of painted wood, usually with a metal rim and central boss. Shields are effective in defense, and can also be used as weapons. If a character using a shield is injured in a fight, they can choose to sacrifice their shield instead - the shield is destroyed until repaired, and can no longer be used, but the character does not take any Injury from the attack, even if it would have caused multiple Injuries. Shields also act as mobile cover; a character with a Shield can always dive for cover when facing a ranged attack.</p>",
             "equipped": true
          },
          "type": "gear"
@@ -278,7 +278,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">treated as a sword. Feel free to define the exact type that fits your character concept.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is treated as a sword. Feel free to define the exact type that fits your character concept.</p>",
             "equipped": true,
             "range": "reach"
          },
@@ -299,7 +299,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 0,
-            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>",
             "equipped": false,
             "range": "reach"
          },
@@ -320,7 +320,7 @@
          "system": {
             "bonus": "Shoot +2d",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Because crossbows are drawn by putting a foot in the stirrup, the small bow section (called the prod) can be much stronger than in a bow drawn purely with arm strength. Crossbows are slow weapons, which means that a character can't use a multiple action to make more than one shot in a round with a crossbow.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Because crossbows are drawn by putting a foot in the stirrup, the small bow section (called the prod) can be much stronger than in a bow drawn purely with arm strength. Crossbows are slow weapons, which means that a character can't use a multiple action to make more than one shot in a round with a crossbow.</p>",
             "equipped": true,
             "range": "short"
          },
@@ -340,7 +340,7 @@
          "sort": 0,
          "system": {
             "complexity": 1,
-            "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The target creature regains Will equal to the margin of the casting. A character cannot benefit from this spell more than once between chances to rest and recover their Will.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The target creature regains Will equal to the margin of the casting. A character cannot benefit from this spell more than once between chances to rest and recover their Will.</p>",
             "duration": "instant",
             "range": "touch",
             "school": "Healing"
@@ -361,7 +361,7 @@
          "sort": 0,
          "system": {
             "complexity": 1,
-            "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The target creature regains Health equal to the margin of the casting. A character cannot benefit from this spell (or <em>Healing Aura</em>) more than once between chances to rest and recover their Health.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The target creature regains Health equal to the margin of the casting. A character cannot benefit from this spell (or <em>Healing Aura</em>) more than once between chances to rest and recover their Health.</p>",
             "duration": "instant",
             "range": "touch",
             "school": "Healing"
@@ -382,7 +382,7 @@
          "sort": 0,
          "system": {
             "complexity": 2,
-            "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>This spell can only be cast on a character once between sunset and sunrise, or sunrise and sunset. The character makes an immediate recovery roll for any Health Injuries they have sustained, with bonus dice equal to the margin of the spell's casting.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>This spell can only be cast on a character once between sunset and sunrise, or sunrise and sunset. The character makes an immediate recovery roll for any Health Injuries they have sustained, with bonus dice equal to the margin of the spell's casting.</p>",
             "duration": "instant",
             "range": "touch",
             "school": "Healing"
@@ -402,7 +402,7 @@
          },
          "sort": 0,
          "system": {
-            "description": "<p class=\"p1\"><span class=\"s1\">The </span><span class=\"s2\">School of</span><span class=\"s1\"> magic involved with healing Injuries and diseases, as well as removing damaging and crippling effects. Spells of this School only require incantations to cast, which are often phrased in the form of prayers.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Help rolls to resist or recover from disease</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Recover Health or Will equal to the margin</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Allow a recovery roll with a bonus of the margin</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+	   "description": "<p>The School of magic involved with healing Injuries and diseases, as well as removing damaging and crippling effects. Spells of this School only require incantations to cast, which are often phrased in the form of prayers.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Help rolls to resist or recover from disease</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Recover Health or Will equal to the margin</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Allow a recovery roll with a bonus of the margin</p></td></tr>\n</tbody>\n</table>",
             "dice": 4
          },
          "type": "school"

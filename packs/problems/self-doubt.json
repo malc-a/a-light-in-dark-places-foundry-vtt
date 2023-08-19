@@ -11,7 +11,7 @@
   },
   "sort": 0,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 16\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You doubt your ability in an area represented by one or more skills. You might avoid using that skill, or you might take a penalty to rolls unless the roll is affected by one or more of your Passions.</p>\n</div>\n</div>\n</div>"
+    "description": "<p>You doubt your ability in an area represented by one or more skills. You might avoid using that skill, or you might take a penalty to rolls unless the roll is affected by one or more of your Passions.</p>"
   },
   "type": "problem"
 }

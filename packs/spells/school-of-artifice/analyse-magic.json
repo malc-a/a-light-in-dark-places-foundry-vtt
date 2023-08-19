@@ -11,7 +11,7 @@
   },
   "sort": 100000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 64\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Analyse the enchantments, if any, of an item. The caster learns the exact enchantments that have been applied to the item, as well as how to activate those enchantments.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Analyse the enchantments, if any, of an item. The caster learns the exact enchantments that have been applied to the item, as well as how to activate those enchantments.</p>",
     "school": "Artifice",
     "complexity": 1,
     "range": "touch",

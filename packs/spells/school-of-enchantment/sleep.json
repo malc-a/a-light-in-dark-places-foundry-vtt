@@ -11,7 +11,7 @@
   },
   "sort": 100196,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 79\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Causes a single target to fall asleep unless they can resist with a Mind roll. The caster may get a bonus to their casting roll if the target is in a situation where falling asleep is reasonable. The target may make a Difficulty 1 Notice roll to wake up whenever there are loud noises (such as combat) nearby. The target can also be woken up by shaking or other normal means.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Causes a single target to fall asleep unless they can resist with a Mind roll. The caster may get a bonus to their casting roll if the target is in a situation where falling asleep is reasonable. The target may make a Difficulty 1 Notice roll to wake up whenever there are loud noises (such as combat) nearby. The target can also be woken up by shaking or other normal means.</p>",
     "school": "Enchantment",
     "complexity": 7,
     "range": "medium",

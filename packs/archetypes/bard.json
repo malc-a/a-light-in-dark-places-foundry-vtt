@@ -18,7 +18,7 @@
          },
          "sort": 300000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>",
             "dice": 3
          },
          "type": "skill"
@@ -36,7 +36,7 @@
          },
          "sort": 400000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>",
             "dice": 2
          },
          "type": "skill"
@@ -73,7 +73,7 @@
          "sort": 150000,
          "system": {
             "bonus": "Persuade +1do",
-            "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are physically attractive, and gain a +1d bonus to Persuade when your appearance is likely to influence your target.</p>\n</div>\n</div>\n</div>"
+            "description": "<p>You are physically attractive, and gain a +1d bonus to Persuade when your appearance is likely to influence your target.</p>"
          },
          "type": "talent"
       },
@@ -91,7 +91,7 @@
          "sort": 200000,
          "system": {
             "bonus": "Perform +0d",
-            "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You have the ability to inspire confidence and courage with your performances. Provided you take no other action during a combat round, you can roll Perform to help one or more people who are rolling Fight or Shoot that round.</p>\n</div>\n</div>\n</div>"
+            "description": "<p>You have the ability to inspire confidence and courage with your performances. Provided you take no other action during a combat round, you can roll Perform to help one or more people who are rolling Fight or Shoot that round.</p>"
          },
          "type": "talent"
       },
@@ -110,7 +110,7 @@
          "system": {
             "bonus": "Perform +1d",
             "cost": 0,
-            "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Musical instruments come in various types, and as a result the cost varies widely. Common instruments such as pipes, flutes or lutes are relatively inexpensive (Cost 0-1), while rarer ones can cost much more. Gives a +1d bonus to Perform rolls when using the instrument.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Musical instruments come in various types, and as a result the cost varies widely. Common instruments such as pipes, flutes or lutes are relatively inexpensive (Cost 0-1), while rarer ones can cost much more. Gives a +1d bonus to Perform rolls when using the instrument.</p>",
             "equipped": true
          },
          "type": "gear"
@@ -130,7 +130,7 @@
          "system": {
             "bonus": "",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>",
             "equipped": false
          },
          "type": "gear"
@@ -148,7 +148,7 @@
          },
          "sort": 100000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -166,7 +166,7 @@
          },
          "sort": 175000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>",
             "dice": 3
          },
          "type": "skill"
@@ -184,7 +184,7 @@
          },
          "sort": 237500,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Combines both commonly-held knowledge, as well as knowledge of history and legends. Use Lore when you try to recall information or research a topic.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Combines both commonly-held knowledge, as well as knowledge of history and legends. Use Lore when you try to recall information or research a topic.</p>",
             "dice": 2
          },
          "type": "skill"
@@ -202,7 +202,7 @@
          },
          "sort": 350000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers any form of performance, including song, dance, musical instruments and acting. Use Perform when you attempt to impress or distract a crowd with your skill.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Covers any form of performance, including song, dance, musical instruments and acting. Use Perform when you attempt to impress or distract a crowd with your skill.</p>",
             "dice": 5
          },
          "type": "skill"
@@ -220,7 +220,7 @@
          },
          "sort": 375000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</p>",
             "dice": 3
          },
          "type": "skill"
@@ -238,7 +238,7 @@
          },
          "sort": 1100000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">The ability both to remain out of sight, and to move noiselessly. Use Stealth when you are trying to avoid being noticed.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability both to remain out of sight, and to move noiselessly. Use Stealth when you are trying to avoid being noticed.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -258,7 +258,7 @@
          "system": {
             "bonus": "Health +1",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Light armour is made primarily from leather, either reinforced with metal rings or plates, or boiled in wax to form cuir bouilli, rigid hardened leather that can be used to create armour plates in the same way that metal can.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Light armour is made primarily from leather, either reinforced with metal rings or plates, or boiled in wax to form cuir bouilli, rigid hardened leather that can be used to create armour plates in the same way that metal can.</p>",
             "equipped": true
          },
          "type": "gear"
@@ -278,7 +278,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 1,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Unlike larger shields, bucklers are sometimes made of metal. Bucklers<span class=\"Apple-converted-space\">&nbsp; </span>are effective in melee defense, and can also be used as weapons. Unlike larger shields they are too small to act as cover against a ranged attack. If a character using a buckler is injured in a fight, they can choose to sacrifice their buckler instead - the buckler is destroyed until repaired, and can no longer be used, but the character does not take any Injury from the attack, even if it would have caused multiple Injuries.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Unlike larger shields, bucklers are sometimes made of metal. Bucklers are effective in melee defense, and can also be used as weapons. Unlike larger shields they are too small to act as cover against a ranged attack. If a character using a buckler is injured in a fight, they can choose to sacrifice their buckler instead - the buckler is destroyed until repaired, and can no longer be used, but the character does not take any Injury from the attack, even if it would have caused multiple Injuries.</p>",
             "equipped": true
          },
          "type": "gear"
@@ -298,7 +298,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">treated as a sword. Feel free to define the exact type that fits your character concept.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is treated as a sword. Feel free to define the exact type that fits your character concept.</p>",
             "equipped": true,
             "range": "reach"
          },
@@ -319,7 +319,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 0,
-            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>",
             "equipped": false,
             "range": "reach"
          },
@@ -340,7 +340,7 @@
          "system": {
             "bonus": "Shoot +0d",
             "cost": 0,
-            "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Throwing knives are smaller than daggers intended for hand-to-hand combat, and better balanced to be thrown. They can be used as melee weapons, but give no bonus.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Throwing knives are smaller than daggers intended for hand-to-hand combat, and better balanced to be thrown. They can be used as melee weapons, but give no bonus.</p>",
             "equipped": true,
             "range": "reach"
          },
@@ -360,7 +360,7 @@
          "sort": 0,
          "system": {
             "complexity": 1,
-            "description": "<div class=\"page\" title=\"Page 78\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster whispers a short message, no more than a few seconds of speech. The target (but nobody else) will be able to clearly hear the message.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The caster whispers a short message, no more than a few seconds of speech. The target (but nobody else) will be able to clearly hear the message.</p>",
             "duration": "instant",
             "range": "sight",
             "school": "Enchantment"
@@ -381,7 +381,7 @@
          "sort": 0,
          "system": {
             "complexity": 1,
-            "description": "<div class=\"page\" title=\"Page 78\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Removes any strong emotion from the target creature. The target can attempt to resist the casting with a Mind roll. Because this spell has a duration of instant, if there was a good reason for that emotion it is likely to return again very quickly.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Removes any strong emotion from the target creature. The target can attempt to resist the casting with a Mind roll. Because this spell has a duration of instant, if there was a good reason for that emotion it is likely to return again very quickly.</p>",
             "duration": "instant",
             "range": "short",
             "school": "Enchantment"
@@ -402,7 +402,7 @@
          "sort": 0,
          "system": {
             "complexity": 2,
-            "description": "<div class=\"page\" title=\"Page 78\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Speak a single word command to the target, which must obey if it fails to resist the casting with a Mind roll. A suicidal or self-harming command will automatically cause the spell to fail.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Speak a single word command to the target, which must obey if it fails to resist the casting with a Mind roll. A suicidal or self-harming command will automatically cause the spell to fail.</p>",
             "duration": "instant",
             "range": "short",
             "school": "Enchantment"
@@ -423,7 +423,7 @@
          "sort": 100000,
          "system": {
             "bonus": "",
-            "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are able to learn spells or skill in the selected School from someone whose Casting Form differs from your own. This talent may be taken multiple times, for different Schools of magic.</p>\n</div>\n</div>\n</div>"
+            "description": "<p>You are able to learn spells or skill in the selected School from someone whose Casting Form differs from your own. This talent may be taken multiple times, for different Schools of magic.</p>"
          },
          "type": "talent"
       },
@@ -441,7 +441,7 @@
          "sort": 0,
          "system": {
             "complexity": 2,
-            "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Splits the caster's image, creating multiple images moving constantly around them and making it hard to see exactly where they are. The caster gains bonus dice equal to half the margin (rounded up) to any Body rolls to resist ranged attacks, or Fight roll to oppose a melee attack.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Splits the caster's image, creating multiple images moving constantly around them and making it hard to see exactly where they are. The caster gains bonus dice equal to half the margin (rounded up) to any Body rolls to resist ranged attacks, or Fight roll to oppose a melee attack.</p>",
             "duration": "instant",
             "range": "self",
             "school": "Illusion"
@@ -462,7 +462,7 @@
          "sort": 0,
          "system": {
             "complexity": 2,
-            "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A sphere of colours surrounds a single target within range, potentially distracting and mesmerising them. The target takes +0 Focus damage, which may be resisted with a Mind roll.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A sphere of colours surrounds a single target within range, potentially distracting and mesmerising them. The target takes +0 Focus damage, which may be resisted with a Mind roll.</p>",
             "duration": "instant",
             "range": "short",
             "school": "Illusion"
@@ -482,7 +482,7 @@
          },
          "sort": 0,
          "system": {
-            "description": "<p class=\"p1\"><span class=\"s1\">The </span><span class=\"s2\">School of</span><span class=\"s1\"> magic concerned with mind-altering effects, mostly those that affect the target's attitudes, but also others causing mental harm to the target. Casting spells from this School normally requires both incantations and clear gestures.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Sense or influence emotions; form words in another's mind</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Issue a single-word command</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Influence someone's thoughts</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">3</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create or remove a memory</span></p>\n</td>\n</tr>\n<tr>\n<td>4</td>\n<td>\n<p class=\"p1\"><span class=\"s1\">Help Persuade rolls with the margin</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+	   "description": "<p>The School of magic concerned with mind-altering effects, mostly those that affect the target's attitudes, but also others causing mental harm to the target. Casting spells from this School normally requires both incantations and clear gestures.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Sense or influence emotions; form words in another's mind</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Issue a single-word command</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Influence someone's thoughts</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Create or remove a memory</p></td></tr>\n<tr><td>4</td><td><p>Help Persuade rolls with the margin</p></td></tr>\n</tbody>\n</table>",
             "dice": 4
          },
          "type": "school"
@@ -500,7 +500,7 @@
          },
          "sort": 0,
          "system": {
-            "description": "<p class=\"p1\"><span class=\"s1\">This subtle school of magic is concerned with manipulating the senses to deceive the unwary. It allows the manipulation of the senses, including sight, sound, smell and touch. The core of this School is, of course, illusions. An illusion can't affect the real world in any way - it can't move a real object, or damage a character; although an advanced enough illusion can make a character <em>feel</em> the pain of a blow, that pain isn't real. Illusions can distract characters or conceal real things. An illusion that affects the sense of touch will <em>feel</em> correct when lightly touched, but has no substance. You could create an illusion of a door, but people would still be able to walk through it freely.</span></p>\n<p class=\"p1\"><span class=\"s1\">Spells of this School are cast with firm gestures, as well as spoken incantations.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create an illusion affecting one sense</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create an illusion affecting three senses; Inflict Focus damage through images</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create an illusion affecting all senses; use senses at a distance</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">3</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Remove all traces of an object to one sense</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+	   "description": "<p>This subtle school of magic is concerned with manipulating the senses to deceive the unwary. It allows the manipulation of the senses, including sight, sound, smell and touch. The core of this School is, of course, illusions. An illusion can't affect the real world in any way - it can't move a real object, or damage a character; although an advanced enough illusion can make a character <em>feel</em> the pain of a blow, that pain isn't real. Illusions can distract characters or conceal real things. An illusion that affects the sense of touch will <em>feel</em> correct when lightly touched, but has no substance. You could create an illusion of a door, but people would still be able to walk through it freely.</p>\n<p>Spells of this School are cast with firm gestures, as well as spoken incantations.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Create an illusion affecting one sense</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Create an illusion affecting three senses; Inflict Focus damage through images</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Create an illusion affecting all senses; use senses at a distance</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Remove all traces of an object to one sense</p></td></tr>\n</tbody>\n</table>",
             "dice": 4
          },
          "type": "school"

@@ -11,7 +11,7 @@
   },
   "sort": 100049,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 75\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates an immobile wall of fire, which reaches up to close range from it's base. The wall can be a flat plane which spans two points up to short range apart, or a circle at the boundaries of close range. Arrows and bolts will be consumed by the flames when they pass through. Any creature trying to pass the fire will take +8 Health damage which may be resisted with a Body roll.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Creates an immobile wall of fire, which reaches up to close range from it's base. The wall can be a flat plane which spans two points up to short range apart, or a circle at the boundaries of close range. Arrows and bolts will be consumed by the flames when they pass through. Any creature trying to pass the fire will take +8 Health damage which may be resisted with a Body roll.</p>",
     "school": "Fire",
     "complexity": 7,
     "range": "short",

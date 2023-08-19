@@ -11,7 +11,7 @@
   },
   "sort": 1000000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Musical instruments come in various types, and as a result the cost varies widely. Common instruments such as pipes, flutes or lutes are relatively inexpensive (Cost 0-1), while rarer ones can cost much more. Gives a +1d bonus to Perform rolls when using the instrument.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Musical instruments come in various types, and as a result the cost varies widely. Common instruments such as pipes, flutes or lutes are relatively inexpensive (Cost 0-1), while rarer ones can cost much more. Gives a +1d bonus to Perform rolls when using the instrument.</p>",
     "cost": 0,
     "bonus": "Perform +1d",
     "equipped": false

@@ -18,7 +18,7 @@
          },
          "sort": 300000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -36,7 +36,7 @@
          },
          "sort": 400000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>",
             "dice": 3
          },
          "type": "skill"
@@ -74,7 +74,7 @@
          "system": {
             "bonus": "",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>",
             "equipped": false
          },
          "type": "gear"
@@ -92,7 +92,7 @@
          },
          "sort": 100000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</p>",
             "dice": 3
          },
          "type": "skill"
@@ -110,7 +110,7 @@
          },
          "sort": 175000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>",
             "dice": 2
          },
          "type": "skill"
@@ -128,7 +128,7 @@
          },
          "sort": 375000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</p>",
             "dice": 2
          },
          "type": "skill"
@@ -148,7 +148,7 @@
          "system": {
             "bonus": "Health +1",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Light armour is made primarily from leather, either reinforced with metal rings or plates, or boiled in wax to form cuir bouilli, rigid hardened leather that can be used to create armour plates in the same way that metal can.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Light armour is made primarily from leather, either reinforced with metal rings or plates, or boiled in wax to form cuir bouilli, rigid hardened leather that can be used to create armour plates in the same way that metal can.</p>",
             "equipped": true
          },
          "type": "gear"
@@ -168,7 +168,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 0,
-            "description": "<div class=\"page\" title=\"Page 24\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A wooden staff, usually up to 2m long, heavy and sturdy. It is used in both hands.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A wooden staff, usually up to 2m long, heavy and sturdy. It is used in both hands.</p>",
             "equipped": true,
             "range": "reach"
          },
@@ -189,7 +189,7 @@
          "system": {
             "bonus": "Shoot +2d",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Because crossbows are drawn by putting a foot in the stirrup, the small bow section (called the prod) can be much stronger than in a bow drawn purely with arm strength. Crossbows are slow weapons, which means that a character can't use a multiple action to make more than one shot in a round with a crossbow.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Because crossbows are drawn by putting a foot in the stirrup, the small bow section (called the prod) can be much stronger than in a bow drawn purely with arm strength. Crossbows are slow weapons, which means that a character can't use a multiple action to make more than one shot in a round with a crossbow.</p>",
             "equipped": true,
             "range": "short"
          },
@@ -209,7 +209,7 @@
          "sort": 300000,
          "system": {
             "complexity": 1,
-            "description": "<div class=\"page\" title=\"Page 62\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>While this spell is sustained, The caster can sense magic as an aura around any magical creature, object or area. They can also determine which School of magic is involved, unless the School is completely outside their experience. The spell is blocked by anything that blocks vision.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>While this spell is sustained, The caster can sense magic as an aura around any magical creature, object or area. They can also determine which School of magic is involved, unless the School is completely outside their experience. The spell is blocked by anything that blocks vision.</p>",
             "duration": "sustained",
             "range": "short",
             "school": "Arcana"
@@ -230,7 +230,7 @@
          "sort": 400000,
          "system": {
             "complexity": 1,
-            "description": "<div class=\"page\" title=\"Page 62\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates an invisible hand of pure force, which can be controlled mentally by the caster. You can use the hand as if it were your own, except that it can't be used to attack.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Creates an invisible hand of pure force, which can be controlled mentally by the caster. You can use the hand as if it were your own, except that it can't be used to attack.</p>",
             "duration": "sustained",
             "range": "short",
             "school": "Arcana"
@@ -251,7 +251,7 @@
          "sort": 500000,
          "system": {
             "complexity": 2,
-            "description": "<div class=\"page\" title=\"Page 62\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates an invisible bolt of pure force aimed at a single target. The bolt does +0 Health damage, resisted by the target's Body. Because the bolt is invisible, the Body roll to resist the damage is made with a -2d penalty.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Creates an invisible bolt of pure force aimed at a single target. The bolt does +0 Health damage, resisted by the target's Body. Because the bolt is invisible, the Body roll to resist the damage is made with a -2d penalty.</p>",
             "duration": "instant",
             "range": "short",
             "school": "Arcana"
@@ -272,7 +272,7 @@
          "sort": 0,
          "system": {
             "bonus": "",
-            "description": "<div class=\"page\" title=\"Page 16\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You have a deep understanding of a particular School of magic. If you have a written copy of a spell that you do not know, you are able to cast that spell directly from the written copy. However, casting a spell in this way takes about a minute or so. This talent may be taken multiple times, for different Schools of magic.</p>\n</div>\n</div>\n</div>"
+            "description": "<p>You have a deep understanding of a particular School of magic. If you have a written copy of a spell that you do not know, you are able to cast that spell directly from the written copy. However, casting a spell in this way takes about a minute or so. This talent may be taken multiple times, for different Schools of magic.</p>"
          },
          "type": "talent"
       },
@@ -290,7 +290,7 @@
          "sort": 0,
          "system": {
             "bonus": "Fire +1do",
-            "description": "<div class=\"page\" title=\"Page 16\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 17\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are able to more narrowly focus your magic with a particular School. Any castings of that School that do direct damage to a target gain a +1d bonus to the roll when casting. This Talent can be taken multiple times for different Schools of Magic.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+            "description": "<p>You are able to more narrowly focus your magic with a particular School. Any castings of that School that do direct damage to a target gain a +1d bonus to the roll when casting. This Talent can be taken multiple times for different Schools of Magic.</p>"
          },
          "type": "talent"
       },
@@ -308,7 +308,7 @@
          "sort": 0,
          "system": {
             "bonus": "",
-            "description": "<div class=\"page\" title=\"Page 16\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 17\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 17\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 18\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You have learnt how to cast spells of a particular School of magic with minimal movement of your fingers. You do not take any penalties for a lack of ability to gesture when using this School. If you also have the Silent Casting Talent for the same School of magic, then a Difficulty 2 Notice roll is required for a character to realise you are casting a spell. This Talent can be taken multiple times for different Schools of Magic.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+            "description": "<p>You have learnt how to cast spells of a particular School of magic with minimal movement of your fingers. You do not take any penalties for a lack of ability to gesture when using this School. If you also have the Silent Casting Talent for the same School of magic, then a Difficulty 2 Notice roll is required for a character to realise you are casting a spell. This Talent can be taken multiple times for different Schools of Magic.</p>"
          },
          "type": "talent"
       },
@@ -326,7 +326,7 @@
          "sort": 100000,
          "system": {
             "complexity": 1,
-            "description": "<div class=\"page\" title=\"Page 69\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Summons a swirling wind, which will pick up a single object within range and carry it to the caster's hand, as long as the caster could pick up the item in one hand.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Summons a swirling wind, which will pick up a single object within range and carry it to the caster's hand, as long as the caster could pick up the item in one hand.</p>",
             "duration": "instant",
             "range": "short",
             "school": "Air"
@@ -347,7 +347,7 @@
          "sort": 250000,
          "system": {
             "complexity": 2,
-            "description": "<div class=\"page\" title=\"Page 69\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster calls forth a powerful wind from their hands, which will prevent the <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">target from moving closer and may injure them. The target takes +0 Health damage, which may be resisted by a Body roll. If the target does not resist all of the damage done by the wind, they are forced back to short range from the caster. In any case, the target is unable to move any closer to the caster that round.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>The caster calls forth a powerful wind from their hands, which will prevent the target from moving closer and may injure them. The target takes +0 Health damage, which may be resisted by a Body roll. If the target does not resist all of the damage done by the wind, they are forced back to short range from the caster. In any case, the target is unable to move any closer to the caster that round.</p>",
             "duration": "sustained",
             "range": "self",
             "school": "Air"
@@ -368,7 +368,7 @@
          "sort": 200000,
          "system": {
             "complexity": 1,
-            "description": "<div class=\"page\" title=\"Page 69\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster is surrounded by swirling winds, which protects them from missiles. When targeted by an attack using Shoot, rather than taking an action to take cover the caster can roll to sustain the spell as a defence. This defence works even if the caster is unaware of the attack.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The caster is surrounded by swirling winds, which protects them from missiles. When targeted by an attack using Shoot, rather than taking an action to take cover the caster can roll to sustain the spell as a defence. This defence works even if the caster is unaware of the attack.</p>",
             "duration": "sustained",
             "range": "self",
             "school": "Air"
@@ -389,7 +389,7 @@
          "sort": 700000,
          "system": {
             "complexity": 2,
-            "description": "<div class=\"page\" title=\"Page 71\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Makes any metal edge sharper than is possible by manual methods. If used on a weapon this spell gives the weapon a Damage bonus equal to half the successes in the margin (rounded up).</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Makes any metal edge sharper than is possible by manual methods. If used on a weapon this spell gives the weapon a Damage bonus equal to half the successes in the margin (rounded up).</p>",
             "duration": "minute",
             "range": "touch",
             "school": "Earth"
@@ -410,7 +410,7 @@
          "sort": 900000,
          "system": {
             "complexity": 1,
-            "description": "<div class=\"page\" title=\"Page 74\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A flame appears attached to a point of the caster's choosing - the palm of their hand, the top of their staff or similar. The flame does not give off heat, but will light an area within short range. The flame doesn't consume fuel and cannot be extinguished without dispelling the spell.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A flame appears attached to a point of the caster's choosing - the palm of their hand, the top of their staff or similar. The flame does not give off heat, but will light an area within short range. The flame doesn't consume fuel and cannot be extinguished without dispelling the spell.</p>",
             "duration": "hour",
             "range": "touch",
             "school": "Fire"
@@ -431,7 +431,7 @@
          "sort": 1000000,
          "system": {
             "complexity": 2,
-            "description": "<div class=\"page\" title=\"Page 74\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster fires a bolt of flame from their hand at a single target within range. The fire bolt does +2 Health damage, resisted by the target's Body.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The caster fires a bolt of flame from their hand at a single target within range. The fire bolt does +2 Health damage, resisted by the target's Body.</p>",
             "duration": "instant",
             "range": "short",
             "school": "Fire"
@@ -452,7 +452,7 @@
          "sort": 1100000,
          "system": {
             "complexity": 2,
-            "description": "<div class=\"page\" title=\"Page 74\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster wreathes themselves in flames. While the spell lasts, any character attacking the caster with Fight will take +2 Health damage, which may be resisted by a Body roll. This is in addition to any consequences of the (possibly-opposed) Fight roll for the attack.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The caster wreathes themselves in flames. While the spell lasts, any character attacking the caster with Fight will take +2 Health damage, which may be resisted by a Body roll. This is in addition to any consequences of the (possibly-opposed) Fight roll for the attack.</p>",
             "duration": "sustained",
             "range": "self",
             "school": "Fire"
@@ -473,7 +473,7 @@
          "sort": 800000,
          "system": {
             "complexity": 3,
-            "description": "<div class=\"page\" title=\"Page 72\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The target's skin is covered in a thin skin of tough stone. This skin gives the target protection against attacks, boosting their Health by the margin of the spell.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The target's skin is covered in a thin skin of tough stone. This skin gives the target protection against attacks, boosting their Health by the margin of the spell.</p>",
             "duration": "minute",
             "range": "self",
             "school": "Earth"
@@ -493,7 +493,7 @@
          },
          "sort": 0,
          "system": {
-            "description": "<p class=\"p1\"><span class=\"s1\">This School of magic is concerned with mastery of the air, including weather effects such as fog, clouds, thunder and lightning. Poisonous gases also fall within the remit of the School of </span><span class=\"s2\">Air</span><span class=\"s1\">. Spells from this School require strong, clear gestures to be cast, as well as words of power.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Summon wind or fog; predict the local weather</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Damage Health with thunder, lightning, poison gas or winds</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create powerful but well-controlled winds</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">3</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Alter the temperature, wind or rain within sight range</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+	   "description": "<p>This School of magic is concerned with mastery of the air, including weather effects such as fog, clouds, thunder and lightning. Poisonous gases also fall within the remit of the School of Air. Spells from this School require strong, clear gestures to be cast, as well as words of power.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Summon wind or fog; predict the local weather</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Damage Health with thunder, lightning, poison gas or winds</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Create powerful but well-controlled winds</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Alter the temperature, wind or rain within sight range</p></td></tr>\n</tbody>\n</table>",
             "dice": 4
          },
          "type": "school"
@@ -511,7 +511,7 @@
          },
          "sort": 0,
          "system": {
-            "description": "<p class=\"p1\"><span class=\"s1\">This School of magic is concerned with magic itself; detecting and manipulating magic either directly or in the form of pure force. It allows the caster to manipulate magic, as well as create effects using that magic to act on objects or creatures in the form of invisible force. The Forms used to cast spells of this School must include firm gestures.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Detect magical emanations; Inflict Health damage with force</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Make an object or area radiate magic</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create a strong controlled force</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">3</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Delay the effect of another spell</span></p>\n</td>\n</tr>\n<tr>\n<td>4</td>\n<td>\n<p class=\"p1\"><span class=\"s1\">Extend the duration of another spell</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+	   "description": "<p>This School of magic is concerned with magic itself; detecting and manipulating magic either directly or in the form of pure force. It allows the caster to manipulate magic, as well as create effects using that magic to act on objects or creatures in the form of invisible force. The Forms used to cast spells of this School must include firm gestures.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Detect magical emanations; Inflict Health damage with force</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Make an object or area radiate magic</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Create a strong controlled force</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Delay the effect of another spell</p></td></tr>\n<tr><td>4</td><td><p>Extend the duration of another spell</p></td></tr>\n</tbody>\n</table>",
             "dice": 4
          },
          "type": "school"
@@ -529,7 +529,7 @@
          },
          "sort": 0,
          "system": {
-            "description": "<p class=\"p1\"><span class=\"s1\">This </span><span class=\"s2\">School of</span><span class=\"s1\"> magic is concerned with mastery of the earth. This includes mud, clay, stone, metal and glass. Spells from this School require strong, clear gestures to be cast, as well as words of power.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Learn the properties of earth, stone or metal</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Alter the shape or of or control earth</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Inflict Health damage with stone or metal; alter the shape of stone</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">3</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create or destroy stone</span></p>\n</td>\n</tr>\n<tr>\n<td>4</td>\n<td>\n<p class=\"p1\"><span class=\"s1\">Alter the shape of or control metal</span></p>\n</td>\n</tr>\n<tr>\n<td>5</td>\n<td>\n<p class=\"p1\"><span class=\"s1\">Create or destroy metal</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+	   "description": "<p>This School of magic is concerned with mastery of the earth. This includes mud, clay, stone, metal and glass. Spells from this School require strong, clear gestures to be cast, as well as words of power.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Learn the properties of earth, stone or metal</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Alter the shape or of or control earth</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Inflict Health damage with stone or metal; alter the shape of stone</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Create or destroy stone</p></td></tr>\n<tr><td>4</td><td><p>Alter the shape of or control metal</p></td></tr>\n<tr><td>5</td><td><p>Create or destroy metal</p></td></tr>\n</tbody>\n</table>",
             "dice": 5
          },
          "type": "school"
@@ -547,7 +547,7 @@
          },
          "sort": 0,
          "system": {
-            "description": "<p class=\"p1\"><span class=\"s1\">This </span><span class=\"s2\">School of</span><span class=\"s1\"> magic is concerned with mastery of fire, including heat and its absence. Wizards adept in this </span><span class=\"s2\">School of</span><span class=\"s1\"> magic often gain a rather unfair reputation for a lack of subtlety. Spells from this School require strong, clear gestures to be cast, as well as words of power.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Ignite flammable objects; inflict Health damage with fire</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Extinguish a small fire</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Heat or chill an object; create closely-controlled fire</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+	   "description": "<p>This School of magic is concerned with mastery of fire, including heat and its absence. Wizards adept in this School of magic often gain a rather unfair reputation for a lack of subtlety. Spells from this School require strong, clear gestures to be cast, as well as words of power.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Ignite flammable objects; inflict Health damage with fire</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Extinguish a small fire</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Heat or chill an object; create closely-controlled fire</p></td></tr>\n</tbody>\n</table>",
             "dice": 5
          },
          "type": "school"

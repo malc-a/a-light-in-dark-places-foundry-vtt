@@ -11,7 +11,7 @@
   },
   "sort": 125000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 65\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Bind a casting from any School of magic into an item so that it is permanently active. The Complexity of this spell must be at least four times the Complexity of the casting to be bound.</p>\n<p>Preparing the item for the binding usually has a Cost equal to the Complexity of the Enchant Item spell, and the caster must spend the Complexity in weeks in their laboratory preparing the item.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Bind a casting from any School of magic into an item so that it is permanently active. The Complexity of this spell must be at least four times the Complexity of the casting to be bound.</p>\n<p>Preparing the item for the binding usually has a Cost equal to the Complexity of the Enchant Item spell, and the caster must spend the Complexity in weeks in their laboratory preparing the item.</p>",
     "school": "Artifice",
     "complexity": 4,
     "range": "touch",

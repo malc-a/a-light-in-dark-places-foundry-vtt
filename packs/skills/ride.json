@@ -11,7 +11,7 @@
   },
   "sort": 0,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Covers both the ability to ride a mount, and to handle animals generally (including such things as driving a cart). Use Ride when you need to make difficult manoeuvres while mounted or driving.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Covers both the ability to ride a mount, and to handle animals generally (including such things as driving a cart). Use Ride when you need to make difficult manoeuvres while mounted or driving.</p>",
     "dice": 0
   },
   "type": "skill"

@@ -11,7 +11,7 @@
   },
   "sort": 101563,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 74\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates a one-handed weapon made entirely of flame to defend the caster. The weapon hovers in front of the caster, and will act according to their mental commands. The caster can use the margin of the spell in place of a Fight roll, to oppose another character using Fight against them. The weapon does +2 damage to their opponent if the Caster wins the opposed roll.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Creates a one-handed weapon made entirely of flame to defend the caster. The weapon hovers in front of the caster, and will act according to their mental commands. The caster can use the margin of the spell in place of a Fight roll, to oppose another character using Fight against them. The weapon does +2 damage to their opponent if the Caster wins the opposed roll.</p>",
     "school": "Fire",
     "complexity": 1,
     "range": "self",

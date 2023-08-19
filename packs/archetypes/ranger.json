@@ -18,7 +18,7 @@
          },
          "sort": 300000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A measure of how observant you are. Use Notice to detect things that are hidden or obscured.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -36,7 +36,7 @@
          },
          "sort": 400000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability to use ranged weapons, both thrown and fired. Use Shoot when you try to throw a weapon or object at a target, or when you shoot a bow or crossbow.</p>",
             "dice": 5
          },
          "type": "skill"
@@ -73,7 +73,7 @@
          "sort": 0,
          "system": {
             "bonus": "Shoot +1do",
-            "description": "<div class=\"page\" title=\"Page 13\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>ou have a keen eye for a target. If you don't move during a round and your only action is a Shoot roll, then you gain a +1d bonus on that Shoot roll.</p>\n</div>\n</div>\n</div>"
+            "description": "<p>You have a keen eye for a target. If you don't move during a round and your only action is a Shoot roll, then you gain a +1d bonus on that Shoot roll.</p>"
          },
          "type": "talent"
       },
@@ -92,7 +92,7 @@
          "system": {
             "ability": "Fight",
             "bonus": "Fight +1d",
-            "description": "<p class=\"p1\"><span class=\"s1\">If you are wearing light or no armour, and are able to move freely, you get a +1d bonus on Fight rolls.</span></p>"
+            "description": "<p>If you are wearing light or no armour, and are able to move freely, you get a +1d bonus on Fight rolls.</p>"
          },
          "type": "talent"
       },
@@ -110,7 +110,7 @@
          "sort": 0,
          "system": {
             "bonus": "Survive +1do",
-            "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You always know which way North is. You gain a +1d bonus to Survive rolls to find your way even when you do not have a compass.</p>\n</div>\n</div>\n</div>"
+            "description": "<p>You always know which way North is. You gain a +1d bonus to Survive rolls to find your way even when you do not have a compass.</p>"
          },
          "type": "talent"
       },
@@ -129,7 +129,7 @@
          "system": {
             "bonus": "",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A convenient way to buy most of the general gear an adventurer might need. Contains a tinderbox, flint and steel, a lantern, 20m of rope, some chalk, 2 spikes and a small hammer, a bedroll, soap, a waterskin and a week's trail rations.</p>",
             "equipped": false
          },
          "type": "gear"
@@ -149,7 +149,7 @@
          "system": {
             "bonus": "Survive +2do",
             "cost": 0,
-            "description": "<div class=\"page\" title=\"Page 28\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A selection of traps and snares, along with a length of fishing line and a selection of hooks. Gives a +2d bonus to Survival rolls made to hunt food.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>A selection of traps and snares, along with a length of fishing line and a selection of hooks. Gives a +2d bonus to Survival rolls made to hunt food.</p>",
             "equipped": true
          },
          "type": "gear"
@@ -167,7 +167,7 @@
          },
          "sort": 100000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>A measure of general athleticism, including strength and coordination. Use Athletics when you are jumping, climbing or using your brawn.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -185,7 +185,7 @@
          },
          "sort": 275000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability to fight in melee combat, either with or without weapons. Use Fight if you're engaged in melee combat.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -203,7 +203,7 @@
          },
          "sort": 350000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 11\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Covers etiquette, persuasiveness and the ability to lie convincingly. Use Persuade when you want to argue, debate, persuade, orate or lie.</p>",
             "dice": 2
          },
          "type": "skill"
@@ -221,7 +221,7 @@
          },
          "sort": 500000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">The ability both to remain out of sight, and to move noiselessly. Use Stealth when you are trying to avoid being noticed.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>The ability both to remain out of sight, and to move noiselessly. Use Stealth when you are trying to avoid being noticed.</p>",
             "dice": 4
          },
          "type": "skill"
@@ -239,7 +239,7 @@
          },
          "sort": 600000,
          "system": {
-            "description": "<div class=\"page\" title=\"Page 12\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Knowledge of how to survive in the lands outside cities. Use Survive to find your way in the wilderness, to hunt or forage for food, to find or construct shelter, to follow tracks, and to avoid leaving a trail while moving.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Knowledge of how to survive in the lands outside cities. Use Survive to find your way in the wilderness, to hunt or forage for food, to find or construct shelter, to follow tracks, and to avoid leaving a trail while moving.</p>",
             "dice": 5
          },
          "type": "skill"
@@ -259,7 +259,7 @@
          "system": {
             "bonus": "Health +1",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 26\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Light armour is made primarily from leather, either reinforced with metal rings or plates, or boiled in wax to form cuir bouilli, rigid hardened leather that can be used to create armour plates in the same way that metal can.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Light armour is made primarily from leather, either reinforced with metal rings or plates, or boiled in wax to form cuir bouilli, rigid hardened leather that can be used to create armour plates in the same way that metal can.</p>",
             "equipped": true
          },
          "type": "gear"
@@ -279,7 +279,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">treated as a sword. Feel free to define the exact type that fits your character concept.</span></p>\n</div>\n</div>\n</div>",
+            "description": "<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is treated as a sword. Feel free to define the exact type that fits your character concept.</p>",
             "equipped": true,
             "range": "reach"
          },
@@ -300,7 +300,7 @@
          "system": {
             "bonus": "Fight +1d",
             "cost": 0,
-            "description": "<div class=\"page\" title=\"Page 23\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>",
             "equipped": false,
             "range": "reach"
          },
@@ -321,7 +321,7 @@
          "system": {
             "bonus": "Shoot +2d",
             "cost": 2,
-            "description": "<div class=\"page\" title=\"Page 25\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Another wooden bow made from a single piece of wood, traditionally yew, but closer to 2m long. Longbows are much more powerful and longer ranged than the self bow. Can only be fired from a standing position due to its size.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Another wooden bow made from a single piece of wood, traditionally yew, but closer to 2m long. Longbows are much more powerful and longer ranged than the self bow. Can only be fired from a standing position due to its size.</p>",
             "equipped": true,
             "range": "long"
          },
@@ -341,7 +341,7 @@
          "sort": 0,
          "system": {
             "complexity": 2,
-            "description": "<div class=\"page\" title=\"Page 82\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster's outer layer of skin turns into a gnarled layer of bark. This bark gives the caster protection against attacks, boosting their Health by the margin of the spell.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>The caster's outer layer of skin turns into a gnarled layer of bark. This bark gives the caster protection against attacks, boosting their Health by the margin of the spell.</p>",
             "duration": "minute",
             "range": "self",
             "school": "Nature"
@@ -362,7 +362,7 @@
          "sort": 0,
          "system": {
             "complexity": 2,
-            "description": "<div class=\"page\" title=\"Page 82\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Enchants a single arrow. When the arrow is fired, it does extra damage equal to the margin of the casting.</p>\n</div>\n</div>\n</div>",
+            "description": "<p>Enchants a single arrow. When the arrow is fired, it does extra damage equal to the margin of the casting.</p>",
             "duration": "minute",
             "range": "touch",
             "school": "Nature"
@@ -382,7 +382,7 @@
          },
          "sort": 0,
          "system": {
-            "description": "<p class=\"p1\"><span class=\"s1\">This </span><span class=\"s2\">School of</span><span class=\"s1\"> magic concerns itself with plants and plant products, including wood, rope, cloth, and paper. Spells are usually cast in the form of both spoken incantations and arcane gestures.</span></p>\n<h2 class=\"p1\"><span class=\"s1\">Spontaneous Casting Complexities</span></h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Complexity</strong></td>\n<td style=\"height: 17px;\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">0</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Learn the properties of a plant; promote the healthy growth of plants</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">1</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Grow plants rapidly or alter their shape</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">2</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Create plants or plant materials</span></p>\n</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">3</td>\n<td style=\"height: 17px;\">\n<p class=\"p1\"><span class=\"s1\">Control plants or plant products</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+	   "description": "<p>This School of magic concerns itself with plants and plant products, including wood, rope, cloth, and paper. Spells are usually cast in the form of both spoken incantations and arcane gestures.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Learn the properties of a plant; promote the healthy growth of plants</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Grow plants rapidly or alter their shape</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Create plants or plant materials</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Control plants or plant products</p></td></tr>\n</tbody>\n</table>",
             "dice": 4
          },
          "type": "school"

@@ -11,7 +11,7 @@
   },
   "sort": 106250,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 66\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Removes anger from a single target animal, provided that it is a natural animal, and is not actively involved in combat. The target can oppose the casting with a Soul roll, if the animal wins then the spell fails.</p>\n<p>The spell removes the anger, but has no lasting effect. If the cause of any anger is not also removed, then it is very likely that the animal will become angry again.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Removes anger from a single target animal, provided that it is a natural animal, and is not actively involved in combat. The target can oppose the casting with a Soul roll, if the animal wins then the spell fails.</p>\n<p>The spell removes the anger, but has no lasting effect. If the cause of any anger is not also removed, then it is very likely that the animal will become angry again.</p>",
     "school": "Beasts",
     "complexity": 2,
     "range": "short",

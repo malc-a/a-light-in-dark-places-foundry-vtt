@@ -11,7 +11,7 @@
   },
   "sort": 200000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 62\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates an invisible bolt of pure force aimed at a single target. The bolt does +0 Health damage, resisted by the target's Body. Because the bolt is invisible, the Body roll to resist the damage is made with a -2d penalty.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Creates an invisible bolt of pure force aimed at a single target. The bolt does +0 Health damage, resisted by the target's Body. Because the bolt is invisible, the Body roll to resist the damage is made with a -2d penalty.</p>",
     "school": "Arcana",
     "complexity": 2,
     "range": "short",

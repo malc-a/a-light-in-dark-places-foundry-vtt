@@ -11,7 +11,7 @@
   },
   "sort": 125000,
   "system": {
-    "description": "<p class=\"p1\"><span class=\"s1\">Allows the target to see normally even in pitch darkness.</span></p>",
+    "description": "<p>Allows the target to see normally even in pitch darkness.</p>",
     "school": "Blessings",
     "complexity": 8,
     "range": "close",

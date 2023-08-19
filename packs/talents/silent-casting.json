@@ -12,7 +12,7 @@
   "sort": 0,
   "system": {
     "bonus": "",
-    "description": "<div class=\"page\" title=\"Page 16\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 17\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 17\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You have learnt how to cast spells of a particular School of magic by sub-vocalising the incantations. If you cast a spell from that School, and your Casting Form does not include gestures, then any character who might want to respond to your casting (for example with a Counterspell) must make a Difficulty 2 Notice roll as a Free action to realise that you are casting a spell. This Talent can be taken multiple times for different Schools of Magic.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+    "description": "<p>You have learnt how to cast spells of a particular School of magic by sub-vocalising the incantations. If you cast a spell from that School, and your Casting Form does not include gestures, then any character who might want to respond to your casting (for example with a Counterspell) must make a Difficulty 2 Notice roll as a Free action to realise that you are casting a spell. This Talent can be taken multiple times for different Schools of Magic.</p>"
   },
   "type": "talent"
 }

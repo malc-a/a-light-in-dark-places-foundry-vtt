@@ -11,7 +11,7 @@
   },
   "sort": 125000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 80\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The target creature regains Health equal to the margin of the casting. A character cannot benefit from this spell (or <em>Healing Aura</em>) more than once between chances to rest and recover their Health.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>The target creature regains Health equal to the margin of the casting. A character cannot benefit from this spell (or <em>Healing Aura</em>) more than once between chances to rest and recover their Health.</p>",
     "school": "Healing",
     "complexity": 1,
     "range": "touch",

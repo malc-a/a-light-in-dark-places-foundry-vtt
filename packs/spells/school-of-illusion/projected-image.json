@@ -11,7 +11,7 @@
   },
   "sort": 100782,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 81\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p class=\"p1\"><span class=\"s1\">Projects the image, as well as the senses of sight and hearing, of the caster into an illusory image within sight range. The caster can cast spells as if they were at the image's location, as well as hold conversations or spy on an area. If the caster's body (which is left behind more-or-less helpless) is damaged, or the<span class=\"Apple-converted-space\">&nbsp; </span>projected image is touched by a living creature then the spell ends.</span></p>\n</div>\n</div>\n</div>",
+    "description": "<p>Projects the image, as well as the senses of sight and hearing, of the caster into an illusory image within sight range. The caster can cast spells as if they were at the image's location, as well as hold conversations or spy on an area. If the caster's body (which is left behind more-or-less helpless) is damaged, or the projected image is touched by a living creature then the spell ends.</p>",
     "school": "Illusion",
     "complexity": 4,
     "range": "self",

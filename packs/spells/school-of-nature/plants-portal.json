@@ -11,7 +11,7 @@
   },
   "sort": 103125,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 83\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The caster creates a door in the trunk or stem of a plant, which must be large enough that they would fit within it. Large trees are often used for this purpose. When the caster steps through the door, they appear through another door in any large enough plant they select within sight range of the first.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>The caster creates a door in the trunk or stem of a plant, which must be large enough that they would fit within it. Large trees are often used for this purpose. When the caster steps through the door, they appear through another door in any large enough plant they select within sight range of the first.</p>",
     "school": "Nature",
     "complexity": 6,
     "range": "self",

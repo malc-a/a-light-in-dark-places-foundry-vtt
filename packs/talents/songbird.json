@@ -12,7 +12,7 @@
   "sort": 0,
   "system": {
     "bonus": "Perform +1do",
-    "description": "<div class=\"page\" title=\"Page 15\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Your voice is particularly pleasant to listen to. You gain a +1d bonus on Perform rolls when singing.</p>\n</div>\n</div>\n</div>"
+    "description": "<p>Your voice is particularly pleasant to listen to. You gain a +1d bonus on Perform rolls when singing.</p>"
   },
   "type": "talent"
 }

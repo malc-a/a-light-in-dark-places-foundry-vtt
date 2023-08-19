@@ -11,7 +11,7 @@
   },
   "sort": 150000,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 69\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Creates an area of dense fog, completely filling an area within close range around the caster. After it is created, the fog dissipates naturally, which may take a minute or even less in strong winds. The greater the margin, the thicker the fog is, and the longer it takes to dissipate.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Creates an area of dense fog, completely filling an area within close range around the caster. After it is created, the fog dissipates naturally, which may take a minute or even less in strong winds. The greater the margin, the thicker the fog is, and the longer it takes to dissipate.</p>",
     "school": "Air",
     "complexity": 1,
     "range": "self",

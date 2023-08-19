@@ -11,7 +11,7 @@
   },
   "sort": 100782,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 78\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Similar to <em>Message</em>, this spell sends a short message to the target. The target can be anywhere an the same continent as the caster. The target is able to reply with a short message of their own as part of the spell.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Similar to <em>Message</em>, this spell sends a short message to the target. The target can be anywhere an the same continent as the caster. The target is able to reply with a short message of their own as part of the spell.</p>",
     "school": "Enchantment",
     "complexity": 3,
     "range": "special",

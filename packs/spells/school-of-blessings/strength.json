@@ -11,7 +11,7 @@
   },
   "sort": 100782,
   "system": {
-    "description": "<p class=\"p1\"><span class=\"s1\">Enhances an ally's strength and coordination. While this spell is active the target will do addition</span><span class=\"s1\">al damage equal to half the margin of the casting (rounded up) on any successful Fight roll.</span></p>",
+    "description": "<p>Enhances an ally's strength and coordination. While this spell is active the target will do additional damage equal to half the margin of the casting (rounded up) on any successful Fight roll.</p>",
     "school": "Blessings",
     "complexity": 6,
     "range": "close",

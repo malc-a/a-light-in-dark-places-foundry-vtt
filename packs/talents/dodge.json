@@ -13,7 +13,7 @@
   "system": {
     "ability": "Fight",
     "bonus": "Fight +1d",
-    "description": "<p class=\"p1\"><span class=\"s1\">If you are wearing light or no armour, and are able to move freely, you get a +1d bonus on Fight rolls.</span></p>"
+    "description": "<p>If you are wearing light or no armour, and are able to move freely, you get a +1d bonus on Fight rolls.</p>"
   },
   "type": "talent"
 }

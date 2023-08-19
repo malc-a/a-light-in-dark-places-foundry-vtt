@@ -11,7 +11,7 @@
   },
   "sort": 100098,
   "system": {
-    "description": "<div class=\"page\" title=\"Page 67\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Summons a sticky web, similar to spider web, in an area within close range of the target. The web may be held upright if there is something that could anchor it in that position. Creatures within the web are likely to become stuck; Make a Body roll for the character to oppose the margin of the spell. If the Body roll fails then treat the character as grappled, unable to move and taking a penalty equal to the margin by which they failed the Body roll to all actions. To break free, the stuck character must make an Athletics roll opposed by the spell&rsquo;s margin.</p>\n</div>\n</div>\n</div>",
+    "description": "<p>Summons a sticky web, similar to spider web, in an area within close range of the target. The web may be held upright if there is something that could anchor it in that position. Creatures within the web are likely to become stuck; Make a Body roll for the character to oppose the margin of the spell. If the Body roll fails then treat the character as grappled, unable to move and taking a penalty equal to the margin by which they failed the Body roll to all actions. To break free, the stuck character must make an Athletics roll opposed by the spell&rsquo;s margin.</p>",
     "school": "Beasts",
     "complexity": 6,
     "range": "short",
