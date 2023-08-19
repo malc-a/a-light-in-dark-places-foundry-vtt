@@ -300,7 +300,8 @@
             "cost": 2,
             "description": "<p>Swords come in many different types: the short sword, the scimitar and sabre, the rapier or the simple arming sword; any such weapon used in one hand is treated as a sword. Feel free to define the exact type that fits your character concept.</p>",
             "equipped": true,
-            "range": "reach"
+            "range": "reach",
+            "twohands": false
          },
          "type": "weapon"
       },
@@ -321,7 +322,8 @@
             "cost": 0,
             "description": "<p>Usually around 30cm long, a dagger is designed for combat. Some daggers have elaborate guards, such as the main gauche dagger designed for parrying.</p>",
             "equipped": false,
-            "range": "reach"
+            "range": "reach",
+            "twohands": false
          },
          "type": "weapon"
       },
@@ -342,7 +344,8 @@
             "cost": 0,
             "description": "<p>Throwing knives are smaller than daggers intended for hand-to-hand combat, and better balanced to be thrown. They can be used as melee weapons, but give no bonus.</p>",
             "equipped": true,
-            "range": "reach"
+            "range": "reach",
+            "twohands": false
          },
          "type": "weapon"
       },
@@ -482,7 +485,7 @@
          },
          "sort": 0,
          "system": {
-	   "description": "<p>The School of magic concerned with mind-altering effects, mostly those that affect the target's attitudes, but also others causing mental harm to the target. Casting spells from this School normally requires both incantations and clear gestures.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Sense or influence emotions; form words in another's mind</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Issue a single-word command</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Influence someone's thoughts</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Create or remove a memory</p></td></tr>\n<tr><td>4</td><td><p>Help Persuade rolls with the margin</p></td></tr>\n</tbody>\n</table>",
+           "description": "<p>The School of magic concerned with mind-altering effects, mostly those that affect the target's attitudes, but also others causing mental harm to the target. Casting spells from this School normally requires both incantations and clear gestures.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Sense or influence emotions; form words in another's mind</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Issue a single-word command</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Influence someone's thoughts</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Create or remove a memory</p></td></tr>\n<tr><td>4</td><td><p>Help Persuade rolls with the margin</p></td></tr>\n</tbody>\n</table>",
             "dice": 4
          },
          "type": "school"
@@ -500,7 +503,7 @@
          },
          "sort": 0,
          "system": {
-	   "description": "<p>This subtle school of magic is concerned with manipulating the senses to deceive the unwary. It allows the manipulation of the senses, including sight, sound, smell and touch. The core of this School is, of course, illusions. An illusion can't affect the real world in any way - it can't move a real object, or damage a character; although an advanced enough illusion can make a character <em>feel</em> the pain of a blow, that pain isn't real. Illusions can distract characters or conceal real things. An illusion that affects the sense of touch will <em>feel</em> correct when lightly touched, but has no substance. You could create an illusion of a door, but people would still be able to walk through it freely.</p>\n<p>Spells of this School are cast with firm gestures, as well as spoken incantations.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Create an illusion affecting one sense</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Create an illusion affecting three senses; Inflict Focus damage through images</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Create an illusion affecting all senses; use senses at a distance</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Remove all traces of an object to one sense</p></td></tr>\n</tbody>\n</table>",
+           "description": "<p>This subtle school of magic is concerned with manipulating the senses to deceive the unwary. It allows the manipulation of the senses, including sight, sound, smell and touch. The core of this School is, of course, illusions. An illusion can't affect the real world in any way - it can't move a real object, or damage a character; although an advanced enough illusion can make a character <em>feel</em> the pain of a blow, that pain isn't real. Illusions can distract characters or conceal real things. An illusion that affects the sense of touch will <em>feel</em> correct when lightly touched, but has no substance. You could create an illusion of a door, but people would still be able to walk through it freely.</p>\n<p>Spells of this School are cast with firm gestures, as well as spoken incantations.</p>\n<h2>Spontaneous Casting Complexities</h2>\n<table style=\"width: 100%; height: 85px;\" border=\"1\"><colgroup><col style=\"width: 12.6633%;\"><col style=\"width: 87.3367%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\"><strong>Complexity</strong></td><td style=\"height: 17px;\"><strong>Effect</strong></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">0</td><td style=\"height: 17px;\"><p>Create an illusion affecting one sense</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">1</td><td style=\"height: 17px;\"><p>Create an illusion affecting three senses; Inflict Focus damage through images</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">2</td><td style=\"height: 17px;\"><p>Create an illusion affecting all senses; use senses at a distance</p></td></tr>\n<tr style=\"height: 17px;\"><td style=\"height: 17px;\">3</td><td style=\"height: 17px;\"><p>Remove all traces of an object to one sense</p></td></tr>\n</tbody>\n</table>",
             "dice": 4
          },
          "type": "school"

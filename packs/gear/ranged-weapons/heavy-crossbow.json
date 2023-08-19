@@ -15,7 +15,8 @@
     "cost": 4,
     "range": "medium",
     "bonus": "Shoot +2d, Damage +1",
-    "equipped": false
+    "equipped": false,
+    "twohands": true
   },
   "type": "weapon"
 }

@@ -1,0 +1,22 @@
+{
+  "folder": "fcPmllF1LMwF8DYl",
+  "name": "Spear (1H)",
+  "type": "weapon",
+  "_id": "jWDulHEpHDEuzSpk",
+  "img": "icons/weapons/polearms/spear-flared-gray.webp",
+  "system": {
+    "description": "<p>A relatively short spear, used in one hand as a purely thrusting weapon, usually wih a shield.</p>",
+    "cost": 1,
+    "range": "reach",
+    "bonus": "Fight +1d",
+    "twohands": false,
+    "equipped": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ggzZCJmvyGCWjroF": 3
+  },
+  "flags": {}
+}

@@ -11,10 +11,11 @@
   },
   "sort": 100782,
   "system": {
-    "description": "<p>A long shaft with a metal–pointed end. In a skirmish they are used similarly to a staff, but with the benefit of being more effective when thrusting. It is also possible to use a short spear one-handed, usually with a shield. If used in this way  the spear will only give a +1d bonus to Fight rolls.</p>",
+    "description": "<p>A long shaft with a metal&ndash;pointed end. In a skirmish they are used similarly to a staff, but with the benefit of being more effective when thrusting.</p>",
     "cost": 1,
     "range": "reach",
     "bonus": "Fight +2d",
+    "twohands": true,
     "equipped": false
   },
   "type": "weapon"

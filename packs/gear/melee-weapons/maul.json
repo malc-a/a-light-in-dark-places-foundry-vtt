@@ -15,7 +15,8 @@
     "cost": 2,
     "range": "reach",
     "bonus": "Fight +1d, Damage +1",
-    "equipped": false
+    "equipped": false,
+    "twohands": true
   },
   "type": "weapon"
 }
