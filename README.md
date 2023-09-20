@@ -10,7 +10,6 @@ While the VTT is quite usable at this stage, there are a number of things that n
 
 * It's not possible to set Gear costs to '-' (meaning don't even roll)
 * It's not currently possible to change an NPC to another type (eg menace -> master)
-* Compendiums should organise entries into folders by their sub-type
 * The special features and common NPCs from the GMs book should be added to the compendiums
 
 There will be more added to this list as more of the game gets written.
