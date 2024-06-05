@@ -2,10 +2,10 @@
   "id": "a-light-in-dark-places",
   "title": "A Light in Dark Places",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.7.11",
+  "version": "0.7.12",
   "compatibility": {
     "minimum": "11",
-    "verified": "11.315"
+    "verified": "12.325"
   },
   "authors": [
     {
@@ -159,8 +159,8 @@
       "flags": {}
     }
   ],
-  "gridDistance": 1.5,
-  "gridUnits": "m",
+  "grid.distance": 1.5,
+  "grid.units": "m",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "injuries",
   "url": "https://github.com/malc-a/a-light-in-dark-places-foundry-vtt",
