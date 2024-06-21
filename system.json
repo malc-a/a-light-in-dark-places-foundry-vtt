@@ -2,10 +2,10 @@
   "id": "a-light-in-dark-places",
   "title": "A Light in Dark Places",
   "description": "A simple, rules-light fantasy game",
-  "version": "0.7.12",
+  "version": "0.7.13",
   "compatibility": {
     "minimum": "11",
-    "verified": "12.325"
+    "verified": "12.327"
   },
   "authors": [
     {
